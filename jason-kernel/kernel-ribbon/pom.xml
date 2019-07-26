@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>jason-kernel</artifactId>
+		<groupId>com.smartcloud</groupId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+
+
+	<name>kernel-ribbon</name>
+	<artifactId>kernel-ribbon</artifactId>
+	<packaging>jar</packaging>
+	<description>远程通信通用组件</description>
+	<dependencies>
+		<dependency>
+			<groupId>com.smartcloud</groupId>
+			<artifactId>kernel-core</artifactId>
+			<version>${core.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
+			<!--<version>${spring-cloud-starter-openfeign.version}</version>-->
+			<exclusions>
+				<exclusion>
+					<groupId>io.github.openfeign</groupId>
+					<artifactId>feign-core</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>io.github.openfeign</groupId>
+					<artifactId>feign-okhttp</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+			<!--<version>${spring-cloud-starter-openfeign.version}</version>-->
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.github.openfeign</groupId>
+			<artifactId>feign-okhttp</artifactId>
+			<version>10.2.3</version>
+		</dependency>
+		<dependency>
+			<groupId>io.github.openfeign</groupId>
+			<artifactId>feign-core</artifactId>
+			<version>10.2.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-oauth2</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<!--<dependency>
+			<groupId>com.netflix.zuul</groupId>
+			<artifactId>zuul-core</artifactId>
+			<version>1.3.1</version>
+		</dependency>-->
+	</dependencies>
+</project>

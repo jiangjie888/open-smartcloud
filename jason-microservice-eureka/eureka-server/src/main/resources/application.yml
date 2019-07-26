@@ -1,0 +1,34 @@
+spring:
+    application:
+        name: eureka-server
+server:
+    port: 9000
+eureka:
+    server:
+        shouldUseReadOnlyResponseCache: true
+        enable-self-preservation: false
+        eviction-interval-timer-in-ms: 60000
+        response-cache-update-interval-ms: 3000
+        response-cache-auto-expiration-in-seconds: 180
+    client:
+        register-with-eureka: true
+        fetch-registry: true
+        instance-info-replication-interval-seconds: 10
+        serviceUrl:
+            defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    instance:
+        hostname: 127.0.0.1
+        prefer-ip-address: true
+        instance-id: ${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
+        lease-renewal-interval-in-seconds: 30
+        lease-expiration-duration-in-seconds: 90
+logging:
+  level:
+    root: INFO
+    com.drei: DEBUG
+    org.springframework.web: INFO
+    org.hibernate: INFO
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+#spring.cloud.inetutils.ignored-interfaces[0]=eth0 # 忽略eth0, 支持正则表达式
+

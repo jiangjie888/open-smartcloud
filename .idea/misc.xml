@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/jason-business/auth-server" />
+    <file type="web" url="file://$PROJECT_DIR$/jason-business/back-web" />
+    <file type="web" url="file://$PROJECT_DIR$/jason-kernel/kernel-logger" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/monitor-center/admin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/business-center/back-web/pom.xml" />
+        <option value="$PROJECT_DIR$/business-center/infra-server/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-message/jason-message-checker/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-message/jason-demo-account/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-message/jason-demo-order/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-message/jason-message-service/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-message/jason-message-api/pom.xml" />
+        <option value="$PROJECT_DIR$/job-center/job-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/job-center/job-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-kernel/kernel-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-kernel/kernel-swagger2/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-kernel/kernel-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-demo/nacos-discovery-server/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-demo/nacos-discovery-server-client/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-demo/nacos-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-gateway/zuul-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-kernel/kernel-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-demo/web-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-demo/test/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/api-common/pom.xml" />
+        <option value="$PROJECT_DIR$/api-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/db-core/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-center/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/jasonmessage/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

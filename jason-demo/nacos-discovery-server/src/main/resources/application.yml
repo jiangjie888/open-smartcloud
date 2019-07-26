@@ -1,0 +1,30 @@
+server:
+  port: 6000
+
+jason:
+  nacos:
+    server-addr: 172.16.4.130:8848
+
+spring:
+  application:
+    name: nacos-discovery-server
+  cloud:
+    nacos:
+      config:
+        server-addr: ${jason.nacos.server-addr}
+        file-extension: yml
+        shared-dataids: common.yml
+        refreshable-dataids: common.yml
+      discovery:
+        server-addr: ${jason.nacos.server-addr}
+
+logging:
+  level:
+    root: INFO
+    com.drei: DEBUG
+    org.springframework.web: INFO
+    org.hibernate: INFO
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+#spring.cloud.inetutils.ignored-interfaces[0]=eth0 # 忽略eth0, 支持正则表达式
+

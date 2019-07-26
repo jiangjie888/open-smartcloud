@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="admin-server" />
+        <module name="api-gateway" />
+        <module name="auth-server" />
+        <module name="back-web" />
+        <module name="biz-support-log" />
+        <module name="biz-support-log-api" />
+        <module name="db-core" />
+        <module name="db-core (1)" />
+        <module name="demo" />
+        <module name="eureka-client" />
+        <module name="eureka-server" />
+        <module name="infra-server" />
+        <module name="jason-biz-support" />
+        <module name="jason-config" />
+        <module name="jason-demo-account" />
+        <module name="jason-demo-api" />
+        <module name="jason-demo-order" />
+        <module name="jason-message-api" />
+        <module name="jason-message-checker" />
+        <module name="jason-message-service" />
+        <module name="job-admin" />
+        <module name="job-core" />
+        <module name="job-demo" />
+        <module name="kernel-actuator" />
+        <module name="kernel-auth" />
+        <module name="kernel-core" />
+        <module name="kernel-db" />
+        <module name="kernel-logger" />
+        <module name="kernel-redis" />
+        <module name="kernel-ribbon" />
+        <module name="kernel-sentinel" />
+        <module name="kernel-swagger2" />
+        <module name="nacos-config-client" />
+        <module name="nacos-discovery-server" />
+        <module name="nacos-discovery-server-client" />
+        <module name="test" />
+        <module name="web-demo" />
+        <module name="zuul-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin-server" target="1.8" />
+      <module name="api-common" target="1.8" />
+      <module name="api-commons" target="1.8" />
+      <module name="api-commons (1)" target="1.8" />
+      <module name="api-gateway" target="1.8" />
+      <module name="auth-server" target="1.8" />
+      <module name="back-web" target="1.8" />
+      <module name="biz-support-log" target="1.8" />
+      <module name="biz-support-log-api" target="1.8" />
+      <module name="business-center" target="1.8" />
+      <module name="db-core" target="1.8" />
+      <module name="db-core (1)" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="infra-server" target="1.8" />
+      <module name="jason-biz-support" target="1.8" />
+      <module name="jason-business" target="1.8" />
+      <module name="jason-config" target="1.8" />
+      <module name="jason-demo" target="1.8" />
+      <module name="jason-demo-account" target="1.8" />
+      <module name="jason-demo-api" target="1.8" />
+      <module name="jason-demo-order" target="1.8" />
+      <module name="jason-domo-order" target="1.8" />
+      <module name="jason-gateway" target="1.8" />
+      <module name="jason-job" target="1.8" />
+      <module name="jason-kernel" target="1.8" />
+      <module name="jason-message" target="1.8" />
+      <module name="jason-message-api" target="1.8" />
+      <module name="jason-message-checker" target="1.8" />
+      <module name="jason-message-service" target="1.8" />
+      <module name="jason-microservice-eureka" target="1.8" />
+      <module name="jason-microservice-support" target="1.8" />
+      <module name="jason-monitor" target="1.8" />
+      <module name="jasonmessage" target="1.8" />
+      <module name="job-admin" target="1.5" />
+      <module name="job-center" target="1.8" />
+      <module name="job-core" target="1.5" />
+      <module name="job-demo" target="1.5" />
+      <module name="kernel-actuator" target="1.8" />
+      <module name="kernel-auth" target="1.8" />
+      <module name="kernel-core" target="1.8" />
+      <module name="kernel-db" target="1.8" />
+      <module name="kernel-logger" target="1.8" />
+      <module name="kernel-redis" target="1.8" />
+      <module name="kernel-ribbon" target="1.8" />
+      <module name="kernel-sentinel" target="1.8" />
+      <module name="kernel-swagger2" target="1.8" />
+      <module name="modular-log" target="1.8" />
+      <module name="monitor-center" target="1.8" />
+      <module name="nacos-config-client" target="1.8" />
+      <module name="nacos-discovery-server" target="1.8" />
+      <module name="nacos-discovery-server-client" target="1.8" />
+      <module name="oauth-server" target="1.8" />
+      <module name="open-smartcloud" target="1.8" />
+      <module name="sentinel-dashboard" target="1.8" />
+      <module name="spring-jms" target="1.8" />
+      <module name="test" target="1.8" />
+      <module name="web-demo" target="1.8" />
+      <module name="zuul-gateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

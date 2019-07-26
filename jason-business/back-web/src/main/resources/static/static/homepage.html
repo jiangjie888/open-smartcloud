@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8"/>
+    <title>智慧城市云平台-工作台</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="assets/libs/layui/css/layui.css"/>
+    <link rel="stylesheet" href="assets/css/home.css" media="all">
+</head>
+
+<body>
+<div class="home-wrapper">
+    <div class="home-header">
+        <!--<img src="assets/images/home_title.png">-->
+    </div>
+    <div class="home-body">
+        <div id="main">
+            <div id="pre"></div>
+            <div id="item">
+                <div class="sys-content">
+                    <ul>
+                        <li class="active">
+                            <div class="icon">
+                                <img src="assets/images/icon_01.png" alt="">
+                            </div>
+                            <div class="name">智慧城管子系统</div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <img src="assets/images/icon_02.png" alt="">
+                            </div>
+                            <div class="name">智慧城管子系统</div>
+                        </li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li class="disable"></li>
+                    </ul>
+                </div>                
+            </div>
+            <div id="next"></div>
+        </div>
+        <ul class="sys-dot-list"></ul>
+        <div id="right">
+            <ul id="home-right-nav">
+            <li class="username"><div class="profile_pic"><img src="assets/images/loginuser.png"></div></li>
+            <li class="workspace"><span class="span-img"><img src="assets/images/home_right_work.png"></span><span>我的工作台</span></li>
+            <li class="systemset"><span class="span-img"><img src="assets/images/home_right_set.png"></span><span>系统设置</span></li>
+            <li class="logout"><span class="span-img"><img src="assets/images/home_right_logout.png"></span><span>退出</span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="assets/libs/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="assets/libs/layui/layui.js"></script>
+
+
+<script>
+    layui.config({
+        base: 'module/'
+    }).use(['config', 'element','jquery'], function () {
+        var config = layui.config;
+        //var index = layui.index;
+        var element = layui.element;
+        var $ =layui.jquery;
+        // 检查是否登录
+        /*if (!config.getToken() || config.getToken() == '') {
+            location.replace('login.html');
+            return;
+        }*/
+
+        // 获取当前用户信息
+        /*index.getUser(function (user) {
+            console.log(user);
+            $('.layui-layout-admin .layui-header').vm(user);
+            index.initLeftNav();
+            element.render('nav');
+            index.initRouter();
+            index.bindEvent();
+        });*/
+        var group=1;  // 分组数量
+        var split=6; // 每组个数
+        var sysList=[{
+            icon:'assets/images/icon_01.png',
+            name:'智慧城管子系统',
+            url:'http://www.baidu.com',
+            locked:false
+        },{
+            icon:'assets/images/icon_01.png',
+            name:'智慧城管子系统',
+            url:'www.baidu.com',
+            locked:false
+        },{
+            icon:'assets/images/icon_01.png',
+            name:'智慧城管子系统',
+            url:'www.baidu.com',
+            locked:false
+        },{
+            icon:'assets/images/icon_01.png',
+            name:'智慧城管子系统',
+            url:'www.baidu.com',
+            locked:false
+        },{
+            icon:'assets/images/icon_01.png',
+            name:'智慧城管子系统',
+            url:'www.baidu.com',
+            locked:true
+        },{
+            icon:'assets/images/icon_01.png',
+            name:'智慧城管子系统',
+            url:'www.baidu.com',
+            locked:true
+        },{
+            icon:'assets/images/icon_01.png',
+            name:'智慧城管子系统',
+            url:'www.baidu.com',
+            locked:true
+        },{
+            icon:'assets/images/icon_01.png',
+            name:'智慧城管子系统',
+            url:'www.baidu.com',
+            locked:true
+        },{
+            icon:'assets/images/icon_01.png',
+            name:'智慧城管子系统',
+            url:'www.baidu.com',
+            locked:true
+        }]
+       
+        group=Math.ceil(sysList.length / split)
+        var curGroup=0; // 当前组ID
+        //根据group生成底部dot滑块,只有一组时无需生成滑动
+        if(group>1){
+            for(var i=0;i<group;i++){
+                $('.sys-dot-list').append('<li id="dot_'+i+'" class="sys-dot'+(i==curGroup?' active':'')+'"></li>')
+            }    
+            $('.sys-dot-list').width(70*group).css('left',"calc(50% - "+35*group+")")
+        }
+        
+        // 分组渲染系统列表
+        var html=""
+        for(var i=0;i<sysList.length;i++){            
+            if(i%split==0){
+                html+='<ul>'
+            }
+            if(sysList[i].locked){
+                html+='<li class="disable"></li>'
+            }else{
+                html+='<li xurl="'+sysList[i].url+'"><div class="icon"><img src="'+sysList[i].icon+'" alt=""></div><div class="name">'+sysList[i].name+'</div></li>';
+            }            
+            if(i%split==(split-1) || (i+1)==sysList.length){
+                html+='</ul>'
+            }
+        }
+        $('.sys-content').html(html).width(1014*group)
+        
+        
+        // 菜单点击事件
+        $(".sys-content li:not(.disable)").bind({
+            'mouseenter':function(){
+                $(this).siblings().removeClass('active')
+                $(this).addClass('active')
+            },
+            'click':function(){
+                window.open($(this).attr('xurl'),'_target')
+            }
+        })
+
+        // 左右箭头点击事件
+        $("#pre").bind('click',function(){
+            if(curGroup==0) return
+            curGroup--
+            $("#dot_"+curGroup).siblings().removeClass('active')
+            $("#dot_"+curGroup).addClass('active')     
+            $('.sys-content').css('transform','translateX('+1014*curGroup+'px)')       
+        })
+        $("#next").bind('click',function(){
+            if(curGroup==(group-1)) return
+            curGroup++
+            
+            $("#dot_"+curGroup).siblings().removeClass('active')
+            $("#dot_"+curGroup).addClass('active')
+            $('.sys-content').css('transform','translateX(-'+1014*curGroup+'px)')
+        })
+    });
+
+    // $(document).ready(function(){
+
+    // })
+</script>
+</body>
+
+</html>

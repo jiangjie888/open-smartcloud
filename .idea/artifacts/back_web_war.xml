@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="back-web:war">
+    <output-path>$PROJECT_DIR$/business-center/back-web/target</output-path>
+    <root id="archive" name="back-web-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="back-web:war exploded" />
+    </root>
+  </artifact>
+</component>

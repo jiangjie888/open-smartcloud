@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.central.demo.account.dao.FlowRecordDao">
+    <!-- 通用查询映射结果 -->
+    <!--<resultMap id="BaseResultMap" type="com.central.demo.account.model.FlowRecord">
+        <id column="id" property="id"/>
+        <result column="user_id" property="userId"/>
+        <result column="order_id" property="orderId"/>
+        <result column="name" property="name"/>
+        <result column="sum" property="sum"/>
+        <result column="creationTime" property="creationTime"/>
+        <result column="lastModificationTime" property="lastModificationTime"/>
+        <result column="creatorUserId" property="creatorUserId"/>
+        <result column="lastModifierUserId" property="lastModifierUserId"/>
+    </resultMap>
+
+    &lt;!&ndash; 通用查询结果列 &ndash;&gt;
+    <sql id="Base_Column_List">
+        id, user_id as userId,order_id as orderId, name, sum, creationTime
+    </sql>-->
+
+    <update id="update">
+        update flow_record
+        <set>
+            <if test="name != null and name != ''">
+                name = #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="lastModifierUserId != null">
+                lastModifierUserId = #{lastModifierUserId,jdbcType=INTEGER},
+            </if>
+            <if test="lastModificationTime != null">
+                lastModificationTime = #{lastModificationTime,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+
+    <sql id="where">
+        <where>
+            <if test="id != null and id != ''">
+                and t.id = #{id}
+            </if>
+            <if test="userId != null and userId != ''">
+                and t.user_id = #{userId}
+            </if>
+            <if test="orderId != null and orderId != ''">
+                and t.order_id = #{orderId}
+            </if>
+
+            <if test="name != null and name != ''">
+                and t.name  like concat('%', #{name}, '%')
+            </if>
+
+            <if test="searchKey != null and searchKey != '' and searchKey=='orderId'">
+                and t.order_id = #{searchValue}
+            </if>
+
+        </where>
+    </sql>
+
+    <select id="findList" resultType="com.central.demo.api.account.model.FlowRecord">
+        select * from flow_record t
+        <include refid="where" />
+        order by t.id desc
+
+        <if test="page != null and page >= 0 and limit != null and limit > 0">
+            limit #{page},#{limit}
+        </if>
+    </select>
+</mapper>

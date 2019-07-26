@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>jason-kernel</artifactId>
+		<groupId>com.smartcloud</groupId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+
+
+	<name>kernel-sentinel</name>
+	<artifactId>kernel-sentinel</artifactId>
+	<packaging>jar</packaging>
+	<description>服务降级、熔断和限流通用组件</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.smartcloud</groupId>
+			<artifactId>kernel-core</artifactId>
+			<version>${core.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+			<version>${spring-cloud-alibaba-dependencies.version}</version>
+		</dependency>
+		<!-- 用于查看Sentinel客户端相关规则 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<!--sentinel指定nacos为数据源 -->
+
+
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba.csp</groupId>
+			<artifactId>sentinel-datasource-nacos</artifactId>
+			<version>1.6.2</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.alibaba.csp</groupId>
+					<artifactId>sentinel-datasource-extension</artifactId>
+				</exclusion>
+			</exclusions>
+			<!--<scope>test</scope>-->
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba.csp</groupId>
+			<artifactId>sentinel-datasource-extension</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>com.alibaba.csp</groupId>
+					<artifactId>sentinel-core</artifactId>
+				</exclusion>
+			</exclusions>
+			<version>1.6.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba.csp</groupId>
+			<artifactId>sentinel-core</artifactId>
+			<version>1.6.2</version>
+		</dependency>
+
+	</dependencies>
+
+
+</project>

@@ -1,0 +1,131 @@
+server:
+    port: 9200
+    tomcat:
+        uri-encoding: UTF-8
+#    servlet:
+#        context-path: /gateway
+spring:
+    application:
+        name: api-gateway
+    http:
+        encoding:
+            charset: utf8
+            force: true
+            enabled: true
+    jackson:
+        date-format: yyyy-MM-dd HH:mm:ss
+        time-zone: GMT+8
+        default-property-inclusion: non_null
+    thymeleaf:
+        mode: LEGACYHTML5
+        cache: false
+    redis:
+        database: 1
+        host: 172.16.4.112
+        jedis:
+            pool:
+                max-active: 20
+    datasource:
+        name: smartcloud_api_gateway
+        url: jdbc:mysql://172.16.4.112:3306/smartcloud_api_gateway?useUnicode=true&characterEncoding=UTF8&zeroDateTimeBehavior=convertToNull
+        username: root
+        password: zyjs123ZYJS
+        # 使用druid数据源
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        filters: stat
+        maxActive: 20
+        initialSize: 1
+        maxWait: 60000
+        minIdle: 1
+        timeBetweenEvictionRunsMillis: 60000
+        minEvictableIdleTimeMillis: 300000
+        validationQuery: select 'x'
+        testWhileIdle: true
+        testOnBorrow: false
+        testOnReturn: false
+        poolPreparedStatements: true
+        maxOpenPreparedStatements: 20
+eureka:
+    client:
+        healthcheck:
+            enabled: true
+        instance-info-replication-interval-seconds: 10
+        serviceUrl:
+            defaultZone: http://127.0.0.1:9000/eureka
+    instance:
+        #statusPageUrlPath: ${management.context-path}/info
+        #healthCheckUrlPath: ${management.context-path}/health
+        prefer-ip-address: true
+        instance-id: ${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
+        lease-renewal-interval-in-seconds: 5
+        lease-expiration-duration-in-seconds: 15
+        #注册实例文档
+        status-page-url: http://${spring.cloud.client.ip-address}:${server.port}/swagger-ui.html
+#springfox.
+#swagger:
+#    api-docs-path: gateway/v2/api-docs
+#    swagger-version: 2.0
+#  auto-generate-from-zuul-routes: true
+#    basepackage: com.smartcloud.gate.controller
+#    service:
+#        name: Api-Gateway
+#        description: 网关中心鉴权Api
+#        developer: jason
+#gate:
+#    client:
+#        authHeader: access-token
+#        authHost: http://localhost.:9006/api/authen
+#        tokenHead: ApiGateToken
+#    ignore:
+#        startWith: /admin,/index,/about
+#        contain: .
+#    api:
+#        header: access-token
+#        secret: smartcloud_C421AAEE0D114E9C
+#        expiration: 7200
+#        tokenHead: ApiGateToken
+#        issuer: smartcloud
+#        audience: everone
+zuul:
+    #prefix: /api/services/app
+    host:
+        connect-timeout-millis: 10000
+        socket-timeout-millis: 60000
+    routes:
+        api-gateway:
+            path: /api-gateway/**
+            serviceId: api-gateway
+            strip-prefix: false
+        api-auth:
+              sensitiveHeaders: Access-Control-Allow-Origin,Access-Control-Allow-Methods
+              path: /api-auth/**
+              service-id: auth-server
+              strip-prefix: true
+              custom-sensitive-headers: true  #http://blog.didispace.com/spring-cloud-zuul-cookie-redirect/ zuul授权码跳转问题
+        api-client:
+#            sensitiveHeaders: Access-Control-Allow-Origin,Access-Control-Allow-Methods
+            path: /api-client/**
+            serviceId: eureka-client
+#            strip-prefix: true
+#            custom-sensitive-headers: true
+        api-workflow:
+#            sensitiveHeaders: Access-Control-Allow-Origin,Access-Control-Allow-Methods
+            path: /api-workflow/**
+            serviceId: workflow-server
+#            strip-prefix: true
+#            custom-sensitive-headers: true
+        api-infra:
+#            sensitiveHeaders: Access-Control-Allow-Origin,Access-Control-Allow-Methods
+            path: /api-infra/**
+            serviceId: infra-server
+#            strip-prefix: true
+#            custom-sensitive-headers: true
+logging:
+    level:
+        root: INFO
+        org.hibernate: INFO
+        org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+        org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+        com.neusoft: DEBUG
+        com.netflix: DEBUG

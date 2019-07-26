@@ -1,0 +1,97 @@
+<div class="layui-card">
+    <div class="layui-card-header">
+        <h2 class="header-title">服务治理</h2>
+        <span class="layui-breadcrumb pull-right">
+          <a href="#!console">首页</a>
+          <a><cite>服务治理</cite></a>
+        </span>
+    </div>
+    <div class="layui-card-body">
+
+        <table class="layui-table" id="eureka-table" lay-filter="eureka-table"></table>
+
+    </div>
+</div>
+
+<!-- 表格状态列 -->
+<script type="text/html" id="eureka-tpl-state">
+    <input type="checkbox" lay-filter="eureka-tpl-state" value="{{d.app}}/{{d.instanceId}}" lay-skin="switch" lay-text="正常|锁定"
+           {{d.status=='UP'?'checked':''}}/>
+</script>
+
+
+<script>
+    layui.use(['form', 'table', 'util', 'config', 'admin'], function () {
+        var form = layui.form;
+        var table = layui.table;
+        var config = layui.config;
+        var layer = layui.layer;
+        var util = layui.util;
+        var admin = layui.admin;
+
+        var falg = true;  //演示阶段
+
+        var renderTable = function () {
+            admin.req('api-eureka/eureka/apps', {}, function (data) {
+                var applications = new Array();
+                for (var i = 0; i <  data.applications.application.length; i++) {
+                    var instances = data.applications.application[i].instance;
+                    for (var j = 0; j < instances.length; j++ ){
+                        var instance = instances[j];
+                        applications.push(instance);
+                    }
+                }
+                // console.log(applications);
+
+                // // 渲染表格
+                table.render({
+                    elem: '#eureka-table',
+                    data: applications,
+                    page: false,
+                    cols: [[
+                        {type: 'numbers'},
+                        {field: 'app', sort: true, title: '服务名称'},
+                        {field: 'ipAddr', sort: true, title: 'IP地址'},
+                        {field: 'homePageUrl', sort: true, title: '页面地址'},
+                        {
+                            field: 'status', align: 'center',templet: function (d) {
+                                if (d.status == 'UP'){
+                                    return '<span style="color: #01AAED;" >UP</span>';
+                                }else if(d.status == 'DOWN'){
+                                    return '<span style="color: #FF0000;">DOWN</span>';
+                                }
+                            }, title: '状态'
+
+                        },
+                        {field: 'enabled', sort: true, templet: '#eureka-tpl-state', title: '操作'}
+                    ]]
+                });
+            }, 'GET');
+        };
+
+        renderTable();
+
+        // 修改状态
+        form.on('switch(eureka-tpl-state)', function (obj) {
+            layer.load(2);
+            var status = obj.elem.checked ? 'UP' : 'DOWN';
+            // http://127.0.0.1:1111/eureka/apps/AUTH-GATEWAY/auth-gateway:192.168.31.162:9200/status?value=UP
+            if (falg){
+                layer.closeAll('loading');
+                layer.msg("演示阶段不可以修改,请联系管理员", {icon: 1});
+                admin.events.refresh();
+            }else {
+                admin.req('api-eureka/eureka/apps/'+obj.elem.value+"/status?value="+status, {}, function (data) {
+                    if (data.code == 200){
+                        setTimeout(function (args) {
+                            layer.closeAll('loading');
+                            layer.msg("修改成功", {icon: 1});
+                            admin.events.refresh();
+                        },3000);
+                    }
+                }, 'PUT');
+            }
+        });
+
+    });
+</script>

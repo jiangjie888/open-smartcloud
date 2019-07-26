@@ -1,0 +1,16 @@
+D:\IdeaProjects\open-smartcloud\jason-kernel\kernel-auth\src\main\java\com\central\oauth2\common\properties\ValidateCodeProperties.java
+D:\IdeaProjects\open-smartcloud\jason-kernel\kernel-auth\src\main\java\com\central\oauth2\common\config\DefaultSecurityHandlerConfig.java
+D:\IdeaProjects\open-smartcloud\jason-kernel\kernel-auth\src\main\java\com\central\oauth2\common\constants\AuthoritiesEnum.java
+D:\IdeaProjects\open-smartcloud\jason-kernel\kernel-auth\src\main\java\com\central\oauth2\common\store\RedisTemplateTokenStore.java
+D:\IdeaProjects\open-smartcloud\jason-kernel\kernel-auth\src\main\java\com\central\oauth2\common\config\TokenStoreConfig.java
+D:\IdeaProjects\open-smartcloud\jason-kernel\kernel-auth\src\main\java\com\central\oauth2\common\store\AuthDbTokenStore.java
+D:\IdeaProjects\open-smartcloud\jason-kernel\kernel-auth\src\main\java\com\central\oauth2\common\store\AuthJwtTokenStore.java
+D:\IdeaProjects\open-smartcloud\jason-kernel\kernel-auth\src\main\java\com\central\oauth2\common\store\ResJwtTokenStore.java
+D:\IdeaProjects\open-smartcloud\jason-kernel\kernel-auth\src\main\java\com\central\oauth2\common\properties\AuthProperties.java
+D:\IdeaProjects\open-smartcloud\jason-kernel\kernel-auth\src\main\java\com\central\oauth2\common\service\IPermissionService.java
+D:\IdeaProjects\open-smartcloud\jason-kernel\kernel-auth\src\main\java\com\central\oauth2\common\store\AuthRedisTokenStore.java
+D:\IdeaProjects\open-smartcloud\jason-kernel\kernel-auth\src\main\java\com\central\oauth2\common\config\DefaultResourceServerConf.java
+D:\IdeaProjects\open-smartcloud\jason-kernel\kernel-auth\src\main\java\com\central\oauth2\common\util\AuthUtils.java
+D:\IdeaProjects\open-smartcloud\jason-kernel\kernel-auth\src\main\java\com\central\oauth2\common\properties\PermitProperties.java
+D:\IdeaProjects\open-smartcloud\jason-kernel\kernel-auth\src\main\java\com\central\oauth2\common\service\impl\DefaultPermissionServiceImpl.java
+D:\IdeaProjects\open-smartcloud\jason-kernel\kernel-auth\src\main\java\com\central\oauth2\common\properties\SecurityProperties.java

@@ -1,0 +1,7 @@
+com\central\ribbon\FeignAutoConfigure.class
+org\springframework\cloud\netflix\ribbon\DefaultPropertiesFactory.class
+com\central\ribbon\config\FeignInterceptorConfig.class
+com\central\ribbon\annotation\EnableFeignInterceptor.class
+com\central\ribbon\RestTemplateAutoConfigure.class
+com\central\ribbon\RibbonAutoConfigure.class
+com\central\ribbon\config\RestTemplateProperties.class

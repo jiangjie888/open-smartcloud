@@ -1,0 +1,27 @@
+
+#####################微服务核心端口9系列#####################
+#nacos 注册中心启动
+#地址：172.16.4.130:8848
+sudo nohup bash startup.sh -m standalone &
+
+#sentinel-dashboard-1.6.0.jar  启动
+#地址：172.16.4.130:8801
+# -Dsentinel.dashboard.auth.username=sentinel: 用于指定控制台的登录用户名为 sentinel；
+# -Dsentinel.dashboard.auth.password=123456: 用于指定控制台的登录密码为 123456；如果省略这两个参数，默认用户和密码均为 sentinel
+# -Dserver.servlet.session.timeout=7200: 用于指定 Spring Boot 服务端 session 的过期时间，如 7200 表示 7200 秒；60m 表示 60 分钟，默认为 30 分钟；
+# -Dcsp.sentinel.dashboard.server=localhost:8801  用于指定sentinel-dashboard 控制台的地址和端口；
+# -Dcsp.sentinel.api.port=8802 客户端提供心跳包的端口
+#java -Dserver.port=8801 -Dcsp.sentinel.dashboard.server=localhost:8801 -Dproject.name=sentinel-dashboard -Dcsp.sentinel.api.port=8731 -jar /opt/sentinel-dashboard/sentinel-dashboard-1.6.0.jar
+
+#zuul-gateway  API网关中心  端口9000
+
+
+
+
+#####################业务系统端口7系列#####################
+#back-web       后台管理中心(纯前端)      端口8001
+
+#auth-server   登录认证中心   端口7000  地址：172.16.4.130:7000
+
+#infra-server  基础平台服务   端口7011
+

@@ -1,0 +1,26 @@
+server:
+  port: 7000
+
+jason:
+  nacos:
+    server-addr: 172.16.4.130:8848
+
+spring:
+  application:
+    name: auth-server
+  cloud:
+    nacos:
+      config:
+        server-addr: ${jason.nacos.server-addr}
+        file-extension: yml
+        shared-dataids: common.yml
+        refreshable-dataids: common.yml
+      discovery:
+        server-addr: ${jason.nacos.server-addr}
+
+encrypt:
+  salt: abcdefg
+  key-store:
+    location: classpath:jason.jks
+    secret: jason!@#$
+    alias: jason

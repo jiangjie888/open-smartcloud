@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>open-smartcloud</artifactId>
+        <groupId>com.smartcloud</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>jason-message</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>jason-message-checker</module>
+        <module>jason-message-service</module>
+        <module>jason-message-api</module>
+        <module>jason-demo-order</module>
+        <module>jason-demo-account</module>
+        <module>jason-demo-api</module>
+    </modules>
+</project>

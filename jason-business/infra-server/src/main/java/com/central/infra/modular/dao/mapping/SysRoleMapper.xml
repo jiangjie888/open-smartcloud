@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.central.infra.modular.dao.SysRoleMapper">
+	<sql id="where">
+		<where>
+			<if test="r.name != null and r.name != ''">
+				and t.roleName like concat('%', #{r.name}, '%')
+			</if>
+			<if test="r.name != null and r.code != ''">
+				and t.roleCode like concat('%', #{r.name}, '%')
+			</if>
+
+			<if test="r.searchKey != null and r.searchKey != '' and r.searchKey=='name'">
+				and t.roleName like concat('%', #{r.searchValue}, '%')
+			</if>
+			<if test="r.searchKey != null and r.searchKey != '' and r.searchKey=='code'">
+				and t.roleCode like concat('%', #{r.searchValue}, '%')
+			</if>
+		</where>
+	</sql>
+
+	<select id="findList" resultType="com.central.core.model.user.SysRole">
+		select * from sys_role t
+		<include refid="where" />
+		order by t.id desc
+	</select>
+</mapper>

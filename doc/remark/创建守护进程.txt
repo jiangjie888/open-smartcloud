@@ -1,0 +1,38 @@
+创建守护进程
+
+vim /lib/systemd/system/sentinel-dashboard.service
+文件中填入
+
+按 Ctrl+C 复制代码
+[Unit]
+Description=nginx
+After=syslog.target network.target remote-fs.target nss-lookup.target
+
+[Service]
+Type=simple
+ExecStart=/opt/sentinel-dashboard/startup.sh
+Restart=always
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
+按 Ctrl+C 复制代码
+赋予权限
+chmod 777 /lib/systemd/system/sentinel-dashboard.service
+
+启用服务
+systemctl enable sentinel-dashboard.service
+systemctl daemon-reload
+
+运行
+systemctl start sentinel-dashboard.service
+查看状态
+
+systemctl status sentinel-dashboard.service
+
+
+查看进程和端口
+
+ps -ef|grep sentinel-dashboard
+netstat -anltp|grep 8718
+netstat -anltp|grep 8719

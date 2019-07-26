@@ -1,0 +1,21 @@
+server:
+  port: 7001
+
+jason:
+  nacos:
+    server-addr: 172.16.4.130:8848
+
+spring:
+  application:
+    name: nacos-config-client
+  cloud:
+    nacos:
+      config:
+        server-addr: ${jason.nacos.server-addr}
+        namespace: 3073ed10-ae1e-4c5d-9b16-0701a81436ac
+        file-extension: yml #默认为properties
+        shared-dataids: common.yml
+        refreshable-dataids: common.yml
+        group: DEFAULT_GROUP #默认值为DEFAULT_GROUP
+      discovery:
+        server-addr: ${jason.nacos.server-addr}

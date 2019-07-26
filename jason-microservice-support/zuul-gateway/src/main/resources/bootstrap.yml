@@ -1,0 +1,19 @@
+server:
+  port: 9000
+
+jason:
+  nacos:
+    server-addr: 172.16.4.130:8848
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    nacos:
+      config:
+        server-addr: ${jason.nacos.server-addr}
+        file-extension: yml
+        shared-dataids: common.yml
+        refreshable-dataids: common.yml
+      discovery:
+        server-addr: ${jason.nacos.server-addr}

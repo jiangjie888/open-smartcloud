@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "spring.application.name",
+      "type": "com.central.core.autoconfigure.properties.AppNameProperties",
+      "sourceType": "com.central.core.autoconfigure.PropertiesAutoConfig",
+      "sourceMethod": "appNameProperties()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.application.name.name",
+      "type": "java.lang.String",
+      "sourceType": "com.central.core.autoconfigure.properties.AppNameProperties"
+    }
+  ],
+  "hints": []
+}

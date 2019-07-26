@@ -1,0 +1,33 @@
+server:
+  port: 8080
+
+roses:
+  log:
+    kafka: false
+    level: error,info
+    trace: false
+
+spring:
+  application:
+    name: support-log
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+  kafka:
+    bootstrap-servers: 127.0.0.1:9092
+    listener:
+      type: BATCH
+    producer:
+      batchSize: 500
+      keySerializer: org.apache.kafka.common.serialization.StringSerializer
+      valueSerializer: cn.stylefeng.roses.kernel.logger.serizlizer.FastjsonKafkaSerializer
+    consumer:
+      group-id: commonLogList
+      keyDeserializer: org.apache.kafka.common.serialization.StringDeserializer
+      valueDeserializer: cn.stylefeng.roses.biz.log.core.serilizer.FastjsonKafkaDeserializer
+      auto-offset-reset: earliest
+      maxPollRecords: 500
+
+mybatis-plus:
+  typeAliasesPackage: cn.stylefeng.roses.biz.file.modular.entity

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: cn.stylefeng.roses:kernel-model:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/stylefeng/roses/kernel-model/unknown/kernel-model-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/stylefeng/roses/kernel-model/unknown/kernel-model-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/stylefeng/roses/kernel-model/unknown/kernel-model-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,149 @@
+spring:
+  cloud:
+    sentinel:
+      datasource:
+        # 名称随意(限流)
+        flow:
+          nacos:
+            server-addr: ${jason.nacos.server-addr}
+            dataId: ${spring.application.name}-flow-rules
+            groupId: SENTINEL_GROUP
+            # 规则类型，取值见：
+            # org.springframework.cloud.alibaba.sentinel.datasource.RuleType
+            rule-type: flow
+#        # 熔断
+#        degrade:
+#          nacos:
+#            server-addr: ${jason.nacos.server-addr}
+#            dataId: ${spring.application.name}-degrade-rules
+#            groupId: SENTINEL_GROUP
+#            rule-type: degrade
+#        # 系统负载保护
+#        system:
+#          nacos:
+#            server-addr: ${jason.nacos.server-addr}
+#            dataId: ${spring.application.name}-system-rules
+#            groupId: SENTINEL_GROUP
+#            rule-type: system
+         #授权规则
+#        authority:
+#          nacos:
+#            server-addr: localhost:8848
+#            dataId: ${spring.application.name}-authority-rules
+#            groupId: SENTINEL_GROUP
+#            rule-type: authority
+         #参数热点规则
+#        param-flow:
+#          nacos:
+#            server-addr: localhost:8848
+#            dataId: ${spring.application.name}-param-flow-rules
+#            groupId: SENTINEL_GROUP
+#            rule-type: param-flow
+
+jason:
+  oauth2:
+    token:
+      store:
+        type: db
+  security:
+    ignore:
+      # 忽略认证的地址
+      httpUrls:
+        /test/**,
+        /api-uaa/**,
+        /api-infra/users-anon/**,
+        /api-infra/test/**,
+        /login.html,
+        /user/login
+      # 配置只认证登录，登录后所有角色都能访问的url
+      menusPaths: /api-infra/menus/current
+    auth:
+      # 配置必需认证的url
+      httpUrls: /api-uaa/clients/**
+      #是否开启url级别权限
+      urlEnabled: false
+
+zuul:
+  ribbon-isolation-strategy: thread
+  ribbon:
+    eager-load:
+      enabled: true
+    threadPool:
+      useSeparateThreadPools: true
+      threadPoolKeyPrefix: api-gateway
+  #关闭重试
+  retryable: false
+  #/oauth/token需要请求头处理
+  sensitive-headers:
+  ignored-headers: Access-Control-Allow-Credentials,Access-Control-Allow-Origin,Access-Control-Allow-Methods
+  add-host-header: true
+  routes:
+    auth:
+      path: /api-uaa/**
+      service-id: auth-server
+      strip-prefix: true
+      custom-sensitive-headers: true
+    auth-login-page:
+      path: /login.html
+      service-id: auth-server
+      strip-prefix: true
+      custom-sensitive-headers: true
+    auth-login-process:
+      path: /user/login
+      service-id: auth-server
+      strip-prefix: true
+      custom-sensitive-headers: true
+    auth-login-token:
+      path: /oauth/token
+      service-id: auth-server
+      strip-prefix: true
+      custom-sensitive-headers: true
+    auth-login-authorize:
+      path: /oauth/authorize
+      service-id: auth-server
+      strip-prefix: true
+      custom-sensitive-headers: true
+    auth-check-process:
+      path: /oauth/check_token
+      service-id: auth-server
+      strip-prefix: true
+      custom-sensitive-headers: true
+    user:
+      path: /api-infra/**
+      service-id: infra-server
+      strip-prefix: true
+      custom-sensitive-headers: true
+#    file:
+#      path: /api-file/**
+#      service-id: file-server
+#      strip-prefix: true
+#    log:
+#      path: /api-log/**
+#      service-id: log-server
+#      strip-prefix: true
+#    generator:
+#      path: /api-generator/**
+#      service-id: code-generator-server
+#      strip-prefix: true
+  ssl-hostname-validation-enabled: false
+
+hystrix:
+  threadpool:
+    default:
+      coreSize: 100
+      maximumSize: 2000
+      allowMaximumSizeToDivergeFromCoreSize: true
+      maxQueueSize: -1
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+
+swagger:
+  butler:
+    api-docs-path:  v2/api-docs
+    swagger-version: 2.0
+    auto-generate-from-zuul-routes: true
+    generate-routes: auth,user

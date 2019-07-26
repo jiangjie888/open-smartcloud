@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.central.demo.order.dao.OrderDao">
+    <update id="update">
+        update goods_order
+        <set>
+            <if test="status != null">
+                status = #{status,jdbcType=BIT},
+            </if>
+            <if test="lastModifierUserId != null">
+                lastModifierUserId = #{lastModifierUserId,jdbcType=INTEGER},
+            </if>
+            <if test="lastModificationTime != null">
+                lastModificationTime = #{lastModificationTime,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+</mapper>

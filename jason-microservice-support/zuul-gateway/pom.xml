@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>jason-microservice-support</artifactId>
+		<groupId>com.smartcloud</groupId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+	<artifactId>zuul-gateway</artifactId>
+	<name>zuul-gateway</name>
+	<packaging>jar</packaging>
+	<description>zuul网关</description>
+
+	<dependencies>
+		<!-- 公共实体类模块 -->
+		<dependency>
+			<groupId>com.smartcloud</groupId>
+			<artifactId>jason-config</artifactId>
+			<version>${core.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.smartcloud</groupId>
+			<artifactId>kernel-core</artifactId>
+			<version>${core.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.smartcloud</groupId>
+					<artifactId>kernel-db</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<!--<dependency>
+			<groupId>com.smartcloud</groupId>
+			<artifactId>kernel-db</artifactId>
+			<version>${core.version}</version>
+		</dependency>-->
+		<dependency>
+			<groupId>com.smartcloud</groupId>
+			<artifactId>kernel-auth</artifactId>
+			<version>${core.version}</version>
+		</dependency>
+		<!--<dependency>
+			<groupId>com.smartcloud</groupId>
+			<artifactId>kernel-logger</artifactId>
+			<version>${core.version}</version>
+		</dependency>-->
+		<!--<dependency>
+			<groupId>com.smartcloud</groupId>
+			<artifactId>kernel-actuator</artifactId>
+			<version>${core.version}</version>
+		</dependency>-->
+		<dependency>
+			<groupId>com.smartcloud</groupId>
+			<artifactId>kernel-ribbon</artifactId>
+			<version>${core.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.smartcloud</groupId>
+			<artifactId>kernel-sentinel</artifactId>
+			<version>${core.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-zuul</artifactId>
+		</dependency>
+		<!--<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
+		</dependency>-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<!-- 移除tomcat容器-->
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-tomcat</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<!-- 替换undertow容器 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-undertow</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context-support</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<!-- swagger -->
+		<dependency>
+			<groupId>com.didispace</groupId>
+			<artifactId>swagger-butler-core</artifactId>
+			<version>${swagger.butler.version}</version>
+			<!--<version>2.0.0</version>-->
+		</dependency>
+
+		<dependency>
+			<groupId>com.github.xiaoymin</groupId>
+			<artifactId>swagger-bootstrap-ui</artifactId>
+			<version>${swagger.ui.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.zyplayer</groupId>
+			<artifactId>swagger-mg-ui</artifactId>
+			<version>${swagger.mg.ui.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>mybatis-plus-extension</artifactId>
+			<version>${mybatisplus.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.squareup.okhttp3</groupId>
+			<artifactId>okhttp</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>io.micrometer</groupId>
+			<artifactId>micrometer-registry-prometheus</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>mybatis-plus-core</artifactId>
+			<version>3.0.5</version>
+		</dependency>
+	</dependencies>
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+		<finalName>${project.artifactId}</finalName>
+	</build>
+
+</project>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-biz-support" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-biz-support/modular-log" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-business" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-business/auth-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-business/back-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-business/infra-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-demo/nacos-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-demo/nacos-discovery-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-demo/nacos-discovery-server-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-demo/test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-demo/web-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-job" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-job/job-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-job/job-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-job/job-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-kernel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-kernel/kernel-actuator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-kernel/kernel-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-kernel/kernel-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-kernel/kernel-db" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-kernel/kernel-logger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-kernel/kernel-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-kernel/kernel-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-kernel/kernel-sentinel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-kernel/kernel-swagger2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-message" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-message/jason-demo-account" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-message/jason-demo-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-message/jason-demo-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-message/jason-message-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-message/jason-message-checker" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-message/jason-message-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-eureka/api-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-eureka/eureka-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-eureka/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-monitor/admin-server" charset="UTF-8" />
+  </component>
+</project>

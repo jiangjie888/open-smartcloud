@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.central.message.dao.ReliableMessageDao">
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.central.message.api.model.ReliableMessage">
+        <id column="id" property="id"/>
+        <result column="message_id" property="messageId"/>
+        <result column="message_body" property="messageBody"/>
+        <result column="message_data_type" property="messageDataType"/>
+        <result column="consumer_queue" property="consumerQueue"/>
+        <result column="message_send_times" property="messageSendTimes"/>
+        <result column="already_dead" property="alreadyDead"/>
+        <result column="status" property="status"/>
+        <result column="remark" property="remark"/>
+        <result column="version" property="version"/>
+        <result column="biz_unique_id" property="bizUniqueId"/>
+        <result column="creationTime" property="creationTime"/>
+        <result column="lastModificationTime" property="lastModificationTime"/>
+        <result column="creatorUserId" property="creatorUserId"/>
+        <result column="lastModifierUserId" property="lastModifierUserId"/>
+    </resultMap>
+    <!-- 通用查询结果列 -->
+    <!--<sql id="Base_Column_List">
+        id, message_id AS messageId, message_body AS messageBody, message_data_type AS messageDataType, consumer_queue AS consumerQueue, message_send_times AS messageSendTimes, already_dead AS alreadyDead, status, remark, version, biz_unique_id AS bizUniqueId/*creationTime, lastModificationTime, creatorUserId, lastModifierUserId*/
+    </sql>-->
+    <!--<update id="update">
+        update reliable_message
+        <set>
+            <if test="status != null">
+                status = #{status,jdbcType=BIT},
+            </if>
+            <if test="lastModifierUserId != null">
+                lastModifierUserId = #{lastModifierUserId,jdbcType=INTEGER},
+            </if>
+            <if test="lastModificationTime != null">
+                lastModificationTime = #{lastModificationTime,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where id = #{id,jdbcType=INTEGER}
+    </update>-->
+    <sql id="where">
+        <where>
+            <if test="id != null and id != ''">
+                and t.id = #{id}
+            </if>
+            <if test="messageId != null and messageId != ''">
+                and t.message_id = #{messageId}
+            </if>
+            <if test="messageDataType != null and messageDataType != ''">
+                and t.message_data_type = #{messageDataType}
+            </if>
+            <if test="consumerQueue != null and consumerQueue != ''">
+                and t.consumer_queue = #{consumerQueue}
+            </if>
+            <if test="messageSendTimes != null">
+                and t.message_send_times > #{messageSendTimes}
+            </if>
+            <if test="alreadyDead != null and alreadyDead != ''">
+                and t.already_dead = #{alreadyDead}
+            </if>
+            <if test="status != null and status != ''">
+                and t.status = #{status}
+            </if>
+            <if test="creationTime != null and creationTime != ''">
+                and t.creationTime <![CDATA[ < ]]> #{creationTime,jdbcType=TIMESTAMP}
+            </if>
+            <if test="bizUniqueId != null">
+                and t.biz_unique_id = #{bizUniqueId}
+            </if>
+            <if test="searchKey != null and searchKey != '' and searchKey=='messageId'">
+                and t.message_id = #{searchValue}
+            </if>
+
+        </where>
+    </sql>
+    <select id="findList" resultType="com.central.message.api.model.ReliableMessage">
+        select * from reliable_message t
+        <include refid="where" />
+        order by t.creationTime asc
+        <if test="start != null and start >= 0 and limit != null and limit > 0">
+            limit #{start,jdbcType=INTEGER},#{size,jdbcType=INTEGER}
+        </if>
+    </select>
+    <!--<delete id="delete">
+        delete from reliable_message
+        <include refid="deletewhere" />
+    </delete>
+    <sql id="deletewhere">
+        <where>
+            <if test="bizUniqueId != null">
+                and biz_unique_id = #{bizUniqueId}
+            </if>
+        </where>
+    </sql>-->
+</mapper>

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/Sentinel-Dashboard-Nacos-1.6.2-NACOS.iml" filepath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/Sentinel-Dashboard-Nacos-1.6.2-NACOS.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-monitor/admin-server/admin-server.iml" filepath="$PROJECT_DIR$/jason-monitor/admin-server/admin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-microservice-eureka/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/jason-microservice-eureka/api-gateway/api-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-business/auth-server/auth-server.iml" filepath="$PROJECT_DIR$/jason-business/auth-server/auth-server.iml" />

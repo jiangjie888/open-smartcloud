@@ -1,0 +1,341 @@
+package com.central.core.utils;
+
+import org.springframework.util.Assert;
+
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+
+/**
+ * 数字格式化的类
+ */
+public class NumUtil {
+
+    /**
+     * 数字转{@link BigDecimal}
+     *
+     * @param number 数字
+     * @return {@link BigDecimal}
+     * @since 4.0.9
+     */
+    public static BigDecimal toBigDecimal(Number number) {
+        if (null == number) {
+            return BigDecimal.ZERO;
+        }
+        return toBigDecimal(number.toString());
+    }
+
+    /**
+     * 数字转{@link BigDecimal}
+     *
+     * @param number 数字
+     * @return {@link BigDecimal}
+     * @since 4.0.9
+     */
+    public static BigDecimal toBigDecimal(String number) {
+        return (null == number) ? BigDecimal.ZERO : new BigDecimal(number);
+    }
+
+    /**
+     * @Description 保留指定位数的小数(少的位数不补零)
+     */
+    public static String keepRandomPoint(Double value, int n) {
+        if (value == null) {
+            value = 0.00;
+            return new BigDecimal(value).setScale(n, RoundingMode.HALF_UP).toString();
+        } else {
+            return new BigDecimal(value).setScale(n, RoundingMode.HALF_UP).toString();
+        }
+    }
+
+    /**
+     * @Description 浮点保留两位小数(少的位数不补零)
+     */
+    public static String keep2Point(double value) {
+        return keepRandomPoint(value, 2);
+    }
+
+    /**
+     * @Description 浮点保留1位小数(少的位数不补零)
+     */
+    public static String keep1Point(double value) {
+        return keepRandomPoint(value, 1);
+    }
+
+    /**
+     * @Description 浮点保留任意位小数(少位补零)
+     */
+    public static String keepRandomPointZero(double value, int n) {
+        DecimalFormat df = new DecimalFormat("#0.00");
+        return df.format(Double.valueOf(keepRandomPoint(value, n)));
+    }
+
+    /**
+     * @Description 浮点保留两位小数(少位补零)
+     */
+    public static String keep2PointZero(double value) {
+        return keepRandomPointZero(value, 2);
+    }
+
+    /**
+     * @Description 获取任意小数点位的百分比表示
+     */
+    public static String percentRandomPoint(double value, int n) {
+        NumberFormat percent = NumberFormat.getPercentInstance();
+        percent.setGroupingUsed(false);
+        percent.setMaximumFractionDigits(n);
+        return percent.format(value);
+    }
+
+    /**
+     * @Description 百分比保留两位小数
+     */
+    public static String percent2Point(double value) {
+        return percentRandomPoint(value, 2);
+    }
+
+    /**
+     * @Description 获取格式化经纬度后的小数(保留3位)
+     */
+    public static String latLngPoint(double value) {
+        return keepRandomPoint(value, 3);
+    }
+
+    /**
+     * 计算等份个数
+     *
+     * @param total 总数
+     * @param part 每份的个数
+     * @return 分成了几份
+     * @since 3.0.6
+     */
+    public static int count(int total, int part) {
+        return (total % part == 0) ? (total / part) : (total / part + 1);
+    }
+
+
+    // ------------------------------------------------------------------------------------------- round
+    /**
+     * 保留固定位数小数<br>
+     * 采用四舍五入策略 {@link RoundingMode#HALF_UP}<br>
+     * 例如保留2位小数：123.456789 =》 123.46
+     *
+     * @param v 值
+     * @param scale 保留小数位数
+     * @return 新值
+     */
+    public static BigDecimal round(double v, int scale) {
+        return round(v, scale, RoundingMode.HALF_UP);
+    }
+
+    /**
+     * 保留固定位数小数<br>
+     * 采用四舍五入策略 {@link RoundingMode#HALF_UP}<br>
+     * 例如保留2位小数：123.456789 =》 123.46
+     *
+     * @param v 值
+     * @param scale 保留小数位数
+     * @return 新值
+     */
+    public static String roundStr(double v, int scale) {
+        return round(v, scale).toString();
+    }
+
+    /**
+     * 保留固定位数小数<br>
+     * 采用四舍五入策略 {@link RoundingMode#HALF_UP}<br>
+     * 例如保留2位小数：123.456789 =》 123.46
+     *
+     * @param numberStr 数字值的字符串表现形式
+     * @param scale 保留小数位数
+     * @return 新值
+     */
+    public static BigDecimal round(String numberStr, int scale) {
+        return round(numberStr, scale, RoundingMode.HALF_UP);
+    }
+
+    /**
+     * 保留固定位数小数<br>
+     * 采用四舍五入策略 {@link RoundingMode#HALF_UP}<br>
+     * 例如保留2位小数：123.456789 =》 123.46
+     *
+     * @param number 数字值
+     * @param scale 保留小数位数
+     * @return 新值
+     * @since 4.1.0
+     */
+    public static BigDecimal round(BigDecimal number, int scale) {
+        return round(number, scale, RoundingMode.HALF_UP);
+    }
+
+    /**
+     * 保留固定位数小数<br>
+     * 采用四舍五入策略 {@link RoundingMode#HALF_UP}<br>
+     * 例如保留2位小数：123.456789 =》 123.46
+     *
+     * @param numberStr 数字值的字符串表现形式
+     * @param scale 保留小数位数
+     * @return 新值
+     * @since 3.2.2
+     */
+    public static String roundStr(String numberStr, int scale) {
+        return round(numberStr, scale).toString();
+    }
+
+    /**
+     * 保留固定位数小数<br>
+     * 例如保留四位小数：123.456789 =》 123.4567
+     *
+     * @param v 值
+     * @param scale 保留小数位数
+     * @param roundingMode 保留小数的模式 {@link RoundingMode}
+     * @return 新值
+     */
+    public static BigDecimal round(double v, int scale, RoundingMode roundingMode) {
+        return round(Double.toString(v), scale, roundingMode);
+    }
+
+    /**
+     * 保留固定位数小数<br>
+     * 例如保留四位小数：123.456789 =》 123.4567
+     *
+     * @param v 值
+     * @param scale 保留小数位数
+     * @param roundingMode 保留小数的模式 {@link RoundingMode}
+     * @return 新值
+     * @since 3.2.2
+     */
+    public static String roundStr(double v, int scale, RoundingMode roundingMode) {
+        return round(v, scale, roundingMode).toString();
+    }
+
+    /**
+     * 保留固定位数小数<br>
+     * 例如保留四位小数：123.456789 =》 123.4567
+     *
+     * @param numberStr 数字值的字符串表现形式
+     * @param scale 保留小数位数，如果传入小于0，则默认0
+     * @param roundingMode 保留小数的模式 {@link RoundingMode}，如果传入null则默认四舍五入
+     * @return 新值
+     */
+    public static BigDecimal round(String numberStr, int scale, RoundingMode roundingMode) {
+        if (StringUtil.isBlank(numberStr)) {
+            throw new IllegalArgumentException("[Assertion failed:"+numberStr+"] - this String argument must have text; it must not be null, empty, or blank");
+        }
+        if (scale < 0) {
+            scale = 0;
+        }
+        return round(toBigDecimal(numberStr), scale, roundingMode);
+    }
+
+    /**
+     * 保留固定位数小数<br>
+     * 例如保留四位小数：123.456789 =》 123.4567
+     *
+     * @param number 数字值
+     * @param scale 保留小数位数，如果传入小于0，则默认0
+     * @param roundingMode 保留小数的模式 {@link RoundingMode}，如果传入null则默认四舍五入
+     * @return 新值
+     */
+    public static BigDecimal round(BigDecimal number, int scale, RoundingMode roundingMode) {
+        if (null == number) {
+            number = BigDecimal.ZERO;
+        }
+        if (scale < 0) {
+            scale = 0;
+        }
+        if (null == roundingMode) {
+            roundingMode = RoundingMode.HALF_UP;
+        }
+
+        return number.setScale(scale, roundingMode);
+    }
+
+    /**
+     * 保留固定位数小数<br>
+     * 例如保留四位小数：123.456789 =》 123.4567
+     *
+     * @param numberStr 数字值的字符串表现形式
+     * @param scale 保留小数位数
+     * @param roundingMode 保留小数的模式 {@link RoundingMode}
+     * @return 新值
+     * @since 3.2.2
+     */
+    public static String roundStr(String numberStr, int scale, RoundingMode roundingMode) {
+        return round(numberStr, scale, roundingMode).toString();
+    }
+
+    /**
+     * 四舍六入五成双计算法
+     * <p>
+     * 四舍六入五成双是一种比较精确比较科学的计数保留法，是一种数字修约规则。
+     * </p>
+     *
+     * <pre>
+     * 算法规则:
+     * 四舍六入五考虑，
+     * 五后非零就进一，
+     * 五后皆零看奇偶，
+     * 五前为偶应舍去，
+     * 五前为奇要进一。
+     * </pre>
+     *
+     * @param number 需要科学计算的数据
+     * @param scale 保留的小数位
+     * @return 结果
+     * @since 4.1.0
+     */
+    public static BigDecimal roundHalfEven(Number number, int scale) {
+        return roundHalfEven(toBigDecimal(number), scale);
+    }
+
+    /**
+     * 四舍六入五成双计算法
+     * <p>
+     * 四舍六入五成双是一种比较精确比较科学的计数保留法，是一种数字修约规则。
+     * </p>
+     *
+     * <pre>
+     * 算法规则:
+     * 四舍六入五考虑，
+     * 五后非零就进一，
+     * 五后皆零看奇偶，
+     * 五前为偶应舍去，
+     * 五前为奇要进一。
+     * </pre>
+     *
+     * @param value 需要科学计算的数据
+     * @param scale 保留的小数位
+     * @return 结果
+     * @since 4.1.0
+     */
+    public static BigDecimal roundHalfEven(BigDecimal value, int scale) {
+        return round(value, scale, RoundingMode.HALF_EVEN);
+    }
+
+    /**
+     * 保留固定小数位数，舍去多余位数
+     *
+     * @param number 需要科学计算的数据
+     * @param scale 保留的小数位
+     * @return 结果
+     * @since 4.1.0
+     */
+    public static BigDecimal roundDown(Number number, int scale) {
+        return roundDown(toBigDecimal(number), scale);
+    }
+
+    /**
+     * 保留固定小数位数，舍去多余位数
+     *
+     * @param value 需要科学计算的数据
+     * @param scale 保留的小数位
+     * @return 结果
+     * @since 4.1.0
+     */
+    public static BigDecimal roundDown(BigDecimal value, int scale) {
+        return round(value, scale, RoundingMode.DOWN);
+    }
+
+}

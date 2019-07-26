@@ -2,880 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2597e530-7e4e-46e0-b159-1337d086ad5b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/remark/sentinel-dashboard/sentinel-dashboard-1.6.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/remark/sentinel-dashboard/sentinel-dashboard-1.6.2-NACOS.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log-api/target/classes/com/central/biz/log/api/LogApi.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log-api/target/classes/com/central/biz/log/api/entity/CommonLog.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log-api/target/classes/com/central/biz/log/api/entity/TraceLog.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/images/cut.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/images/logo_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/images/logowz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/auth-server.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/auth-server.jar.original" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/AuthServerApplication.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/AuthorizationServerConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/ClientDetailsConfiguration.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/CorsConfigration.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/KaptchaConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/MybatisPlusConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/SecurityConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/SecurityHandlerConfig$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/SecurityHandlerConfig$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/SecurityHandlerConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/ValidateCodeSecurityConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/core/exception/ValidateCodeException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/core/filter/ValidateCodeFilter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/core/handler/OauthLogoutHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/core/mobile/MobileAuthenticationProvider.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/core/mobile/MobileAuthenticationSecurityConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/core/mobile/MobileAuthenticationToken.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/core/openid/OpenIdAuthenticationProvider.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/core/openid/OpenIdAuthenticationSecurityConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/core/openid/OpenIdAuthenticationToken.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/consumer/UserServiceConsumer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/consumer/fallback/UserServiceFallbackFactory$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/consumer/fallback/UserServiceFallbackFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/controller/ClientController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/controller/OAuth2Controller.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/controller/TestController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/controller/ValidateCodeController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/dao/ClientMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/dto/ClientDto.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/model/Client.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/service/BaseUserDetailsService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/service/IClientService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/service/IValidateCodeService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/service/impl/ClientServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/service/impl/RedisAuthorizationCodeServices.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/service/impl/RedisClientDetailsService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/service/impl/UserDetailServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/service/impl/ValidateCodeServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/.mvn/wrapper/maven-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/bg_login.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/head.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/home_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/home_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/home_right_item.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/home_right_logout.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/home_right_set.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/home_right_work.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/home_title.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/icon_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/icon_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/icon_date.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/item_active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/item_lock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/item_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/login_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/login_btn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/login_input_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/login_title.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/loginuser.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/logo_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/logo_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/message.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/next_dis.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/pre.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/images/pre_dis.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/css/modules/layer/default/icon-ext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/css/modules/layer/default/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/css/modules/layer/default/loading-0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/css/modules/layer/default/loading-1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/css/modules/layer/default/loading-2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/font/iconfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/font/iconfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/font/iconfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/12.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/13.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/14.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/15.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/17.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/18.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/19.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/20.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/21.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/22.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/23.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/24.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/25.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/26.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/27.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/28.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/29.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/30.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/31.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/32.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/33.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/34.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/35.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/36.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/37.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/38.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/39.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/4.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/40.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/41.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/42.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/43.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/44.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/45.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/46.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/47.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/48.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/49.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/5.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/50.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/51.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/52.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/53.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/54.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/55.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/56.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/57.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/58.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/59.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/6.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/60.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/61.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/62.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/63.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/64.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/65.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/66.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/67.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/68.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/69.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/7.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/70.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/71.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/8.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/images/face/9.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/zTree/css/metroStyle/img/line_conn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/zTree/css/metroStyle/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/zTree/css/metroStyle/img/metro.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/zTree/css/metroStyle/img/metro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/classes/com/central/oauth2/common/properties/AuthProperties.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/classes/com/central/oauth2/common/properties/PermitProperties.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/classes/com/central/oauth2/common/properties/SecurityProperties.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/classes/com/central/oauth2/common/properties/ValidateCodeProperties.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/classes/com/central/oauth2/common/service/IPermissionService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/classes/com/central/oauth2/common/service/impl/DefaultPermissionServiceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/classes/com/central/oauth2/common/store/AuthDbTokenStore.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/classes/com/central/oauth2/common/store/AuthJwtTokenStore.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/classes/com/central/oauth2/common/store/AuthRedisTokenStore.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/classes/com/central/oauth2/common/store/RedisTemplateTokenStore.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/classes/com/central/oauth2/common/store/ResJwtTokenStore.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/classes/com/central/oauth2/common/util/AuthUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/kernel-auth-0.0.1-SNAPSHOT.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/converter/RequestDataTypeMethodProcessor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/converter/TokenArgumentResolver.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/db/DbInitializer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/db/listener/InitTableListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/easypoi/user/SysUserExcel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/exception/AbstractBaseExceptionEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/exception/ApiServiceException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/exception/DefaultExceptionHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/exception/RequestEmptyException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/exception/ServiceException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/exception/enums/CoreExceptionEnum.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/feign/FeignErrorDecoder$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/feign/FeignErrorDecoder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/feign/FeignHeaderProcessInterceptor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/lock/AbstractDistributedLock.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/lock/DistributedLock.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/CheckUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/HttpContext.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/HttpSessionContext.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/MvcAdapter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/PageFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/RenderUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/RequestDataHolder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/RequestNoContext.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/ResponseUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/SpringUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/ToolUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/ValidateUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-redis/target/classes/com/central/redis/RedisAutoConfigure.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-redis/target/classes/com/central/redis/constant/RedisToolsConstant.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-redis/target/classes/com/central/redis/lock/RedisDistributedLock.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-redis/target/classes/com/central/redis/properties/CacheManagerProperties$CacheConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-redis/target/classes/com/central/redis/properties/CacheManagerProperties.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-redis/target/classes/com/central/redis/template/RedisRepository.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-redis/target/classes/com/central/redis/util/CustomerMapDeserializer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-sentinel/target/classes/com/central/sentinel/config/SentinelAutoConfigure$CustomUrlBlockHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-sentinel/target/classes/com/central/sentinel/config/SentinelAutoConfigure.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-sentinel/target/kernel-sentinel-0.0.1-SNAPSHOT.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-swagger2/target/classes/com/central/swagger2/Swagger2Configure.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-swagger2/target/classes/com/central/swagger2/SwaggerAutoConfigure$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-demo-api/target/jason-demo-api-0.0.1-SNAPSHOT.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-demo-order/.mvn/wrapper/maven-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-message-service/.mvn/wrapper/maven-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_activemq_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_undertow_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_alibaba_nacos_config_0_9_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_alibaba_nacos_discovery_0_9_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_alibaba_sentinel_0_9_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_alibaba_sentinel_datasource_0_9_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_1_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_security_2_1_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_core_2_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_zipkin_2_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_alibaba_nacos_config_0_9_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_alibaba_nacos_discovery_0_9_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_alibaba_sentinel_0_9_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_1_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_oauth2_2_1_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_security_2_1_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_sleuth_2_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zipkin_2_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_kafka_spring_kafka_2_2_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_kafka_spring_kafka_2_2_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_2_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_2_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_1_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_1_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_1_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_core_2_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_data_redis_2_1_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_social_spring_social_core_1_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_social_spring_social_security_1_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_social_spring_social_web_1_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_5_1_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_1_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_8_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sentinel_datasource_nacos_1_6_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/docker_deploy_nodejs.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/remark/auth2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/remark/readerme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/remark/sentinel-dashboard/startup.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/remark/创建守护进程.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/jason-biz-support.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log-api/biz-support-log-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log-api/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log-api/src/main/java/com/central/biz/log/api/LogApi.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log-api/src/main/java/com/central/biz/log/api/entity/CommonLog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log-api/src/main/java/com/central/biz/log/api/entity/TraceLog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/biz-support-log.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/config/LogAutoConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/core/db/CommonLogInitializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/core/db/TraceLogInitializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/core/listener/LogMessageListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/core/serilizer/FastjsonKafkaDeserializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/LogController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/factory/CommonLogFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/factory/TraceLogFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/mapper/CommonLogMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/mapper/TraceLogMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/mapper/mapping/CommonLogMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/mapper/mapping/TraceLogMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/model/CommonLogCondition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/model/CommonLogParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/model/TraceLogCondition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/model/TraceLogParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/provider/LogServiceProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/service/CommonLogService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/service/TraceLogService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/resources/META-INF/spring.factories" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/test/java/base/BaseJunit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/test/java/base/LogApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/test/java/cn/stylefeng/roses/biz/log/modular/service/CommonLogServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/test/java/cn/stylefeng/roses/biz/log/modular/service/TraceLogServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/test/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/target/classes/META-INF/spring.factories" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/target/classes/com/central/biz/log/modular/mapper/mapping/CommonLogMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/target/classes/com/central/biz/log/modular/mapper/mapping/TraceLogMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/target/test-classes/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/modular-log.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/auth-server.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/AuthServerApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/AuthorizationServerConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/ClientDetailsConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/CorsConfigration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/KaptchaConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/MybatisPlusConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/SecurityConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/SecurityHandlerConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/ValidateCodeSecurityConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/core/exception/ValidateCodeException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/core/filter/ValidateCodeFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/core/handler/OauthLogoutHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/core/mobile/MobileAuthenticationProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/core/mobile/MobileAuthenticationSecurityConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/core/mobile/MobileAuthenticationToken.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/core/openid/OpenIdAuthenticationProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/core/openid/OpenIdAuthenticationSecurityConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/core/openid/OpenIdAuthenticationToken.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/consumer/UserServiceConsumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/consumer/fallback/UserServiceFallbackFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/controller/ClientController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/controller/OAuth2Controller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/controller/TestController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/controller/ValidateCodeController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/dao/ClientMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/dao/mapping/ClientMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/dto/ClientDto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/model/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/service/BaseUserDetailsService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/service/IClientService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/service/IValidateCodeService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/service/impl/ClientServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/service/impl/RedisAuthorizationCodeServices.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/service/impl/RedisClientDetailsService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/service/impl/UserDetailServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/service/impl/ValidateCodeServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/bootstrap.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/jason.jks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/pubkey.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/css/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/js/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/bootstrap.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/dao/mapping/ClientMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/jason.jks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/pubkey.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/static/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/.mvn/wrapper/maven-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/mvnw" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/mvnw.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/java/com/central/BackWebApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/css/admin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/css/console.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/css/home.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/css/theme-blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/jquery-3.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/css/layui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/css/layui.mobile.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/css/modules/code.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/css/modules/laydate/default/laydate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/css/modules/layer/default/layer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/font/iconfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/lay/modules/carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/lay/modules/code.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/lay/modules/element.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/lay/modules/flow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/lay/modules/form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/lay/modules/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/lay/modules/laydate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/lay/modules/layedit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/lay/modules/layer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/lay/modules/laypage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/lay/modules/laytpl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/lay/modules/mobile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/lay/modules/rate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/lay/modules/table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/lay/modules/tree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/lay/modules/upload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/lay/modules/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/layui.all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/layui/layui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/pandyle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/q.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/respond.js/1.4.2/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/assets/libs/zTree/css/metroStyle/metroStyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/kernel-core.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/annotation/LoginUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/annotation/ParamValidator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/ActiveMQAutoConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/DbInitializerAutoConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/DefaultAsycTaskConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/DefaultPasswordConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/FastjsonAutoConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/MD5PasswordEncoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/PropertiesAutoConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/ValidatorAutoConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/WebAutoConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/aop/ParamValidateAop.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/aop/RequestDataAop.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/port/PortApplicationEnvironmentPreparedEventListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/port/props/RandomServerPort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/base/controller/GlobalErrorView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/base/warpper/BaseControllerWrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/converter/RequestDataMessageConvert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/converter/RequestDataTypeMethodProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/converter/TokenArgumentResolver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/db/DbInitializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/db/listener/InitTableListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/easypoi/user/SysUserExcel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/exception/AbstractBaseExceptionEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/exception/ApiServiceException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/exception/DefaultExceptionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/exception/RequestEmptyException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/exception/ServiceException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/exception/enums/CoreExceptionEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/feign/FeignErrorDecoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/feign/FeignHeaderProcessInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-db/kernel-db.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-db/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/chain/aop/ChainOnConsumerAop.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/chain/aop/ChainOnControllerAop.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/chain/aop/ChainOnProviderAop.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/chain/context/ParentSpanIdHolder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/chain/context/SpanIdContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/chain/context/SpanIdHolder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/chain/context/TraceIdHolder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/chain/enums/RpcPhaseEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/config/LoggerAutoConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/config/properties/LogProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/constants/KafkaConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/entity/SendingCommonLog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/entity/SendingTCLog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/entity/SendingTraceLog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/monitor/PointUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/serizlizer/FastjsonKafkaSerializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-redis/src/main/java/com/central/redis/properties/CacheManagerProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-redis/src/main/java/com/central/redis/template/RedisRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-redis/src/main/java/com/central/redis/util/CustomerMapDeserializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-redis/src/main/java/com/central/redis/util/FastJson2JsonRedisSerializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-redis/src/main/java/com/central/redis/util/RedisObjectSerializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-redis/src/main/resources/META-INF/spring.factories" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-redis/src/main/resources/limit.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-redis/target/classes/META-INF/spring-configuration-metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-redis/target/classes/META-INF/spring.factories" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-sentinel/src/main/resources/META-INF/spring.factories" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-sentinel/target/classes/META-INF/spring.factories" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-sentinel/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-sentinel/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-swagger2/kernel-swagger2.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-swagger2/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-swagger2/src/main/java/com/central/swagger2/Swagger2Configure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-swagger2/src/main/java/com/central/swagger2/SwaggerAutoConfigure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-swagger2/src/main/java/com/central/swagger2/SwaggerProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-swagger2/src/main/resources/META-INF/spring.factories" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-swagger2/target/classes/META-INF/spring.factories" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-demo-api/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-demo-api/src/main/java/com/central/demo/api/account/FlowRecordApi.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-demo-api/src/main/java/com/central/demo/api/account/model/FlowRecord.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-demo-api/src/main/java/com/central/demo/api/order/GoodsFlowParam.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-demo-api/src/main/java/com/central/demo/api/order/GoodsOrderApi.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-demo-api/src/main/java/com/central/demo/api/order/enums/OrderStatusEnum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-demo-api/src/main/java/com/central/demo/api/order/model/GoodsOrder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-demo-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-demo-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-demo-order/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-demo-order/.mvn/wrapper/maven-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-demo-order/mvnw" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-demo-order/mvnw.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-demo-order/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-message-checker/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-message-checker/src/main/java/com/central/JasonMessageCheckerApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-message-checker/src/main/java/com/central/message/checker/config/MessageCheckerConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-message-checker/src/main/java/com/central/message/checker/consumer/FlowRecordConsumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-message-checker/src/main/java/com/central/message/checker/consumer/GoodsOrderConsumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-message-checker/src/main/java/com/central/message/checker/consumer/MessageServiceConsumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-message-checker/src/main/java/com/central/message/checker/service/AbstractMessageChecker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-message-checker/src/main/java/com/central/message/checker/service/impl/SendingMessageChecker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-message-checker/src/main/java/com/central/message/checker/service/impl/WaitingConfirmMessageChecker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-message-checker/src/main/java/com/central/message/checker/timer/MessageDisposeTimerTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-message-checker/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-message-checker/src/main/resources/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-message-checker/src/test/java/com/central/message/checker/JasonMessageCheckerApplicationTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-message-service/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-message/jason-message-service/.mvn/wrapper/maven-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/api-gateway/src/main/java/com/central/client/oauth2/authorize/provider/AuthAuthorizeConfigProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/api-gateway/src/main/java/com/central/client/oauth2/config/CorsConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/api-gateway/src/main/java/com/central/client/oauth2/config/SecurityHandlerConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/api-gateway/src/main/java/com/central/client/oauth2/config/SwaggerConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/api-gateway/src/main/java/com/central/client/oauth2/dao/ServiceDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/api-gateway/src/main/java/com/central/client/oauth2/filter/AccessFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/api-gateway/src/main/java/com/central/client/oauth2/filter/IPFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/api-gateway/src/main/java/com/central/client/oauth2/service/RbacService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/api-gateway/src/main/java/com/central/client/oauth2/service/impl/RbacServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/api-gateway/src/main/java/com/central/client/oauth2/token/TokenStoreConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/api-gateway/src/main/java/com/central/client/oauth2/token/store/RedisTemplateTokenStore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/api-gateway/src/main/java/com/central/gate/controller/TestController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/api-gateway/src/main/java/com/central/gate/controller/UserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/api-gateway/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/api-gateway/src/main/resources/mybatis.cfg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/api-gateway/src/test/java/com/central/ApiGatewayApplicationTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/eureka-server/.mvn/wrapper/maven-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/eureka-server/mvnw" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/eureka-server/mvnw.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/eureka-server/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/eureka-server/src/main/java/com/central/EurekaServerApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/eureka-server/src/main/java/com/central/controller/EurekaController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/eureka-server/src/main/java/com/central/listener/EurekaInstanceCanceledListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/eureka-server/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/eureka-server/src/main/resources/logback.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/eureka-server/src/main/resources/templates/eureka/header.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/eureka-server/src/main/resources/templates/eureka/lastn.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/eureka-server/src/main/resources/templates/eureka/navbar.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/eureka-server/src/main/resources/templates/eureka/status.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/eureka-server/src/test/java/com/smartcloud/EurekaServerApplicationTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/jason-microservice-eureka.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-eureka/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-apache-dubbo-adapter/src/test/resources/spring-dubbo-provider-filter.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-api-gateway-adapter-common/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-api-gateway-adapter-common/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-api-gateway-adapter-common/src/main/java/com/alibaba/csp/sentinel/adapter/gateway/common/SentinelGatewayConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-api-gateway-adapter-common/src/main/java/com/alibaba/csp/sentinel/adapter/gateway/common/api/ApiDefinition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-api-gateway-adapter-common/src/main/java/com/alibaba/csp/sentinel/adapter/gateway/common/api/ApiDefinitionChangeObserver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-api-gateway-adapter-common/src/main/java/com/alibaba/csp/sentinel/adapter/gateway/common/api/ApiPathPredicateItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-api-gateway-adapter-common/src/main/java/com/alibaba/csp/sentinel/adapter/gateway/common/api/ApiPredicateGroupItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-api-gateway-adapter-common/src/main/java/com/alibaba/csp/sentinel/adapter/gateway/common/api/ApiPredicateItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-api-gateway-adapter-common/src/main/java/com/alibaba/csp/sentinel/adapter/gateway/common/api/GatewayApiDefinitionManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-api-gateway-adapter-common/src/main/java/com/alibaba/csp/sentinel/adapter/gateway/common/api/matcher/AbstractApiMatcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-api-gateway-adapter-common/src/main/java/com/alibaba/csp/sentinel/adapter/gateway/common/command/GetGatewayRuleCommandHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-api-gateway-adapter-common/src/main/java/com/alibaba/csp/sentinel/adapter/gateway/common/command/UpdateGatewayRuleCommandHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-api-gateway-adapter-common/src/main/java/com/alibaba/csp/sentinel/adapter/gateway/common/param/GatewayParamParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-dubbo-adapter/src/test/java/com/alibaba/csp/sentinel/adapter/dubbo/fallback/DubboFallbackRegistryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-dubbo-adapter/src/test/java/com/alibaba/csp/sentinel/adapter/dubbo/provider/DemoService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-dubbo-adapter/src/test/java/com/alibaba/csp/sentinel/adapter/dubbo/provider/impl/DemoServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-dubbo-adapter/src/test/resources/spring-dubbo-consumer-filter.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-dubbo-adapter/src/test/resources/spring-dubbo-provider-filter.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-grpc-adapter/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-grpc-adapter/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-grpc-adapter/src/main/java/com/alibaba/csp/sentinel/adapter/grpc/SentinelGrpcClientInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-grpc-adapter/src/main/java/com/alibaba/csp/sentinel/adapter/grpc/SentinelGrpcServerInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-grpc-adapter/src/test/java/com/alibaba/csp/sentinel/adapter/grpc/FooServiceClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-grpc-adapter/src/test/java/com/alibaba/csp/sentinel/adapter/grpc/FooServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-grpc-adapter/src/test/java/com/alibaba/csp/sentinel/adapter/grpc/GrpcTestServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-grpc-adapter/src/test/java/com/alibaba/csp/sentinel/adapter/grpc/SentinelGrpcClientInterceptorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-grpc-adapter/src/test/java/com/alibaba/csp/sentinel/adapter/grpc/SentinelGrpcServerInterceptorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-grpc-adapter/src/test/proto/example.proto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-reactor-adapter/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-spring-webflux-adapter/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-spring-webflux-adapter/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-spring-webflux-adapter/src/main/java/com/alibaba/csp/sentinel/adapter/spring/webflux/SentinelWebFluxFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-spring-webflux-adapter/src/main/java/com/alibaba/csp/sentinel/adapter/spring/webflux/callback/BlockRequestHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-spring-webflux-adapter/src/main/java/com/alibaba/csp/sentinel/adapter/spring/webflux/callback/DefaultBlockRequestHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-spring-webflux-adapter/src/main/java/com/alibaba/csp/sentinel/adapter/spring/webflux/callback/WebFluxCallbackManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-spring-webflux-adapter/src/main/java/com/alibaba/csp/sentinel/adapter/spring/webflux/exception/SentinelBlockExceptionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-spring-webflux-adapter/src/test/java/com/alibaba/csp/sentinel/adapter/spring/webflux/SentinelWebFluxIntegrationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-spring-webflux-adapter/src/test/java/com/alibaba/csp/sentinel/adapter/spring/webflux/test/WebFluxTestApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-spring-webflux-adapter/src/test/java/com/alibaba/csp/sentinel/adapter/spring/webflux/test/WebFluxTestConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-spring-webflux-adapter/src/test/java/com/alibaba/csp/sentinel/adapter/spring/webflux/test/WebFluxTestController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-web-servlet/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-web-servlet/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-web-servlet/src/main/java/com/alibaba/csp/sentinel/adapter/servlet/CommonFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-web-servlet/src/main/java/com/alibaba/csp/sentinel/adapter/servlet/CommonTotalFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-web-servlet/src/main/java/com/alibaba/csp/sentinel/adapter/servlet/callback/DefaultUrlBlockHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-zuul-adapter/src/main/java/com/alibaba/csp/sentinel/adapter/gateway/zuul/filters/SentinelEntryUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-zuul-adapter/src/main/java/com/alibaba/csp/sentinel/adapter/gateway/zuul/filters/SentinelZuulErrorFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-zuul-adapter/src/main/java/com/alibaba/csp/sentinel/adapter/gateway/zuul/filters/SentinelZuulPostFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-zuul-adapter/src/main/java/com/alibaba/csp/sentinel/adapter/gateway/zuul/filters/SentinelZuulPreFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-zuul-adapter/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.adapter.gateway.common.api.ApiDefinitionChangeObserver" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-zuul-adapter/src/test/java/com/alibaba/csp/sentinel/adapter/gateway/zuul/fallback/ZuulBlockFallbackManagerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-zuul-adapter/src/test/java/com/alibaba/csp/sentinel/adapter/gateway/zuul/fallback/ZuulBlockFallbackProviderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-zuul-adapter/src/test/java/com/alibaba/csp/sentinel/adapter/gateway/zuul/filters/SentinelZuulErrorFilterTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-zuul-adapter/src/test/java/com/alibaba/csp/sentinel/adapter/gateway/zuul/filters/SentinelZuulPostFilterTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-zuul-adapter/src/test/java/com/alibaba/csp/sentinel/adapter/gateway/zuul/filters/SentinelZuulPreFilterTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-benchmark/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-benchmark/src/main/java/com/alibaba/csp/sentinel/benchmark/SentinelEntryBenchmark.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-client-default/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-client-default/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-client-default/src/main/java/com/alibaba/csp/sentinel/cluster/client/config/ClusterClientConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-client-default/src/main/java/com/alibaba/csp/sentinel/cluster/client/config/ClusterClientConfigManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-client-default/src/main/java/com/alibaba/csp/sentinel/cluster/client/config/ServerChangeObserver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-client-default/src/main/java/com/alibaba/csp/sentinel/cluster/client/handler/TokenClientHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-client-default/src/main/java/com/alibaba/csp/sentinel/cluster/client/handler/TokenClientPromiseHolder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-client-default/src/main/java/com/alibaba/csp/sentinel/cluster/client/init/DefaultClusterClientInitFunc.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-client-default/src/main/java/com/alibaba/csp/sentinel/command/entity/ClusterClientStateEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-client-default/src/main/java/com/alibaba/csp/sentinel/command/handler/FetchClusterClientConfigHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-client-default/src/main/java/com/alibaba/csp/sentinel/command/handler/ModifyClusterClientConfigHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-client-default/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.cluster.client.ClusterTokenClient" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-client-default/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.cluster.codec.request.RequestEntityWriter" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-client-default/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.cluster.codec.response.ResponseEntityDecoder" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-client-default/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.command.CommandHandler" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-client-default/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.init.InitFunc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-client-default/src/test/java/com/alibaba/csp/sentinel/cluster/client/codec/data/ParamFlowRequestDataWriterTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-common-default/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-server-default/src/main/java/com/alibaba/csp/sentinel/cluster/server/codec/data/ParamFlowRequestDataDecoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-server-default/src/main/java/com/alibaba/csp/sentinel/cluster/server/codec/data/PingRequestDataDecoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-server-default/src/main/java/com/alibaba/csp/sentinel/cluster/server/codec/data/PingResponseDataWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-server-default/src/main/java/com/alibaba/csp/sentinel/cluster/server/codec/netty/NettyRequestDecoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-server-default/src/main/java/com/alibaba/csp/sentinel/cluster/server/codec/netty/NettyResponseEncoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-server-default/src/main/java/com/alibaba/csp/sentinel/cluster/server/codec/registry/RequestDataDecodeRegistry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-server-default/src/main/java/com/alibaba/csp/sentinel/cluster/server/codec/registry/ResponseDataWriterRegistry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-server-default/src/main/java/com/alibaba/csp/sentinel/cluster/server/command/handler/FetchClusterFlowRulesCommandHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-server-default/src/main/java/com/alibaba/csp/sentinel/cluster/server/command/handler/FetchClusterMetricCommandHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-server-default/src/main/java/com/alibaba/csp/sentinel/cluster/server/command/handler/FetchClusterParamFlowRulesCommandHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-server-default/src/main/java/com/alibaba/csp/sentinel/cluster/server/command/handler/FetchClusterServerConfigHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-server-default/src/main/java/com/alibaba/csp/sentinel/cluster/server/command/handler/FetchClusterServerInfoCommandHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-server-default/src/main/java/com/alibaba/csp/sentinel/cluster/server/command/handler/ModifyClusterFlowRulesCommandHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-server-default/src/main/java/com/alibaba/csp/sentinel/cluster/server/command/handler/ModifyClusterParamFlowRulesCommandHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-server-default/src/main/java/com/alibaba/csp/sentinel/cluster/server/command/handler/ModifyClusterServerFlowConfigHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-cluster/sentinel-cluster-server-default/src/main/java/com/alibaba/csp/sentinel/cluster/server/command/handler/ModifyClusterServerTransportConfigHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/rule/DegradeRuleEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/rule/FlowRuleEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/rule/ParamFlowRuleEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/rule/RuleEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/rule/SystemRuleEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/discovery/AppInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/discovery/AppManagement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/discovery/MachineDiscovery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/discovery/MachineInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/discovery/SimpleMachineDiscovery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/ResourceTreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/Result.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/ClusterAppAssignResultVO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/ClusterAppFullAssignRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/ClusterAppSingleServerAssignRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/ClusterClientInfoVO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/rule/nacos/system/SystemRuleNacosPublisher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/service/ClusterAssignService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/service/ClusterAssignServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/service/ClusterConfigService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/util/AsyncUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/util/ClusterEntityUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/util/JSONUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/util/MachineUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/util/VersionUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/webapp/resources/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/webapp/resources/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/webapp/resources/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/webapp/resources/README_zh.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/webapp/resources/app/scripts/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/webapp/resources/app/scripts/controllers/authority.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/webapp/resources/app/scripts/services/identityservice.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/webapp/resources/app/scripts/services/machineservice.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/webapp/resources/app/scripts/services/metricservice.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/webapp/resources/app/scripts/services/param_flow_service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/webapp/resources/app/scripts/services/systemservice.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/webapp/resources/app/styles/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/webapp/resources/app/styles/page.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/webapp/resources/app/styles/timeline.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/webapp/resources/app/views/authority.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/webapp/resources/app/views/cluster/client.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/webapp/resources/app/views/cluster/server.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/webapp/resources/app/views/cluster_app_assign_manage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/webapp/resources/app/views/cluster_app_client_list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/webapp/resources/app/views/cluster_app_server_list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/webapp/resources/app/views/cluster_app_server_overview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/main/webapp/resources/app/views/cluster_single_config.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/rule/apollo/ApolloConfigUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/rule/apollo/FlowRuleApolloProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/rule/apollo/FlowRuleApolloPublisher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/rule/nacos/FlowRuleNacosProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/rule/nacos/FlowRuleNacosPublisher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/rule/nacos/NacosConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/rule/nacos/NacosConfigUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/rule/zookeeper/FlowRuleZookeeperProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/rule/zookeeper/FlowRuleZookeeperPublisher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/rule/zookeeper/ZookeeperConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/rule/zookeeper/ZookeeperConfigUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/util/VersionUtilsTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-demo/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-demo/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-demo/sentinel-demo-annotation-spring-aop/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-demo/sentinel-demo-annotation-spring-aop/src/main/java/com/alibaba/csp/sentinel/demo/annotation/aop/DemoApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-demo/sentinel-demo-command-handler/src/main/java/com/alibaba/csp/sentinel/demo/commandhandler/CommandDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-demo/sentinel-demo-command-handler/src/main/java/com/alibaba/csp/sentinel/demo/commandhandler/EchoCommandHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-demo/sentinel-demo-command-handler/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.command.CommandHandler" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-demo/sentinel-demo-dubbo/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-demo/sentinel-demo-dubbo/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-demo/sentinel-demo-dubbo/src/main/java/com/alibaba/csp/sentinel/demo/dubbo/FooService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-demo/sentinel-demo-dubbo/src/main/java/com/alibaba/csp/sentinel/demo/dubbo/consumer/ConsumerConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-demo/sentinel-demo-dubbo/src/main/java/com/alibaba/csp/sentinel/demo/dubbo/consumer/FooServiceConsumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-demo/sentinel-demo-dubbo/src/main/java/com/alibaba/csp/sentinel/demo/dubbo/demo1/FooConsumerBootstrap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-demo/sentinel-demo-dubbo/src/main/java/com/alibaba/csp/sentinel/demo/dubbo/demo1/FooProviderBootstrap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-demo/sentinel-demo-dubbo/src/main/java/com/alibaba/csp/sentinel/demo/dubbo/demo1/FooServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-demo/sentinel-demo-dubbo/src/main/java/com/alibaba/csp/sentinel/demo/dubbo/demo1/ProviderConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-demo/sentinel-demo-dubbo/src/main/java/com/alibaba/csp/sentinel/demo/dubbo/demo2/FooConsumerBootstrap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-demo/sentinel-demo-dubbo/src/main/java/com/alibaba/csp/sentinel/demo/dubbo/demo2/FooProviderBootstrap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-demo/sentinel-demo-dubbo/src/main/java/com/alibaba/csp/sentinel/demo/dubbo/demo2/FooServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-demo/sentinel-demo-dubbo/src/main/java/com/alibaba/csp/sentinel/demo/dubbo/demo2/ProviderConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-annotation-aspectj/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-annotation-aspectj/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-annotation-aspectj/src/main/java/com/alibaba/csp/sentinel/annotation/aspectj/AbstractSentinelAspectSupport.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-annotation-aspectj/src/main/java/com/alibaba/csp/sentinel/annotation/aspectj/MethodWrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-annotation-aspectj/src/main/java/com/alibaba/csp/sentinel/annotation/aspectj/ResourceMetadataRegistry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-annotation-aspectj/src/main/java/com/alibaba/csp/sentinel/annotation/aspectj/SentinelResourceAspect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-annotation-aspectj/src/test/java/com/alibaba/csp/sentinel/annotation/aspectj/AbstractSentinelAspectSupportTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-annotation-aspectj/src/test/java/com/alibaba/csp/sentinel/annotation/aspectj/MethodWrapperTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-annotation-aspectj/src/test/java/com/alibaba/csp/sentinel/annotation/aspectj/ResourceMetadataRegistryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-annotation-aspectj/src/test/java/com/alibaba/csp/sentinel/annotation/aspectj/integration/SentinelAnnotationIntegrationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-annotation-aspectj/src/test/java/com/alibaba/csp/sentinel/annotation/aspectj/integration/config/AopTestConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-annotation-aspectj/src/test/java/com/alibaba/csp/sentinel/annotation/aspectj/integration/service/FooService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-annotation-aspectj/src/test/java/com/alibaba/csp/sentinel/annotation/aspectj/integration/service/FooUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-datasource-apollo/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-datasource-apollo/src/main/java/com/alibaba/csp/sentinel/datasource/apollo/ApolloDataSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-datasource-extension/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-parameter-flow-control/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.init.InitFunc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-parameter-flow-control/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.slotchain.SlotChainBuilder" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-parameter-flow-control/src/test/java/com/alibaba/csp/sentinel/slots/block/flow/param/ParamFlowCheckerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-parameter-flow-control/src/test/java/com/alibaba/csp/sentinel/slots/block/flow/param/ParamFlowDefaultCheckerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-parameter-flow-control/src/test/java/com/alibaba/csp/sentinel/slots/block/flow/param/ParamFlowRuleManagerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-parameter-flow-control/src/test/java/com/alibaba/csp/sentinel/slots/block/flow/param/ParamFlowRuleUtilTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-parameter-flow-control/src/test/java/com/alibaba/csp/sentinel/slots/block/flow/param/ParamFlowSlotTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-parameter-flow-control/src/test/java/com/alibaba/csp/sentinel/slots/block/flow/param/ParamFlowThrottleRateLimitingCheckerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-parameter-flow-control/src/test/java/com/alibaba/csp/sentinel/slots/block/flow/param/ParameterMetricStorageTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-parameter-flow-control/src/test/java/com/alibaba/csp/sentinel/slots/block/flow/param/ParameterMetricTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-parameter-flow-control/src/test/java/com/alibaba/csp/sentinel/slots/statistic/data/ParamMapBucketTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-parameter-flow-control/src/test/java/com/alibaba/csp/sentinel/slots/statistic/metric/HotParameterLeapArrayTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-extension/sentinel-parameter-flow-control/src/test/java/com/alibaba/csp/sentinel/test/AbstractTimeBasedTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-transport/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-transport/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-transport/sentinel-transport-common/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-transport/sentinel-transport-netty-http/src/main/java/com/alibaba/csp/sentinel/transport/command/netty/HttpServerInitializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-transport/sentinel-transport-netty-http/src/main/java/com/alibaba/csp/sentinel/transport/heartbeat/HttpHeartbeatSender.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-transport/sentinel-transport-netty-http/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.transport.CommandCenter" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-transport/sentinel-transport-netty-http/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.transport.HeartbeatSender" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-transport/sentinel-transport-netty-http/src/test/java/com/alibaba/csp/sentinel/transport/command/handler/MultipleSlashNameCommandTestHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-transport/sentinel-transport-netty-http/src/test/java/com/alibaba/csp/sentinel/transport/command/netty/HttpServerHandlerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-transport/sentinel-transport-netty-http/src/test/java/com/alibaba/csp/sentinel/transport/command/netty/HttpServerInitializerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-transport/sentinel-transport-netty-http/src/test/java/com/alibaba/csp/sentinel/transport/command/netty/HttpServerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-transport/sentinel-transport-netty-http/src/test/java/com/alibaba/csp/sentinel/transport/heartbeat/HttpHeartbeatSenderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-transport/sentinel-transport-netty-http/src/test/resources/META-INF/services/com.alibaba.csp.sentinel.command.CommandHandler" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-transport/sentinel-transport-simple-http/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-transport/sentinel-transport-simple-http/src/main/java/com/alibaba/csp/sentinel/transport/command/SimpleHttpCommandCenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-transport/sentinel-transport-simple-http/src/main/java/com/alibaba/csp/sentinel/transport/command/http/HttpEventTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-transport/sentinel-transport-simple-http/src/main/java/com/alibaba/csp/sentinel/transport/heartbeat/HeartbeatMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-transport/sentinel-transport-simple-http/src/main/java/com/alibaba/csp/sentinel/transport/heartbeat/SimpleHttpHeartbeatSender.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-transport/sentinel-transport-simple-http/src/main/java/com/alibaba/csp/sentinel/transport/heartbeat/client/SimpleHttpClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-monitor/admin-server/mvnw" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-monitor/admin-server/mvnw.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-monitor/admin-server/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-monitor/admin-server/src/main/java/com/central/AdminServerApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-monitor/admin-server/src/main/java/com/central/monitor/Controller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-monitor/admin-server/src/main/resources/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-monitor/admin-server/src/test/java/com/smartcloud/AdminServerApplicationTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-monitor/jason-monitor.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-monitor/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log-api/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-actuator/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-db/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-redis/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-ribbon/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-sentinel/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-swagger2/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -972,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/core/filter/ValidateCodeFilter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+              <caret line="35" column="7" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -992,7 +132,7 @@
         <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/entity/SendingTCLog.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1002,7 +142,7 @@
         <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/service/CommonLogService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -1190,7 +330,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="476" />
     <option name="y" value="37" />
     <option name="width" value="1516" />
@@ -1249,6 +389,17 @@
             <path>
               <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
               <item name="jason-business" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1285,19 +436,19 @@
     <property name="Repository.Attach.Sources" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\open-smartcloud\jason-microservice-eureka" />
-      <recent name="D:\IdeaProjects\open-smartcloud\jason-microservice-support" />
-      <recent name="D:\IdeaProjects\open-smartcloud\doc" />
-      <recent name="D:\IdeaProjects\open-smartcloud\jason-business\infra-server\src\main\java\com\central\infra\modular\dao\mapping" />
-      <recent name="D:\IdeaProjects\open-smartcloud\jason-kernel\kernel-sentinel\src\main\resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.centratl" />
       <recent name="com.central.redis" />
       <recent name="com.central" />
       <recent name="com.central.message.service" />
       <recent name="com.central.message" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\open-smartcloud\jason-biz-support\modular-log\biz-support-log" />
+      <recent name="D:\github\open-smartcloud\jason-biz-support\modular-log\biz-support-log-api" />
+      <recent name="D:\github\open-smartcloud\jason-business\auth-server" />
+      <recent name="D:\github\open-smartcloud\jason-microservice-support\Sentinel-Dashboard-Nacos-1.6.2-NACOS\sentinel-dashboard" />
+      <recent name="D:\github\open-smartcloud\jason-kernel\kernel-swagger2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.central.oauth2.common.util" />
@@ -1306,12 +457,12 @@
       <recent name="com.central.infra.modular.dto" />
       <recent name="com.central.infra.modular.controller" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\open-smartcloud\jason-microservice-eureka" />
+      <recent name="D:\IdeaProjects\open-smartcloud\jason-microservice-support" />
+      <recent name="D:\IdeaProjects\open-smartcloud\doc" />
       <recent name="D:\IdeaProjects\open-smartcloud\jason-business\infra-server\src\main\java\com\central\infra\modular\dao\mapping" />
-      <recent name="D:\IdeaProjects\open-smartcloud\jason-business\infra-server\src\main\java\com\central\infra\modular\controller" />
-      <recent name="D:\IdeaProjects\open-smartcloud\jason-business\infra-server\src\main\java\com\central\infra\modular\provider" />
-      <recent name="D:\IdeaProjects\open-smartcloud\jason-demo\web-demo\src\main\resources\static" />
-      <recent name="D:\IdeaProjects\open-smartcloud\jason-business\infra-server\src\main\resources\static" />
+      <recent name="D:\IdeaProjects\open-smartcloud\jason-kernel\kernel-sentinel\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1746,7 +897,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2979415" sideWeight="0.46041667" order="6" side_tool="false" content_ui="tabs" />
@@ -2214,28 +1365,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/core/filter/pre/UserInfoHeaderFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/controller/SysUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/provider/expression/OAuth2WebSecurityExpressionHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="19" column="86" lean-forward="true" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.5.RELEASE/spring-security-web-5.1.5.RELEASE.jar!/org/springframework/security/web/AuthenticationEntryPoint.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -2550,7 +1679,7 @@
     <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/core/filter/ValidateCodeFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+          <caret line="35" column="7" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -2582,7 +1711,31 @@
     <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/entity/SendingTCLog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-monitor/admin-server/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-db/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-demo/web-demo/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2590,7 +1743,7 @@
     <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/service/CommonLogService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding />
         </state>
       </provider>

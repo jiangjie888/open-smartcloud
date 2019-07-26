@@ -1,0 +1,60 @@
+package com.central.redis.config;
+
+import com.central.redis.util.FastJson2JsonRedisSerializer;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
+import org.springframework.data.redis.connection.RedisConnectionFactory;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.serializer.StringRedisSerializer;
+
+import com.central.redis.util.RedisObjectSerializer;
+
+@Configuration
+public class RedisConfig {
+
+	/*@Primary
+	@Bean("redisTemplate")
+	// 没有此属性就不会装配bean 如果是单个redis 将此注解注释掉
+	@ConditionalOnProperty(name = "spring.redis.cluster.nodes", matchIfMissing = false)
+	public RedisTemplate<String, Object> getRedisTemplate(RedisConnectionFactory factory) {
+		RedisTemplate<String, Object> redisTemplate = new RedisTemplate<String, Object>();
+		redisTemplate.setConnectionFactory(factory);
+
+		RedisSerializer stringSerializer = new StringRedisSerializer();
+		// RedisSerializer redisObjectSerializer = new RedisObjectSerializer();
+		RedisSerializer redisObjectSerializer = new RedisObjectSerializer();
+		redisTemplate.setKeySerializer(stringSerializer); // key的序列化类型
+		redisTemplate.setHashKeySerializer(stringSerializer);
+		redisTemplate.setValueSerializer(redisObjectSerializer); // value的序列化类型
+		redisTemplate.afterPropertiesSet();
+
+		redisTemplate.opsForValue().set("hellocluster", "wolrd cluster");
+		return redisTemplate;
+	}*/
+
+	@Primary
+	@Bean("redisTemplate")
+	@ConditionalOnProperty(name = "spring.redis.host", matchIfMissing = true)
+	public RedisTemplate<String, Object> getSingleRedisTemplate(RedisConnectionFactory factory) {
+		RedisTemplate<String, Object> redisTemplate = new RedisTemplate<String, Object>();
+		redisTemplate.setConnectionFactory(factory);
+		//Jackson2JsonRedisSerializer<Object> jackson2JsonRedisSerializer = new Jackson2JsonRedisSerializer<Object>(Object.class);
+		//FastJson2JsonRedisSerializer<Object> fastJsonRedisSerializer = new FastJson2JsonRedisSerializer<>(Object.class);
+		// 全局开启AutoType，不建议使用
+		//ParserConfig.getGlobalInstance().setAutoTypeSupport(true);
+		// 建议使用这种方式，小范围指定白名单
+		//ParserConfig.getGlobalInstance().addAccept("com.central.");
+		//ParserConfig.getGlobalInstance().addAccept("org.springframework.");
+
+		redisTemplate.setKeySerializer(new StringRedisSerializer()); // key的序列化类型
+		redisTemplate.setValueSerializer(new RedisObjectSerializer()); // value的序列化类型
+		redisTemplate.setHashKeySerializer(new StringRedisSerializer());
+		redisTemplate.setHashValueSerializer(new RedisObjectSerializer());
+		redisTemplate.afterPropertiesSet();
+		redisTemplate.opsForValue().set("hellohost", "wolrd host");
+		return redisTemplate;
+	}
+
+}

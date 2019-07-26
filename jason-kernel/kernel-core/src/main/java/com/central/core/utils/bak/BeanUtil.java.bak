@@ -1,0 +1,112 @@
+package com.central.core.utils;
+
+import org.apache.commons.beanutils.BeanUtils;
+import org.apache.commons.collections4.MapUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import javax.validation.ConstraintViolation;
+import javax.validation.Validation;
+import javax.validation.Validator;
+import javax.validation.ValidatorFactory;
+import java.util.*;
+
+/**
+ * Bean工具类
+ *
+ * <p>
+ * 把一个拥有对属性进行set和get方法的类，我们就可以称之为JavaBean。
+ * </p>
+ */
+public class BeanUtil {
+    private static final Logger logger = LoggerFactory.getLogger(BeanUtil.class);
+    private static ValidatorFactory validatorFactory = Validation.buildDefaultValidatorFactory();
+
+    public static <T> Map<String, String> validate(T t, Class... groups) {
+        Validator validator = validatorFactory.getValidator();
+        Set validateResult = validator.validate(t, groups);
+        if (validateResult.isEmpty()) {
+            return Collections.emptyMap();
+        } else {
+            LinkedHashMap errors = new LinkedHashMap<>();
+            Iterator iterator = validateResult.iterator();
+            while (iterator.hasNext()) {
+                ConstraintViolation violation = (ConstraintViolation) iterator.next();
+                errors.put(violation.getPropertyPath().toString(), violation.getMessage());
+            }
+            return errors;
+        }
+    }
+
+    public static Map<String, String> validateList(Collection<?> collection) {
+        if (collection == null) {
+            throw new NullPointerException();
+        }
+        Iterator iterator = collection.iterator();
+        Map errors;
+
+        do {
+            if (!iterator.hasNext()) {
+                return Collections.emptyMap();
+            }
+            Object object = iterator.next();
+            errors = validate(object, new Class[0]);
+        } while (errors.isEmpty());
+
+        return errors;
+    }
+
+    public static Map<String, String> validateObject(Object first, Object... objects) {
+
+        if (objects != null && objects.length > 0) {
+
+            List<Object> list = Arrays.asList(objects);
+            list.add(0, first);
+
+            return validateList(list);
+        } else {
+            return validate(first, new Class[0]);
+        }
+    }
+
+    public static void check(Object param) throws IllegalArgumentException {
+        Map<String, String> map = BeanUtil.validateObject(param);
+        if (MapUtils.isNotEmpty(map)) {
+            throw new IllegalArgumentException(map.toString());
+        }
+    }
+
+
+    /**
+     * Map转化成实体类
+     *   
+     */
+    public static <T> T mapToBean(Map<String, ?> srcData, Class<T> desType) {
+        if (srcData == null || desType == null) {
+            return null;
+        }
+        try {
+            T desData = desType.newInstance();
+            BeanUtils.populate(desData, srcData);
+            return desData;
+        } catch (Exception e) {
+            logger.error(e.getMessage(), e);
+            throw new RuntimeException(e);
+        }
+    }
+
+    /**
+     * * Map集合转化成实体集合
+     *   
+     */
+    public static <T> List<T> mapToBean(List<Map<String, ?>> srcData, Class<T> desType) {
+        if (srcData == null || desType == null) {
+            return null;
+        }
+        final List<T> desData = new ArrayList<>();
+        for (Map<String, ?> mapData : srcData) {
+            desData.add(mapToBean(mapData, desType));
+        }
+        return desData;
+    }
+}

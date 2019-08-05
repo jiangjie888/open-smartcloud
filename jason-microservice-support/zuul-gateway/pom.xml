@@ -20,7 +20,7 @@
 			<artifactId>jason-config</artifactId>
 			<version>${core.version}</version>
 		</dependency>
-		<dependency>
+		<!--<dependency>
 			<groupId>com.smartcloud</groupId>
 			<artifactId>kernel-core</artifactId>
 			<version>${core.version}</version>
@@ -30,7 +30,7 @@
 					<artifactId>kernel-db</artifactId>
 				</exclusion>
 			</exclusions>
-		</dependency>
+		</dependency>-->
 		<!--<dependency>
 			<groupId>com.smartcloud</groupId>
 			<artifactId>kernel-db</artifactId>
@@ -55,6 +55,12 @@
 			<groupId>com.smartcloud</groupId>
 			<artifactId>kernel-ribbon</artifactId>
 			<version>${core.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.smartcloud</groupId>
+					<artifactId>kernel-core</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>com.smartcloud</groupId>

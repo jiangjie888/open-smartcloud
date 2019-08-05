@@ -65,7 +65,7 @@ public class DefaultExceptionHandler {
      * 拦截未知的运行时异常
      * 返回状态码:500
      */
-    @ExceptionHandler(Exception.class)
+    /*@ExceptionHandler(Exception.class)
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     @ResponseBody
     public ResponseData serverError(Exception e) {
@@ -73,7 +73,7 @@ public class DefaultExceptionHandler {
         ErrorResponseData errorResponseData = new ErrorResponseData(CoreExceptionEnum.SERVICE_ERROR.getCode(), CoreExceptionEnum.SERVICE_ERROR.getMessage());
         errorResponseData.setExceptionClazz(e.getClass().getName());
         return errorResponseData;
-    }
+    }*/
 
 
     /**

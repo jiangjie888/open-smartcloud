@@ -20,12 +20,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * @program: open-smartcloud
- * @description:
- * @author: jason
- * @create: 2019-07-25 16:41
- **/
+
 public class DefaultAuthenticationEntryPoint extends OAuth2AuthenticationEntryPoint {
 
     @Autowired

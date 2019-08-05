@@ -2,20 +2,261 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2597e530-7e4e-46e0-b159-1337d086ad5b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log-api/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-actuator/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-db/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-redis/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-ribbon/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-sentinel/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-kernel/kernel-swagger2/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/service/impl/CustomJdbcAuthorizationCodeServices.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/approve.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/ResourceServerConfiguration.java.bak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/css/common.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/images/cut.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/images/logo_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/images/logowz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/js/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/css/admin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/css/console.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/css/home.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/css/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/css/theme-blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/bg_login.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/head.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/home_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/home_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/home_right_item.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/home_right_logout.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/home_right_set.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/home_right_work.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/home_title.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/icon_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/icon_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/icon_date.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/item_active.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/item_lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/item_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/login_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/login_btn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/login_input_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/login_title.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/loginuser.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/logo_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/logo_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/message.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/next_dis.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/pre.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/images/pre_dis.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/jquery-3.2.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/css/layui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/css/layui.mobile.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/css/modules/code.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/css/modules/laydate/default/laydate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/css/modules/layer/default/icon-ext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/css/modules/layer/default/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/css/modules/layer/default/layer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/css/modules/layer/default/loading-0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/css/modules/layer/default/loading-1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/css/modules/layer/default/loading-2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/font/iconfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/font/iconfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/font/iconfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/font/iconfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/13.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/15.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/17.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/18.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/19.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/20.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/21.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/22.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/23.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/24.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/25.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/26.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/27.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/28.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/29.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/30.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/31.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/32.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/33.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/34.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/35.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/36.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/37.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/38.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/39.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/40.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/41.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/42.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/43.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/44.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/45.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/46.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/47.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/48.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/49.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/50.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/51.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/52.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/53.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/54.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/55.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/56.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/57.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/58.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/59.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/60.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/61.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/62.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/63.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/64.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/65.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/66.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/67.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/68.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/69.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/70.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/71.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/images/face/9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/lay/modules/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/lay/modules/code.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/lay/modules/element.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/lay/modules/flow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/lay/modules/form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/lay/modules/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/lay/modules/laydate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/lay/modules/layedit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/lay/modules/layer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/lay/modules/laypage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/lay/modules/laytpl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/lay/modules/mobile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/lay/modules/rate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/lay/modules/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/lay/modules/tree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/lay/modules/upload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/lay/modules/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/layui.all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/layui/layui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/pandyle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/q.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/respond.js/1.4.2/respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/zTree/css/metroStyle/img/line_conn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/zTree/css/metroStyle/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/zTree/css/metroStyle/img/metro.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/zTree/css/metroStyle/img/metro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/zTree/css/metroStyle/metroStyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/zTree/css/zTreeStyle/img/line_conn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/zTree/css/zTreeStyle/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/zTree/css/zTreeStyle/img/zTreeStandard.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/zTree/css/zTreeStyle/img/zTreeStandard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/zTree/css/zTreeStyle/zTreeStyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/assets/libs/zTree/js/jquery.ztree.all-3.5.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/docs/.nojekyll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/docs/FileSaver.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/docs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/docs/cover.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/docs/generater_theme.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/docs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/docs/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/docs/theme.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/homepage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/module/admin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/module/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/module/formSelects/formSelects-v4.all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/module/formSelects/formSelects-v4.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/module/formSelects/formSelects-v4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/module/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/module/treetable-lay/treetable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/module/treetable-lay/treetable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/pages/attestation/app.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/pages/attestation/services.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/pages/attestation/services_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/pages/attestation/token.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/pages/console.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/pages/eureka/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/pages/files/files.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/pages/generator/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/pages/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/pages/redis/info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/pages/side.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/pages/system/menus.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/pages/system/menus_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/pages/system/myInfo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/pages/system/permissions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/pages/system/role.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/pages/system/role_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/pages/system/user.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/pages/system/user_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/pages/tpl/iframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/pages/tpl/message.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/pages/tpl/password.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/static/pages/tpl/theme.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/kernel-auth-0.0.1-SNAPSHOT.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/AuthorizationServerConfig.class" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/AuthorizationServerConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/ClientDetailsConfiguration.class" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/ClientDetailsConfiguration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/SecurityConfig.class" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/SecurityConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/core/exception/ValidateCodeException.class" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/core/exception/ValidateCodeException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/core/filter/ValidateCodeFilter.class" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/core/filter/ValidateCodeFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/controller/OAuth2Controller.class" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/controller/OAuth2Controller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/service/impl/RedisClientDetailsService.class" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/service/impl/RedisClientDetailsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/classes/com/central/oauth2/common/config/DefaultAuthenticationEntryPoint.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/classes/com/central/oauth2/common/config/DefaultAuthenticationEntryPoint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/classes/com/central/oauth2/common/config/DefaultResourceServerConf.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/classes/com/central/oauth2/common/config/DefaultResourceServerConf.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/classes/com/central/oauth2/common/properties/PermitProperties.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/classes/com/central/oauth2/common/properties/PermitProperties.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/base/controller/BaseController.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/base/controller/BaseController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/base/controller/GlobalErrorView.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/base/controller/GlobalErrorView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/db/DbInitializer.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/db/DbInitializer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/exception/DefaultExceptionHandler.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/exception/DefaultExceptionHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/common/FullAuditedEntity.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/common/FullAuditedEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/constants/SecurityConstants.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/constants/SecurityConstants.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/SpringUtil.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/SpringUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-redis/target/classes/com/central/redis/util/CustomerMapDeserializer.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-redis/target/classes/com/central/redis/util/CustomerMapDeserializer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/auth-server.iml" afterPath="$PROJECT_DIR$/jason-business/auth-server/auth-server.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/pom.xml" afterPath="$PROJECT_DIR$/jason-business/auth-server/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/AuthorizationServerConfig.java" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/AuthorizationServerConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/ClientDetailsConfiguration.java" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/ClientDetailsConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/SecurityConfig.java" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/SecurityConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/controller/OAuth2Controller.java" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/controller/OAuth2Controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/login.html" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/application.yml" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/static/login.html" afterPath="$PROJECT_DIR$/jason-business/auth-server/target/classes/static/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/login.html" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-config/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/jason-config/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-config/target/classes/application.properties" afterPath="$PROJECT_DIR$/jason-config/target/classes/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/config/DefaultAuthenticationEntryPoint.java" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/config/DefaultAuthenticationEntryPoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/config/DefaultResourceServerConf.java" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/config/DefaultResourceServerConf.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/properties/PermitProperties.java" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/properties/PermitProperties.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/base/controller/GlobalErrorView.java" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/base/controller/GlobalErrorView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/exception/DefaultExceptionHandler.java" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/exception/DefaultExceptionHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/model/constants/SecurityConstants.java" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/model/constants/SecurityConstants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/util/LogUtil.java" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/util/LogUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/pom.xml" afterPath="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/resources/application.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -98,51 +339,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AuthorizeConfigManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jason-microservice-eureka/api-gateway/src/main/java/com/central/client/oauth2/authorize/AuthorizeConfigManager.java">
+      <file leaf-file-name="AbstractUserDetailsAuthenticationProvider.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="242">
+              <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ValidateCodeFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/core/filter/ValidateCodeFilter.java">
+      <file leaf-file-name="TokenEndpoint.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/TokenEndpoint.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="35" column="7" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+            <state relative-caret-position="638">
+              <caret line="65" column="80" lean-forward="false" selection-start-line="65" selection-start-column="71" selection-end-line="65" selection-end-column="80" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogProducerServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/service/impl/LogProducerServiceImpl.java">
+      <file leaf-file-name="DaoAuthenticationProvider.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="22">
+              <caret line="20" column="65" lean-forward="false" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SendingTCLog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/entity/SendingTCLog.java">
+      <file leaf-file-name="base-grant.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/base-grant.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="-1452">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommonLogService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/service/CommonLogService.java">
+      <file leaf-file-name="CustomAuthPageController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/controller/CustomAuthPageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="724">
+              <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicAuthenticationFilter.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.5.RELEASE/spring-security-web-5.1.5.RELEASE.jar!/org/springframework/security/web/authentication/www/BasicAuthenticationFilter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="43" column="83" lean-forward="false" selection-start-line="43" selection-start-column="79" selection-end-line="43" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultExceptionHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/exception/DefaultExceptionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1342">
+              <caret line="73" column="54" lean-forward="false" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="658">
+              <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -161,36 +434,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>findList</find>
-      <find>getPermissions</find>
-      <find>findByRoleCodes</find>
-      <find>menus/</find>
-      <find>findByUsername</find>
-      <find>RedisClientDetailsService</find>
-      <find>findMenusByRoleCodes</find>
-      <find>NacosDataSource</find>
-      <find>code-generator-serve</find>
-      <find>OAUTH_LOGIN_PRO_URL</find>
-      <find>缓存clientId</find>
-      <find>cacheAndGetClient</find>
-      <find>loadAllClientToCache</find>
-      <find>loadClientByClientId</find>
-      <find>UNAUTHORIZED</find>
-      <find>DefaultSecurityHandlerConfig</find>
+      <find>oauth/authorize</find>
+      <find>loginEntryPoint</find>
+      <find>ResponseData</find>
+      <find>ResponseUtil</find>
       <find>AuthenticationEntryPoint</find>
-      <find>redisTemplate</find>
-      <find>SERVER_RESOURCE_ID</find>
-      <find>LOGOUT_URL</find>
-      <find>Authorization</find>
-      <find>AUTH_CODE_URL</find>
-      <find>EnableOAuth2Sso</find>
-      <find>getClientId</find>
-      <find>AuthorizationServerConfigurerAdapter</find>
-      <find>ResourceServerConfigurerAdapter</find>
-      <find>/oauth/remove/token</find>
-      <find>zlt</find>
-      <find>fengshuonan</find>
-      <find>stylefeng</find>
+      <find>formLogin</find>
+      <find>security.oauth2</find>
+      <find>OAUTH_LOGIN_PRO_URL</find>
+      <find>allowFormAuthenticationForClients</find>
+      <find>用户名或密码错误</find>
+      <find>OauthLogin</find>
+      <find>AuthorizationCodeServices</find>
+      <find>getImplicitGrantResponse</find>
+      <find>getUserApprovalPageResponse</find>
+      <find>RandomValueAuthorizationCodeServices</find>
+      <find>RedisAuthorizationCodeServices</find>
+      <find>authorizationCodeServicesauthorizationCodeServices</find>
+      <find>authorizationRequestgetImplicitGrantResponse</find>
+      <find>SessionStatusgetAccessConfirmation</find>
+      <find>appendAccessToken</find>
+      <find>user_oauth_approval</find>
+      <find>approved</find>
+      <find>userApprovalHandler</find>
+      <find>10.199.6.23</find>
+      <find>authenticate(</find>
+      <find>DefaultPre</find>
+      <find>error_description</find>
+      <find>AuthenticationException</find>
+      <find>AuthenticationFailureHandler</find>
+      <find>myoauth</find>
     </findStrings>
     <replaceStrings>
       <replace>;</replace>
@@ -215,26 +488,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/exception/DefaultExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/controller/SysApisController.java" />
-        <option value="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/dao/mapping/SysPermissionsMapper.xml" />
-        <option value="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/model/SysPermissions.java" />
-        <option value="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/dao/SysPermissionsMapper.java" />
-        <option value="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/service/ISysPermissionsService.java" />
-        <option value="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/service/impl/SysPermissionsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/model/SysPermission.java" />
-        <option value="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/dto/SysPermissionDto.java" />
-        <option value="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/service/ISysUserService.java" />
-        <option value="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/service/impl/SysPermissionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/modular/consumer/MenuService.java" />
-        <option value="$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/service/impl/DefaultPermissionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/service/impl/SysUserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/model/user/SysPermission.java" />
-        <option value="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/dao/SysPermissionMapper.java" />
-        <option value="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/controller/SysPermissionsController.java" />
-        <option value="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/service/ISysPermissionService.java" />
-        <option value="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/provider/UserServiceProvider.java" />
-        <option value="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/dao/mapping/SysRoleMenuMapper.xml" />
         <option value="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/controller/ClientController.java" />
         <option value="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/dao/mapping/ClientMapper.xml" />
         <option value="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/modular/controller/TestController.java" />
@@ -245,9 +498,7 @@
         <option value="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/service/impl/RedisAuthorizationCodeServices.java" />
         <option value="$PROJECT_DIR$/doc/remark/auth2" />
         <option value="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/service/impl/RedisClientDetailsService.java" />
-        <option value="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/util/LogUtil.java" />
         <option value="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/model/constants/JasonConstants.java" />
-        <option value="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/model/constants/SecurityConstants.java" />
         <option value="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/model/constants/CommonConstant.java" />
         <option value="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/controller/SysUserController.java" />
         <option value="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/utils/RequestNoContext.java" />
@@ -255,17 +506,39 @@
         <option value="$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/util/AuthUtils.java" />
         <option value="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/core/filter/pre/UserInfoHeaderFilter.java" />
         <option value="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/core/feign/ZuulFeignHeaderProcessInterceptor.java" />
-        <option value="$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/config/DefaultAuthenticationEntryPoint.java" />
         <option value="$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/store/ResJwtTokenStore.java" />
-        <option value="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/annotation/EnableTokenStore.java" />
         <option value="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/config/ResourceServerConfiguration.java" />
-        <option value="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/ResourceServerConfiguration.java" />
         <option value="$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/util/JwtUtils.java" />
-        <option value="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/AuthorizationServerConfig.java" />
         <option value="$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/config/TokenStoreConfig.java" />
-        <option value="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/controller/OAuth2Controller.java" />
+        <option value="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/util/LogUtil.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-kernel/kernel-redis/pom.xml" />
         <option value="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/ResourceServerConfiguration.java" />
+        <option value="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/base/controller/GlobalErrorView.java" />
+        <option value="$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/config/DefaultAuthenticationEntryPoint.java" />
+        <option value="$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/config/DefaultSecurityHandlerConfig.java" />
+        <option value="$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/config/DefaultResourceServerConf.java" />
+        <option value="$PROJECT_DIR$/jason-business/auth-server/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-config/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/controller/AuthPageController.java" />
+        <option value="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/login.html" />
+        <option value="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/service/CustomJdbcAuthorizationCodeServices.java" />
+        <option value="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/ClientDetailsConfiguration.java" />
+        <option value="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/AuthorizationServerConfig.java" />
+        <option value="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/service/impl/CustomJdbcAuthorizationCodeServices.java" />
+        <option value="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/grant.html" />
+        <option value="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/controller/CustomAuthPageController.java" />
+        <option value="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/controller/OAuth2Controller.java" />
+        <option value="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/login.html" />
+        <option value="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/exception/DefaultExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/properties/PermitProperties.java" />
+        <option value="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/model/constants/SecurityConstants.java" />
+        <option value="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -298,43 +571,15 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="auth-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="auth-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="infra-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="infra-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="zuul-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="zuul-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="476" />
-    <option name="y" value="37" />
-    <option name="width" value="1516" />
-    <option name="height" value="1092" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -379,6 +624,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -389,38 +636,705 @@
             <path>
               <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
-              <item name="modular-log" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="remark" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jason-business" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
               <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="kernel-auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="kernel-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="kernel-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="kernel-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="kernel-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="kernel-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="central" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="kernel-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="central" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="kernel-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="central" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="kernel-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="central" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="kernel-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="central" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="kernel-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="central" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="kernel-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="central" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="kernel-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="central" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="kernel-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="kernel-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="kernel-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="kernel-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="kernel-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="kernel-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="central" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="kernel-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="central" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="kernel-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="central" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="kernel-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="central" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="kernel-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="central" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-microservice-support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-microservice-support" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-microservice-support" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-microservice-support" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-microservice-support" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-microservice-support" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-microservice-support" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="central" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-microservice-support" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="central" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-microservice-support" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="central" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-microservice-support" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-autoconfigure-2.1.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-autoconfigure-2.1.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-autoconfigure-2.1.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-autoconfigure-2.1.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-autoconfigure-2.1.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-autoconfigure-2.1.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-autoconfigure-2.1.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security.oauth:spring-security-oauth2:2.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security.oauth:spring-security-oauth2:2.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-2.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security.oauth:spring-security-oauth2:2.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-2.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security.oauth:spring-security-oauth2:2.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-2.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security.oauth:spring-security-oauth2:2.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-2.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security.oauth:spring-security-oauth2:2.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-2.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security.oauth:spring-security-oauth2:2.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-2.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security.oauth:spring-security-oauth2:2.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-2.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security.oauth:spring-security-oauth2:2.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-2.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security.oauth:spring-security-oauth2:2.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-2.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security.oauth:spring-security-oauth2:2.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-2.2.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="endpoint" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="authorization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-web:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-web:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-web-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-web:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-web-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-web:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-web-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-web:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-web-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-web:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-web-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-web:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-web-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-web:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-web-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-    <property name="last_opened_file_path" value="D:/IdeaProjects/Roses-master" />
+    <property name="last_opened_file_path" value="D:/IdeaProjects/cjs-oauth2-example-master" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3336414" />
@@ -436,19 +1350,19 @@
     <property name="Repository.Attach.Sources" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\open-smartcloud\jason-microservice-eureka" />
+      <recent name="D:\IdeaProjects\open-smartcloud\jason-microservice-support" />
+      <recent name="D:\IdeaProjects\open-smartcloud\doc" />
+      <recent name="D:\IdeaProjects\open-smartcloud\jason-business\infra-server\src\main\java\com\central\infra\modular\dao\mapping" />
+      <recent name="D:\IdeaProjects\open-smartcloud\jason-kernel\kernel-sentinel\src\main\resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.centratl" />
       <recent name="com.central.redis" />
       <recent name="com.central" />
       <recent name="com.central.message.service" />
       <recent name="com.central.message" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\github\open-smartcloud\jason-biz-support\modular-log\biz-support-log" />
-      <recent name="D:\github\open-smartcloud\jason-biz-support\modular-log\biz-support-log-api" />
-      <recent name="D:\github\open-smartcloud\jason-business\auth-server" />
-      <recent name="D:\github\open-smartcloud\jason-microservice-support\Sentinel-Dashboard-Nacos-1.6.2-NACOS\sentinel-dashboard" />
-      <recent name="D:\github\open-smartcloud\jason-kernel\kernel-swagger2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.central.oauth2.common.util" />
@@ -457,12 +1371,12 @@
       <recent name="com.central.infra.modular.dto" />
       <recent name="com.central.infra.modular.controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\open-smartcloud\jason-microservice-eureka" />
-      <recent name="D:\IdeaProjects\open-smartcloud\jason-microservice-support" />
-      <recent name="D:\IdeaProjects\open-smartcloud\doc" />
-      <recent name="D:\IdeaProjects\open-smartcloud\jason-business\infra-server\src\main\java\com\central\infra\modular\dao\mapping" />
-      <recent name="D:\IdeaProjects\open-smartcloud\jason-kernel\kernel-sentinel\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\open-smartcloud\jason-business\auth-server\src\main\resources\static" />
+      <recent name="D:\github\open-smartcloud\jason-business\auth-server\src\main\resources\static\assets" />
+      <recent name="D:\github\open-smartcloud\jason-biz-support\modular-log\biz-support-log" />
+      <recent name="D:\github\open-smartcloud\jason-biz-support\modular-log\biz-support-log-api" />
+      <recent name="D:\github\open-smartcloud\jason-business\auth-server" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -477,7 +1391,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ZuulGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.AuthServerApplication">
     <configuration name="AdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.central.AdminServerApplication" />
       <module name="admin-server" />
@@ -897,26 +1811,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2979415" sideWeight="0.46041667" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30411255" sideWeight="0.1609808" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20895523" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13166311" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5573593" sideWeight="0.78571427" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3716143" sideWeight="0.78571427" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21481876" sideWeight="0.7442177" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28837952" sideWeight="0.7442177" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31121752" sideWeight="0.2557823" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30844155" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2099567" sideWeight="0.8390192" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33152762" sideWeight="0.8390192" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1055,12 +1969,6 @@
           <option name="timeStamp" value="287" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/SecurityHandlerConfig.java</url>
-          <line>60</line>
-          <properties />
-          <option name="timeStamp" value="329" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/resolver/TokenArgumentResolver.java</url>
           <line>57</line>
           <properties />
@@ -1101,12 +2009,6 @@
           <line>75</line>
           <properties />
           <option name="timeStamp" value="380" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/controller/OAuth2Controller.java</url>
-          <line>62</line>
-          <properties />
-          <option name="timeStamp" value="409" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/service/impl/ValidateCodeServiceImpl.java</url>
@@ -1181,12 +2083,6 @@
           <option name="timeStamp" value="479" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/SecurityConfig.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="495" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/boot/spring-security-oauth2-autoconfigure/2.1.2.RELEASE/spring-security-oauth2-autoconfigure-2.1.2.RELEASE.jar!/org/springframework/boot/autoconfigure/security/oauth2/resource/ResourceServerTokenServicesConfiguration.class</url>
           <line>219</line>
           <properties />
@@ -1209,12 +2105,6 @@
           <line>55</line>
           <properties />
           <option name="timeStamp" value="511" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/exception/DefaultExceptionHandler.java</url>
-          <line>87</line>
-          <properties />
-          <option name="timeStamp" value="517" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/core/feign/ZuulFeignHeaderProcessInterceptor.java</url>
@@ -1265,12 +2155,6 @@
           <option name="timeStamp" value="589" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/base/controller/GlobalErrorView.java</url>
-          <line>45</line>
-          <properties />
-          <option name="timeStamp" value="593" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/converter/TokenArgumentResolver.java</url>
           <line>57</line>
           <properties />
@@ -1296,12 +2180,6 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/controller/OAuth2Controller.java</url>
-          <line>63</line>
-          <properties />
-          <option name="timeStamp" value="609" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/controller/OAuth2Controller.java</url>
           <line>191</line>
           <properties />
           <option name="timeStamp" value="610" />
@@ -1313,22 +2191,184 @@
           <option name="timeStamp" value="612" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/service/impl/ClientServiceImpl.java</url>
-          <line>56</line>
+          <url>file://$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/config/DefaultSecurityHandlerConfig.java</url>
+          <line>50</line>
           <properties />
-          <option name="timeStamp" value="616" />
+          <option name="timeStamp" value="664" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/model/reqres/response/ResponseData.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="680" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/model/reqres/response/ResponseData.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="682" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/model/reqres/response/ResponseData.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="685" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/model/reqres/response/ResponseData.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="686" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/controller/OAuth2Controller.java</url>
+          <line>204</line>
+          <properties />
+          <option name="timeStamp" value="687" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/controller/OAuth2Controller.java</url>
+          <line>219</line>
+          <properties />
+          <option name="timeStamp" value="688" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/service/impl/ClientServiceImpl.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="691" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/exception/DefaultExceptionHandler.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="693" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/service/impl/ClientServiceImpl.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="694" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/controller/ClientController.java</url>
           <line>26</line>
           <properties />
-          <option name="timeStamp" value="617" />
+          <option name="timeStamp" value="698" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/exception/DefaultExceptionHandler.java</url>
+          <url>file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/controller/CustomAuthPageController.java</url>
           <line>71</line>
           <properties />
-          <option name="timeStamp" value="624" />
+          <option name="timeStamp" value="700" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class</url>
+          <line>138</line>
+          <properties />
+          <option name="timeStamp" value="707" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="712" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/service/impl/RedisAuthorizationCodeServices.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="715" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/service/impl/RedisAuthorizationCodeServices.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="716" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/service/impl/RedisAuthorizationCodeServices.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="717" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/CheckTokenEndpoint.class</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="718" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/TokenEndpoint.class</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="723" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/TokenEndpoint.class</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="724" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="725" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.5.RELEASE/spring-security-web-5.1.5.RELEASE.jar!/org/springframework/security/web/authentication/www/BasicAuthenticationFilter.class</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="730" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.class</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="733" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.5.RELEASE/spring-security-web-5.1.5.RELEASE.jar!/org/springframework/security/web/authentication/www/BasicAuthenticationFilter.class</url>
+          <line>126</line>
+          <properties />
+          <option name="timeStamp" value="736" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.class</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="737" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/provider/authentication/OAuth2AuthenticationProcessingFilter.class</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="741" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/base/controller/GlobalErrorView.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="742" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="746" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.class</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="747" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="748" />
         </line-breakpoint>
         <line-breakpoint type="java-field">
           <url>file://$PROJECT_DIR$/jason-demo/nacos-config-client/src/main/java/com/central/demo/controller/TestController.java</url>
@@ -1352,398 +2392,402 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="652" />
+      <option name="time" value="749" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
-        <watch expression="securityProperties.getIgnore()" language="JAVA" />
-        <watch expression="securityProperties.getAuth()" language="JAVA" />
-        <watch expression="clientRedisKey(clientId)" language="JAVA" />
-        <watch expression="redisTemplate.opsForValue()" language="JAVA" />
-        <watch expression="(String) redisTemplate.boundHashOps(SecurityConstants.CACHE_CLIENT_KEY).get(clientId)" language="JAVA" />
+        <watch expression="HttpStatus" language="JAVA" />
+        <watch expression="principal" language="JAVA" />
+        <watch expression="authorizationRequest.isApproved()" language="JAVA" />
+        <watch expression="HttpContext.getResponse().getStatus()" language="JAVA" custom="com.central.core.utils.HttpContext" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.5.RELEASE/spring-security-web-5.1.5.RELEASE.jar!/org/springframework/security/web/AuthenticationEntryPoint.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.8.RELEASE/spring-webmvc-5.1.8.RELEASE.jar!/org/springframework/web/servlet/view/RedirectView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="75" column="19" lean-forward="true" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/service/impl/RedisAuthorizationCodeServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#2688#2689#0" expanded="true" />
+            <element signature="e#2731#2732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/approve.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/core/openid/OpenIdAuthenticationToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/remark/auth2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1049">
+          <caret line="72" column="87" lean-forward="true" selection-start-line="72" selection-start-column="87" selection-end-line="72" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/security/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-413">
+          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/provider/OAuth2Authentication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/provider/request/DefaultOAuth2RequestFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="47" column="47" lean-forward="false" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/util/AuthUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="85" column="89" lean-forward="false" selection-start-line="85" selection-start-column="73" selection-end-line="85" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/service/impl/CustomJdbcAuthorizationCodeServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/core/mobile/MobileAuthenticationToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/authentication/AbstractAuthenticationToken.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/provider/error/OAuth2AuthenticationEntryPoint.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/authentication/AuthenticationProvider.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="44" column="49" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="49" />
+        <state relative-caret-position="132">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/provider/error/WebResponseExceptionTranslator.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/authentication/AuthenticationManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/provider/AuthorizationRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="104" column="18" lean-forward="false" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/provider/authentication/OAuth2AuthenticationManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/provider/authentication/OAuth2AuthenticationProcessingFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="104" column="55" lean-forward="false" selection-start-line="104" selection-start-column="42" selection-end-line="104" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/base/controller/GlobalErrorView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.8.RELEASE/spring-webmvc-5.1.8.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="521" column="152" lean-forward="false" selection-start-line="521" selection-start-column="152" selection-end-line="521" selection-end-column="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.21/tomcat-embed-websocket-9.0.21.jar!/org/apache/tomcat/websocket/server/WsFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.10/druid-1.1.10-sources.jar!/com/alibaba/druid/support/http/WebStatFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="184" column="0" lean-forward="false" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.1.6.RELEASE/spring-boot-actuator-2.1.6.RELEASE.jar!/org/springframework/boot/actuate/web/trace/servlet/HttpTraceFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="74" column="42" lean-forward="true" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.8.RELEASE/spring-webmvc-5.1.8.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="441" column="0" lean-forward="false" selection-start-line="441" selection-start-column="0" selection-end-line="441" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.8.RELEASE/spring-webmvc-5.1.8.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="441" column="0" lean-forward="false" selection-start-line="441" selection-start-column="0" selection-end-line="441" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.21/tomcat-embed-core-9.0.21.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/common/exceptions/OAuth2Exception.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/common/exceptions/ClientAuthenticationException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="65" lean-forward="true" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/common/exceptions/InvalidClientException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="56" lean-forward="false" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/core/AuthenticationException.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE.jar!/org/springframework/boot/autoconfigure/security/oauth2/client/OAuth2ClientProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="115" column="31" lean-forward="false" selection-start-line="115" selection-start-column="23" selection-end-line="115" selection-end-column="31" />
-          <folding>
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#1015#1016#0" expanded="true" />
-          </folding>
+          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/config/DefaultSecurityHandlerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" column="166" lean-forward="false" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="166" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/utils/RequestNoContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="27" column="46" lean-forward="false" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/config/DefaultAuthenticationEntryPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/provider/token/TokenStore.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/store/RedisTemplateTokenStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="34" column="90" lean-forward="false" selection-start-line="34" selection-start-column="90" selection-end-line="34" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/provider/token/DefaultAuthenticationKeyGenerator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/DefaultPasswordConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/ResourceServerConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/ResourceServerConfiguration.java.bak">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/util/JwtUtils.java" />
-    <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="32" column="49" lean-forward="false" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="49" />
+        <state relative-caret-position="682">
+          <caret line="45" column="36" lean-forward="false" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/config/DefaultResourceServerConf.java">
+    <entry file="file://$PROJECT_DIR$/jason-microservice-eureka/api-gateway/src/main/java/com/central/client/oauth2/config/SecurityHandlerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/provider/client/BaseClientDetails.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1540">
-          <caret line="98" column="74" lean-forward="false" selection-start-line="98" selection-start-column="52" selection-end-line="98" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/client/token/DefaultAccessTokenRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/AuthServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/AuthorizationServerConfigurerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="883" column="0" lean-forward="false" selection-start-line="883" selection-start-column="0" selection-end-line="883" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/store/ResJwtTokenStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configurers/AuthorizationServerEndpointsConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/provider/token/store/JdbcTokenStore.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-792">
-          <caret line="60" column="109" lean-forward="false" selection-start-line="60" selection-start-column="96" selection-end-line="60" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/AuthorizationServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bak/oauth-server/src/main/java/com/central/oauth/controller/OAuth2Controller.java" />
-    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/model/constants/SecurityConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="150" column="11" lean-forward="false" selection-start-line="150" selection-start-column="11" selection-end-line="150" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/controller/OAuth2Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="195" column="82" lean-forward="false" selection-start-line="195" selection-start-column="82" selection-end-line="195" selection-end-column="82" />
-          <folding>
-            <marker date="1564048889230" expanded="false" signature="3897:6828" ph="{...}" />
-            <marker date="1564048889230" expanded="false" signature="7080:7890" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/config/ResourceServerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/annotation/EnableTokenStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/config/TokenStoreConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-business/infra-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="30" selection-end-column="16" />
+        <state relative-caret-position="462">
+          <caret line="49" column="11" lean-forward="false" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="826">
-          <caret line="58" column="42" lean-forward="false" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/open-smartcloud.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/store/AuthDbTokenStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-db/kernel-db.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1108">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/chain/context/SpanIdContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="28" column="63" lean-forward="false" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/chain/aop/ChainOnConsumerAop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-eureka/api-gateway/src/main/java/com/central/client/oauth2/authorize/AuthorizeConfigManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/core/filter/ValidateCodeFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="35" column="7" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/service/impl/LogProducerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/modular/service/impl/WithScannerTokenValidateServiceImpl.java.bak">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/service/TraceLogService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/entity/SendingTCLog.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jason-monitor/admin-server/.gitignore">
+    <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/controller/OAuth2Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="12" />
+        <state relative-caret-position="276">
+          <caret line="60" column="49" lean-forward="true" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/http/HttpStatus.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="79" column="4" lean-forward="false" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/authentication/InsufficientAuthenticationException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/SecurityHandlerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-db/.gitignore">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="638">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.2.2.RELEASE/spring-security-oauth2-2.2.2.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/TokenEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="65" column="80" lean-forward="false" selection-start-line="65" selection-start-column="71" selection-end-line="65" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.5.RELEASE/spring-security-web-5.1.5.RELEASE.jar!/org/springframework/security/web/authentication/www/BasicAuthenticationFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="43" column="83" lean-forward="false" selection-start-line="43" selection-start-column="79" selection-end-line="43" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/exception/DefaultExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1342">
+          <caret line="73" column="54" lean-forward="false" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="20" column="65" lean-forward="false" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/base-grant.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1452">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jason-demo/web-demo/.gitignore">
+    <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/controller/CustomAuthPageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="724">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/model/constants/SecurityConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="151" column="7" lean-forward="true" selection-start-line="151" selection-start-column="7" selection-end-line="151" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/service/CommonLogService.java">
+    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/properties/PermitProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="462">
+          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
           <folding />
         </state>
       </provider>

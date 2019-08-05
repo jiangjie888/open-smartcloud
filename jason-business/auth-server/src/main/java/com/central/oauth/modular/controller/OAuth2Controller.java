@@ -1,5 +1,5 @@
 package com.central.oauth.modular.controller;
-
+//import org.springframework.security.web.authentication.www.BasicAuthenticationFilter
 import com.central.core.model.constants.SecurityConstants;
 import com.central.core.model.reqres.response.ResponseData;
 import com.central.core.utils.ResponseUtil;
@@ -37,7 +37,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.Writer;
-
+///import org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter
 /**
  * OAuth2相关操作
  */

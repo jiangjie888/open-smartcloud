@@ -10,6 +10,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
+import org.springframework.core.annotation.Order;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -29,7 +30,9 @@ import javax.annotation.Resource;
  * spring security配置
  * 在WebSecurityConfigurerAdapter不拦截oauth要开放的资源
  */
+
 @Configuration
+@Order(-1)
 @EnableConfigurationProperties(SecurityProperties.class)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
@@ -82,7 +85,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .formLogin()
                     .loginPage(SecurityConstants.LOGIN_PAGE)
                     .loginProcessingUrl(SecurityConstants.OAUTH_LOGIN_PRO_URL)
-                    .successHandler(authenticationSuccessHandler)
+                    //.successHandler(authenticationSuccessHandler)
                     .failureHandler(authenticationFailureHandler)
                     .and()
 				.logout()
@@ -99,17 +102,19 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 				.apply(mobileAuthenticationSecurityConfig)
 					.and()
                 .csrf().disable()
+				//.httpBasic().and()
 				// 解决不允许显示在iframe的问题
 				.headers().frameOptions().disable().cacheControl();
 
+		http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.IF_REQUIRED);
 		// 基于密码 等模式可以无session,不支持授权码模式
-		if (authenticationEntryPoint != null) {
+		/*if (authenticationEntryPoint != null) {
 			http.exceptionHandling().authenticationEntryPoint(authenticationEntryPoint);
 			http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 		} else {
 			// 授权码模式单独处理，需要session的支持，此模式可以支持所有oauth2的认证
 			http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.IF_REQUIRED);
-		}
+		}*/
 	}
 
 	/**

@@ -19,17 +19,17 @@ import java.util.Map;
  */
 public class GlobalErrorView implements View {
 
-    private static final String NOT_FOUND = "404";
-    private static final String ERROR_PATH = "/error";
+    //private static final String NOT_FOUND = "404";
+    //private static final String ERROR_PATH = "/error";
 
-    @RequestMapping(value = ERROR_PATH)
+    /*@RequestMapping(value = ERROR_PATH)
     @ResponseStatus(value = HttpStatus.NOT_FOUND)
     public ResponseData handleError() {
         //RestResponse response = new RestResponse();
         //response.setCode(NOT_FOUND);
         //response.setMessage("Request resource not found.");
         return ResponseData.error(404,"Request resource not found.");
-    }
+    }*/
 
     /*@Override
     public String getErrorPath() {

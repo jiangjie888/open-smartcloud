@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
+import org.springframework.core.annotation.Order;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
@@ -16,6 +17,7 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.A
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer;
+import org.springframework.security.oauth2.provider.code.AuthorizationCodeServices;
 import org.springframework.security.oauth2.provider.code.RandomValueAuthorizationCodeServices;
 import org.springframework.security.oauth2.provider.error.WebResponseExceptionTranslator;
 import org.springframework.security.oauth2.provider.token.*;
@@ -27,6 +29,7 @@ import java.util.Arrays;
  * OAuth2 授权服务器配置
  */
 @Configuration
+@Order(99)
 @EnableAuthorizationServer
 @EnableTokenStore
 @AutoConfigureAfter(AuthorizationServerEndpointsConfigurer.class)
@@ -65,7 +68,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
     private RedisClientDetailsService clientDetailsService;
 
     @Autowired
-    private RandomValueAuthorizationCodeServices authorizationCodeServices;
+    private AuthorizationCodeServices authorizationCodeServices;
 
     /*
     * Token有效期配置，-1永不过期

@@ -122,7 +122,7 @@ public class LogUtil {
                 try {
                     //AbstractLoginContext bean = SpringUtil.getBean(AbstractLoginContext.class);
                     //AbstractLoginUser loginUser = bean.getLoginUser();
-                    LoginAppUser loginUser = SysUserUtil.getLoginAppUser();
+                    LoginAppUser loginUser = S.getLoginAppUser();
                     log.setAppCode(loginUser.getId().toString());
                     log.setAccountId(loginUser.getUsername() != null ? loginUser.getUsername().toString() : null);
                 } catch (Exception e) {

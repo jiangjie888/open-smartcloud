@@ -1,12 +1,11 @@
 package com.central.oauth.config;
 
-import com.central.oauth.modular.service.impl.RedisAuthorizationCodeServices;
+import com.central.oauth.modular.service.impl.CustomJdbcAuthorizationCodeServices;
 import com.central.oauth.modular.service.impl.RedisClientDetailsService;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.security.oauth2.provider.code.RandomValueAuthorizationCodeServices;
+import org.springframework.security.oauth2.provider.code.AuthorizationCodeServices;
 
 import javax.annotation.Resource;
 import javax.sql.DataSource;
@@ -29,10 +28,18 @@ public class ClientDetailsConfiguration {
         return clientDetailsService;
     }
 
-    @Bean
+    /**
+     * 授权码code
+     */
+    /*@Bean
     public RandomValueAuthorizationCodeServices authorizationCodeServices() {
         RedisAuthorizationCodeServices redisAuthorizationCodeServices = new RedisAuthorizationCodeServices();
         redisAuthorizationCodeServices.setRedisTemplate(redisTemplate);
         return redisAuthorizationCodeServices;
+    }*/
+
+    @Bean
+    protected AuthorizationCodeServices authorizationCodeServices() {
+        return new CustomJdbcAuthorizationCodeServices(dataSource);
     }
 }

@@ -121,11 +121,8 @@ public interface SecurityConstants {
     /**
      * OAUTH模式登录处理地址
      */
-    String OAUTH_LOGIN_PRO_URL = "/user/login";
-    /**
-     * PASSWORD模式登录处理地址
-     */
-    String PASSWORD_LOGIN_PRO_URL = "/oauth/user/token";
+    String OAUTH_LOGIN_PRO_URL = "/oauth/authorize";
+
     /**
      * 获取授权码地址
      */
@@ -142,6 +139,11 @@ public interface SecurityConstants {
     String LOGIN_PAGE = "/login.html";
 
     /**
+     * PASSWORD模式登录处理地址
+     */
+    String PASSWORD_LOGIN_PRO_URL = "/oauth/user/token";
+
+    /**
      * 默认的OPENID登录请求处理url
      */
     String OPENID_TOKEN_URL = "/oauth/openId/token";
@@ -149,6 +151,7 @@ public interface SecurityConstants {
      * 手机登录URL
      */
     String MOBILE_TOKEN_URL = "/oauth/mobile/token";
+
     /**
      * 登出URL
      */

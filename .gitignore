@@ -1,3 +1,5 @@
 jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-spring-cloud-gateway-adapter/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.adapter.gateway.common.api.ApiDefinitionChangeObserver
 jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-api-gateway-adapter-common/src/main/java/com/alibaba/csp/sentinel/adapter/gateway/common/command/UpdateGatewayApiDefinitionGroupCommandHandler.java
 jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-adapter/sentinel-api-gateway-adapter-common/src/main/java/com/alibaba/csp/sentinel/adapter/gateway/common/command/GetGatewayApiDefinitionGroupCommandHandler.java
+/jason-business/auth-server/target
+target

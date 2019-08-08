@@ -140,7 +140,7 @@
                 </executions>
             </plugin>
         </plugins>
-        <resources>
+        <!--<resources>
             <resource>
                 <directory>src/main/resources</directory>
                 <includes>
@@ -150,7 +150,7 @@
                 </includes>
                 <filtering>false</filtering>
             </resource>
-        </resources>
+        </resources>-->
         <finalName>auth-server</finalName>
     </build>
 </project>

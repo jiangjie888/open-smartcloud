@@ -65,6 +65,8 @@ public class ClientServiceImpl extends SuperServiceImpl<ClientMapper, Client> im
         return PageResult.<Client>builder().data(list).code(0).count(page.getTotal()).build();
     }
 
+
+
     @Override
     public void delClient(long id) {
         String clientId = baseMapper.selectById(id).getClientId();

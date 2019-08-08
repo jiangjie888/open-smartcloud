@@ -84,7 +84,8 @@ layui.define(['config', 'layer'], function (exports) {
             return layer.open(param);
         },
         // 封装ajax请求，返回数据类型为json
-        req: function (url, data, success, method) {
+        req: function (url, data, success, method,async) {
+            var async0 = arguments[4]==undefined ? true : arguments[4];
             if ('put' == method.toLowerCase()) {
                 // method = 'POST';
                 // data._method = 'PUT';
@@ -103,6 +104,7 @@ layui.define(['config', 'layer'], function (exports) {
                 url: config.base_server + url,
                 data: data,
                 type: method,
+                async:async0,
                 dataType: 'json',
                 contentType: "application/json",
                 success: success,
@@ -161,7 +163,7 @@ layui.define(['config', 'layer'], function (exports) {
                 param.success({code: xhr.status, msg: xhr.statusText});
             };
             //发送同步ajax请求
-            param.async = false;
+            //param.async = false;
             console.log(param);
             $.ajax(param);
         },

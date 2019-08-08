@@ -85,7 +85,7 @@ jason:
       menusPaths: /api-infra/menus/current
     auth:
       # 配置必需认证的url
-      httpUrls: /api-uaa/clients/**
+      #httpUrls: /api-uaa/clients/**
       #是否开启url级别权限
       urlEnabled: false
 

@@ -1,7 +1,9 @@
 package com.central.oauth.modular.controller;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.central.core.model.page.PageResult;
 import com.central.core.model.reqres.response.ResponseData;
+import com.central.core.model.user.SysPermission;
 import com.central.oauth.modular.dto.ClientDto;
 import com.central.oauth.modular.model.Client;
 import com.central.oauth.modular.service.IClientService;
@@ -39,6 +41,17 @@ public class ClientController {
         PageResult<Client> page = clientService.listClient(Maps.newHashMap(), false);
         return page.getData();
     }
+
+    @ApiOperation(value = "所有PC端应用")
+    @RequestMapping(value="/listpc",method=RequestMethod.GET)
+    public ResponseData allPcClient() {
+        List<Client> output;
+        QueryWrapper<Client> wrapper = new QueryWrapper<>();
+        wrapper.eq("type",1);
+        output = clientService.list(wrapper);
+        return ResponseData.success(output);
+    }
+
 
     @DeleteMapping("/{id}")
     @ApiOperation(value = "删除应用")

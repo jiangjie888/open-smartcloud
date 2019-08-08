@@ -17,11 +17,13 @@ import org.springframework.core.convert.converter.Converter;
 import org.springframework.core.convert.support.GenericConversionService;
 import org.springframework.web.bind.support.ConfigurableWebBindingInitializer;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter;
 
 import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
 import java.util.Date;
 import java.util.List;
 
@@ -32,6 +34,8 @@ import java.util.List;
  */
 @Configuration
 public class WebAutoConfig extends WebMvcConfigurationSupport {
+    //@Resource
+    //private BaseInterceptor baseInterceptor;
 
     @Lazy
     @Autowired
@@ -47,6 +51,12 @@ public class WebAutoConfig extends WebMvcConfigurationSupport {
         super.addInterceptors(registry);
     }*/
 
+    /*@Override
+    public void addInterceptors(InterceptorRegistry registry) {
+        //需要配置2：----------- 告知拦截器：/static/admin/** 与 /static/user/** 不需要拦截 （配置的是 路径）
+        registry.addInterceptor(baseInterceptor).excludePathPatterns("/static/**");
+    }*/
+
     /**
      * 增加swagger的支持，静态文件支持
      */
@@ -55,8 +65,9 @@ public class WebAutoConfig extends WebMvcConfigurationSupport {
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("swagger-ui.html").addResourceLocations("classpath:/META-INF/resources/");
         registry.addResourceHandler("/webjars/**").addResourceLocations("classpath:/META-INF/resources/webjars/");
-        registry.addResourceHandler("/**").addResourceLocations("classpath:/static/");
-        super.addResourceHandlers(registry);
+        //registry.addResourceHandler("/**").addResourceLocations("classpath:/resources/");
+        registry.addResourceHandler("/static/**").addResourceLocations("classpath:/static/");
+        //super.addResourceHandlers(registry);
     }
 
     /**

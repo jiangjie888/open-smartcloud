@@ -18,8 +18,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;
 
 @Api(tags = "用户服务消费者")
-//@FeignClient(name = "infra-server", configuration =ServiceFeignConfiguration.class, fallbackFactory = UserServiceFallbackFactory.class, decode404 = true)
-@FeignClient(name = "infra-server")
+@FeignClient(name = "infra-server", configuration =ServiceFeignConfiguration.class, fallbackFactory = UserServiceFallbackFactory.class, decode404 = true)
+//@FeignClient(name = "infra-server")
 public interface UserServiceConsumer /*extends UserService*/ {
     /**
      * feign rpc访问远程/users/{username}接口

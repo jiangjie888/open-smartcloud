@@ -18,6 +18,16 @@ public class Client extends Model<Client> {
 
    @TableId(value = "id", type = IdType.AUTO)
    private Long id;
+
+   @TableField(value = "name")
+   private String name;
+
+   @TableField(value = "type")
+   private Integer type;
+
+   @TableField(value = "icon")
+   private String icon;
+
    @TableField(value = "client_id")
    private String clientId;
 

@@ -4,13 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>open-smartcloud</artifactId>
         <groupId>com.smartcloud</groupId>
+        <artifactId>open-smartcloud</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-
-    <artifactId>business-center</artifactId>
+    <artifactId>jason-business</artifactId>
     <packaging>pom</packaging>
 
     <modules>

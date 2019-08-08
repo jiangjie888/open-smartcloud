@@ -1,59 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2597e530-7e4e-46e0-b159-1337d086ad5b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/auth-server.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/auth-server.jar.original" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/bootstrap.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/AuthServerApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/AuthorizationServerConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/ClientDetailsConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/CorsConfigration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/KaptchaConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/MybatisPlusConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/SecurityConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/SecurityHandlerConfig$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/SecurityHandlerConfig$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/SecurityHandlerConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/config/ValidateCodeSecurityConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/core/exception/ValidateCodeException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/core/filter/ValidateCodeFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/core/handler/OauthLogoutHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/core/mobile/MobileAuthenticationProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/core/mobile/MobileAuthenticationSecurityConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/core/mobile/MobileAuthenticationToken.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/core/openid/OpenIdAuthenticationProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/core/openid/OpenIdAuthenticationSecurityConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/core/openid/OpenIdAuthenticationToken.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/consumer/UserServiceConsumer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/consumer/fallback/UserServiceFallbackFactory$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/consumer/fallback/UserServiceFallbackFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/controller/ClientController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/controller/OAuth2Controller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/controller/TestController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/controller/ValidateCodeController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/dao/ClientMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/dao/mapping/ClientMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/dto/ClientDto.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/model/Client.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/service/BaseUserDetailsService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/service/IClientService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/service/IValidateCodeService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/service/impl/ClientServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/service/impl/RedisAuthorizationCodeServices.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/service/impl/RedisClientDetailsService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/service/impl/UserDetailServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/com/central/oauth/modular/service/impl/ValidateCodeServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/jason.jks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/pubkey.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/classes/static/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/auth-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="2597e530-7e4e-46e0-b159-1337d086ad5b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka-center/target/" />
@@ -181,7 +129,7 @@
         <entry file="file://$PROJECT_DIR$/jason-business/auth-server/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1283,10 +1231,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30411255" sideWeight="0.1609808" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18496802" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.52979416" sideWeight="0.78571427" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.52979416" sideWeight="0.78571427" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26599148" sideWeight="0.7442177" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26599148" sideWeight="0.7442177" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31121752" sideWeight="0.2557823" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2337,7 +2285,7 @@
     <entry file="file://$PROJECT_DIR$/jason-business/auth-server/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>

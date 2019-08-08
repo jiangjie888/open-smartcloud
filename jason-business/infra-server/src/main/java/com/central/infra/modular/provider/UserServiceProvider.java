@@ -54,7 +54,8 @@ public class UserServiceProvider implements UserService {
     @ApiOperation(value = "根据用户名查询用户")
     public LoginAppUser findByUsername(@RequestParam("username") String username)
     {
-        return sysUserService.findByUsername(username);
+        LoginAppUser u = sysUserService.findByUsername(username);
+        return u;
     }
 
     /**

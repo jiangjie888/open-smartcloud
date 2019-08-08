@@ -1,0 +1,37 @@
+package com.central.demo.account.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+
+/**
+ * 全局配置
+ */
+@Configuration
+public class ContextConfig {
+
+    /**
+     * 调用链治理
+     */
+    @Bean
+    public ChainOnConsumerAop chainOnConsumerAop() {
+        return new ChainOnConsumerAop();
+    }
+
+    /**
+     * 调用链治理
+     */
+    @Bean
+    public ChainOnControllerAop chainOnControllerAop() {
+        return new ChainOnControllerAop();
+    }
+
+    /**
+     * 调用链治理
+     */
+    @Bean
+    public ChainOnProviderAop chainOnProviderAop() {
+        return new ChainOnProviderAop();
+    }
+
+}

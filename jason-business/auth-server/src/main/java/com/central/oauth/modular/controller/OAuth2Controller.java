@@ -28,9 +28,7 @@ import org.springframework.security.oauth2.provider.OAuth2Authentication;
 import org.springframework.security.oauth2.provider.OAuth2Request;
 import org.springframework.security.oauth2.provider.TokenRequest;
 import org.springframework.security.oauth2.provider.token.AuthorizationServerTokenServices;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
@@ -57,8 +55,10 @@ public class OAuth2Controller {
     @Autowired
     private AuthenticationManager authenticationManager;
 
+
+    @ResponseBody
     @ApiOperation(value = "用户名密码获取token")
-    @PostMapping(SecurityConstants.PASSWORD_LOGIN_PRO_URL)
+    @RequestMapping(value = { SecurityConstants.PASSWORD_LOGIN_PRO_URL }, method = { RequestMethod.POST }, produces="application/json;charset=UTF-8")
     public void getUserTokenInfo(@RequestParam String username,@RequestParam String password,HttpServletRequest request, HttpServletResponse response) throws IOException {
         UsernamePasswordAuthenticationToken token = new UsernamePasswordAuthenticationToken(username, password);
         writerToken(request, response, token, "用户名或密码错误");

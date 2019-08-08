@@ -14,6 +14,34 @@
 	<description>测试nacos配置中心客户端</description>
 
 	<dependencies>
+		<dependency>
+			<groupId>com.smartcloud</groupId>
+			<artifactId>kernel-ribbon</artifactId>
+			<version>${core.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.smartcloud</groupId>
+					<artifactId>kernel-core</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>com.smartcloud</groupId>
+			<artifactId>kernel-core</artifactId>
+			<version>${core.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.smartcloud</groupId>
+					<artifactId>kernel-db</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>com.smartcloud</groupId>
+			<artifactId>jason-config</artifactId>
+			<version>${core.version}</version>
+		</dependency>
 		<!-- swagger -->
 
 		<dependency>
@@ -22,7 +50,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+			<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>

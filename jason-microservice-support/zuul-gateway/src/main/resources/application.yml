@@ -79,6 +79,8 @@ jason:
         /api-infra/test/**,
         /login.html,
         /user/login
+        /js/**,
+        /css/**
       # 配置只认证登录，登录后所有角色都能访问的url
       menusPaths: /api-infra/menus/current
     auth:

@@ -56,15 +56,18 @@ jason:
     ignore:
       # 忽略认证的地址
       httpUrls: >
+        /test/**,
         /validata/**,
         /clients,
         /clients/**,
         /login.html,
-        /grant.html,
+        /approve.html,
         /js/**,
         /css/**,
         /images/**,
-        /oauth/**
+        /oauth/**,
+        /oauth/**,
+        /actuator/**
     code:
       # 忽略验证码的应用编号
       ignoreClientCode: webApp

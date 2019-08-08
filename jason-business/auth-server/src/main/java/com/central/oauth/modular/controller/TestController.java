@@ -11,6 +11,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.security.authentication.InternalAuthenticationServiceException;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -66,6 +67,15 @@ public class TestController {
 	public LoginAppUser rvlJson(@RequestParam String jsonstr) {
 		LoginAppUser resulut = JSON.parseObject(jsonstr,LoginAppUser.class);
 		return resulut;
+	}
+
+	@GetMapping("/testFeign")
+	public LoginAppUser testFeign() {
+		LoginAppUser loginAppUser = userServiceConsumer.findByUsername("admin");
+		if (loginAppUser == null) {
+			throw new InternalAuthenticationServiceException("Feign获取用户失败");
+		}
+		return loginAppUser;
 	}
 
 }

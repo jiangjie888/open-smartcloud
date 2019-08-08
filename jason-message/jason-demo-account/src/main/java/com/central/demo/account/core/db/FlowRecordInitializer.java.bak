@@ -1,0 +1,33 @@
+package com.central.demo.account.core.db;
+
+import org.springframework.stereotype.Component;
+
+/**
+ * 流水记录表初始化
+ */
+@Component
+public class FlowRecordInitializer extends DbInitializer {
+
+    @Override
+    public String getTableInitSql() {
+        return "CREATE TABLE `flow_record` (\n" +
+                "  `id` bigint(20) NOT NULL,\n" +
+                "  `user_id` bigint(20) NOT NULL COMMENT '用户id',\n" +
+                "  `order_id` bigint(20) DEFAULT NULL COMMENT '订单id',\n" +
+                "  `name` varchar(255) NOT NULL COMMENT '流水名称',\n" +
+                "  `sum` decimal(10,2) NOT NULL COMMENT '总价',\n" +
+                "  `create_time` datetime NOT NULL COMMENT '创建时间',\n" +
+                "  PRIMARY KEY (`id`)\n" +
+                ") ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='流水记录';";
+    }
+
+    @Override
+    public String getTableName() {
+        return "flow_record";
+    }
+
+    @Override
+    public Class<?> getEntityClass() {
+        return FlowRecord.class;
+    }
+}

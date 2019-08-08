@@ -24,3 +24,14 @@ encrypt:
     location: classpath:jason.jks
     secret: jason!@#$
     alias: jason
+
+infra-server:
+  ribbon:
+    ReadTimeout: 60000
+    ConnectTimeout: 60000
+
+
+ribbon:
+  eager-load:
+    enabled: true
+    clients: infra-server

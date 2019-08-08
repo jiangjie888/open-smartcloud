@@ -136,21 +136,22 @@
     <div class="login-body">
         <div class="web_login">
             <div class="title" id="title_2">登录</div>
-            <form action="/oauth/authorize" method="post">
+            <!--<form action="/oauth/authorize" method="post">-->
+            <form>
                 <div class="uinArea" id="uinArea">
                         <div class="inputOuter">
-                            <input name="username" type="text"  placeholder="支持账号/邮箱/手机号" class="inputstyle" value="" tabindex="1">
+                            <input id="username" name="username" type="text"  placeholder="支持账号/邮箱/手机号" class="inputstyle" value="" tabindex="1">
                         </div>
                 </div>
                 <div class="pwdArea" id="pwdArea">
                     <div class="inputOuter">
-                        <input name="password" type="text"  placeholder="请输入登录密码" class="inputstyle" value="" tabindex="1">
+                        <input id="password" name="password" type="text"  placeholder="请输入登录密码" class="inputstyle" value="" tabindex="1">
                     </div>
                 </div>
 
                 <div class="submit">
                     <a class="login_button" href="javascript:void(0);" hidefocus="true">
-                        <input type="submit" tabindex="6" value="授权并登录" class="btn" id="login_button">
+                        <input tabindex="6" value="授权并登录" class="btn" id="login_button">
                     </a>
                 </div>
                 <!--提示：为保障帐号安全，请认准本页URL地址必须以 api.weibo.com 开头-->
@@ -163,5 +164,73 @@
     </div>-->
 
 </div>
+<script type="text/javascript" src="api-uaa/js/jquery-3.2.1.min.js"></script>
+<script type='text/javascript'>
+    $(document).ready(function () {
+        var page = {
+            init: function () {
+                page.autoSize();
+                page.initControl();
+                page.eventBind();
+            },
+            autoSize: function () {
+            },
+            eventBind: function () {
+                //页面Resize
+                $(window).resize(function () {
+                    page.autoSize();
+                });
+
+                $('#username').focus();
+
+                $('#login_button').click(function (e) {
+                    e.preventDefault();
+                    if ($('#username').val() === "") {
+                        alert('用户名不允许为空');
+                        $('#username').focus();
+                        return;
+                    }
+                    if ($('#password').val() === "") {
+                        alert('用户密码不允许为空');
+                        $('#password').focus();
+                        return;
+                    }
+                    $.ajax({
+                        type: 'post',
+                        dataType: "json",
+                        contentType: 'application/json',
+                        url: '/oauth/authorize',
+
+                        async: true,
+                        data: JSON.stringify({ "username": $("#username").val(), "password": $("#password").val() }),
+                        success: function (response) {
+                            if (response.success) {
+                                log.console(response);
+                            } else {
+                                alert(response.message);
+                                return;
+                            }
+                        }
+                    });
+                });
+
+
+                //绑定Enter事件
+                document.onkeydown = function (_event) {
+                    _event = (_event) ? _event : ((window.event) ? window.event : "");
+                    var k = _event.keyCode ? _event.keyCode : _event.which;
+                    if (k === 13) { //判断是否为回车
+                        $('#login_button').trigger("click");
+                    }
+                };
+
+            },
+            initControl: function () {
+            }
+        };
+        //页面初始化
+        page.init();
+    });
+</script>
 </body>
 </html>

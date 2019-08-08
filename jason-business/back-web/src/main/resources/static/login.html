@@ -94,9 +94,9 @@
 
             layer.load(2);
             $.ajax({
-                //url: config.base_server + '/oauth/token',
-                url: config.base_server + 'api-uaa/oauth/token',
-                //url:   'http://127.0.0.1:8000/oauth/token',
+                //url: config.base_server + '/oauth/token',?client_id=webApp&client_secret=webApp
+                url: config.base_server + 'api-uaa/oauth/user/token',
+                ///url:   'http://127.0.0.1:9000/api-uaa/oauth/user/token',
                 data: field,
                 type: 'POST',
                 //dataType: "JSON",
@@ -129,6 +129,9 @@
                     }else if( xhr.status  == 0){
                         layer.msg('网关异常,请联系管理员', {icon: 5, time: 900});
                     }*/
+                    if( xhr.status  == 0){
+                        layer.msg('网关异常,请联系管理员', {icon: 5, time: 1000});
+                    }
                     layer.msg(xhr.responseJSON.message, {icon: 5, time: 1000});
                 }
             });

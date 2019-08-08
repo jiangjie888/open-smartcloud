@@ -7,6 +7,7 @@ import com.central.oauth.core.openid.OpenIdAuthenticationSecurityConfig;
 import com.central.oauth2.common.properties.SecurityProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
@@ -14,10 +15,14 @@ import org.springframework.core.annotation.Order;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.builders.WebSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter;
+import org.springframework.security.oauth2.provider.client.ClientCredentialsTokenEndpointFilter;
 import org.springframework.security.web.AuthenticationEntryPoint;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
@@ -26,13 +31,15 @@ import org.springframework.security.web.authentication.logout.LogoutHandler;
 
 import javax.annotation.Resource;
 
+
 /**
  * spring security配置
  * 在WebSecurityConfigurerAdapter不拦截oauth要开放的资源
  */
 
 @Configuration
-@Order(-1)
+//@Order(-1)
+@EnableWebSecurity
 @EnableConfigurationProperties(SecurityProperties.class)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
@@ -74,6 +81,28 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	public AuthenticationManager authenticationManagerBean() throws Exception {
 		return super.authenticationManagerBean();
 	}
+
+	/*@Bean
+	public ClientCredentialsTokenEndpointFilter clientCredentialsTokenEndpointFilter(AuthenticationManager authenticationManager) throws Exception {
+		ClientCredentialsTokenEndpointFilter clientCredentialsTokenEndpointFilter = new ClientCredentialsTokenEndpointFilter();
+		clientCredentialsTokenEndpointFilter.setAuthenticationManager(authenticationManager);
+		return clientCredentialsTokenEndpointFilter;
+	}*/
+
+	/*@Bean
+	public FilterRegistrationBean testFilterRegistration() {
+		FilterRegistrationBean registration = new FilterRegistrationBean(new ClientCredentialsTokenEndpointFilter());
+        registration.addUrlPatterns("/oauth/token"); //
+        //registration.addInitParameter("paramName", "paramValue"); //
+        registration.setName("clientCredentialsTokenEndpointFilter");
+		registration.setOrder(1);
+		return registration;
+	}*/
+
+	/*@Override
+	public void configure(WebSecurity web) throws Exception {
+		web.ignoring().antMatchers("/actuator/**");
+	}*/
 
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {

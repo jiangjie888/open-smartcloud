@@ -30,7 +30,7 @@ public class TestController {
 	@GetMapping("/hello")
 	@ApiOperation(value = "hello test")
 	public String hello() {
-		return "hello infra server";
+		return "hello zuul gateway";
 	}
 
 	/*@GetMapping("/testMybatisPlus")

@@ -20,7 +20,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-
+/*
+* 自动刷新token
+* */
 public class DefaultAuthenticationEntryPoint extends OAuth2AuthenticationEntryPoint {
 
     @Autowired

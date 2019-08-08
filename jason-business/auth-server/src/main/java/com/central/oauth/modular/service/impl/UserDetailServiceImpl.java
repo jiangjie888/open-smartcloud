@@ -4,6 +4,7 @@ import com.central.core.model.user.LoginAppUser;
 import com.central.oauth.modular.consumer.UserServiceConsumer;
 import com.central.oauth.modular.service.BaseUserDetailsService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.DisabledException;
 import org.springframework.security.authentication.InternalAuthenticationServiceException;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -18,7 +19,7 @@ import javax.annotation.Resource;
 @Slf4j
 @Service
 public class UserDetailServiceImpl implements BaseUserDetailsService, SocialUserDetailsService {
-    @Resource
+    @Autowired
     private UserServiceConsumer userServiceConsumer;
 
     @Override

@@ -8,6 +8,8 @@ jason:
     server-addr: 172.16.4.130:8848
 
 spring:
+#  resources:
+#    static-locations: classpath:/templates/,classpath:/static/
   application:
     name: auth-server
   cloud:

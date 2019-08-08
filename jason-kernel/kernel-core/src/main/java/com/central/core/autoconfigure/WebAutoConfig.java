@@ -67,7 +67,7 @@ public class WebAutoConfig extends WebMvcConfigurationSupport {
         registry.addResourceHandler("/webjars/**").addResourceLocations("classpath:/META-INF/resources/webjars/");
         //registry.addResourceHandler("/**").addResourceLocations("classpath:/resources/");
         registry.addResourceHandler("/static/**").addResourceLocations("classpath:/static/");
-        //super.addResourceHandlers(registry);
+        super.addResourceHandlers(registry);
     }
 
     /**

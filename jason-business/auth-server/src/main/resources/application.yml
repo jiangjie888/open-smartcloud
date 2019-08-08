@@ -1,8 +1,8 @@
 spring:
-  thymeleaf:
-    prefix: classpath:/static/
-    suffix: .html
-    cache: false
+#  thymeleaf:
+#    prefix: classpath:/static/
+#    suffix: .html
+#    cache: false
   datasource:
     dynamic:
       enable: true

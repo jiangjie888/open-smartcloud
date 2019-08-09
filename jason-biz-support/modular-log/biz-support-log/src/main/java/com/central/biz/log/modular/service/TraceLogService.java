@@ -7,6 +7,7 @@ import com.central.biz.log.modular.factory.TraceLogFactory;
 import com.central.biz.log.modular.model.TraceLogCondition;
 import com.central.biz.log.modular.model.TraceLogParams;
 import com.central.core.model.page.PageResultPlus;
+import com.central.db.annotation.DataSource;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -15,6 +16,7 @@ import java.util.List;
  * 服务实现类
  */
 @Service
+@DataSource(name="log")
 public class TraceLogService extends ServiceImpl<TraceLogMapper, TraceLog> {
 
     /**

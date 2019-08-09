@@ -23,24 +23,24 @@ public class TestController {
 	private static final Logger logger = LoggerFactory.getLogger(TestController.class);
 
 
-	@GetMapping("/hello")
 	@ApiOperation(value = "hello test")
+	@GetMapping("/hello")
 	public String hello() {
 		return "hello log server";
 	}
 
 
+	@ApiOperation(value = "测试RequestData解析dictId")
 	@SentinelResource("testRequestdata")
 	@PostMapping("/requestdata")
-	@ApiOperation(value = "测试RequestData解析dictId")
 	public Long login(RequestData requestData) {
 		Long dictTypeId = requestData.getLong("dictId");
 		RequestData d  = RequestDataHolder.get();
 		return dictTypeId;
 	}
 
-	@GetMapping("/hello")
 	@ApiOperation(value = "测试手工写一条日志")
+	@GetMapping("/addLogMsg")
 	public void addLogMsg() {
 		String romStr = ToolUtil.getRandomString(10);
 		LogUtil.debug("测试手工写一条日志" + romStr);

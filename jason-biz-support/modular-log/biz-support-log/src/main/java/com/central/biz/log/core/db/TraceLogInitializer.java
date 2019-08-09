@@ -2,10 +2,12 @@ package com.central.biz.log.core.db;
 
 import com.central.biz.log.api.entity.TraceLog;
 import com.central.core.db.DbInitializer;
+import com.central.db.annotation.DataSource;
 
 /**
  * 调用链日志的初始化
  */
+@DataSource(name="log")
 public class TraceLogInitializer extends DbInitializer {
 
     @Override

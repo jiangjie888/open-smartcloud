@@ -2,206 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2597e530-7e4e-46e0-b159-1337d086ad5b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/config/CorsConfigration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jason-business/user-server/src/main/resources/static/login.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_stylefeng_roses_kernel_model_unknown.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_support_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_5_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_0_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_0_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_9_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/mapper/CommonLogMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/mapper/TraceLogMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/mapper/mapping/CommonLogMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/mapper/mapping/TraceLogMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/test/java/cn/stylefeng/roses/biz/log/modular/service/CommonLogServiceTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/test/java/cn/stylefeng/roses/biz/log/modular/service/TraceLogServiceTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/test/resources/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/target/classes/com/central/biz/log/modular/mapper/mapping/CommonLogMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/target/classes/com/central/biz/log/modular/mapper/mapping/TraceLogMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/mvnw" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/mvnw.cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/test/java/com/central/InfraServerApplicationTests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/logs/eureka-server-info.2018-10-12.0.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/model/constants/JasonConstants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/utils/HttpSessionContext.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/constants/JasonConstants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/HttpSessionContext.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-kernel/kernel-db/src/main/java/com/central/db/config/MyMetaObjectHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-kernel/kernel-db/target/classes/com/central/db/config/MyMetaObjectHandler.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/DefaultAsycTaskConfig.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/DefaultAsycTaskConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/FastjsonAutoConfig.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/FastjsonAutoConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/MD5PasswordEncoder.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/MD5PasswordEncoder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/WebAutoConfig$StringToDateConverter.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/WebAutoConfig$StringToDateConverter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/WebAutoConfig.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/WebAutoConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/aop/ParamValidateAop.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/aop/ParamValidateAop.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/aop/RequestDataAop.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/aop/RequestDataAop.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/port/PortApplicationEnvironmentPreparedEventListener.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/port/PortApplicationEnvironmentPreparedEventListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/port/props/RandomServerPort.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/port/props/RandomServerPort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/port/props/RandomServerPortPropertySource.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/port/props/RandomServerPortPropertySource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/properties/AppNameProperties.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/properties/AppNameProperties.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/properties/DruidProperties.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/properties/DruidProperties.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/base/controller/BaseController.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/base/controller/BaseController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/base/controller/GlobalErrorView.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/base/controller/GlobalErrorView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/base/warpper/BaseControllerWrapper.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/base/warpper/BaseControllerWrapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/converter/RequestDataMessageConvert.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/converter/RequestDataMessageConvert.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/converter/RequestDataTypeMethodProcessor.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/converter/RequestDataTypeMethodProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/converter/TokenArgumentResolver.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/converter/TokenArgumentResolver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/db/DbInitializer.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/db/DbInitializer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/db/listener/InitTableListener.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/db/listener/InitTableListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/easypoi/user/SysUserExcel.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/easypoi/user/SysUserExcel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/exception/ApiServiceException.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/exception/ApiServiceException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/exception/DefaultExceptionHandler.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/exception/DefaultExceptionHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/exception/RequestEmptyException.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/exception/RequestEmptyException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/exception/ServiceException.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/exception/ServiceException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/exception/enums/CoreExceptionEnum.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/exception/enums/CoreExceptionEnum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/feign/FeignErrorDecoder$1.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/feign/FeignErrorDecoder$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/feign/FeignErrorDecoder.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/feign/FeignErrorDecoder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/feign/FeignHeaderProcessInterceptor.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/feign/FeignHeaderProcessInterceptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/lock/AbstractDistributedLock.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/lock/AbstractDistributedLock.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/lock/DistributedLock.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/lock/DistributedLock.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/api/UserService.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/api/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/api/base/AbstractBaseRequest.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/api/base/AbstractBaseRequest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/common/AuditedEntity.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/common/AuditedEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/common/FullAuditedEntity.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/common/FullAuditedEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/enums/DeleteFlagEnum.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/enums/DeleteFlagEnum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/enums/StatusEnum.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/enums/StatusEnum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/enums/UserType.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/enums/UserType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/enums/YesOrNotEnum.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/enums/YesOrNotEnum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/log/SysLog$SysLogBuilder.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/log/SysLog$SysLogBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/log/SysLog.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/log/SysLog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/page/PageQuery.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/page/PageQuery.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/page/PageResult$PageResultBuilder.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/page/PageResult$PageResultBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/page/PageResult.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/page/PageResult.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/page/PageResultPlus.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/page/PageResultPlus.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/reqres/request/RequestData.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/reqres/request/RequestData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/reqres/response/ErrorResponseData.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/reqres/response/ErrorResponseData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/reqres/response/ResponseData.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/reqres/response/ResponseData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/reqres/response/SuccessResponseData.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/reqres/response/SuccessResponseData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/user/LoginAppUser.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/user/LoginAppUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/user/SysMenu.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/user/SysMenu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/user/SysPermission.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/user/SysPermission.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/user/SysRole.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/user/SysRole.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/user/SysUser.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/user/SysUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/user/SysUserRole.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/model/user/SysUserRole.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/service/ISuperService.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/service/ISuperService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/service/impl/SuperServiceImpl.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/service/impl/SuperServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/CheckUtil.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/CheckUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/MvcAdapter.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/MvcAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/PageFactory.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/PageFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/RenderUtil.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/RenderUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/RequestDataHolder.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/RequestDataHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/RequestNoContext.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/RequestNoContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/ResponseUtil.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/ResponseUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/SpringUtil.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/SpringUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/ToolUtil.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/ToolUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/ValidateUtil.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/utils/ValidateUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/back_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/back_web_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/kernel_logger_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/kernel_logger_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/logs/infra-server-error.2019-07-08.0.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/logs/infra-server-error.2019-07-10.0.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/logs/infra-server-info.2019-07-08.0.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/logs/infra-server-info.2019-07-10.0.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/InfraServerApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/config/AsycTaskExecutorConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/config/CorsConfigration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/config/MybatisPlusConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/config/PasswordConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/config/SwaggerConfig.java.bak0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/config/SwaggerConfig.java.bak1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/controller/RedisController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/controller/SysMenuController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/controller/SysPermissionsController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/controller/SysRoleController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/controller/SysUserController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/controller/TestController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/dao/SysMenuMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/dao/SysPermissionMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/dao/SysRoleMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/dao/SysRoleMenuMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/dao/SysUserMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/dao/SysUserRoleMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/dao/mapping/SysMenuMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/dao/mapping/SysPermissionMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/dao/mapping/SysRoleMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/dao/mapping/SysRoleMenuMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/dao/mapping/SysUserMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/dao/mapping/SysUserRoleMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/dto/SysPermissionDto.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/dto/SysUserDto.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/provider/UserServiceProvider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/service/ISysMenuService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/service/ISysPermissionService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/service/ISysRoleService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/service/ISysUserService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/service/impl/SysMenuServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/service/impl/SysPermissionServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/service/impl/SysRoleServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/java/com/central/infra/modular/service/impl/SysUserServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/resources/application.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/resources/bootstrap.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/resources/logback.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/resources/mybatis.cfg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/resources/static/login.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/remark/readerme" afterPath="$PROJECT_DIR$/doc/remark/readerme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/jason-biz-support.iml" afterPath="$PROJECT_DIR$/jason-biz-support/jason-biz-support.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log-api/biz-support-log-api.iml" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log-api/biz-support-log-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log-api/pom.xml" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log-api/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log-api/src/main/java/com/central/biz/log/api/entity/CommonLog.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log-api/src/main/java/com/central/biz/log/api/entity/CommonLog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log-api/src/main/java/com/central/biz/log/api/entity/TraceLog.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log-api/src/main/java/com/central/biz/log/api/entity/TraceLog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/biz-support-log.iml" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/biz-support-log.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/pom.xml" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/core/db/CommonLogInitializer.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/core/db/CommonLogInitializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/core/db/TraceLogInitializer.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/core/db/TraceLogInitializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/core/listener/LogMessageListener.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/core/listener/LogMessageListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/LogController.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/LogController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/factory/CommonLogFactory.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/factory/CommonLogFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/factory/TraceLogFactory.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/factory/TraceLogFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/provider/LogServiceProvider.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/provider/LogServiceProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/service/CommonLogService.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/service/CommonLogService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/service/TraceLogService.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/service/TraceLogService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/resources/META-INF/spring.factories" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/resources/META-INF/spring.factories" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/test/java/base/LogApplication.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/test/java/base/LogApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/target/classes/META-INF/spring.factories" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/target/classes/META-INF/spring.factories" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/target/test-classes/application.yml" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/target/test-classes/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/modular-log.iml" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/modular-log.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/pom.xml" afterPath="$PROJECT_DIR$/jason-biz-support/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/auth-server.iml" afterPath="$PROJECT_DIR$/jason-business/auth-server/auth-server.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/pom.xml" afterPath="$PROJECT_DIR$/jason-business/auth-server/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/consumer/UserServiceConsumer.java" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/consumer/UserServiceConsumer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/bootstrap.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/login.html" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/module/index.js" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/module/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/pages/console.html" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/pages/console.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/pages/redis/info.html" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/pages/redis/info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/pages/system/menus.html" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/pages/system/menus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/pages/system/menus_form.html" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/pages/system/menus_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/pages/system/myInfo.html" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/pages/system/myInfo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/pages/system/permissions.html" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/pages/system/permissions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/pages/system/role.html" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/pages/system/role.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/pages/system/role_form.html" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/pages/system/role_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/pages/system/user.html" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/pages/system/user.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/pages/system/user_form.html" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/pages/system/user_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/pages/tpl/password.html" afterPath="$PROJECT_DIR$/jason-business/back-web/src/main/resources/static/pages/tpl/password.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/infra-server/pom.xml" afterPath="$PROJECT_DIR$/jason-business/infra-server/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/jason-business/infra-server/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/infra-server/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/jason-business/infra-server/src/main/resources/bootstrap.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/pom.xml" afterPath="$PROJECT_DIR$/jason-business/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-config/src/main/resources/application-dev.properties" afterPath="$PROJECT_DIR$/jason-config/src/main/resources/application-dev.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-config/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/jason-config/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-config/target/classes/application-dev.properties" afterPath="$PROJECT_DIR$/jason-config/target/classes/application-dev.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-demo/nacos-config-client/src/main/java/com/central/demo/controller/UserServiceConsumer.java" afterPath="$PROJECT_DIR$/jason-demo/nacos-config-client/src/main/java/com/central/demo/controller/UserServiceConsumer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-demo/nacos-config-client/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/jason-demo/nacos-config-client/src/main/resources/bootstrap.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-auth/kernel-auth.iml" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/kernel-auth.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-auth/pom.xml" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/util/AuthUtils.java" afterPath="$PROJECT_DIR$/jason-kernel/kernel-auth/src/main/java/com/central/oauth2/common/util/AuthUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/pom.xml" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/FastjsonAutoConfig.java" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/FastjsonAutoConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/WebAutoConfig.java" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/WebAutoConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/db/listener/InitTableListener.java" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/db/listener/InitTableListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/model/api/UserService.java" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/model/api/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/model/page/PageResultPlus.java" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/model/page/PageResultPlus.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/utils/MvcAdapter.java" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/utils/MvcAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/utils/RequestNoContext.java" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/utils/RequestNoContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-db/src/main/java/com/central/db/config/DefaultMybatisPlusConfig.java" afterPath="$PROJECT_DIR$/jason-kernel/kernel-db/src/main/java/com/central/db/config/DefaultMybatisPlusConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-logger/kernel-logger.iml" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/kernel-logger.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-logger/pom.xml" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/chain/context/SpanIdContext.java" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/chain/context/SpanIdContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/util/LogUtil.java" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/java/com/smartcloud/logger/util/LogUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-redis/kernel-redis.iml" afterPath="$PROJECT_DIR$/jason-kernel/kernel-redis/kernel-redis.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-redis/pom.xml" afterPath="$PROJECT_DIR$/jason-kernel/kernel-redis/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-ribbon/kernel-ribbon.iml" afterPath="$PROJECT_DIR$/jason-kernel/kernel-ribbon/kernel-ribbon.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-ribbon/src/main/java/com/central/ribbon/RibbonAutoConfigure.java" afterPath="$PROJECT_DIR$/jason-kernel/kernel-ribbon/src/main/java/com/central/ribbon/RibbonAutoConfigure.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-ribbon/src/main/java/com/central/ribbon/annotation/EnableFeignInterceptor.java" afterPath="$PROJECT_DIR$/jason-kernel/kernel-ribbon/src/main/java/com/central/ribbon/annotation/EnableFeignInterceptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-ribbon/src/main/java/com/central/ribbon/config/FeignInterceptorConfig.java" afterPath="$PROJECT_DIR$/jason-kernel/kernel-ribbon/src/main/java/com/central/ribbon/config/FeignInterceptorConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-sentinel/kernel-sentinel.iml" afterPath="$PROJECT_DIR$/jason-kernel/kernel-sentinel/kernel-sentinel.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-message/jason-demo-api/jason-demo-api.iml" afterPath="$PROJECT_DIR$/jason-message/jason-demo-api/jason-demo-api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-microservice-eureka/api-gateway/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/jason-microservice-eureka/api-gateway/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/core/filter/pre/RequestNoGenerateFilter.java" afterPath="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/core/filter/pre/RequestNoGenerateFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/modular/consumer/MenuService.java" afterPath="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/modular/consumer/MenuService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/resources/application.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jason-business/logs/eureka-server-error.2018-10-12.0.log" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/js/login.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -311,7 +161,7 @@
         <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="512">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+              <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#978#979#0" expanded="true" />
@@ -334,8 +184,8 @@
       <file leaf-file-name="DefaultMybatisPlusConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-db/src/main/java/com/central/db/config/DefaultMybatisPlusConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="66" column="45" lean-forward="false" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
+            <state relative-caret-position="276">
+              <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
               <folding>
                 <element signature="e#2116#2117#0" expanded="true" />
                 <element signature="e#2169#2170#0" expanded="true" />
@@ -656,6 +506,11 @@
               <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
               <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
               <item name="modular-log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-business" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1166,6 +1021,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36619717" sideWeight="0.46041667" order="6" side_tool="false" content_ui="tabs" />
@@ -1177,7 +1033,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48320693" sideWeight="0.78571427" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.271855" sideWeight="0.7442177" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.271855" sideWeight="0.7442177" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31121752" sideWeight="0.2557823" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2349,7 +2205,7 @@
     <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#978#979#0" expanded="true" />
@@ -2368,8 +2224,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-db/src/main/java/com/central/db/config/DefaultMybatisPlusConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="66" column="45" lean-forward="false" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
+        <state relative-caret-position="276">
+          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
           <folding>
             <element signature="e#2116#2117#0" expanded="true" />
             <element signature="e#2169#2170#0" expanded="true" />

@@ -5,12 +5,15 @@ import com.central.core.model.user.LoginAppUser;
 import com.central.core.utils.RequestDataHolder;
 import com.central.core.utils.SpringUtil;
 import com.central.core.utils.ToolUtil;
+import com.central.oauth2.common.util.AuthUtils;
 import com.smartcloud.logger.chain.context.TraceIdHolder;
 import com.smartcloud.logger.config.properties.LogProperties;
 import com.smartcloud.logger.entity.SendingCommonLog;
 import com.smartcloud.logger.service.LogProducerService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -122,9 +125,11 @@ public class LogUtil {
                 try {
                     //AbstractLoginContext bean = SpringUtil.getBean(AbstractLoginContext.class);
                     //AbstractLoginUser loginUser = bean.getLoginUser();
-                    LoginAppUser loginUser = S.getLoginAppUser();
-                    log.setAppCode(loginUser.getId().toString());
-                    log.setAccountId(loginUser.getUsername() != null ? loginUser.getUsername().toString() : null);
+                    Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+                    String loginUsername = AuthUtils.getUsername(authentication);
+
+                    //log.setAppCode(loginUser.getId().toString());
+                    log.setAccountId(loginUsername != null ? loginUsername : null);
                 } catch (Exception e) {
                     if (logger.isDebugEnabled()) {
                         logger.debug("当前没有登录用户！");

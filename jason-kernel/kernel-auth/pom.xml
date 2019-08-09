@@ -19,11 +19,12 @@
 			<artifactId>spring-cloud-starter-oauth2</artifactId>
 			<optional>false</optional>
 		</dependency>
-		<!--<dependency>
+		<dependency>
 			<groupId>com.smartcloud</groupId>
 			<artifactId>kernel-core</artifactId>
 			<version>${core.version}</version>
-		</dependency>-->
+			<optional>true</optional>
+		</dependency>
 		<dependency>
 			<groupId>com.smartcloud</groupId>
 			<artifactId>kernel-redis</artifactId>

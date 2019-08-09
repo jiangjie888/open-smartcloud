@@ -22,9 +22,9 @@ public interface UserService {
      * @param username
      * @return
      */
+
+    @RequestMapping(method = RequestMethod.GET, value = "/users-anon/login", params = "username", produces="application/json;charset=UTF-8")
     //@GetMapping(value = "/users-anon/login", params = "username")
-    //@RequestMapping(method = RequestMethod.GET, value = "/users-anon/login", params = "username")
-    @RequestMapping(method = { RequestMethod.GET }, produces="application/json;charset=UTF-8",params = "username")
     LoginAppUser findByUsername(@RequestParam("username") String username);
 
     /**

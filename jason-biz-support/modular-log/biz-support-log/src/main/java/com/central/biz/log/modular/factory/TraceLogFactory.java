@@ -1,12 +1,12 @@
 package com.central.biz.log.modular.factory;
 
 import cn.hutool.core.date.DateUtil;
-import cn.stylefeng.roses.biz.log.api.entity.TraceLog;
-import cn.stylefeng.roses.biz.log.modular.model.TraceLogCondition;
-import cn.stylefeng.roses.biz.log.modular.model.TraceLogParams;
-import cn.stylefeng.roses.core.reqres.request.RequestData;
-import cn.stylefeng.roses.core.util.ToolUtil;
-import cn.stylefeng.roses.kernel.model.page.PageResult;
+import com.central.biz.log.api.entity.TraceLog;
+import com.central.biz.log.modular.model.TraceLogCondition;
+import com.central.biz.log.modular.model.TraceLogParams;
+import com.central.core.model.page.PageResultPlus;
+import com.central.core.model.reqres.request.RequestData;
+import com.central.core.utils.ToolUtil;
 
 import java.util.List;
 
@@ -76,28 +76,28 @@ public class TraceLogFactory {
     /**
      * 创建分页的响应结果
      */
-    public static PageResult<TraceLog> getResponse(List<TraceLog> traceLogs, Long traceLogCount, TraceLogParams traceLogParams) {
-        PageResult<TraceLog> pageResult = new PageResult<>();
-        pageResult.setRows(traceLogs);
-        pageResult.setTotalRows(traceLogCount);
-        pageResult.setPage(traceLogParams.getPageNo());
-        pageResult.setPageSize(traceLogParams.getPageSize());
+    public static PageResultPlus<TraceLog> getResponse(List<TraceLog> traceLogs, Long traceLogCount, TraceLogParams traceLogParams) {
+        PageResultPlus<TraceLog> pageResultPlus = new PageResultPlus<>();
+        pageResultPlus.setRows(traceLogs);
+        pageResultPlus.setTotal(traceLogCount);
+        pageResultPlus.setCurrent((long)traceLogParams.getPageNo());
+        pageResultPlus.setSize((long)traceLogParams.getPageSize());
 
         long a = traceLogCount % traceLogParams.getPageSize() == 0 ? 0 : 1;
-        pageResult.setTotalPage((int) (a + traceLogCount / traceLogParams.getPageSize()));
+        pageResultPlus.setTotalPage((long) (a + traceLogCount / traceLogParams.getPageSize()));
 
-        return pageResult;
+        return pageResultPlus;
     }
 
     /**
      * 创建分页的响应结果(条件查询的)
      */
-    public static PageResult<TraceLog> getResponseCondition(List<TraceLog> traceLogs, TraceLogCondition traceLogCondition) {
-        PageResult<TraceLog> pageResult = new PageResult<>();
-        pageResult.setRows(traceLogs);
-        pageResult.setPage(traceLogCondition.getPageNo());
-        pageResult.setPageSize(traceLogCondition.getPageSize());
+    public static PageResultPlus<TraceLog> getResponseCondition(List<TraceLog> traceLogs, TraceLogCondition traceLogCondition) {
+        PageResultPlus<TraceLog> pageResultPlus = new PageResultPlus<>();
+        pageResultPlus.setRows(traceLogs);
+        pageResultPlus.setCurrent((long)traceLogCondition.getPageNo());
+        pageResultPlus.setSize((long)traceLogCondition.getPageSize());
 
-        return pageResult;
+        return pageResultPlus;
     }
 }

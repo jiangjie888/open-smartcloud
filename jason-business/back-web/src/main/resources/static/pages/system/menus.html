@@ -42,7 +42,7 @@
                 treeIdName: 'id',
                 treePidName: 'parentId',
                 elem: '#menus-table',
-                url: config.base_server + 'api-infra/menus/findAlls',
+                url: config.base_server + 'api-user/menus/findAlls',
                 where: {
                     access_token: config.getToken().access_token
                 },
@@ -84,7 +84,7 @@
                 layer.confirm('确定删除此菜单吗？', function () {
                     layer.load(2);
 
-                    admin.req('api-infra/menus/'+obj.data.id, {}, function (data) {
+                    admin.req('api-user/menus/'+obj.data.id, {}, function (data) {
                         layer.closeAll('loading');
                         if (0 == data.code) {
                             layer.msg(data.msg, {icon: 1});

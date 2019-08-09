@@ -1,8 +1,8 @@
 package com.central.biz.log.core.db;
 
 
-import cn.stylefeng.roses.core.db.DbInitializer;
 import com.central.biz.log.api.entity.CommonLog;
+import com.central.core.db.DbInitializer;
 
 /**
  * 通用日志的初始化
@@ -18,7 +18,7 @@ public class CommonLogInitializer extends DbInitializer {
                 "  `CLASS_NAME` varchar(255) DEFAULT NULL COMMENT '类名',\n" +
                 "  `METHOD_NAME` varchar(255) DEFAULT NULL COMMENT '打日志的方法的名称',\n" +
                 "  `IP` varchar(25) DEFAULT NULL COMMENT '远程访问IP地址',\n" +
-                "  `ACCOUNT_ID` bigint(20) DEFAULT NULL COMMENT '用户账号id',\n" +
+                "  `ACCOUNT_ID` varchar(30) DEFAULT NULL COMMENT '用户账号id',\n" +
                 "  `REQUEST_NO` varchar(32) DEFAULT NULL COMMENT '日志号',\n" +
                 "  `URL` varchar(200) DEFAULT NULL COMMENT '请求地址 ',\n" +
                 "  `REQUEST_DATA` text COMMENT '请求的数据内容',\n" +

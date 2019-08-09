@@ -56,8 +56,8 @@ public class FastjsonAutoConfig {
      * 支持的mediaType类型 处理中文乱码问题
      */
     public List<MediaType> getSupportedMediaType() {
+        //处理中文乱码问题
         ArrayList<MediaType> mediaTypes = new ArrayList<>();
-
         mediaTypes.add(MediaType.APPLICATION_JSON);
         mediaTypes.add(MediaType.APPLICATION_JSON_UTF8);
         //mediaTypes.add(MediaType.APPLICATION_ATOM_XML);
@@ -71,14 +71,13 @@ public class FastjsonAutoConfig {
         //mediaTypes.add(MediaType.IMAGE_JPEG);
         //mediaTypes.add(MediaType.IMAGE_PNG);
         //mediaTypes.add(MediaType.TEXT_EVENT_STREAM);
-        //mediaTypes.add(MediaType.TEXT_HTML);
+        mediaTypes.add(MediaType.TEXT_HTML);
         //mediaTypes.add(MediaType.TEXT_MARKDOWN);
         //mediaTypes.add(MediaType.TEXT_PLAIN);
         //mediaTypes.add(MediaType.TEXT_XML);
 
         //增加解析spring boot actuator结果的解析
         mediaTypes.add(MediaType.valueOf("application/vnd.spring-boot.actuator.v2+json"));
-
         return mediaTypes;
     }
 

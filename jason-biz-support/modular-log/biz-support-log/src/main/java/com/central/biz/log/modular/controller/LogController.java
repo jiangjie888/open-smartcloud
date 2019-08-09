@@ -1,6 +1,7 @@
 package com.central.biz.log.modular.controller;
 
 
+import com.central.biz.log.api.entity.TraceLog;
 import com.central.biz.log.modular.factory.CommonLogFactory;
 import com.central.biz.log.modular.factory.TraceLogFactory;
 import com.central.biz.log.modular.model.CommonLogCondition;
@@ -9,18 +10,21 @@ import com.central.biz.log.modular.model.TraceLogCondition;
 import com.central.biz.log.modular.model.TraceLogParams;
 import com.central.biz.log.modular.service.CommonLogService;
 import com.central.biz.log.modular.service.TraceLogService;
+import com.central.core.model.page.PageResult;
+import com.central.core.model.page.PageResultPlus;
 import com.central.core.model.reqres.request.RequestData;
 import com.central.core.model.reqres.response.ResponseData;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 日志管理
  */
+@RequestMapping("/logs")
 @RestController
-@ApiResource(name = "日志管理", path = "/log")
 @Slf4j
 public class LogController {
 
@@ -60,7 +64,7 @@ public class LogController {
             return ResponseData.success(this.traceLogService.getTraceLogList(traceLogParams));
         } else if (request instanceof TraceLogCondition) {
             TraceLogCondition traceLogCondition = (TraceLogCondition) request;
-            PageResult<TraceLog> traceLogList = traceLogService.getTraceLogListByCondition(traceLogCondition);
+            PageResultPlus<TraceLog> traceLogList = traceLogService.getTraceLogListByCondition(traceLogCondition);
             return ResponseData.success(traceLogList);
         }
 

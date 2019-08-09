@@ -30,5 +30,7 @@ sudo nohup bash startup.sh -m standalone &
 
 #auth-server   登录认证中心   端口7000  地址：172.16.4.130:7000
 
-#infra-server  基础平台服务   端口7011
+#user-server  用户权限相关服务   端口7011
+
+#log-server  日志服务   端口7021
 

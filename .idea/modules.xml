@@ -47,6 +47,7 @@
       <module fileurl="file://$PROJECT_DIR$/jason-demo/nacos-discovery-server-client/nacos-discovery-server-client.iml" filepath="$PROJECT_DIR$/jason-demo/nacos-discovery-server-client/nacos-discovery-server-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/open-smartcloud.iml" filepath="$PROJECT_DIR$/open-smartcloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-demo/test/test.iml" filepath="$PROJECT_DIR$/jason-demo/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jason-business/user-server/user-server.iml" filepath="$PROJECT_DIR$/jason-business/user-server/user-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-demo/web-demo/web-demo.iml" filepath="$PROJECT_DIR$/jason-demo/web-demo/web-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/zuul-gateway.iml" filepath="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/zuul-gateway.iml" />
     </modules>

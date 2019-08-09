@@ -1,5 +1,7 @@
 server:
   port: 7011
+  servlet:
+    context-path: /
 
 jason:
   nacos:

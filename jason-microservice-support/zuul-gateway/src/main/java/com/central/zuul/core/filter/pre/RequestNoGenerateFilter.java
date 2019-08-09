@@ -6,6 +6,7 @@ import com.central.zuul.core.constants.ZuulFiltersOrder;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.baomidou.mybatisplus.core.toolkit.IdWorker;
+import org.springframework.cloud.netflix.zuul.filters.support.FilterConstants;
 
 import javax.servlet.http.HttpServletResponse;
 
@@ -16,7 +17,8 @@ public class RequestNoGenerateFilter extends ZuulFilter {
 
     @Override
     public String filterType() {
-        return "pre";
+        //前置过滤器
+        return FilterConstants.PRE_TYPE;
     }
 
     @Override

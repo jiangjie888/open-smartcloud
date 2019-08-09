@@ -1,12 +1,12 @@
 package com.central.biz.log.modular.service;
 
-import cn.stylefeng.roses.biz.log.api.entity.TraceLog;
-import cn.stylefeng.roses.biz.log.modular.factory.TraceLogFactory;
-import cn.stylefeng.roses.biz.log.modular.mapper.TraceLogMapper;
-import cn.stylefeng.roses.biz.log.modular.model.TraceLogCondition;
-import cn.stylefeng.roses.biz.log.modular.model.TraceLogParams;
-import cn.stylefeng.roses.kernel.model.page.PageResult;
-import com.baomidou.mybatisplus.service.impl.ServiceImpl;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.central.biz.log.api.entity.TraceLog;
+import com.central.biz.log.modular.dao.TraceLogMapper;
+import com.central.biz.log.modular.factory.TraceLogFactory;
+import com.central.biz.log.modular.model.TraceLogCondition;
+import com.central.biz.log.modular.model.TraceLogParams;
+import com.central.core.model.page.PageResultPlus;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -20,7 +20,7 @@ public class TraceLogService extends ServiceImpl<TraceLogMapper, TraceLog> {
     /**
      * 获取调用链日志列表（没有查询条件的）
      */
-    public PageResult<TraceLog> getTraceLogList(TraceLogParams traceLogParams) {
+    public PageResultPlus<TraceLog> getTraceLogList(TraceLogParams traceLogParams) {
         Long traceLogCount = this.baseMapper.getTraceLogCount();
 
         if (traceLogCount == null) {
@@ -38,7 +38,7 @@ public class TraceLogService extends ServiceImpl<TraceLogMapper, TraceLog> {
     /**
      * 获取调用链日志列表（带查询条件的）
      */
-    public PageResult<TraceLog> getTraceLogListByCondition(TraceLogCondition traceLogCondition) {
+    public PageResultPlus<TraceLog> getTraceLogListByCondition(TraceLogCondition traceLogCondition) {
         List<TraceLog> commonLogList = this.baseMapper.getTraceLogListByCondition(traceLogCondition);
         return TraceLogFactory.getResponseCondition(commonLogList, traceLogCondition);
     }

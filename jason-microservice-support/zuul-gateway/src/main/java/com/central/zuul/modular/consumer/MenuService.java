@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient(name = "infra-server", fallbackFactory = MenuServiceFallbackFactory.class, decode404 = true)
+@FeignClient(name = "user-server", fallbackFactory = MenuServiceFallbackFactory.class, decode404 = true)
 public interface MenuService {
 	/**
 	 * 角色菜单列表

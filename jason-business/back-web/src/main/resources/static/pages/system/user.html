@@ -52,7 +52,7 @@
         table.render({
             elem: '#user-table',
             // url: config.base_server + 'user_query.json',
-            url: config.base_server + 'api-infra/users/findUsers',
+            url: config.base_server + 'api-user/users/findUsers',
             method: 'GET',
             where: {
                 access_token: config.getToken().access_token
@@ -94,7 +94,7 @@
                 layer.confirm('确定重置此用户的密码吗？', function (i) {
                     layer.close(i);
                     layer.load(2);
-                    admin.req('api-infra/users/'+obj.data.id+'/resetPassword', {}, function (data) {
+                    admin.req('api-user/users/'+obj.data.id+'/resetPassword', {}, function (data) {
                         layer.closeAll('loading');
                         if (data.code == 0) {
                             layer.msg(data.msg, {icon: 1});
@@ -133,7 +133,7 @@
 
         // 导出
         $('#user-btn-export').click(function () {
-            var url = config.base_server + 'api-infra/users/exportUser?access_token='+config.getToken().access_token;
+            var url = config.base_server + 'api-user/users/exportUser?access_token='+config.getToken().access_token;
             var xhr = new XMLHttpRequest();
             xhr.open('POST', url, true);
             xhr.responseType = "blob";
@@ -151,7 +151,7 @@
         // 修改user状态
         form.on('switch(user-tpl-state)', function (obj) {
             layer.load(2);
-            admin.req('api-infra/users/updateEnabled', {
+            admin.req('api-user/users/updateEnabled', {
                 id: obj.elem.value,
                 enabled: obj.elem.checked ? true : false
             }, function (data) {

@@ -20,6 +20,7 @@
 			<groupId>com.smartcloud</groupId>
 			<artifactId>kernel-core</artifactId>
 			<version>${core.version}</version>
+			<optional>true</optional>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

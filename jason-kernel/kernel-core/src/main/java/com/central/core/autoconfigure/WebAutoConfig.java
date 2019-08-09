@@ -17,10 +17,12 @@ import org.springframework.core.convert.converter.Converter;
 import org.springframework.core.convert.support.GenericConversionService;
 import org.springframework.web.bind.support.ConfigurableWebBindingInitializer;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
+import org.springframework.web.servlet.config.annotation.ContentNegotiationConfigurer;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter;
+import org.springframework.web.servlet.view.ContentNegotiatingViewResolver;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.Resource;
@@ -57,6 +59,11 @@ public class WebAutoConfig extends WebMvcConfigurationSupport {
         registry.addInterceptor(baseInterceptor).excludePathPatterns("/static/**");
     }*/
 
+    /*@Override
+    public  void configureContentNegotiation(ContentNegotiationConfigurer configurer){
+        configurer.favorPathExtension(false);
+    }*/
+
     /**
      * 增加swagger的支持，静态文件支持
      */
@@ -65,8 +72,8 @@ public class WebAutoConfig extends WebMvcConfigurationSupport {
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("swagger-ui.html").addResourceLocations("classpath:/META-INF/resources/");
         registry.addResourceHandler("/webjars/**").addResourceLocations("classpath:/META-INF/resources/webjars/");
-        //registry.addResourceHandler("/**").addResourceLocations("classpath:/resources/");
-        registry.addResourceHandler("/static/**").addResourceLocations("classpath:/static/");
+        registry.addResourceHandler("/**").addResourceLocations("classpath:/static/");
+        /*registry.addResourceHandler("/**").addResourceLocations("classpath:/");*/
         super.addResourceHandlers(registry);
     }
 

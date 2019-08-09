@@ -1,5 +1,4 @@
 package com.central.ribbon.config;
-import com.central.core.model.constants.JasonConstants;
 import com.central.core.utils.HttpContext;
 import feign.RequestInterceptor;
 import feign.RequestTemplate;

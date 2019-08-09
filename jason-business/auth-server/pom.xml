@@ -20,21 +20,28 @@
             <artifactId>jason-config</artifactId>
             <version>${core.version}</version>
         </dependency>
+        <!--auth 中包含redis >  core > db-->
+       <dependency>
+           <groupId>com.smartcloud</groupId>
+           <artifactId>kernel-auth</artifactId>
+           <version>${core.version}</version>
+           <exclusions>
+               <exclusion>
+                   <groupId>com.smartcloud</groupId>
+                   <artifactId>kernel-core</artifactId>
+               </exclusion>
+           </exclusions>
+       </dependency>
+       <dependency>
+           <groupId>com.smartcloud</groupId>
+           <artifactId>kernel-core</artifactId>
+           <version>${core.version}</version>
+       </dependency>
         <dependency>
-            <groupId>com.smartcloud</groupId>
-            <artifactId>kernel-auth</artifactId>
-            <version>${core.version}</version>
-        </dependency>
-        <!--<dependency>
-            <groupId>com.smartcloud</groupId>
-            <artifactId>kernel-core</artifactId>
-            <version>${core.version}</version>
-        </dependency>-->
-        <!--<dependency>
             <groupId>com.smartcloud</groupId>
             <artifactId>kernel-db</artifactId>
             <version>${core.version}</version>
-        </dependency>-->
+        </dependency>
         <!--<dependency>
             <groupId>com.smartcloud</groupId>
             <artifactId>kernel-redis</artifactId>
@@ -71,11 +78,6 @@
             <groupId>org.springframework.social</groupId>
             <artifactId>spring-social-security</artifactId>
         </dependency>
-        <!--<dependency>
-            <groupId>org.springframework.security.oauth</groupId>
-            <artifactId>spring-security-oauth2</artifactId>
-            <optional>true</optional>
-        </dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -100,10 +102,6 @@
             <artifactId>spring-session-data-redis</artifactId>
         </dependency>
 
-       <!-- <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-        </dependency>-->
 
         <!-- hutool java工具类库 kernel-core中已经引用 -->
         <!--<dependency>
@@ -115,15 +113,11 @@
             <groupId>io.micrometer</groupId>
             <artifactId>micrometer-registry-prometheus</artifactId>
         </dependency>
-       <!-- <dependency>
-            <groupId>org.springframework.security.oauth</groupId>
-            <artifactId>spring-security-oauth2</artifactId>
-        </dependency>-->
 
-        <!--<dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
-        </dependency>-->
+        </dependency>
     </dependencies>
 
     <build>

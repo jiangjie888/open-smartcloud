@@ -64,7 +64,7 @@ public class DefaultMybatisPlusConfig {
      */
     @Bean
     public MetaObjectHandler metaObjectHandler(){
-        return new MyMetaObjectHandler();
+        return new DefaultMetaObjectHandler();
     }
 
 

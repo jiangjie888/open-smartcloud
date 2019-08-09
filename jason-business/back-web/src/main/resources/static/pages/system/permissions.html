@@ -62,7 +62,7 @@
         // 渲染表格
         table.render({
             elem: '#auth-table',
-            url: config.base_server + 'api-infra/permissions',
+            url: config.base_server + 'api-user/permissions',
             where: {
                 access_token: config.getToken().access_token
             },
@@ -91,7 +91,7 @@
                 layer.confirm('确定删除此权限吗？', function () {
                     layer.load(2);
 
-                    admin.req('api-infra/permissions/'+obj.data.id, {  }, function (data) {
+                    admin.req('api-user/permissions/'+obj.data.id, {  }, function (data) {
                         layer.closeAll('loading');
                         if (data.code == 0) {
                             layer.msg(data.msg, {icon: 1});
@@ -132,7 +132,7 @@
         // 表单提交事件
         form.on('submit(auth-form-submit)', function (data) {
             layer.load(2);
-            admin.req('api-infra/permissions/saveOrUpdate', JSON.stringify(data.field), function (data) {
+            admin.req('api-user/permissions/saveOrUpdate', JSON.stringify(data.field), function (data) {
                 layer.closeAll('loading');
                 console.log(data);
                 if (data.code == 0) {

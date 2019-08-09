@@ -18,8 +18,6 @@
         <module name="demo" />
         <module name="eureka-client" />
         <module name="eureka-server" />
-        <module name="infra-server" />
-        <module name="jason-biz-support" />
         <module name="jason-config" />
         <module name="jason-demo-account" />
         <module name="jason-demo-api" />
@@ -43,27 +41,20 @@
         <module name="nacos-discovery-server" />
         <module name="nacos-discovery-server-client" />
         <module name="test" />
+        <module name="user-server" />
         <module name="web-demo" />
         <module name="zuul-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="admin-server" target="1.8" />
-      <module name="api-common" target="1.8" />
-      <module name="api-commons" target="1.8" />
-      <module name="api-commons (1)" target="1.8" />
       <module name="api-gateway" target="1.8" />
       <module name="auth-server" target="1.8" />
       <module name="back-web" target="1.8" />
       <module name="biz-support-log" target="1.8" />
       <module name="biz-support-log-api" target="1.8" />
-      <module name="business-center" target="1.8" />
-      <module name="db-core" target="1.8" />
-      <module name="db-core (1)" target="1.8" />
-      <module name="demo" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
-      <module name="infra-server" target="1.8" />
       <module name="jason-biz-support" target="1.8" />
       <module name="jason-business" target="1.8" />
       <module name="jason-config" target="1.8" />
@@ -71,8 +62,6 @@
       <module name="jason-demo-account" target="1.8" />
       <module name="jason-demo-api" target="1.8" />
       <module name="jason-demo-order" target="1.8" />
-      <module name="jason-domo-order" target="1.8" />
-      <module name="jason-gateway" target="1.8" />
       <module name="jason-job" target="1.8" />
       <module name="jason-kernel" target="1.8" />
       <module name="jason-message" target="1.8" />
@@ -82,9 +71,7 @@
       <module name="jason-microservice-eureka" target="1.8" />
       <module name="jason-microservice-support" target="1.8" />
       <module name="jason-monitor" target="1.8" />
-      <module name="jasonmessage" target="1.8" />
       <module name="job-admin" target="1.5" />
-      <module name="job-center" target="1.8" />
       <module name="job-core" target="1.5" />
       <module name="job-demo" target="1.5" />
       <module name="kernel-actuator" target="1.8" />
@@ -97,15 +84,12 @@
       <module name="kernel-sentinel" target="1.8" />
       <module name="kernel-swagger2" target="1.8" />
       <module name="modular-log" target="1.8" />
-      <module name="monitor-center" target="1.8" />
       <module name="nacos-config-client" target="1.8" />
       <module name="nacos-discovery-server" target="1.8" />
       <module name="nacos-discovery-server-client" target="1.8" />
-      <module name="oauth-server" target="1.8" />
       <module name="open-smartcloud" target="1.8" />
-      <module name="sentinel-dashboard" target="1.8" />
-      <module name="spring-jms" target="1.8" />
       <module name="test" target="1.8" />
+      <module name="user-server" target="1.8" />
       <module name="web-demo" target="1.8" />
       <module name="zuul-gateway" target="1.8" />
     </bytecodeTargetLevel>

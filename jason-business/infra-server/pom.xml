@@ -31,6 +31,22 @@
 			<artifactId>kernel-db</artifactId>
 			<version>${core.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>com.smartcloud</groupId>
+			<artifactId>kernel-redis</artifactId>
+			<version>${core.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.smartcloud</groupId>
+					<artifactId>kernel-core</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<!--<dependency>
+			<groupId>com.smartcloud</groupId>
+			<artifactId>kernel-db</artifactId>
+			<version>${core.version}</version>
+		</dependency>-->
 		<!--<dependency>
 			<groupId>com.smartcloud</groupId>
 			<artifactId>kernel-auth</artifactId>
@@ -59,15 +75,17 @@
 			<version>${swagger.version}</version>
 		</dependency>-->
 
-		<dependency>
-			<groupId>com.smartcloud</groupId>
-			<artifactId>kernel-redis</artifactId>
-			<version>${core.version}</version>
-		</dependency>
+
 		<dependency>
 			<groupId>com.smartcloud</groupId>
 			<artifactId>kernel-ribbon</artifactId>
 			<version>${core.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.smartcloud</groupId>
+					<artifactId>kernel-core</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>com.smartcloud</groupId>
@@ -90,14 +108,18 @@
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 
-		<dependency>
+		<!--<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
+		</dependency>-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 	</dependencies>
 

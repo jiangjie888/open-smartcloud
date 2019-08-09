@@ -9,7 +9,7 @@ import org.springframework.core.Ordered;
 import java.util.Map;
 
 /**
- * 初始化 创建字典表
+ * 初始化
  */
 @Slf4j
 public class InitTableListener implements ApplicationListener<ApplicationReadyEvent>, Ordered {

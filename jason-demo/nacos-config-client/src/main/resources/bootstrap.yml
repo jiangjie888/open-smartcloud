@@ -18,7 +18,7 @@ spring:
       discovery:
         server-addr: ${jason.nacos.server-addr}
 
-infra-server:
+user-server:
   ribbon:
     ReadTimeout: 60000
     ConnectTimeout: 60000
@@ -26,4 +26,4 @@ infra-server:
 ribbon:
   eager-load:
     enabled: true
-    clients: infra-server
+    clients: user-server

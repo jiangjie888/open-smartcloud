@@ -10,12 +10,23 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
+    <name>biz-support-log</name>
     <artifactId>biz-support-log</artifactId>
     <packaging>jar</packaging>
-    <name>biz-support-log</name>
     <description>日志服务的基础封装</description>
 
+
     <dependencies>
+        <dependency>
+            <groupId>com.smartcloud</groupId>
+            <artifactId>biz-support-log-api</artifactId>
+            <version>${core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.smartcloud</groupId>
+            <artifactId>jason-config</artifactId>
+            <version>${core.version}</version>
+        </dependency>
         <dependency>
             <groupId>com.smartcloud</groupId>
             <artifactId>kernel-core</artifactId>
@@ -23,17 +34,35 @@
         </dependency>
         <dependency>
             <groupId>com.smartcloud</groupId>
+            <artifactId>kernel-db</artifactId>
+            <version>${core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.smartcloud</groupId>
             <artifactId>kernel-logger</artifactId>
             <version>${core.version}</version>
         </dependency>
+        <!-- swagger -->
+        <dependency>
+            <groupId>com.smartcloud</groupId>
+            <artifactId>kernel-swagger2</artifactId>
+            <version>${core.version}</version>
+        </dependency>
+
         <!--<dependency>
             <groupId>com.smartcloud</groupId>
-            <artifactId>kernel-scanner</artifactId>
+            <artifactId>kernel-ribbon</artifactId>
             <version>${core.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.smartcloud</groupId>
+                    <artifactId>kernel-core</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>-->
         <dependency>
             <groupId>com.smartcloud</groupId>
-            <artifactId>biz-support-log-api</artifactId>
+            <artifactId>kernel-sentinel</artifactId>
             <version>${core.version}</version>
         </dependency>
 
@@ -50,6 +79,22 @@
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka</artifactId>
         </dependency>
+
+
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -58,7 +103,20 @@
     </dependencies>
 
     <build>
-        <finalName>biz-support-log</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+        <finalName>${project.artifactId}</finalName>
     </build>
 
 </project>

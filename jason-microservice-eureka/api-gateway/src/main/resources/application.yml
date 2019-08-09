@@ -191,10 +191,10 @@ zuul:
             serviceId: workflow-server
 #            strip-prefix: true
 #            custom-sensitive-headers: true
-        api-infra:
+        api-user:
             sensitiveHeaders: Access-Control-Allow-Origin,Access-Control-Allow-Methods
-            path: /api-infra/**
-            serviceId: infra-server
+            path: /api-user/**
+            serviceId: user-server
 #            strip-prefix: true
             custom-sensitive-headers: true
 

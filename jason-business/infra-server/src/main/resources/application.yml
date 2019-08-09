@@ -1,4 +1,10 @@
 spring:
+  resources:
+    static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
+  thymeleaf:
+    prefix: classpath:/static/
+    suffix: .html
+    cache: false
   datasource:
     dynamic:
       enable: true

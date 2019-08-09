@@ -1,0 +1,58 @@
+spring:
+  datasource:
+    dynamic:
+      enable: true
+    druid:
+      # JDBC 配置(驱动类自动从url的mysql识别,数据源类型自动识别)
+      core:
+        url: jdbc:mysql://${jason.datasource.ip}:3306/open_oauth_center?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT
+        username:  ${jason.datasource.username}
+        password: ${jason.datasource.password}
+        driver-class-name:  com.mysql.jdbc.Driver
+      log:
+        url: jdbc:mysql://${jason.datasource.ip}:3306/open_log_center?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT
+        username: ${jason.datasource.username}
+        password: ${jason.datasource.password}
+        driver-class-name:  com.mysql.jdbc.Driver
+
+mybatis-plus:
+  mapper-locations: classpath*:com/central/user/modular/dao/mapping/*.xml
+  #实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: com.central.user.modular.model;com.central.core.model.user;com.central.core.model.log;com.central.core.model.common
+  #typeEnumsPackage: com.baomidou.springboot.entity.enums
+  global-config:
+    db-config:
+      id-type: auto
+
+jason:
+  swagger:
+    enabled: true
+    title: 用户服务
+    description: 用户服务接口文档
+    version: 2.0
+    contact:
+      name: jason
+      url:
+      email: 3697871@qq.com
+    base-package: com.central.user.modular.controller;com.central.user.modular.provider
+  cache-manager:
+    configs:
+      - key: menu
+        second: 600
+      - key: user
+        second: 1800
+  security:
+      ignore:
+        # 忽略认证的地址
+        httpUrls: >
+          /test/**,
+          /users/name/**,
+          /users-anon/**,
+          /user/login
+      code:
+        # 忽略验证码的应用编号
+        ignoreClientCode: webApp
+
+
+
+

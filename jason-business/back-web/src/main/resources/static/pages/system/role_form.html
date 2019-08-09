@@ -27,7 +27,7 @@
 
         // 获取所有权限
         layer.load(2);
-        admin.req('api-infra/permissions/'+role.id+'/permissions', {}, function (data) {
+        admin.req('api-user/permissions/'+role.id+'/permissions', {}, function (data) {
             layer.closeAll('loading');
             var roleSelectData = new Array();
             for (var i = 0; i < data.length; i++) {
@@ -53,7 +53,7 @@
             data.authIds = data.field.roleIds.split(",");
             console.log(data);
             layer.load(2);
-            admin.req('api-infra/permissions/granted', JSON.stringify(data), function (data) {
+            admin.req('api-user/permissions/granted', JSON.stringify(data), function (data) {
                 layer.closeAll('loading');
                 if (data.code == 0) {
                     layer.msg(data.msg, {icon: 1});

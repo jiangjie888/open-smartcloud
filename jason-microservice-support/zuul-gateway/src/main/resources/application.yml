@@ -75,14 +75,14 @@ jason:
       httpUrls:
         /test/**,
         /api-uaa/**,
-        /api-infra/users-anon/**,
-        /api-infra/test/**,
+        /api-user/users-anon/**,
+        /api-user/test/**,
         /login.html,
         /user/login
         /js/**,
         /css/**
       # 配置只认证登录，登录后所有角色都能访问的url
-      menusPaths: /api-infra/menus/current
+      menusPaths: /api-user/menus/current
     auth:
       # 配置必需认证的url
       #httpUrls: /api-uaa/clients/**
@@ -135,8 +135,8 @@ zuul:
       strip-prefix: true
       custom-sensitive-headers: true
     user:
-      path: /api-infra/**
-      service-id: infra-server
+      path: /api-user/**
+      service-id: user-server
       strip-prefix: true
       custom-sensitive-headers: true
 #    file:

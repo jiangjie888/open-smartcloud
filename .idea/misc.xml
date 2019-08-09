@@ -33,6 +33,7 @@
         <option value="$PROJECT_DIR$/jason-demo/web-demo/pom.xml" />
         <option value="$PROJECT_DIR$/jason-demo/pom.xml" />
         <option value="$PROJECT_DIR$/jason-demo/test/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-business/user-server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -41,6 +42,7 @@
         <option value="$PROJECT_DIR$/api-commons/pom.xml" />
         <option value="$PROJECT_DIR$/db-core/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-center/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-business/infra-server/pom.xml" />
         <option value="$PROJECT_DIR$/jason-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/jasonmessage/pom.xml" />
       </set>

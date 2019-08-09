@@ -99,8 +99,8 @@ public class AuthUtils {
     public static String getUsername(Authentication authentication) {
         Object principal = authentication.getPrincipal();
         String username = null;
-        if (principal instanceof SysUser) {
-            username = ((SysUser) principal).getUsername();
+        if (principal instanceof LoginAppUser) {
+            username = ((LoginAppUser) principal).getUsername();
         } else if (principal instanceof String) {
             username = (String) principal;
         }
@@ -127,10 +127,8 @@ public class AuthUtils {
                 //刷新token方式
                 PreAuthenticatedAuthenticationToken authenticationToken = (PreAuthenticatedAuthenticationToken) authentication;
                 return (LoginAppUser) authenticationToken.getPrincipal();
-
             }
         }
-
         return null;
     }
 }

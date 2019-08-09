@@ -1,8 +1,7 @@
 package com.central.biz.log.core.db;
 
-
-import cn.stylefeng.roses.biz.log.api.entity.TraceLog;
-import cn.stylefeng.roses.core.db.DbInitializer;
+import com.central.biz.log.api.entity.TraceLog;
+import com.central.core.db.DbInitializer;
 
 /**
  * 调用链日志的初始化

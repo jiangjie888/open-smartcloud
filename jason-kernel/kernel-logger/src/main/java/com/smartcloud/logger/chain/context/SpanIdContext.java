@@ -1,7 +1,6 @@
 package com.smartcloud.logger.chain.context;
 
 import com.central.core.model.api.base.AbstractBaseRequest;
-import com.central.core.model.constants.JasonConstants;
 import com.central.core.model.constants.SecurityConstants;
 import com.central.core.utils.HttpContext;
 import com.central.core.utils.ToolUtil;

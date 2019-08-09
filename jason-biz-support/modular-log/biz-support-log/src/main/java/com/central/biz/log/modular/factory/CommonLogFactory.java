@@ -4,7 +4,7 @@ import cn.hutool.core.date.DateUtil;
 import com.central.biz.log.api.entity.CommonLog;
 import com.central.biz.log.modular.model.CommonLogCondition;
 import com.central.biz.log.modular.model.CommonLogParams;
-import com.central.core.model.page.PageResult;
+import com.central.core.model.page.PageResultPlus;
 import com.central.core.model.reqres.request.RequestData;
 import com.central.core.utils.ToolUtil;
 
@@ -75,28 +75,28 @@ public class CommonLogFactory {
     /**
      * 创建分页的响应结果
      */
-    public static PageResult<CommonLog> getResponse(List<CommonLog> result, Long commonLogCount, CommonLogParams commonLogParams) {
-        PageResult<CommonLog> pageResult = new PageResult<>();
-        pageResult.setData(result);
-        pageResult.setCount(commonLogCount);
-        pageResult.setPage(commonLogParams.getPageNo());
-        pageResult.setPageSize(commonLogParams.getPageSize());
+    public static PageResultPlus<CommonLog> getResponse(List<CommonLog> result, Long commonLogCount, CommonLogParams commonLogParams) {
+        PageResultPlus<CommonLog> pageResultPlus = new PageResultPlus<>();
+        pageResultPlus.setRows(result);
+        pageResultPlus.setTotal(commonLogCount);
+        pageResultPlus.setCurrent((long)commonLogParams.getPageNo());
+        pageResultPlus.setSize((long)commonLogParams.getPageSize());
 
         long a = commonLogCount % commonLogParams.getPageSize() == 0 ? 0 : 1;
-        pageResult.setTotalPage((int) (a + commonLogCount / commonLogParams.getPageSize()));
-
-        return pageResult;
+        pageResultPlus.setTotalPage((long)(a + commonLogCount / commonLogParams.getPageSize()));
+        //pageResultPlus.setTotalPage((long)Math.ceil((double)commonLogCount/ commonLogParams.getPageSize()));
+        return pageResultPlus;
     }
 
     /**
      * 创建分页的响应结果(条件查询的)
      */
-    public static PageResult<CommonLog> getResponseCondition(List<CommonLog> result, CommonLogCondition commonLogCondition) {
-        PageResult<CommonLog> pageResult = new PageResult<>();
-        pageResult.setRows(result);
-        pageResult.setPage(commonLogCondition.getPageNo());
-        pageResult.setPageSize(commonLogCondition.getPageSize());
+    public static PageResultPlus<CommonLog> getResponseCondition(List<CommonLog> result, CommonLogCondition commonLogCondition) {
+        PageResultPlus<CommonLog> pageResultPlus = new PageResultPlus<>();
+        pageResultPlus.setRows(result);
+        pageResultPlus.setCurrent((long)commonLogCondition.getPageNo());
+        pageResultPlus.setSize((long)commonLogCondition.getPageSize());
 
-        return pageResult;
+        return pageResultPlus;
     }
 }

@@ -18,7 +18,7 @@ public class PageResultPlus<T> implements Serializable {
 
     private Long current = 1L;// 要查找第几页
     private Long size = 20L;// 每页显示多少条
-    //private Long totalPage = 0L;// 总页数
+    private Long totalPage = 0L;// 总页数
     private Long total = 0L;// 总记录数
     private List<T> rows;// 结果集
 

@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;
 
 @Component
-@FeignClient(name = "infra-server")
+@FeignClient(name = "user-server")
 public interface UserServiceConsumer /*extends UserService*/ {
     /**
      * feign rpc访问远程/users/{username}接口

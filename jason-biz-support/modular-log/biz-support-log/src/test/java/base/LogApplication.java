@@ -1,6 +1,6 @@
 package base;
 
-import cn.stylefeng.roses.core.aop.RequestDataAop;
+import com.central.core.autoconfigure.aop.RequestDataAop;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;

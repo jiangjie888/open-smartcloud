@@ -18,8 +18,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;
 
 @Api(tags = "用户服务消费者")
-@FeignClient(name = "infra-server", configuration =ServiceFeignConfiguration.class, fallbackFactory = UserServiceFallbackFactory.class, decode404 = true)
-//@FeignClient(name = "infra-server")
+@FeignClient(name = "user-server", configuration =ServiceFeignConfiguration.class, fallbackFactory = UserServiceFallbackFactory.class, decode404 = true)
+//@FeignClient(name = "user-server")
 public interface UserServiceConsumer /*extends UserService*/ {
     /**
      * feign rpc访问远程/users/{username}接口
@@ -37,9 +37,7 @@ public interface UserServiceConsumer /*extends UserService*/ {
      * @param username
      * @return
      */
-    //@GetMapping(value = "/users-anon/login", params = "username")
-    //@RequestMapping(method = RequestMethod.GET, value = "/users-anon/login", params = "username")
-    @RequestMapping(method = { RequestMethod.GET }, produces="application/json;charset=UTF-8",params = "username")
+    @RequestMapping(method = { RequestMethod.GET }, value = "/users-anon/login", params = "username", produces="application/json;charset=UTF-8")
     LoginAppUser findByUsername(@RequestParam("username") String username);
 
     /*

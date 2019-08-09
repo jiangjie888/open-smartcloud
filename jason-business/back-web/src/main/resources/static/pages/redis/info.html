@@ -38,7 +38,7 @@
                         //重绘页面
                         rediskeysSizeInterval = setInterval(function() {
 
-                            admin.req('api-infra/redis/memoryInfo', {}, function (data) {
+                            admin.req('api-user/redis/memoryInfo', {}, function (data) {
                                 var x = data.create_time, y = data.used_memory / 1024;
                                 series.addPoint([ x, y ], true, true);
                             }, 'GET');
@@ -111,7 +111,7 @@
                         var series = this.series[0];
                         //定时重绘页面
                         redisMemoryInfoInterval = setInterval(function() {
-                            admin.req('api-infra/redis/keysSize', {}, function (data) {
+                            admin.req('api-user/redis/keysSize', {}, function (data) {
                                 var x = data.create_time, y = data.dbSize;
                                 series.addPoint([ x, y ], true, true);
                             }, 'GET');

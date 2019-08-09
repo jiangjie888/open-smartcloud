@@ -14,7 +14,7 @@
 
     <modules>
         <module>back-web</module>
-        <module>infra-server</module>
+        <module>user-server</module>
         <module>auth-server</module>
     </modules>
 </project>

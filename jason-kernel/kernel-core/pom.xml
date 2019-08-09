@@ -27,6 +27,7 @@
             <groupId>com.smartcloud</groupId>
             <artifactId>kernel-db</artifactId>
             <version>${core.version}</version>
+            <optional>true</optional>
         </dependency>
 
         <!--<dependency>

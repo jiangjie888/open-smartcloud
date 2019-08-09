@@ -91,7 +91,7 @@ layui.define(['config', 'admin', 'layer', 'laytpl', 'element', 'form'], function
             //     admin.activeNav(Q.lash);
             // });
 
-            admin.req('api-infra/menus/current', {}, function (data) {
+            admin.req('api-user/menus/current', {}, function (data) {
                 admin.putTempData("menus",data);
                 var menus = data;
                 // 判断权限
@@ -238,7 +238,7 @@ layui.define(['config', 'admin', 'layer', 'laytpl', 'element', 'form'], function
         getUser: function (success) {
             layer.load(2);
             // admin.req('userInfo.json', {}, function (data) {
-            admin.req('api-infra/users/current', {}, function (response) {
+            admin.req('api-user/users/current', {}, function (response) {
                 layer.closeAll('loading');
                 if (200 == response.code) {
                     config.putUser(response.data);
@@ -255,7 +255,7 @@ layui.define(['config', 'admin', 'layer', 'laytpl', 'element', 'form'], function
         },
         //获取菜单
         getMenus: function () {
-            admin.req('api-infra/menus/current', {}, function (data) {
+            admin.req('api-user/menus/current', {}, function (data) {
                 admin.putTempData("menus",data);
             }, 'GET');
         },

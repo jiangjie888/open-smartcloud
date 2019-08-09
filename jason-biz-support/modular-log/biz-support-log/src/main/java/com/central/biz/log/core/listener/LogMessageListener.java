@@ -40,7 +40,7 @@ public class LogMessageListener {
         }
 
         //插入到数据库
-        commonLogService.insertBatch(commonLogs, commonLogs.size());
+        commonLogService.saveBatch(commonLogs, commonLogs.size());
 
         log.info("获取到一批commonLog数据，处理完成！用时：" + (System.currentTimeMillis() - startTime));
     }
@@ -62,7 +62,7 @@ public class LogMessageListener {
         }
 
         //插入到数据库
-        traceLogService.insertBatch(traceLogs, traceLogs.size());
+        traceLogService.saveBatch(traceLogs, traceLogs.size());
 
         if (log.isDebugEnabled()) {
             log.debug("获取到一批traceLog数据，处理完成！用时：" + (System.currentTimeMillis() - startTime));

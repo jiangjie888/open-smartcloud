@@ -62,7 +62,7 @@ open-smartcloud -- 父项目，公共依赖
 │  │  ├─eureka-server -- eureka注册中心
 │  ├─jason-microservice-support -- 微服务相关支持，这里是采用nacos+zull实现
 │  │  ├─jason-register                       -- nacos注册中心(把jar上传linux中部署)
-│  │  ├─Sentinel-Dashboard-Nacos-1.6.2-NACOS -- 重过后的Sentinel-Dashboard，可以与nacos自动同步拉去和推送配置
+│  │  ├─Sentinel-Dashboard-Nacos-1.6.2-NACOS -- 重写后的Sentinel-Dashboard，可以与nacos自动同步拉去和推送配置
 │  │  ├─zuul-gateway -- zuul网关[9000]
 │  ├─jason-monitor -- 监控
 │  │  ├─admin-server -- 应用监控

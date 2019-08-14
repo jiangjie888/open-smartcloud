@@ -9,6 +9,8 @@ public interface SecurityConstants {
      * 鉴权请求头名称
      */
     String AUTH_HEADER = "Authorization";
+    String BEARER_TYPE = "Bearer";
+    String ACCESS_TOKEN="access_token";
 
     /**
      * 请求号header标识
@@ -22,6 +24,11 @@ public interface SecurityConstants {
 
 
     /**
+     * 用户id信息头
+     */
+    String USER_ID_HEADER = "x-userId-header";
+
+    /**
      * 用户信息头
      */
     String USER_HEADER = "x-user-header";
@@ -30,6 +37,15 @@ public interface SecurityConstants {
      * 角色信息头
      */
     String ROLE_HEADER = "x-role-header";
+
+
+    /**
+     * 租户信息头(应用)
+     */
+    String TENANT_HEADER = "x-tenant-header";
+    String CLIENT_HEADER = "x-client-header";
+
+
 
     /**
      * 基础角色

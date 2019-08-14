@@ -16,9 +16,9 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 
 
 @Configuration
+@EnableTokenStore
 @EnableResourceServer
 @EnableConfigurationProperties(SecurityProperties.class)
-@EnableTokenStore
 @Import({DefaultPasswordConfig.class})
 public class ResourceServerConfiguration extends DefaultResourceServerConf {
     @Autowired

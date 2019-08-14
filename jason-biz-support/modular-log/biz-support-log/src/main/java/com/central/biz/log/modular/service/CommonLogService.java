@@ -15,12 +15,13 @@ import java.util.List;
  * 服务实现类
  */
 @Service
-@DataSource(name="log")
+@DataSource(name = "log")
 public class CommonLogService extends ServiceImpl<CommonLogMapper, CommonLog> {
 
     /**
      * 获取普通日志列表（没有查询条件的）
      */
+
     public PageResultPlus<CommonLog> getCommonLogList(CommonLogParams commonLogParams) {
         Long commonLogCount = this.baseMapper.getCommonLogCount();
 
@@ -35,9 +36,13 @@ public class CommonLogService extends ServiceImpl<CommonLogMapper, CommonLog> {
     /**
      * 获取普通日志列表（带查询条件的）
      */
+
     public PageResultPlus<CommonLog> getCommonLogListByCondition(CommonLogCondition commonLogCondition) {
         List<CommonLog> commonLogList = this.baseMapper.getCommonLogListByCondition(commonLogCondition);
         return CommonLogFactory.getResponseCondition(commonLogList, commonLogCondition);
+    }
+    public List<CommonLog> getList() {
+        return  this.baseMapper.selectList(null);
     }
 
 }

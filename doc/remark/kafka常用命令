@@ -1,0 +1,98 @@
+######################################kafka 常用命令######################################
+1:启动 zookeeper-server
+bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+2:启动 kafka-server
+bin\windows\kafka-server-start.bat config\server.properties
+3：创建一个topic
+bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic test
+4：查看topics
+bin\windows\kafka-topics.bat --list --bootstrap-server localhost:9092
+5：启动一个生产者
+bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic demo
+6:启动一个消费者
+bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic demo --from-beginning
+
+
+#####查看kafka  topic 的列表：
+ kafka-topics.bat -list -zookeeper localhost:2181
+ 
+#####描述主题:
+ kafka-topics.bat -describe -zookeeper localhost:2181 -topic test
+ 
+#####从头读取消息:
+kafka-console-consumer.bat -zookeeper localhost:2181 -topic test -from-beginning
+
+#####删除主题:
+kafka-run-class.bat kafka.admin.TopicCommand -delete -topic test -zookeeper localhost:2181
+
+#####查看topic的详细信息:
+cd  /d E:\kafka_2.12-2.1.1\bin
+kafka-topics.sh -zookeeper localhost:2181 -describe -topic  test
+
+#####为topic增加副本：
+kafka-reassign-partitions.sh -zookeeper localhost:2181 -reassignment-json-file json/partitions-to-move.json -execute
+
+#####为topic增加partition：
+kafka-topics.sh -zookeeper localhost:2181 -alter -partitions 20 -topic test
+
+#####下线broker：
+kafka-run-class.sh kafka.admin.ShutdownBroker --zookeeper localhost:2181 broker [brokerId] --num.retries 3 --retry.interval.ms 60 shutdown broker
+
+
+
+
+#broker的全局唯一编号，不能重复，只能是数字
+broker.id=1
+#用来监听链接的端口，producer或consumer将在此端口建立连接
+port=9092自己添加)
+#处理网络请求的线程数量
+num.network.threads=3
+#用来处理磁盘IO的线程数量
+num.io.threads=8
+#发送套接字的缓冲区大小
+socket.send.buffer.bytes=102400
+#接受套接字的缓冲区大小
+socket.receive.buffer.bytes=102400
+#请求套接字的缓冲区大小
+socket.request.max.bytes=104857600
+#kafka消息存放的路径(持久化到磁盘)
+log.dirs=/home/data/logs/kafka
+#topic在当前broker上的分片个数
+num.partitions=2
+#用来恢复和清理data下数据的线程数量
+num.recovery.threads.per.data.dir=1
+#segment文件保留的最长时间，超时将被删除
+log.retention.hours=168
+#滚动生成新的segment文件的最大时间
+log.roll.hours=168
+#日志文件中每个segment的大小，默认为1G
+log.segment.bytes=1073741824
+#周期性检查文件大小的时间
+log.retention.check.interval.ms=300000
+#日志清理是否打开
+log.cleaner.enable=true
+#broker需要使用zookeeper保存meta数据
+zookeeper.connect=hadoop1:2181,hadoop2:2181,hadoop3:2181
+#zookeeper链接超时时间
+zookeeper.connection.timeout.ms=6000
+#partion buffer中，消息的条数达到阈值，将触发flush到磁盘
+log.flush.interval.messages=10000
+#消息buffer的时间，达到阈值，将触发flush到磁盘
+log.flush.interval.ms=3000
+#删除topic需要server.properties中设置delete.topic.enable=true否则只是标记删除
+#自己添加
+delete.topic.enable=true
+#此处的host.name为本机IP(重要),如果不改,则客户端会抛出:Producerconnection to localhost:9092 unsuccessful 错误!
+#自己添加
+host.name=hadoop1
+
+
+######################################说明######################################
+消息被认为是“已提交”之前，producer需要leader确认的produce请求的应答数。该参数用于控制消息的持久性，目前提供了3个取值：
+acks = 0: 表示produce请求立即返回，不需要等待leader的任何确认。这种方案有最高的吞吐率，但是不保证消息是否真的发送成功。
+acks = -1: 表示分区leader必须等待消息被成功写入到所有的ISR副本(同步副本)中才认为produce请求成功。这种方案提供最高的消息持久性保证，但是理论上吞吐率也是最差的。
+acks = 1: 表示leader副本必须应答此produce请求并写入消息到本地日志，之后produce请求被认为成功。如果此时leader副本应答请求之后挂掉了，消息会丢失。这是个这种的方案，提供了不错的持久性保证和吞吐。
+
+
+
+######################################KafkaMonitor######################################

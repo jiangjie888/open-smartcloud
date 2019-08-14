@@ -48,11 +48,11 @@
 			<artifactId>kernel-auth</artifactId>
 			<version>${core.version}</version>
 		</dependency>-->
-		<!--<dependency>
+		<dependency>
 			<groupId>com.smartcloud</groupId>
 			<artifactId>kernel-logger</artifactId>
 			<version>${core.version}</version>
-		</dependency>-->
+		</dependency>
 
 		<!-- swagger -->
 		<dependency>
@@ -92,6 +92,7 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+			<version>${spring-cloud-alibaba-dependencies.version}</version>
 		</dependency>
 
 		<dependency>

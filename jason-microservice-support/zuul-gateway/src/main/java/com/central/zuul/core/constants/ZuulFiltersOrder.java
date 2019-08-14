@@ -11,9 +11,15 @@ public interface ZuulFiltersOrder {
     int REQUEST_NO_GENERATE_FILTER_ORDER = -10;
 
     /**
-     * jwt token验证的过滤器顺序
+     * 用户token验证的过滤器顺序
      */
-    int JWT_TOKEN_FILTER_ORDER = 20;
+    int USER_TOKEN_FILTER_ORDER = 20;
+
+    /*
+    * 日志埋点过滤器顺序
+    * */
+    int LOG_POINT_FILTER_ORDER = 30;
+
 
     /**
      * 路径资源校验的顺序

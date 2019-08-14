@@ -31,21 +31,22 @@
 				</exclusion>
 			</exclusions>
 		</dependency>-->
-		<!--<dependency>
+		<dependency>
 			<groupId>com.smartcloud</groupId>
 			<artifactId>kernel-db</artifactId>
 			<version>${core.version}</version>
-		</dependency>-->
+			<optional>true</optional>
+		</dependency>
 		<dependency>
 			<groupId>com.smartcloud</groupId>
 			<artifactId>kernel-auth</artifactId>
 			<version>${core.version}</version>
 		</dependency>
-		<!--<dependency>
+		<dependency>
 			<groupId>com.smartcloud</groupId>
 			<artifactId>kernel-logger</artifactId>
 			<version>${core.version}</version>
-		</dependency>-->
+		</dependency>
 		<!--<dependency>
 			<groupId>com.smartcloud</groupId>
 			<artifactId>kernel-actuator</artifactId>
@@ -71,7 +72,14 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+			<version>${spring-cloud-alibaba-dependencies.version}</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-zuul</artifactId>
@@ -101,10 +109,7 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context-support</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
+
 		<!-- swagger -->
 		<dependency>
 			<groupId>com.didispace</groupId>
@@ -118,11 +123,18 @@
 			<artifactId>swagger-bootstrap-ui</artifactId>
 			<version>${swagger.ui.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>com.zyplayer</groupId>
 			<artifactId>swagger-mg-ui</artifactId>
 			<version>${swagger.mg.ui.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.squareup.okhttp3</groupId>
+			<artifactId>okhttp</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.micrometer</groupId>
+			<artifactId>micrometer-registry-prometheus</artifactId>
 		</dependency>
 
 		<dependency>
@@ -130,21 +142,16 @@
 			<artifactId>mybatis-plus-extension</artifactId>
 			<version>${mybatisplus.version}</version>
 		</dependency>
-
-		<dependency>
-			<groupId>com.squareup.okhttp3</groupId>
-			<artifactId>okhttp</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>io.micrometer</groupId>
-			<artifactId>micrometer-registry-prometheus</artifactId>
-		</dependency>
 		<dependency>
 			<groupId>com.baomidou</groupId>
 			<artifactId>mybatis-plus-core</artifactId>
 			<version>3.0.5</version>
 		</dependency>
+		<!--<dependency>
+			<groupId>eu.bitwalker</groupId>
+			<artifactId>UserAgentUtils</artifactId>
+			<version>1.21</version>
+		</dependency>-->
 	</dependencies>
 
 

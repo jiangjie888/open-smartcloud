@@ -6,7 +6,7 @@ import com.central.biz.log.api.entity.TraceLog;
 import com.central.biz.log.modular.service.CommonLogService;
 import com.central.biz.log.modular.service.TraceLogService;
 import com.central.db.annotation.DataSource;
-import com.smartcloud.logger.constants.KafkaConstants;
+import com.central.logger.constants.KafkaConstants;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.annotation.KafkaListener;

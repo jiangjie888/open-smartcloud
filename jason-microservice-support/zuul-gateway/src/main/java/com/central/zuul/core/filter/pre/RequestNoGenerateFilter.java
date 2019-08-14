@@ -1,18 +1,19 @@
 package com.central.zuul.core.filter.pre;
 
-import com.central.core.model.constants.JasonConstants;
 import com.central.core.model.constants.SecurityConstants;
 import com.central.zuul.core.constants.ZuulFiltersOrder;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.baomidou.mybatisplus.core.toolkit.IdWorker;
 import org.springframework.cloud.netflix.zuul.filters.support.FilterConstants;
+import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletResponse;
 
 /**
  * requestNo生成过滤器
  */
+@Component
 public class RequestNoGenerateFilter extends ZuulFilter {
 
     @Override

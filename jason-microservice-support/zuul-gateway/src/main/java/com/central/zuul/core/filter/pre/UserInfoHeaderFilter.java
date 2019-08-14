@@ -12,6 +12,7 @@ import org.springframework.security.authentication.AnonymousAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.oauth2.common.OAuth2AccessToken;
+import org.springframework.security.oauth2.provider.OAuth2Authentication;
 import org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationDetails;
 import org.springframework.stereotype.Component;
 
@@ -31,7 +32,7 @@ public class UserInfoHeaderFilter extends ZuulFilter {
     @Override
     public int filterOrder() {
         //优先级，数字越大，优先级越低
-        return ZuulFiltersOrder.JWT_TOKEN_FILTER_ORDER;
+        return ZuulFiltersOrder.USER_TOKEN_FILTER_ORDER;
         //return FORM_BODY_WRAPPER_FILTER_ORDER - 1;
     }
 
@@ -46,18 +47,24 @@ public class UserInfoHeaderFilter extends ZuulFilter {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         if (authentication != null && !(authentication instanceof AnonymousAuthenticationToken)) {
             Object principal = authentication.getPrincipal();
-            String userInfo;
+            String username;
+            Long userid=0L;
             if (principal instanceof LoginAppUser) {
                 LoginAppUser user = (LoginAppUser) principal;
-                userInfo = user.getUsername();
+                username = user.getUsername();
+                userid = user.getId();
             } else {
                 //jwt的token只有name
-                userInfo = authentication.getName();
+                username = authentication.getName();
             }
-            RequestContext ctx = RequestContext.getCurrentContext();
-            ctx.addZuulRequestHeader(SecurityConstants.USER_HEADER, userInfo);
-            ctx.addZuulRequestHeader(SecurityConstants.ROLE_HEADER, CollectionUtil.join(authentication.getAuthorities(), ","));
+            OAuth2Authentication oauth2Authentication = (OAuth2Authentication)authentication;
+            String clientId = oauth2Authentication.getOAuth2Request().getClientId();
 
+            RequestContext ctx = RequestContext.getCurrentContext();
+            ctx.addZuulRequestHeader(SecurityConstants.USER_HEADER, username);
+            ctx.addZuulRequestHeader(SecurityConstants.ROLE_HEADER, CollectionUtil.join(authentication.getAuthorities(), ","));
+            ctx.addZuulRequestHeader(SecurityConstants.USER_ID_HEADER, String.valueOf(userid));
+            ctx.addZuulRequestHeader(SecurityConstants.TENANT_HEADER, clientId);
             //OAuth2AuthenticationDetails details = (OAuth2AuthenticationDetails) athentication.getDetails() ;
             //ctx.addZuulRequestHeader("Authorization", OAuth2AccessToken.BEARER_TYPE+ " " + details.getTokenValue());
         }

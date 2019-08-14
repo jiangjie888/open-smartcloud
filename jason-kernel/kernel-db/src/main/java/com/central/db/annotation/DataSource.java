@@ -8,10 +8,10 @@ import java.lang.annotation.*;
 /**
  * 数据源选择
  */
-@Target({ElementType.METHOD, ElementType.TYPE})
+@Target({ElementType.TYPE, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-@Import(DataSourceConfigurationSelector.class)
+//@Import(DataSourceConfigurationSelector.class)
 public @interface DataSource {
     String name();
 }

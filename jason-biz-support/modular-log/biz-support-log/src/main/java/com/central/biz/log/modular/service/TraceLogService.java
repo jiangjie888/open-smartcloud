@@ -16,7 +16,6 @@ import java.util.List;
  * 服务实现类
  */
 @Service
-@DataSource(name="log")
 public class TraceLogService extends ServiceImpl<TraceLogMapper, TraceLog> {
 
     /**

@@ -5,7 +5,7 @@ spring:
     druid:
       # JDBC 配置(驱动类自动从url的mysql识别,数据源类型自动识别)
       core:
-        url: jdbc:mysql://${jason.datasource.ip}:3306/open_oauth_center?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT
+        url: jdbc:mysql://${jason.datasource.ip}:3306/open_log_center?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT
         username:  ${jason.datasource.username}
         password: ${jason.datasource.password}
         driver-class-name:  com.mysql.jdbc.Driver

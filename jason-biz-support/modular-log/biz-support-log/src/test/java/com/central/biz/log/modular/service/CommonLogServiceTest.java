@@ -9,8 +9,8 @@ import com.central.biz.log.modular.dao.CommonLogMapper;
 import com.central.biz.log.modular.model.CommonLogCondition;
 import com.central.biz.log.modular.model.CommonLogParams;
 import com.central.core.model.page.PageResultPlus;
-import com.smartcloud.logger.entity.SendingCommonLog;
-import com.smartcloud.logger.service.LogProducerService;
+import com.central.logger.entity.SendingCommonLog;
+import com.central.logger.service.LogProducerService;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 

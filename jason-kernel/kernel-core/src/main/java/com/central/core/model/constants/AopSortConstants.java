@@ -33,6 +33,6 @@ public interface AopSortConstants {
     /**
      * consumer的调用链aop
      */
-    int CHAIN_ON_CONSUMMER_SORT = 620;
+    int CHAIN_ON_CONSUMER_SORT = 620;
 
 }

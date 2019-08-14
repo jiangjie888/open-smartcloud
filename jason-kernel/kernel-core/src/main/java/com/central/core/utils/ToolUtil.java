@@ -3,12 +3,14 @@ package com.central.core.utils;
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.bean.copier.CopyOptions;
 import cn.hutool.core.date.DateUtil;
+import cn.hutool.core.util.StrUtil;
 import com.central.core.exception.ServiceException;
 import com.central.core.exception.enums.CoreExceptionEnum;
 import  com.central.core.autoconfigure.properties.*;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.central.core.model.constants.SecurityConstants;
+import lombok.extern.slf4j.Slf4j;
 
+import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -21,8 +23,8 @@ import java.util.*;
 /**
  * 高频方法集合
  */
+@Slf4j
 public class ToolUtil extends ValidateUtil {
-
     /**
      * 默认密码盐长度
      */
@@ -120,8 +122,7 @@ public class ToolUtil extends ValidateUtil {
                 return "";
             }
         } catch (Exception e) {
-            Logger logger = LoggerFactory.getLogger(ToolUtil.class);
-            logger.error("获取应用名称错误！", e);
+            log.error("获取应用名称错误！", e);
             return "";
         }
     }
@@ -150,6 +151,7 @@ public class ToolUtil extends ValidateUtil {
         try {
             return InetAddress.getLocalHost().getHostAddress();
         } catch (UnknownHostException e) {
+            log.error("获取ip地址错误！", e);
             e.printStackTrace();
         }
         return null;
@@ -252,6 +254,57 @@ public class ToolUtil extends ValidateUtil {
      */
     public static String currentTime() {
         return DateUtil.formatDateTime(new Date());
+    }
+
+
+    /*
+    * 获取请求头中的某个参数的值
+    * */
+    public static String getRequesHeader(String param) {
+        HttpServletRequest request = HttpContext.getRequest();
+        String result = request.getHeader(param);
+        if (!StrUtil.isNotEmpty(result)) {
+            result="";
+        }
+        return result;
+    }
+
+
+    /**
+     * 获取requet(head/param)中的token
+     * @param request
+     * @return
+     */
+    public static String extractToken(HttpServletRequest request) {
+        String token = extractHeaderToken(request);
+        if (token == null) {
+            token = request.getParameter(SecurityConstants.ACCESS_TOKEN);
+            if (token == null) {
+                log.error("请求中没发一面Token相关的参数");
+            }
+        }
+        return token;
+    }
+
+    /**
+     * 解析head中的token
+     * @param request
+     * @return
+     */
+    private static String extractHeaderToken(HttpServletRequest request) {
+        Enumeration<String> headers = request.getHeaders(SecurityConstants.AUTH_HEADER);
+        while (headers.hasMoreElements()) {
+            String value = headers.nextElement();
+            if ((value.toLowerCase().startsWith(SecurityConstants.BEARER_TYPE.toLowerCase()))) {
+                String authHeaderValue = value.substring(SecurityConstants.BEARER_TYPE.length()).trim();
+                int commaIndex = authHeaderValue.indexOf(',');
+                if (commaIndex > 0) {
+                    authHeaderValue = authHeaderValue.substring(0, commaIndex);
+                }
+                return authHeaderValue;
+            }
+        }
+        return null;
     }
 
 }

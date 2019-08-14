@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/jason-monitor/admin-server/admin-server.iml" filepath="$PROJECT_DIR$/jason-monitor/admin-server/admin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-microservice-eureka/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/jason-microservice-eureka/api-gateway/api-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-business/auth-server/auth-server.iml" filepath="$PROJECT_DIR$/jason-business/auth-server/auth-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-business/back-web/back-web.iml" filepath="$PROJECT_DIR$/jason-business/back-web/back-web.iml" />
@@ -12,7 +11,6 @@
       <module fileurl="file://$PROJECT_DIR$/jason-demo/demo.iml" filepath="$PROJECT_DIR$/jason-demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-microservice-eureka/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/jason-microservice-eureka/eureka-client/eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-microservice-eureka/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/jason-microservice-eureka/eureka-server/eureka-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jason-business/infra-server/infra-server.iml" filepath="$PROJECT_DIR$/jason-business/infra-server/infra-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-biz-support/jason-biz-support.iml" filepath="$PROJECT_DIR$/jason-biz-support/jason-biz-support.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-business/jason-business.iml" filepath="$PROJECT_DIR$/jason-business/jason-business.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-config/jason-config.iml" filepath="$PROJECT_DIR$/jason-config/jason-config.iml" />
@@ -28,7 +26,6 @@
       <module fileurl="file://$PROJECT_DIR$/jason-message/jason-message-service/jason-message-service.iml" filepath="$PROJECT_DIR$/jason-message/jason-message-service/jason-message-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-microservice-eureka/jason-microservice-eureka.iml" filepath="$PROJECT_DIR$/jason-microservice-eureka/jason-microservice-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-microservice-support/jason-microservice-support.iml" filepath="$PROJECT_DIR$/jason-microservice-support/jason-microservice-support.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jason-monitor/jason-monitor.iml" filepath="$PROJECT_DIR$/jason-monitor/jason-monitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-job/job-admin/job-admin.iml" filepath="$PROJECT_DIR$/jason-job/job-admin/job-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-job/job-core/job-core.iml" filepath="$PROJECT_DIR$/jason-job/job-core/job-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-job/job-demo/job-demo.iml" filepath="$PROJECT_DIR$/jason-job/job-demo/job-demo.iml" />
@@ -42,10 +39,13 @@
       <module fileurl="file://$PROJECT_DIR$/jason-kernel/kernel-sentinel/kernel-sentinel.iml" filepath="$PROJECT_DIR$/jason-kernel/kernel-sentinel/kernel-sentinel.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-kernel/kernel-swagger2/kernel-swagger2.iml" filepath="$PROJECT_DIR$/jason-kernel/kernel-swagger2/kernel-swagger2.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-biz-support/modular-log/modular-log.iml" filepath="$PROJECT_DIR$/jason-biz-support/modular-log/modular-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jason-microservice-support/modular-monitor/modular-monitor.iml" filepath="$PROJECT_DIR$/jason-microservice-support/modular-monitor/modular-monitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-demo/nacos-config-client/nacos-config-client.iml" filepath="$PROJECT_DIR$/jason-demo/nacos-config-client/nacos-config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-demo/nacos-discovery-server/nacos-discovery-server.iml" filepath="$PROJECT_DIR$/jason-demo/nacos-discovery-server/nacos-discovery-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-demo/nacos-discovery-server-client/nacos-discovery-server-client.iml" filepath="$PROJECT_DIR$/jason-demo/nacos-discovery-server-client/nacos-discovery-server-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/open-smartcloud.iml" filepath="$PROJECT_DIR$/open-smartcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jason-microservice-support/modular-monitor/sc-zipkin-server/sc-zipkin-server.iml" filepath="$PROJECT_DIR$/jason-microservice-support/modular-monitor/sc-zipkin-server/sc-zipkin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-admin-server/sm-admin-server.iml" filepath="$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-admin-server/sm-admin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-demo/test/test.iml" filepath="$PROJECT_DIR$/jason-demo/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-business/user-server/user-server.iml" filepath="$PROJECT_DIR$/jason-business/user-server/user-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-demo/web-demo/web-demo.iml" filepath="$PROJECT_DIR$/jason-demo/web-demo/web-demo.iml" />

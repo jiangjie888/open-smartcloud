@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.*;
 @Api(tags = "用户服务消费者")
 @FeignClient(name = "user-server", configuration =ServiceFeignConfiguration.class, fallbackFactory = UserServiceFallbackFactory.class, decode404 = true)
 //@FeignClient(name = "user-server")
-public interface UserServiceConsumer /*extends UserService*/ {
+public interface UserServiceConsumer extends UserService {
     /**
      * feign rpc访问远程/users/{username}接口
      * 查询用户实体对象SysUser
@@ -28,7 +28,7 @@ public interface UserServiceConsumer /*extends UserService*/ {
      * @param username
      * @return
      */
-    @GetMapping(value = "/users/name/{username}")
+    //@GetMapping(value = "/users/name/{username}")
     SysUser selectByUsername(@PathVariable("username") String username);
 
     /**
@@ -37,7 +37,7 @@ public interface UserServiceConsumer /*extends UserService*/ {
      * @param username
      * @return
      */
-    @RequestMapping(method = { RequestMethod.GET }, value = "/users-anon/login", params = "username", produces="application/json;charset=UTF-8")
+    //@RequestMapping(method = { RequestMethod.GET }, value = "/users-anon/login", params = "username", produces="application/json;charset=UTF-8")
     LoginAppUser findByUsername(@RequestParam("username") String username);
 
     /*
@@ -46,7 +46,7 @@ public interface UserServiceConsumer /*extends UserService*/ {
      *
      * @param mobile 手机号
      */
-    @GetMapping(value = "/users-anon/mobile", params = "mobile")
+    //@GetMapping(value = "/users-anon/mobile", params = "mobile")
     LoginAppUser findByMobile(@RequestParam("mobile") String mobile);
 
     /**
@@ -54,6 +54,6 @@ public interface UserServiceConsumer /*extends UserService*/ {
      *
      * @param openId openId
      */
-    @GetMapping(value = "/users-anon/openId", params = "openId")
+    //@GetMapping(value = "/users-anon/openId", params = "openId")
     LoginAppUser findByOpenId(@RequestParam("openId") String openId);
 }

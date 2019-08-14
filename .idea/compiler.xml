@@ -7,7 +7,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="admin-server" />
         <module name="api-gateway" />
         <module name="auth-server" />
         <module name="back-web" />
@@ -40,6 +39,8 @@
         <module name="nacos-config-client" />
         <module name="nacos-discovery-server" />
         <module name="nacos-discovery-server-client" />
+        <module name="sc-zipkin-server" />
+        <module name="sm-admin-server" />
         <module name="test" />
         <module name="user-server" />
         <module name="web-demo" />
@@ -84,10 +85,13 @@
       <module name="kernel-sentinel" target="1.8" />
       <module name="kernel-swagger2" target="1.8" />
       <module name="modular-log" target="1.8" />
+      <module name="modular-monitor" target="1.8" />
       <module name="nacos-config-client" target="1.8" />
       <module name="nacos-discovery-server" target="1.8" />
       <module name="nacos-discovery-server-client" target="1.8" />
       <module name="open-smartcloud" target="1.8" />
+      <module name="sc-zipkin-server" target="1.8" />
+      <module name="sm-admin-server" target="1.8" />
       <module name="test" target="1.8" />
       <module name="user-server" target="1.8" />
       <module name="web-demo" target="1.8" />

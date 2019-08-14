@@ -1,1 +1,8 @@
+com\central\logger\entity\SendingTCLog.class
+com\central\logger\service\LogProducerService.class
+com\central\logger\util\TraceUtil.class
+com\central\logger\entity\SendingTraceLog.class
+com\central\logger\chain\enums\RpcPhaseEnum.class
+com\central\logger\entity\SendingCommonLog.class
 META-INF\spring-configuration-metadata.json
+com\central\logger\config\properties\LogProperties.class

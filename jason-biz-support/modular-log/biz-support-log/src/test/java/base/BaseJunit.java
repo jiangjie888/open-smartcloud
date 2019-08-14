@@ -1,5 +1,6 @@
 package base;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.FixMethodOrder;
 import org.junit.runner.RunWith;
@@ -39,6 +40,14 @@ public class BaseJunit {
     }
 
     @Before
-    public void initDatabase() {
+    public void init() {
+        System.out.println("开始测试-----------------");
+
     }
+
+    @After
+    public void after() {
+        System.out.println("测试结束-----------------");
+    }
+
 }

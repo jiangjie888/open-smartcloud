@@ -16,13 +16,19 @@ import org.springframework.stereotype.Component;
  * 切换数据源Advice
  */
 @Aspect
-//@Component
+@Component
 @Order(-1) // 保证该AOP在@Transactional之前执行
 public class DataSourceAspect {
 
     private static final Logger logger = LoggerFactory.getLogger(DataSourceAspect.class);
 
-    @Before("@annotation(ds)")
+    /*
+    * target：类
+    * annotation：表示方法
+    * */
+    //@Before("@annotation(ds)")
+    //@Before("@within(ds) && execution(public * *(..))")
+    @Before("@within(ds)")
     public void changeDataSource(JoinPoint point, DataSource ds) throws Throwable {
         String dsId = ds.name();
         try {
@@ -31,11 +37,10 @@ public class DataSourceAspect {
         } catch (Exception e) {
             logger.error("数据源[{}]不存在，使用默认数据源 > {}", ds.name(), point.getSignature());
         }
-
-
     }
 
-    @After("@annotation(ds)")
+    //@After("@annotation(ds)")
+    @After("@within(ds)")
     public void restoreDataSource(JoinPoint point, DataSource ds) {
         logger.debug("Revert DataSource : {transIdo} > {}", ds.name(), point.getSignature());
         DataSourceHolder.clearDataSourceKey();

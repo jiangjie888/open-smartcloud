@@ -170,6 +170,7 @@
     <orderEntry type="module" module-name="kernel-sentinel" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-alibaba-sentinel:0.9.0.RELEASE" level="project" />
     <orderEntry type="module" module-name="spring-cloud-alibaba-sentinel" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-alibaba-sentinel-datasource:0.9.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.csp:sentinel-web-servlet:1.5.2" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.csp:sentinel-transport-simple-http:1.5.2" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.csp:sentinel-transport-common:1.5.2" level="project" />

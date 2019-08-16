@@ -111,7 +111,7 @@
     <orderEntry type="library" name="Maven: io.springfox:springfox-swagger-ui:2.7.0" level="project" />
     <orderEntry type="module" module-name="kernel-sentinel" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-alibaba-sentinel:0.9.0.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-alibaba-sentinel:0.9.0.RELEASE" level="project" />
+    <orderEntry type="module" module-name="spring-cloud-alibaba-sentinel" />
     <orderEntry type="library" name="Maven: com.alibaba.csp:sentinel-web-servlet:1.5.2" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.csp:sentinel-transport-simple-http:1.5.2" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.csp:sentinel-transport-common:1.5.2" level="project" />
@@ -128,7 +128,6 @@
     <orderEntry type="library" name="Maven: io.netty:netty-resolver:4.1.36.Final" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.36.Final" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.csp:sentinel-cluster-client-default:1.5.2" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-alibaba-sentinel-datasource:0.9.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.csp:sentinel-datasource-nacos:1.5.2" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.nacos:nacos-client:1.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba.nacos:nacos-common:1.0.0" level="project" />

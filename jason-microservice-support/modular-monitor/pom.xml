@@ -16,7 +16,7 @@
 
 	<modules>
 		<module>sm-admin-server</module>
-		<module>sm-zpkin-server</module>
+		<module>sm-zipkin-server</module>
 	</modules>
 
 </project>

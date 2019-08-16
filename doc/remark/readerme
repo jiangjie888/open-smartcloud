@@ -7,6 +7,9 @@ ps -ef | grep tomcat | grep -v grep | awk '{print $2}'
 #####查找tomcat进程并杀死
 ps -ef | grep tomcat | grep -v grep | awk '{print $2}' | xargs kill -9
 
+#####查看端口
+netstat -ant
+
 
 ######################################微服务核心端口9系列######################################
 #####nacos 注册中心启动
@@ -32,6 +35,12 @@ sudo nohup bash startup.sh -m standalone &
 #####Spring Cloud Sleuth + Zipkin 链路监控
 #sm-zpkin-server  端口9021
 
+#####elk
+#zookeeper      端口2181
+#kafka          端口9092
+#elasticsearch  端口9200
+#kibana         端口9201
+
 ######################################业务系统端口7系列######################################
 #back-web       后台管理中心(纯前端)      端口8001
 
@@ -45,3 +54,9 @@ sudo nohup bash startup.sh -m standalone &
 
 ######################################CI/CD######################################
 Windows SSH：BvSshServer-Inst7.39
+
+######################################开源工具源码BUG修正######################################
+1>spring-cloud-alibaba-sentinel-0.9.0.RELEASE 版本在FeignClient接口继承父类的时候不能使用，通过对源码进行修正重新打包；
+  把doc/remark/spring-cloud-alibaba-sentinel-0.9.0.RELEASE.jar拷贝到自己机器的maven repo 库覆盖解决上面问题
+
+2>nacos 与 sentinel-dashboard 配置自动同步拉去推送功能重写，项目中使用doc/remark/sentinel-dashboard/sentinel-dashboard-1.6.2-NACOS.jar

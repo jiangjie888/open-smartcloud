@@ -42,7 +42,7 @@ public class ResJwtTokenStore {
         JwtAccessTokenConverter converter = new JwtAccessTokenConverter();
         //非对称加密
         //converter.setVerifierKey(getPubKey());
-        //对称加密方式
+        //对称加密方式 RSA key 还是 MAC key
         converter.setSigningKey("smartcloud_C421AAEE0D114E9C");
         return converter;
     }

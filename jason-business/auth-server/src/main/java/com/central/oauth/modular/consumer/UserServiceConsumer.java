@@ -29,7 +29,7 @@ public interface UserServiceConsumer extends UserService {
      * @return
      */
     //@GetMapping(value = "/users/name/{username}")
-    SysUser selectByUsername(@PathVariable("username") String username);
+    //SysUser selectByUsername(@PathVariable("username") String username);
 
     /**
      * feign rpc访问远程/users-anon/login接口
@@ -38,7 +38,7 @@ public interface UserServiceConsumer extends UserService {
      * @return
      */
     //@RequestMapping(method = { RequestMethod.GET }, value = "/users-anon/login", params = "username", produces="application/json;charset=UTF-8")
-    LoginAppUser findByUsername(@RequestParam("username") String username);
+    //LoginAppUser findByUsername(@RequestParam("username") String username);
 
     /*
     **
@@ -47,7 +47,7 @@ public interface UserServiceConsumer extends UserService {
      * @param mobile 手机号
      */
     //@GetMapping(value = "/users-anon/mobile", params = "mobile")
-    LoginAppUser findByMobile(@RequestParam("mobile") String mobile);
+    //LoginAppUser findByMobile(@RequestParam("mobile") String mobile);
 
     /**
      * 根据OpenId查询用户信息
@@ -55,5 +55,5 @@ public interface UserServiceConsumer extends UserService {
      * @param openId openId
      */
     //@GetMapping(value = "/users-anon/openId", params = "openId")
-    LoginAppUser findByOpenId(@RequestParam("openId") String openId);
+    //LoginAppUser findByOpenId(@RequestParam("openId") String openId);
 }

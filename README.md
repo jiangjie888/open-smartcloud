@@ -5,6 +5,52 @@
 
 
 ## 1. 项目介绍
+项目采用统一的包目录结构，主目录下分为config,core,modular
+* **统一登录认证功能**
+  * 支持oauth2的四种模式登录
+  * 支持用户名、密码加图形验证码登录
+  * 支持手机号加密码登录
+  * 支持openId登录
+  * 支持第三方系统(授权模式)单点登录
+* **分布式系统基础支撑**
+  - 服务注册发现、路由与负载均衡
+  - 服务降级与熔断
+  - 服务限流(url/方法级别)
+  - 统一配置中心
+  - 统一日志中心
+  - 统一搜索中心
+  - 统一分布式缓存操作类、cacheManager配置扩展
+  - 分布式锁
+  - 分布式任务调度器
+  - 支持CI/CD持续集成(包括前端和后端)
+  - 分布式Id生成器
+  - 分布式事务(强一致性/最终一致性)
+* **系统监控功能**
+  - 服务调用链监控
+  - 应用拓扑图
+  - 慢查询SQL监控
+  - 应用吞吐量监控(qps、rt)
+  - 服务降级、熔断监控
+  - 服务限流监控
+  - 微服务服务监控
+  - 服务器监控
+  - redis监控
+  - mysql监控
+  - elasticSearch监控
+  - nacos监控
+  - prometheus监控
+* **业务基础功能支撑**
+  * 多租户(应用隔离)
+  * 高性能方法级幂等性支持
+  * RBAC权限管理，实现细粒度控制(方法、url级别)
+  * 快速实现导入、导出功能
+  * 数据库访问层自动实现crud操作
+  * 代码生成器
+  * 基于Hutool的各种便利开发工具
+  * 网关聚合所有服务的Swagger接口文档
+  * 统一跨域处理
+  * 统一异常处理
+  
 > 重构于开源项目OCP&cp：https://gitee.com/owenwangwen/open-capacity-platform
                Microservices-platform：https://gitee.com/zlt2000/microservices-platform
                Roses https://www.stylefeng.cn/
@@ -71,3 +117,38 @@ open-smartcloud -- 父项目，公共依赖
 &nbsp;
 
 ## 3. 截图（点击可大图预览）
+
+<table>
+    <tr>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/首页.png"/></td>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/用户搜索.png"/></td>
+    </tr>
+	<tr>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/server_metrics.png"/></td>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/application_metrics.png"/></td>
+    </tr>
+	<tr>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/持续集成2.png"/></td>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/sonar结果.png"/></td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/skywalking首页.png"/></td>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/skywalking应用拓扑图.png"/></td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/elk.png"/></td>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/任务中心.png"/></td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/日志中心02.png"/></td>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/慢查询sql.png"/></td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/应用监控01.png"/></td>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/应用监控02.png"/></td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/nacos-discovery.png"/></td>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/应用吞吐量监控.png"/></td>
+    </tr>
+</table>

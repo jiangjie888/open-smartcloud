@@ -37,6 +37,7 @@
         <option value="$PROJECT_DIR$/jason-microservice-support/modular-monitor/pom.xml" />
         <option value="$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-admin-server/pom.xml" />
         <option value="$PROJECT_DIR$/jason-microservice-support/modular-monitor/sc-zipkin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-microservice-support/spring-cloud-alibaba-sentinel/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

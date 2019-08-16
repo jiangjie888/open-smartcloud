@@ -41,6 +41,8 @@
         <module name="nacos-discovery-server-client" />
         <module name="sc-zipkin-server" />
         <module name="sm-admin-server" />
+        <module name="sm-zipkin-server" />
+        <module name="spring-cloud-alibaba-sentinel" />
         <module name="test" />
         <module name="user-server" />
         <module name="web-demo" />
@@ -92,6 +94,8 @@
       <module name="open-smartcloud" target="1.8" />
       <module name="sc-zipkin-server" target="1.8" />
       <module name="sm-admin-server" target="1.8" />
+      <module name="sm-zipkin-server" target="1.8" />
+      <module name="spring-cloud-alibaba-sentinel" target="1.5" />
       <module name="test" target="1.8" />
       <module name="user-server" target="1.8" />
       <module name="web-demo" target="1.8" />

@@ -78,7 +78,6 @@
 
     <modules>
         <!-- 服务注册中心模块 -->
-        <module>jason-monitor</module>
         <module>jason-kernel</module>
         <module>jason-message</module>
         <module>jason-job</module>

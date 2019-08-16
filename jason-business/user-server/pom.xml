@@ -72,11 +72,13 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+
 		<dependency>
 			<groupId>com.smartcloud</groupId>
 			<artifactId>kernel-sentinel</artifactId>
 			<version>${core.version}</version>
 		</dependency>
+
 
 
 		<!--需要引入该jar才能使bootstrap配置文件生效-->

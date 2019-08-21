@@ -15,6 +15,7 @@
 		<module>nacos-discovery-server-client</module>
 		<module>nacos-discovery-server</module>
 		<module>web-demo</module>
-	</modules>
+        <module>sentinel-client</module>
+    </modules>
 
 </project>

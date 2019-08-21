@@ -79,6 +79,32 @@
 			<version>${core.version}</version>
 		</dependency>
 
+		<!-- sentinel-dashboard -->
+		<!--<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-alibaba-sentinel</artifactId>
+			<version>0.9.0.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba.csp</groupId>
+			<artifactId>sentinel-core</artifactId>
+			<version>${alibaba-sentinel.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba.csp</groupId>
+			<artifactId>sentinel-web-servlet</artifactId>
+			<version>${alibaba-sentinel.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba.csp</groupId>
+			<artifactId>sentinel-transport-simple-http</artifactId>
+			<version>${alibaba-sentinel.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba.csp</groupId>
+			<artifactId>sentinel-parameter-flow-control</artifactId>
+			<version>${alibaba-sentinel.version}</version>
+		</dependency>-->
 
 
 		<!--需要引入该jar才能使bootstrap配置文件生效-->

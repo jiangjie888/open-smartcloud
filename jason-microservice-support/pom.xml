@@ -15,6 +15,7 @@
     <modules>
         <module>zuul-gateway</module>
 		<module>spring-cloud-alibaba-sentinel</module>
+        <module>sentinel-parent</module>
     </modules>
 
 </project>

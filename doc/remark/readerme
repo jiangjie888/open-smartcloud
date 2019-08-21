@@ -3,28 +3,33 @@
 # ps -ef                 # 查看所有进程
 # top                    # 实时显示进程状态
 #####查找tomcat进程
-ps -ef | grep tomcat | grep -v grep | awk '{print $2}'
+ps -ef | grep nacos | grep -v grep | awk '{print $2}'
 #####查找tomcat进程并杀死
-ps -ef | grep tomcat | grep -v grep | awk '{print $2}' | xargs kill -9
+ps -ef | grep nacos | grep -v grep | awk '{print $2}' | xargs kill -9
 
 #####查看端口
 netstat -ant
 
 
 ######################################微服务核心端口9系列######################################
-#####nacos 注册中心启动
+#####nacos 注册中心启动（如果系统配置的环境变量，启动的时候会有冲突，需要修改启动脚本：这个问题主要是sudo 命令可能重置了环境变量）
 #地址：172.16.4.130:8848
-sudo nohup bash startup.sh -m standalone &
+chmod +x /opt/docker/webapps/nacos/bin/startup.sh
+#nohup bash /opt/docker/webapps/nacos/bin/startup.sh >/dev/null 2>&1 &
+sudo nohup bash /opt/docker/webapps/nacos/bin/startup.sh -m standalone &
+或
+sudo setsid sh startup.sh -m standalone &
 
+#####(流控中心)sentinel-dashboard-1.6.0.jar  启动
+sudo nohup bash /opt/docker/webapps/sentinel-dashboard/startup.sh &
 
-#####sentinel-dashboard-1.6.0.jar  启动
-#地址：172.16.4.130:8801
+#地址：172.16.4.130:9005
 # -Dsentinel.dashboard.auth.username=sentinel: 用于指定控制台的登录用户名为 sentinel；
 # -Dsentinel.dashboard.auth.password=123456: 用于指定控制台的登录密码为 123456；如果省略这两个参数，默认用户和密码均为 sentinel
 # -Dserver.servlet.session.timeout=7200: 用于指定 Spring Boot 服务端 session 的过期时间，如 7200 表示 7200 秒；60m 表示 60 分钟，默认为 30 分钟；
 # -Dcsp.sentinel.dashboard.server=localhost:8801  用于指定sentinel-dashboard 控制台的地址和端口；
-# -Dcsp.sentinel.api.port=8802 客户端提供心跳包的端口
-#java -Dserver.port=8801 -Dcsp.sentinel.dashboard.server=localhost:8801 -Dproject.name=sentinel-dashboard -Dcsp.sentinel.api.port=8731 -jar /opt/sentinel-dashboard/sentinel-dashboard-1.6.0.jar
+# -Dcsp.sentinel.api.port=8731 客户端提供心跳包的端口
+#java -Dserver.port=9005 -Dcsp.sentinel.dashboard.server=localhost:9005 -Dproject.name=sentinel-dashboard -Dcsp.sentinel.api.port=8731 -jar /opt/sentinel-dashboard/sentinel-dashboard-1.6.0.jar
 
 #####API网关中心
 #zuul-gateway  端口9000
@@ -40,6 +45,7 @@ sudo nohup bash startup.sh -m standalone &
 #kafka          端口9092
 #elasticsearch  端口9200
 #kibana         端口9201
+#elasticsearch-head 端口9202
 
 ######################################业务系统端口7系列######################################
 #back-web       后台管理中心(纯前端)      端口8001

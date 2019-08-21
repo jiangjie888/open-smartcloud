@@ -6,6 +6,7 @@ D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\cor
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\model\reqres\request\RequestData.java
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\model\enums\DeleteFlagEnum.java
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\model\user\LoginAppUser.java
+D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\utils\HttpSessionHolder.java
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\model\user\SysMenu.java
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\autoconfigure\DefaultPasswordConfig.java
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\exception\enums\CoreExceptionEnum.java
@@ -21,11 +22,9 @@ D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\cor
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\exception\ApiServiceException.java
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\utils\SpringUtil.java
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\service\ISuperService.java
-D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\model\constants\JasonConstants.java
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\autoconfigure\DbInitializerAutoConfig.java
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\autoconfigure\properties\AppNameProperties.java
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\model\log\SysLog.java
-D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\utils\HttpSessionContext.java
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\model\enums\UserType.java
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\model\validator\BaseValidatingParam.java
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\annotation\LoginUser.java

@@ -68,7 +68,6 @@
 			<artifactId>kernel-sentinel</artifactId>
 			<version>${core.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
@@ -152,6 +151,7 @@
 			<artifactId>UserAgentUtils</artifactId>
 			<version>1.21</version>
 		</dependency>-->
+
 	</dependencies>
 
 

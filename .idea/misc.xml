@@ -32,7 +32,6 @@
         <option value="$PROJECT_DIR$/jason-kernel/kernel-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/jason-demo/web-demo/pom.xml" />
         <option value="$PROJECT_DIR$/jason-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/jason-demo/test/pom.xml" />
         <option value="$PROJECT_DIR$/jason-business/user-server/pom.xml" />
         <option value="$PROJECT_DIR$/jason-microservice-support/modular-monitor/pom.xml" />
         <option value="$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-admin-server/pom.xml" />

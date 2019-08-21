@@ -7,7 +7,7 @@ jason:
 
 spring:
   application:
-    name: sc-admin-server
+    name: sm-admin-server
   security:
     user:
       name: 'admin'

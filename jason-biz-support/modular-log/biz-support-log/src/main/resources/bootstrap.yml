@@ -20,14 +20,14 @@ spring:
       discovery:
         server-addr: ${jason.nacos.server-addr}
   kafka:
-    bootstrap-servers: 172.16.4.130:9092,172.16.4.131:9092,172.16.4.121:9092
+#    bootstrap-servers: 172.16.4.130:9092,172.16.4.131:9092,172.16.4.121:9092
     listener:
       type: batch
-    producer:
-      acks: 1
-      batch-size: 500
-      key-serializer: org.apache.kafka.common.serialization.StringSerializer
-      value-serializer: com.central.logger.serizlizer.FastjsonKafkaSerializer
+#    producer:
+#      acks: 1
+#      batch-size: 500
+#      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+#      value-serializer: com.central.logger.serizlizer.FastjsonKafkaSerializer
     consumer:
       group-id: commonLogList
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer

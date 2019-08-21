@@ -1,7 +1,7 @@
 ######################################kafka 常用命令######################################
-1:启动 zookeeper-server
+1:启动 zookeeper-server   2181
 bin\windows\zookeeper-server-start.bat config\zookeeper.properties
-2:启动 kafka-server
+2:启动 kafka-server  9092
 bin\windows\kafka-server-start.bat config\server.properties
 3：创建一个topic
 bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic test

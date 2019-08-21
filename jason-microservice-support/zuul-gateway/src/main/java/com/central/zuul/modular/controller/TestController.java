@@ -27,6 +27,7 @@ public class TestController {
 	@Resource
 	private RedisTemplate< String, Object> redisTemplate ;
 
+	@SentinelResource("testRequestdata")
 	@GetMapping("/hello")
 	@ApiOperation(value = "hello test")
 	public String hello() {
@@ -45,7 +46,7 @@ public class TestController {
 		return "/login.html";
 	}
 
-	@SentinelResource("testRequestdata")
+
 	@PostMapping("/requestdata")
 	@ApiOperation(value = "测试RequestData解析")
 	public Long login(RequestData requestData) {

@@ -34,7 +34,7 @@ jason:
       name: jason
       url:
       email: 3697871@qq.com
-    base-package: com.central.user.modular.controller;com.central.user.modular.provider
+#    base-package: com.central.user.modular.controller;com.central.user.modular.provider
   cache-manager:
     configs:
       - key: menu

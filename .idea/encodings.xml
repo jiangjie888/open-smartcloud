@@ -15,6 +15,7 @@
     <file url="file://$PROJECT_DIR$/jason-demo/nacos-config-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jason-demo/nacos-discovery-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jason-demo/nacos-discovery-server-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-demo/sentinel-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jason-demo/test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jason-demo/web-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jason-job" charset="UTF-8" />
@@ -43,11 +44,58 @@
     <file url="file://$PROJECT_DIR$/jason-microservice-eureka/eureka-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jason-microservice-eureka/eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jason-microservice-support" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jason-microservice-support/Sentinel-Dashboard-Nacos-1.6.2-NACOS/sentinel-dashboard" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jason-microservice-support/modular-monitor" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-admin-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-zipkin-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/jason-microservice-support/spring-cloud-alibaba-sentinel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-adapter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-adapter/sentinel-apache-dubbo-adapter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-adapter/sentinel-api-gateway-adapter-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-adapter/sentinel-dubbo-adapter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-adapter/sentinel-grpc-adapter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-adapter/sentinel-reactor-adapter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-adapter/sentinel-spring-cloud-gateway-adapter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-adapter/sentinel-spring-webflux-adapter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-adapter/sentinel-web-servlet" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-adapter/sentinel-zuul-adapter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-benchmark" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-cluster" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-cluster/sentinel-cluster-client-default" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-cluster/sentinel-cluster-common-default" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-cluster/sentinel-cluster-server-default" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-demo/sentinel-demo-annotation-spring-aop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-demo/sentinel-demo-apache-dubbo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-demo/sentinel-demo-apollo-datasource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-demo/sentinel-demo-basic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-demo/sentinel-demo-cluster" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-demo/sentinel-demo-cluster/sentinel-demo-cluster-embedded" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-demo/sentinel-demo-cluster/sentinel-demo-cluster-server-alone" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-demo/sentinel-demo-command-handler" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-demo/sentinel-demo-dubbo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-demo/sentinel-demo-dynamic-file-rule" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-demo/sentinel-demo-nacos-datasource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-demo/sentinel-demo-parameter-flow-control" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-demo/sentinel-demo-rocketmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-demo/sentinel-demo-slot-chain-spi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-demo/sentinel-demo-spring-cloud-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-demo/sentinel-demo-spring-webflux" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-demo/sentinel-demo-zookeeper-datasource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-demo/sentinel-demo-zuul-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-extension" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-extension/sentinel-annotation-aspectj" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-extension/sentinel-datasource-apollo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-extension/sentinel-datasource-extension" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-extension/sentinel-datasource-nacos" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-extension/sentinel-datasource-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-extension/sentinel-datasource-zookeeper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-extension/sentinel-parameter-flow-control" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-transport" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-transport/sentinel-transport-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-transport/sentinel-transport-netty-http" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-transport/sentinel-transport-simple-http" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jason-microservice-support/spring-cloud-alibaba-sentinel" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway" charset="UTF-8" />
   </component>

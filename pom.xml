@@ -32,7 +32,7 @@
         <!--<spring-cloud-alibaba-dependencies.version>0.2.2.RELEASE</spring-cloud-alibaba-dependencies.version>-->
         <spring-cloud-alibaba-dependencies.version>0.9.0.RELEASE</spring-cloud-alibaba-dependencies.version>
 
-
+        <alibaba-sentinel.version>1.6.2</alibaba-sentinel.version>
         <security-oauth2.version>2.3.3.RELEASE</security-oauth2.version>
         <hibernate-validator.verion>6.0.13.Final</hibernate-validator.verion>
         <!--<hibernate-validator.verion>5.0.2.Final</hibernate-validator.verion>
@@ -54,7 +54,7 @@
         <swagger.mg.ui.version>1.0.6</swagger.mg.ui.version>
         <swagger.butler.version>2.0.0</swagger.butler.version>
 
-        <fastjson.version>1.2.39</fastjson.version>
+        <fastjson.version>1.2.56</fastjson.version>
         <lombok.version>1.16.18</lombok.version>
         <commons-collections4.version>4.1</commons-collections4.version>
         <commons-beanutils.version>1.9.3</commons-beanutils.version>
@@ -147,6 +147,44 @@
                 <version>${spring-cloud-alibaba-dependencies.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+                <exclusions>
+                    <exclusion>
+                        <groupId>com.alibaba.csp</groupId>
+                        <artifactId>sentinel-core</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>com.alibaba.csp</groupId>
+                        <artifactId>sentinel-web-servlet</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <artifactId>sentinel-cluster-server-default</artifactId>
+                        <groupId>com.alibaba.csp</groupId>
+                    </exclusion>
+                    <exclusion>
+                        <artifactId>sentinel-parameter-flow-control</artifactId>
+                        <groupId>com.alibaba.csp</groupId>
+                    </exclusion>
+                    <exclusion>
+                        <artifactId>sentinel-transport-simple-http</artifactId>
+                        <groupId>com.alibaba.csp</groupId>
+                    </exclusion>
+                    <exclusion>
+                        <artifactId>sentinel-annotation-aspectj</artifactId>
+                        <groupId>com.alibaba.csp</groupId>
+                    </exclusion>
+                    <exclusion>
+                        <artifactId>sentinel-cluster-client-default</artifactId>
+                        <groupId>com.alibaba.csp</groupId>
+                    </exclusion>
+                    <exclusion>
+                        <artifactId>sentinel-core</artifactId>
+                        <groupId>com.alibaba.csp</groupId>
+                    </exclusion>
+                    <exclusion>
+                        <artifactId>sentinel-datasource-extension</artifactId>
+                        <groupId>com.alibaba.csp</groupId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>io.spring.platform</groupId>

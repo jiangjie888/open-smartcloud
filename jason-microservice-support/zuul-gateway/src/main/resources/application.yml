@@ -30,7 +30,7 @@ spring:
         flow:
           nacos:
             server-addr: ${jason.nacos.server-addr}
-            dataId: ${spring.application.name}-flow-rules
+            dataId: ${spring.application.name}-flow-rules-dashboard
             groupId: SENTINEL_GROUP
             # 规则类型，取值见：
             # org.springframework.cloud.alibaba.sentinel.datasource.RuleType
@@ -104,6 +104,11 @@ zuul:
   ignored-headers: Access-Control-Allow-Credentials,Access-Control-Allow-Origin,Access-Control-Allow-Methods
   add-host-header: true
   routes:
+    gateway:
+      path: /api-gateway/**
+      service-id: api-gateway
+      strip-prefix: true
+      custom-sensitive-headers: true
     auth:
       path: /api-uaa/**
       service-id: auth-server
@@ -172,4 +177,4 @@ swagger:
     api-docs-path:  v2/api-docs
     swagger-version: 2.0
     auto-generate-from-zuul-routes: true
-    generate-routes: auth,user
+    generate-routes: gateway,auth,user

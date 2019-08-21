@@ -21,15 +21,50 @@
 			<groupId>com.smartcloud</groupId>
 			<artifactId>kernel-core</artifactId>
 			<version>${core.version}</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>poi-ooxml-schemas</artifactId>
+					<groupId>org.apache.poi</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
 			<version>${spring-cloud-alibaba-dependencies.version}</version>
-			<!--<exclusions>
+<!--			<exclusions>
 				<exclusion>
 					<groupId>com.alibaba.csp</groupId>
 					<artifactId>sentinel-web-servlet</artifactId>
+				</exclusion>
+				<exclusion>
+					<artifactId>sentinel-cluster-server-default</artifactId>
+					<groupId>com.alibaba.csp</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>sentinel-parameter-flow-control</artifactId>
+					<groupId>com.alibaba.csp</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>sentinel-transport-simple-http</artifactId>
+					<groupId>com.alibaba.csp</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>sentinel-annotation-aspectj</artifactId>
+					<groupId>com.alibaba.csp</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>sentinel-cluster-client-default</artifactId>
+					<groupId>com.alibaba.csp</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>sentinel-core</artifactId>
+					<groupId>com.alibaba.csp</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>sentinel-datasource-extension</artifactId>
+					<groupId>com.alibaba.csp</groupId>
 				</exclusion>
 			</exclusions>-->
 		</dependency>
@@ -38,50 +73,68 @@
 			<artifactId>spring-cloud-alibaba-sentinel</artifactId>
 			<version>0.9.0.RELEASE</version>
 		</dependency>-->
+<!--		<dependency>
+			<groupId>com.alibaba.csp</groupId>
+			<artifactId>sentinel-core</artifactId>
+			<version>${alibaba-sentinel.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>com.alibaba.csp</groupId>
 			<artifactId>sentinel-web-servlet</artifactId>
-			<version>1.6.2</version>
+			<version>${alibaba-sentinel.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.alibaba.csp</groupId>
 			<artifactId>sentinel-transport-simple-http</artifactId>
-			<version>1.6.2</version>
+			<version>${alibaba-sentinel.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.alibaba.csp</groupId>
 			<artifactId>sentinel-annotation-aspectj</artifactId>
-			<version>1.6.2</version>
+			<version>${alibaba-sentinel.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.alibaba.csp</groupId>
 			<artifactId>sentinel-parameter-flow-control</artifactId>
-			<version>1.6.2</version>
+			<version>${alibaba-sentinel.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.alibaba.csp</groupId>
 			<artifactId>sentinel-cluster-server-default</artifactId>
-			<version>1.6.2</version>
+			<version>${alibaba-sentinel.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.alibaba.csp</groupId>
 			<artifactId>sentinel-cluster-client-default</artifactId>
-			<version>1.6.2</version>
+			<version>${alibaba-sentinel.version}</version>
+		</dependency>
+		-->
+
+
+		<!--sentinel指定nacos为数据源 -->
+		<dependency>
+			<groupId>com.alibaba.csp</groupId>
+			<artifactId>sentinel-datasource-nacos</artifactId>
+			<version>${alibaba-sentinel.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba.csp</groupId>
+			<artifactId>sentinel-datasource-extension</artifactId>
+			<version>${alibaba-sentinel.version}</version>
 		</dependency>
 
-		<!-- 用于查看Sentinel客户端相关规则 -->
+
+
+		<!--actuator，用于暴露监控端点-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
-		<!--sentinel指定nacos为数据源 -->
-
-
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-openfeign</artifactId>
@@ -97,35 +150,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>com.alibaba.csp</groupId>
-			<artifactId>sentinel-datasource-nacos</artifactId>
-			<version>1.6.2</version>
-			<exclusions>
-				<exclusion>
-					<groupId>com.alibaba.csp</groupId>
-					<artifactId>sentinel-datasource-extension</artifactId>
-				</exclusion>
-			</exclusions>
-			<!--<scope>test</scope>-->
-		</dependency>
-		<dependency>
-			<groupId>com.alibaba.csp</groupId>
-			<artifactId>sentinel-datasource-extension</artifactId>
-			<exclusions>
-				<exclusion>
-					<groupId>com.alibaba.csp</groupId>
-					<artifactId>sentinel-core</artifactId>
-				</exclusion>
-			</exclusions>
-			<version>1.6.2</version>
-		</dependency>
-		<dependency>
-			<groupId>com.alibaba.csp</groupId>
-			<artifactId>sentinel-core</artifactId>
-			<version>1.6.2</version>
-		</dependency>
-
 	</dependencies>
 
 

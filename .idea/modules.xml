@@ -97,7 +97,6 @@
       <module fileurl="file://$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-admin-server/sm-admin-server.iml" filepath="$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-admin-server/sm-admin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-zipkin-server/sm-zipkin-server.iml" filepath="$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-zipkin-server/sm-zipkin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-microservice-support/spring-cloud-alibaba-sentinel/spring-cloud-alibaba-sentinel.iml" filepath="$PROJECT_DIR$/jason-microservice-support/spring-cloud-alibaba-sentinel/spring-cloud-alibaba-sentinel.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jason-demo/test/test.iml" filepath="$PROJECT_DIR$/jason-demo/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-business/user-server/user-server.iml" filepath="$PROJECT_DIR$/jason-business/user-server/user-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-demo/web-demo/web-demo.iml" filepath="$PROJECT_DIR$/jason-demo/web-demo/web-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/zuul-gateway.iml" filepath="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/zuul-gateway.iml" />

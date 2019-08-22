@@ -19,6 +19,9 @@ import com.alibaba.csp.sentinel.context.Context;
 import com.alibaba.csp.sentinel.node.DefaultNode;
 import com.alibaba.csp.sentinel.slots.block.AbstractRule;
 import com.alibaba.csp.sentinel.slots.block.RuleConstant;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+import java.util.Date;
 
 /**
  * <p>
@@ -36,6 +39,73 @@ import com.alibaba.csp.sentinel.slots.block.RuleConstant;
  * @author Eric Zhao
  */
 public class FlowRule extends AbstractRule {
+    //add by jason 为了配置Sentinel 控制台生成的规则FlowRuleEntity推送给nacos
+    @JsonIgnore
+    private Long id;
+    @JsonIgnore
+    private String app;
+    @JsonIgnore
+    private String ip;
+    @JsonIgnore
+    private Integer port;
+    @JsonIgnore
+    private Date gmtCreate;
+    @JsonIgnore
+    private Date gmtModified;
+
+    public Long getId() {
+        return id;
+    }
+
+    public FlowRule setId(Long id) {
+        this.id = id;
+        return this;
+    }
+
+
+    public String getApp() {
+        return app;
+    }
+
+    public FlowRule setApp(String app) {
+        this.app = app;
+        return this;
+    }
+
+    public String getIp() {
+        return ip;
+    }
+
+    public FlowRule setIp(String ip) {
+        this.ip = ip;
+        return this;
+    }
+
+    public Integer getPort() {
+        return port;
+    }
+
+    public FlowRule setPort(Integer port) {
+        this.port = port;
+        return this;
+    }
+    public Date getGmtCreate() {
+        return gmtCreate;
+    }
+
+    public FlowRule setGmtCreate(Date gmtCreate) {
+        this.gmtCreate = gmtCreate;
+        return this;
+    }
+
+    public Date getGmtModified() {
+        return gmtModified;
+    }
+
+    public FlowRule setGmtModified(Date gmtModified) {
+        this.gmtModified = gmtModified;
+        return this;
+    }
 
     public FlowRule() {
         super();
@@ -232,8 +302,8 @@ public class FlowRule extends AbstractRule {
         return "FlowRule{" +
             "resource=" + getResource() +
             ", limitApp=" + getLimitApp() +
-            ", grade=" + grade +
-            ", count=" + count +
+            ", =" + grade +
+            ", cougradent=" + count +
             ", strategy=" + strategy +
             ", refResource=" + refResource +
             ", controlBehavior=" + controlBehavior +

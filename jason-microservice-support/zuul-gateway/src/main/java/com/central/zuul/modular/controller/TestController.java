@@ -20,9 +20,13 @@ import javax.annotation.Resource;
 @RestController
 public class TestController {
 	private static final Logger logger = LoggerFactory.getLogger(TestController.class);
-
 	//@Autowired
 	//private SysMenuDao menuDao;
+	//com.alibaba.nacos.client.config.NacosConfigService
+	//com.alibaba.csp.sentinel.slots.block.flow.FlowRule
+	//默认流空规则只有这12个字段属性
+	//resource,limitApp,rater,grade,count,strategy,refResource,controlBehavior,warmUpPeriodSec,maxQueueingTimeMs,clusterMode,clusterConfig
+
 
 	@Resource
 	private RedisTemplate< String, Object> redisTemplate ;

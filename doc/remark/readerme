@@ -66,3 +66,14 @@ Windows SSH：BvSshServer-Inst7.39
   把jason-microservice-support/spring-cloud-alibaba-sentinel编译生成的jar拷贝到自己机器的maven repo 库覆盖解决上面问题
 
 2>nacos 与 sentinel-dashboard 配置自动同步拉去推送功能重写，项目中使用doc/remark/sentinel-dashboard/sentinel-dashboard-1.6.2-NACOS.jar
+
+
+######################################基于Dockerfile文件部署的命令######################################
+#创建镜像（下面都以api-gateway为例）
+docker build -t api-gateway:1 .
+#创建容器
+docker run -d -p 9000:9000 -v /opt/docker/webapps/api-gateway:/opt/webapps --name api-gateway-9000 api-gateway:1
+#宿主机与容器互相拷贝
+docker cp /opt/docker/helloWord.war hello:/usr/local/tomcat/webapps
+#执行查看容器中的内容
+docker exec -it api-gateway-9000 /bin/bash

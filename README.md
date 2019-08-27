@@ -115,61 +115,28 @@ open-smartcloud -- 父项目，公共依赖
 ## 3. 截图（点击可大图预览）
 
 <table>
-    <tr>
-        <td colspan="2">登录中心和工作台</td>
-    </tr>
-    <tr>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/login.png"/ alt="登录"></td>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/homepage.png"/ alt="工作台"></td>
-    </tr>
-    <tr>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/oauth2_login.png"/ alt="第三方系统纺一登录"></td>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/oauth2_approve.png"/ alt="第三方系统纺一授权"></td>
-    </tr>
-    <tr>
-        <td colspan="2">系统服务</td>
-    </tr>
-    <tr>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/api-gateway1.png"/ alt="网关服务"></td>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/auth-server1.png"/ alt="登录认证服务"></td>
-    </tr>
-    <tr>
-        <td colspan="2">日志管理(链路日志kafka和系统日志log4j+elasticsearch+logstash+kibana)</td>
-    </tr>
-    <tr>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/kafkatool.png"/ alt="链路日志"></td>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/kibana.png"/ alt="kibana"></td>
-    </tr>
-    <tr>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/es-head1.png"/ alt="es管理1"></td>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/es-head2.png"/ alt="es管理2"></td>
-    </tr>
-    <tr>
-        <td colspan="2">监控管理</td>
-    </tr>
-    <tr>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/mo-admin1.png"/ alt="admin服务监控中心"></td>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/nacos.png"/ alt="注册中心和配置中心"></td>
-    </tr>
-    <tr>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/sentinel-dashboard1.png"/ alt="流控中心1"></td>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/sentinel-dashboard2.png"/ alt="流控中心2"></td>
-    </tr>
-        <tr>
-            <td colspan="2">持续集成和镜像库</td>
-        </tr>
-        <tr>
-            <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/jenkins1.png"/ alt="jenkins构建中心"></td>
-        </tr>
-        <tr>
-            <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/harbor1.png"/ alt="镜像库1"></td>
-            <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/harbor2.png"/ alt="镜像库2"></td>
-        </tr>
-    <tr>
-        <td colspan="2">任务中心</td>
-    </tr>
-    <tr>
-        <td colspan="2"><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/job.png"/ alt="xxxjob任务中心"></td>
-    </tr>
-   
+    <tr><td>登录中心和工作台</td></tr>
+    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/login.png"/ alt="登录"></td></tr>
+    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/homepage.png"/ alt="工作台"></td></tr>
+    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/oauth2_login.png"/ alt="第三方系统纺一登录"></td></tr>
+    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/oauth2_approve.png"/ alt="第三方系统纺一授权"></td></tr>
+    <tr><td>系统服务</td></tr>
+    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/api-gateway1.png"/ alt="网关服务"></td></tr>
+    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/auth-server1.png"/ alt="登录认证服务"></td></tr>
+    <tr><td>日志管理(链路日志kafka和系统日志log4j+elasticsearch+logstash+kibana)</td></tr>
+    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/kafkatool.png"/ alt="链路日志"></td></tr>
+    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/kibana.png"/ alt="kibana"></td></tr>
+    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/es-head1.png"/ alt="es管理1"></td></tr>
+    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/es-head2.png"/ alt="es管理2"></td></tr>
+    <tr><td>监控管理</td></tr>
+    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/mo-admin1.png"/ alt="admin服务监控中心"></td></tr>
+    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/nacos.png"/ alt="注册中心和配置中心"></td></tr>
+    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/sentinel-dashboard1.png"/ alt="流控中心1"></td></tr>
+    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/sentinel-dashboard2.png"/ alt="流控中心2"></td></tr>
+    <tr><td>持续集成和镜像库</td>
+    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/jenkins1.png"/ alt="jenkins构建中心"></td></tr>
+    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/harbor1.png"/ alt="镜像库1"></td></tr>
+    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/harbor2.png"/ alt="镜像库2"></td></tr>
+    <tr><td>任务中心</td></tr>
+    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/job.png"/ alt="xxxjob任务中心"></td></tr>
 </table>

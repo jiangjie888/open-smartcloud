@@ -1,56 +1,29 @@
 # open-smartcloud
 通用微服务平台：采用SpringCloud系列和alibaba产品集成;
-                包括基本的服务支撑模块（注册中心，API网关，配置中心，监控中心，日志中心，基础权限模块，登录认证中心, CI/CD等等）;
+                包括基本的服务支撑模块（注册中心，API网关，配置中心，监控中心，日志中心，全文搜索，基础权限模块，登录认证中心, CI/CD等等）;
                 主要用于学习用途;
 
 
 ## 1. 项目介绍
-项目采用统一的包目录结构，主目录下分为config,core,modular
-* **统一登录认证功能**
-  * 支持oauth2的四种模式登录
-  * 支持用户名、密码加图形验证码登录
-  * 支持手机号加密码登录
-  * 支持openId登录
-  * 支持第三方系统(授权模式)单点登录
-* **分布式系统基础支撑**
-  - 服务注册发现、路由与负载均衡
-  - 服务降级与熔断
-  - 服务限流(url/方法级别)
-  - 统一配置中心
-  - 统一日志中心
-  - 统一搜索中心
-  - 统一分布式缓存操作类、cacheManager配置扩展
-  - 分布式锁
-  - 分布式任务调度器
-  - 支持CI/CD持续集成(包括前端和后端)
-  - 分布式Id生成器
-  - 分布式事务(强一致性/最终一致性)
-* **系统监控功能**
-  - 服务调用链监控
-  - 应用拓扑图
-  - 慢查询SQL监控
-  - 应用吞吐量监控(qps、rt)
-  - 服务降级、熔断监控
-  - 服务限流监控
-  - 微服务服务监控
-  - 服务器监控
-  - redis监控
-  - mysql监控
-  - elasticSearch监控
-  - nacos监控
-  - prometheus监控
-* **业务基础功能支撑**
-  * 多租户(应用隔离)
-  * 高性能方法级幂等性支持
-  * RBAC权限管理，实现细粒度控制(方法、url级别)
-  * 快速实现导入、导出功能
-  * 数据库访问层自动实现crud操作
-  * 代码生成器
-  * 基于Hutool的各种便利开发工具
-  * 网关聚合所有服务的Swagger接口文档
-  * 统一跨域处理
-  * 统一异常处理
+项目采用统一的包目录结构，主目录下分为config,core,modular三个主包，所有的AOP和相关的配置都是基于这个结构来现
 
+* **统一登录认证功能**
+  - 支持oauth2的四种模式登录；支持用户名、密码加图形验证码登录； 支持手机号加密码登录；支持openId登录；支持第三方系统(授权模式)单点登录
+
+* **分布式支撑功能**
+  - 基于nacos的统一注册，统一配置的管理；基于sentinel进行流控管理，本项目化中使用的组件都是基于源码做了一些Bug的修正处理的；
+
+* **日志功能**
+  - 日志功能主要分为两部分：
+  - 自定义RequstNo和SpanId进行服务调用间链路的全程跟踪；实时记录链路日志到Kafka中，消费都存入mysql；提供日志记录工具随时可以调用定制的日志；
+  - 进行log4j埋点的方式记录系统日志到文件，再通过ElasticSearch+logstash+kibana实时抽取和分析；
+  
+* **业务基础功能支撑**
+  - 高性能方法级幂等性支持；RBAC权限管理，实现细粒度控制(方法、url级别)；数据库访问层自动实现crud操作，支持多库切换；网关聚合所有服务的Swagger接口文档；
+   统一跨域处理；统一异常处理；统一的请求RequestData和输出ResponseData处理；
+
+* **持续集成**
+  -  自定义支持window,linux多平台，多言语（nodejs,java,dotnet）的通过脚本，结合GitLab源码管理工具,Jenkins构建工具和Harbor私有镜像库;提交代码自动部署集成；
 &nbsp;
 
 ## 2. 模块说明
@@ -64,13 +37,17 @@ open-smartcloud -- 父项目，公共依赖
 │  │  │  ├─Tool           -- 持续集成相关的工具
 │  │  │  ├─自动发布脚本    -- 持续集成自动发布相关的公共脚本（包括window bat,linux shell）
 │  │  │  ├─自动部署脚本    -- 持续集成自动部署相关的公共脚本（包括window bat,linux shell）
-│  │  ├─remark -- 综合相关说明
-│  │  ├─sql    -- 初始化SQL脚本
-│  │  ├─syspic -- 系统截图
-│  ├─jason-biz-support -- 业务公共模块
-│  │  ├─modular-log -- 日志模块
+│  │  ├─remark              -- 综合相关说明
+│  │  ├─sql                 -- 初始化SQL脚本
+│  │  ├─syspic              -- 系统截图
+│  ├─jason-biz-support          -- 业务公共模块
+│  │  ├─modular-log             -- 日志模块
 │  │  │  ├─biz-support-log     -- 日志业务系统（kafka+mysql）
 │  │  │  ├─biz-support-log-api -- 日志API和实体定义
+│  │  ├─modular-search          -- 全文搜索引擎
+│  │  │  ├─search-api          -- 公用ElasticSearch搜索API
+│  │  │  ├─search-client       -- 搜索消息费（需要使用的第三方系统直接引入这个模块）
+│  │  │  ├─search-server       -- 搜索提供者
 │  ├─jason-business -- 业务系统模块一级工程
 │  │  ├─auth-center -- 登录认证中心[7000] (spring security+OAuth2, 支持oauth2的四种认证模式，已重写authorization_code登录页和授权页)
 │  │  ├─user-center -- 用户中心[7011]
@@ -104,10 +81,12 @@ open-smartcloud -- 父项目，公共依赖
 │  │  ├─eureka-server -- eureka注册中心
 │  ├─jason-microservice-support -- 微服务相关支持，这里是采用nacos+zull实现
 │  │  ├─jason-register                       -- nacos注册中心(把jar上传linux中部署)
-│  │  ├─Sentinel-Dashboard-Nacos-1.6.2-NACOS -- 重写后的Sentinel-Dashboard，可以与nacos自动同步拉取和推送配置
+│  │  ├─modular-monitor               -- 监控
+│  │  │  ├─sm-admin-server           -- spring cloud admin监控中心[9011]
+│  │  ├─sentinel-parent               -- Sentinel源码：基于开源源码重写后的Sentinel-Dashboard，可以与nacos自动同步拉取和推送配置
+│  │  ├─spring-cloud-alibaba-sentinel -- Sentinel源码：1.6.2版本，基于开源源码修复feign继承接口Api的Bug
 │  │  ├─zuul-gateway -- zuul网关[9000]
-│  ├─jason-monitor -- 监控
-│  │  ├─admin-server -- 应用监控
+
 ```
 
 &nbsp;
@@ -115,28 +94,61 @@ open-smartcloud -- 父项目，公共依赖
 ## 3. 截图（点击可大图预览）
 
 <table>
-    <tr><td>登录中心和工作台</td></tr>
-    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/login.png"/ alt="登录"></td></tr>
-    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/homepage.png"/ alt="工作台"></td></tr>
-    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/oauth2_login.png"/ alt="第三方系统纺一登录"></td></tr>
-    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/oauth2_approve.png"/ alt="第三方系统纺一授权"></td></tr>
-    <tr><td>系统服务</td></tr>
-    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/api-gateway1.png"/ alt="网关服务"></td></tr>
-    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/auth-server1.png"/ alt="登录认证服务"></td></tr>
-    <tr><td>日志管理(链路日志kafka和系统日志log4j+elasticsearch+logstash+kibana)</td></tr>
-    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/kafkatool.png"/ alt="链路日志"></td></tr>
-    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/kibana.png"/ alt="kibana"></td></tr>
-    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/es-head1.png"/ alt="es管理1"></td></tr>
-    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/es-head2.png"/ alt="es管理2"></td></tr>
-    <tr><td>监控管理</td></tr>
-    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/mo-admin1.png"/ alt="admin服务监控中心"></td></tr>
-    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/nacos.png"/ alt="注册中心和配置中心"></td></tr>
-    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/sentinel-dashboard1.png"/ alt="流控中心1"></td></tr>
-    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/sentinel-dashboard2.png"/ alt="流控中心2"></td></tr>
-    <tr><td>持续集成和镜像库</td>
-    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/jenkins1.png"/ alt="jenkins构建中心"></td></tr>
-    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/harbor1.png"/ alt="镜像库1"></td></tr>
-    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/harbor2.png"/ alt="镜像库2"></td></tr>
-    <tr><td>任务中心</td></tr>
-    <tr><td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/job.png"/ alt="xxxjob任务中心"></td></tr>
+    <tr>
+        <td colspan="2">登录中心和工作台</td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/login.png"/ alt="登录"></td>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/homepage.png"/ alt="工作台"></td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/oauth2_login.png"/ alt="第三方系统纺一登录"></td>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/oauth2_approve.png"/ alt="第三方系统纺一授权"></td>
+    </tr>
+    <tr>
+        <td colspan="2">系统服务</td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/api-gateway1.png"/ alt="网关服务"></td>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/auth-server1.png"/ alt="登录认证服务"></td>
+    </tr>
+    <tr>
+        <td colspan="2">日志管理(链路日志kafka和系统日志log4j+elasticsearch+logstash+kibana)</td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/kafkatool.png"/ alt="链路日志"></td>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/kibana.png"/ alt="kibana"></td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/es-head1.png"/ alt="es管理1"></td>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/es-head2.png"/ alt="es管理2"></td>
+    </tr>
+    <tr>
+        <td colspan="2">监控管理</td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/mo-admin1.png"/ alt="admin服务监控中心"></td>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/nacos.png"/ alt="注册中心和配置中心"></td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/sentinel-dashboard1.png"/ alt="流控中心1"></td>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/sentinel-dashboard2.png"/ alt="流控中心2"></td>
+    </tr>
+        <tr>
+            <td colspan="2">持续集成和镜像库</td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/jenkins1.png"/ alt="jenkins构建中心"></td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/harbor1.png"/ alt="镜像库1"></td>
+            <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/harbor2.png"/ alt="镜像库2"></td>
+        </tr>
+    <tr>
+        <td colspan="2">任务中心</td>
+    </tr>
+    <tr>
+        <td colspan="2"><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/job.png"/ alt="xxxjob任务中心"></td>
+    </tr>
+   
 </table>

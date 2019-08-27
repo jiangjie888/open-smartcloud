@@ -119,7 +119,7 @@ open-smartcloud -- 父项目，公共依赖
         <td colspan="2">登录中心和工作台</td>
     </tr>
     <tr>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/doc/syspic/login.png"/></td>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/doc/syspic/homepage.png"/></td>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/login.png"/></td>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/blob/master/doc/syspic/homepage.png"/></td>
     </tr>
 </table>

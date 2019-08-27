@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2597e530-7e4e-46e0-b159-1337d086ad5b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/WebAutoConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/WebAutoConfig$StringToDateConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/WebAutoConfig.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/DefaultAsycTaskConfig.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/DefaultAsycTaskConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/remark/kafka常用命令" afterPath="$PROJECT_DIR$/doc/remark/kafka常用命令" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/remark/readerme" afterPath="$PROJECT_DIR$/doc/remark/readerme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log-api/pom.xml" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log-api/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/pom.xml" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/LogController.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/LogController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/pom.xml" afterPath="$PROJECT_DIR$/jason-biz-support/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/jason.jks" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/jason.jks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-config/src/main/resources/application-dev.properties" afterPath="$PROJECT_DIR$/jason-config/src/main/resources/application-dev.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-config/target/classes/application-dev.properties" afterPath="$PROJECT_DIR$/jason-config/target/classes/application-dev.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/DefaultAsycTaskConfig.java" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/DefaultAsycTaskConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/resources/logback-spring.xml" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/resources/logback-spring.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-logger/target/classes/logback-spring.xml" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/target/classes/logback-spring.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-logger/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/Dockerfile" afterPath="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/Dockerfile" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -175,7 +151,7 @@
         <entry file="file://$PROJECT_DIR$/doc/remark/readerme">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="581">
-              <caret line="68" column="0" lean-forward="true" selection-start-line="67" selection-start-column="38" selection-end-line="68" selection-end-column="0" />
+              <caret line="68" column="0" lean-forward="false" selection-start-line="67" selection-start-column="38" selection-end-line="68" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -205,7 +181,7 @@
         <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/SlowQueryLogController.java.bak">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="366">
-              <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+              <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -235,7 +211,7 @@
         <entry file="file://$PROJECT_DIR$/jason-business/auth-server/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
-              <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -245,7 +221,7 @@
         <entry file="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/modular/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -255,8 +231,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="560">
-                <caret line="124" column="8" lean-forward="true" selection-start-line="124" selection-start-column="8" selection-end-line="124" selection-end-column="8" />
+              <first_editor relative-caret-position="552">
+                <caret line="123" column="9" lean-forward="true" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -268,7 +244,7 @@
         <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/approve.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="293">
-              <caret line="102" column="5" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+              <caret line="102" column="5" lean-forward="false" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -2695,8 +2671,8 @@
           <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1566545621515" expanded="false" signature="4769:4780" ph=" { " />
-            <marker date="1566545621515" expanded="false" signature="4835:4841" ph=" }" />
+            <marker date="1566883528244" expanded="false" signature="4769:4780" ph=" { " />
+            <marker date="1566883528244" expanded="false" signature="4835:4841" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -2805,7 +2781,7 @@
     <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/SlowQueryLogController.java.bak">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
-          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -2829,7 +2805,7 @@
     <entry file="file://$PROJECT_DIR$/jason-business/auth-server/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
-          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -2837,7 +2813,7 @@
     <entry file="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/modular/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2845,7 +2821,7 @@
     <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/approve.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
-          <caret line="102" column="5" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+          <caret line="102" column="5" lean-forward="false" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -2869,7 +2845,7 @@
     <entry file="file://$PROJECT_DIR$/doc/remark/readerme">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="581">
-          <caret line="68" column="0" lean-forward="true" selection-start-line="67" selection-start-column="38" selection-end-line="68" selection-end-column="0" />
+          <caret line="68" column="0" lean-forward="false" selection-start-line="67" selection-start-column="38" selection-end-line="68" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2877,8 +2853,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="560">
-            <caret line="124" column="8" lean-forward="true" selection-start-line="124" selection-start-column="8" selection-end-line="124" selection-end-column="8" />
+          <first_editor relative-caret-position="552">
+            <caret line="123" column="9" lean-forward="true" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
             <folding />
           </first_editor>
           <second_editor />

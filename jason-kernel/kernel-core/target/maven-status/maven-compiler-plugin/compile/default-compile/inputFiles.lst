@@ -14,6 +14,7 @@ D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\cor
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\autoconfigure\FastjsonAutoConfig.java
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\utils\ResponseUtil.java
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\model\page\PageQuery.java
+D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\autoconfigure\DefaultWebAutoConfig.java
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\utils\PageFactory.java
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\model\constants\ConfigPrefixConstants.java
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\autoconfigure\ActiveMQAutoConfig.java
@@ -66,7 +67,6 @@ D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\cor
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\model\page\PageResult.java
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\model\user\SysUserRole.java
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\autoconfigure\port\props\RandomServerPort.java
-D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\autoconfigure\WebAutoConfig.java
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\utils\CheckUtil.java
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\autoconfigure\ValidatorAutoConfig.java
 D:\github\open-smartcloud\jason-kernel\kernel-core\src\main\java\com\central\core\autoconfigure\aop\ParamValidateAop.java

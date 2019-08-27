@@ -1,0 +1,40 @@
+# ES
+#开启 Elasticsearch 仓库(默认值:true)
+#spring.data.elasticsearch.repositories.enabled=true
+#默认 9300 是 Java 客户端的端口。9200 是支持 Restful HTTP 的接口
+#spring.data.elasticsearch.cluster-nodes = 127.0.0.1:9300
+#spring.data.elasticsearch.cluster-name Elasticsearch 集群名(默认值: elasticsearch)
+#spring.data.elasticsearch.cluster-nodes 集群节点地址列表，用逗号分隔。如果没有指定，就启动一个客户端节点
+#spring.data.elasticsearch.propertie 用来配置客户端的额外属性
+#存储索引的位置
+#spring.data.elasticsearch.properties.path.home=/data/project/target/elastic
+#连接超时的时间
+#spring.data.elasticsearch.properties.transport.tcp.connect_timeout=120s
+spring:
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+      cluster-name: ${jason.elasticsearch.cluster-name}
+      cluster-nodes: ${jason.elasticsearch.cluster-nodes}
+      properties:
+        xpack.security.user: elastic:123456
+        client.transport.sniff: true
+        client.type: transport
+        network.server: false
+        #node.client: true
+        transport.ping_schedule: 5s
+      xpack:
+        user: elastic
+        password: 123456
+
+
+jason:
+  indices:
+    show: sys-log-*, mysql-slowlog-*, sys_user, point-log-*,.logstash_test_mysql_comlog
+  swagger:
+    enabled: true
+    title: 搜索中心
+    description: 搜索中心接口文档
+    version: 1.0
+    base-package: com.central.search.modular.controller;com.central.search.modular.provider

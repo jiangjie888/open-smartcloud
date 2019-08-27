@@ -2,21 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2597e530-7e4e-46e0-b159-1337d086ad5b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-config/target/jason-config-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jason-config/target/jason-config-0.0.1-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-sentinel/target/kernel-sentinel-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/jason-kernel/kernel-sentinel/target/kernel-sentinel-0.0.1-SNAPSHOT.jar" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/WebAutoConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/WebAutoConfig$StringToDateConverter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/WebAutoConfig.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/DefaultAsycTaskConfig.class" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/classes/com/central/core/autoconfigure/DefaultAsycTaskConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/remark/kafka常用命令" afterPath="$PROJECT_DIR$/doc/remark/kafka常用命令" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/remark/readerme" afterPath="$PROJECT_DIR$/doc/remark/readerme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-config/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/jason-config/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-config/target/classes/application.properties" afterPath="$PROJECT_DIR$/jason-config/target/classes/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log-api/pom.xml" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log-api/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/pom.xml" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/LogController.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/LogController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/pom.xml" afterPath="$PROJECT_DIR$/jason-biz-support/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/jason.jks" afterPath="$PROJECT_DIR$/jason-business/auth-server/src/main/resources/jason.jks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-config/src/main/resources/application-dev.properties" afterPath="$PROJECT_DIR$/jason-config/src/main/resources/application-dev.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-config/target/classes/application-dev.properties" afterPath="$PROJECT_DIR$/jason-config/target/classes/application-dev.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/DefaultAsycTaskConfig.java" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/DefaultAsycTaskConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/jason-kernel/kernel-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/resources/logback-spring.xml" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/resources/logback-spring.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-sentinel/kernel-sentinel.iml" afterPath="$PROJECT_DIR$/jason-kernel/kernel-sentinel/kernel-sentinel.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-core/pom.xml" afterPath="$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-core/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-core/src/main/java/com/alibaba/csp/sentinel/slots/block/flow/FlowRule.java" afterPath="$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-core/src/main/java/com/alibaba/csp/sentinel/slots/block/flow/FlowRule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/repository/metric/InMemoryMetricsRepositoryTest.java" afterPath="$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/repository/metric/InMemoryMetricsRepositoryTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/modular/controller/TestController.java" afterPath="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/modular/controller/TestController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-logger/target/classes/logback-spring.xml" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/target/classes/logback-spring.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-kernel/kernel-logger/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/jason-kernel/kernel-logger/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/Dockerfile" afterPath="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/Dockerfile" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -146,6 +157,11 @@
     <ignored path="$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-adapter/sentinel-zuul-adapter/target/" />
     <ignored path="$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-demo/sentinel-demo-dubbo/target/" />
     <ignored path="$PROJECT_DIR$/jason-demo/sentinel-client/target/" />
+    <ignored path="$PROJECT_DIR$/jason-business/searh-server/target/" />
+    <ignored path="$PROJECT_DIR$/jason-biz-support/modular-search/target/" />
+    <ignored path="$PROJECT_DIR$/jason-biz-support/modular-search/search-api/target/" />
+    <ignored path="$PROJECT_DIR$/jason-biz-support/modular-search/search-client/target/" />
+    <ignored path="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -155,31 +171,104 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="logback-spring.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/resources/logback-spring.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="78" lean-forward="true" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jason-config/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="readerme" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doc/remark/readerme">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="65" column="51" lean-forward="false" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
+            <state relative-caret-position="581">
+              <caret line="68" column="0" lean-forward="true" selection-start-line="67" selection-start-column="38" selection-end-line="68" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kafka常用命令" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/remark/kafka常用命令">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="80" column="28" lean-forward="false" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SlowQueryLogController.java.bak" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/SlowQueryLogController.java.bak">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/LogController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1034">
+              <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jason-business/auth-server/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/modular/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="560">
+                <caret line="124" column="8" lean-forward="true" selection-start-line="124" selection-start-column="8" selection-end-line="124" selection-end-column="8" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="approve.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/approve.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="102" column="5" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -199,36 +288,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>spring-boot.version</find>
-      <find>sentinel-datasource-extension</find>
-      <find>AppManagement</find>
-      <find>MachineDiscovery</find>
-      <find>level</find>
-      <find>jason.sentinel.dashboard</find>
-      <find>spring.cloud.sentinel.transport.dashboard</find>
-      <find>csp.sentinel.app.type</find>
-      <find>SimpleHttpHeartbeatSender</find>
-      <find>1.5.2</find>
-      <find>1.6.2</find>
-      <find>sen</find>
-      <find>sentinel</find>
-      <find>/registry/machine</find>
-      <find>AuthorityDemo</find>
-      <find>FlowQps</find>
-      <find>spring.cloud.sentinel</find>
-      <find>flow-sentinel-nacos-datasource</find>
-      <find>nacos</find>
-      <find>SentinelConverter</find>
-      <find>SentinelDataSourceHandler</find>
-      <find>rules from datasource</find>
-      <find>FlowRule</find>
-      <find>configService</find>
-      <find>ConfigService</find>
-      <find>grade</find>
-      <find>gmtCreate</find>
-      <find>queryTopResourceMetric</find>
-      <find>listResourcesOfApp</find>
-      <find>searchKey</find>
+      <find>api-gateway</find>
+      <find>threadPoolKeyPrefix</find>
+      <find>DefaultAsycTaskConfig</find>
+      <find>ensureNodesAreAvailable</find>
+      <find>addTransportAddresses</find>
+      <find>nodes</find>
+      <find>this.nodes =</find>
+      <find>RetryListener</find>
+      <find>NodeSampler</find>
+      <find>node</find>
+      <find>doSample</find>
+      <find>establishNodeConnections</find>
+      <find>TransportClientNodesService.NodeSampler</find>
+      <find>randomEle</find>
+      <find>getClient</find>
+      <find>Article</find>
+      <find>elasticsearchTemplate</find>
+      <find>PreBuiltXPackTransportClient</find>
+      <find>TransportClient</find>
+      <find>additionalSettings</find>
+      <find>TransportClient(</find>
+      <find>addTransportSettings</find>
+      <find>CustomThreadPoolTaskExecutor</find>
+      <find>TaskExecutor</find>
+      <find>toString</find>
+      <find>this.nodes =</find>
+      <find>doRun</find>
+      <find>'this' is not available</find>
+      <find>TransportClientNodesService.this.threadPool</find>
+      <find>target</find>
     </findStrings>
     <replaceStrings>
       <replace>;</replace>
@@ -254,57 +343,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jason-kernel/kernel-sentinel/src/main/java/com/central/sentinel/config/SentinelAutoConfigure.java" />
-        <option value="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/modular/consumer/ServiceFeignConfiguration.java" />
-        <option value="$PROJECT_DIR$/jason-business/auth-server/pom.xml" />
-        <option value="$PROJECT_DIR$/jason-business/auth-server/src/main/java/com/central/oauth/config/AuthorizationServerConfig.java" />
-        <option value="$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-zipkin-server/sm-zipkin-server.iml" />
-        <option value="$PROJECT_DIR$/jason-microservice-support/modular-monitor/pom.xml" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-alibaba-sentinel/0.9.0.RELEASE/spring-cloud-starter-alibaba-sentinel-0.9.0.RELEASE.pom" />
-        <option value="$PROJECT_DIR$/jason-microservice-support/spring-cloud-alibaba-sentinel/src/main/java/org/springframework/cloud/alibaba/sentinel/feign/SentinelFeign.java" />
-        <option value="$PROJECT_DIR$/jason-microservice-support/spring-cloud-alibaba-sentinel/src/main/java/org/springframework/cloud/alibaba/sentinel/feign/SentinelInvocationHandler.java" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-alibaba-sentinel/0.9.0.RELEASE/spring-cloud-starter-alibaba-sentinel-0.9.0.RELEASE.jar!/META-INF/maven/org.springframework.cloud/spring-cloud-starter-alibaba-sentinel/pom.xml" />
-        <option value="$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-admin-server/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/doc/remark/kafka常用命令" />
-        <option value="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/resources/bootstrap.yml" />
-        <option value="$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-transport-simple-http/1.5.2/sentinel-transport-simple-http-1.5.2.jar!/com/alibaba/csp/sentinel/transport/heartbeat/HeartbeatMessage.class" />
-        <option value="$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-transport-simple-http/1.6.2/sentinel-transport-simple-http-1.6.2.jar!/com/alibaba/csp/sentinel/transport/heartbeat/HeartbeatMessage.class" />
-        <option value="$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.6.2/sentinel-core-1.6.2.jar!/com/alibaba/csp/sentinel/config/SentinelConfig.class" />
-        <option value="$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-transport-simple-http/1.5.2/sentinel-transport-simple-http-1.5.2.jar!/com/alibaba/csp/sentinel/transport/heartbeat/SimpleHttpHeartbeatSender.class" />
-        <option value="$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-transport-simple-http/1.6.2/sentinel-transport-simple-http-1.6.2.jar!/com/alibaba/csp/sentinel/transport/heartbeat/SimpleHttpHeartbeatSender.class" />
-        <option value="$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2.jar!/com/alibaba/csp/sentinel/log/LogBase.class" />
-        <option value="$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-transport-simple-http/1.5.2/sentinel-transport-simple-http-1.5.2.jar!/com/alibaba/csp/sentinel/transport/heartbeat/client/SimpleHttpRequest.class" />
-        <option value="$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-transport-simple-http/1.5.2/sentinel-transport-simple-http-1.5.2.jar!/com/alibaba/csp/sentinel/transport/heartbeat/client/SimpleHttpClient.class" />
-        <option value="$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2.jar!/com/alibaba/csp/sentinel/Constants.class" />
-        <option value="$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-transport-simple-http/1.6.2/sentinel-transport-simple-http-1.6.2.jar!/com/alibaba/csp/sentinel/transport/heartbeat/client/SimpleHttpRequest.class" />
-        <option value="$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-transport-simple-http/1.6.2/sentinel-transport-simple-http-1.6.2.jar!/com/alibaba/csp/sentinel/transport/heartbeat/client/SimpleHttpClient.class" />
-        <option value="$PROJECT_DIR$/jason-microservice-support/pom.xml" />
-        <option value="$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-dashboard/pom.xml" />
-        <option value="$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-adapter/sentinel-web-servlet/pom.xml" />
-        <option value="$PROJECT_DIR$/jason-microservice-support/spring-cloud-alibaba-sentinel/pom.xml" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-dependencies/0.9.0.RELEASE/spring-cloud-alibaba-dependencies-0.9.0.RELEASE.pom" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/pom.xml" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-sentinel-datasource/0.9.0.RELEASE/spring-cloud-alibaba-sentinel-datasource-0.9.0.RELEASE.jar!/org/springframework/cloud/alibaba/sentinel/datasource/config/NacosDataSourceProperties.class" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-sentinel-datasource/0.9.0.RELEASE/spring-cloud-alibaba-sentinel-datasource-0.9.0.RELEASE.jar!/org/springframework/cloud/alibaba/sentinel/datasource/converter/SentinelConverter.class" />
-        <option value="$PROJECT_DIR$/jason-demo/sentinel-client/pom.xml" />
-        <option value="$PROJECT_DIR$/jason-business/user-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/jason-config/src/main/resources/application-dev.properties" />
-        <option value="$PROJECT_DIR$/jason-microservice-support/spring-cloud-alibaba-sentinel/src/main/resources/spring.factories" />
-        <option value="$PROJECT_DIR$/jason-business/user-server/pom.xml" />
-        <option value="$PROJECT_DIR$/jason-kernel/kernel-sentinel/pom.xml" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-sentinel-datasource/0.9.0.RELEASE/spring-cloud-alibaba-sentinel-datasource-0.9.0.RELEASE.jar!/org/springframework/cloud/alibaba/sentinel/datasource/RuleType.class" />
-        <option value="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/resources/application.yml" />
-        <option value="$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/1.0.0/nacos-client-1.0.0.jar!/com/alibaba/nacos/client/config/NacosConfigService.class" />
-        <option value="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-sentinel-datasource/0.9.0.RELEASE/spring-cloud-alibaba-sentinel-datasource-0.9.0.RELEASE.jar!/org/springframework/cloud/alibaba/sentinel/datasource/factorybean/NacosDataSourceFactoryBean.class" />
-        <option value="$PROJECT_DIR$/jason-config/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/modular/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/rule/FlowRuleEntity.java" />
-        <option value="$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-core/src/main/java/com/alibaba/csp/sentinel/slots/block/flow/FlowRule.java" />
-        <option value="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/Dockerfile" />
-        <option value="$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/repository/metric/InMemoryMetricsRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/controller/SearchController.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/provider/SearchController.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/provider/AggregationProvider.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-api/src/main/java/com/central/search/api/SearchApi.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/ISearchService.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/IAggregationService.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/dto/IndexDto.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/provider/SearchProvider.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/AggregationServiceImpl.java" />
         <option value="$PROJECT_DIR$/doc/remark/readerme" />
+        <option value="$PROJECT_DIR$/jason-config/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/core/properties/IndexProperties.java" />
+        <option value="$PROJECT_DIR$/jason-business/back-web/Dockerfile" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/Dockerfile" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/LogController.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-client/src/main/java/com/central/search/client/core/annotation/EnableSearchClient.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-client/src/main/java/com/central/search/client/modular/service/IQueryService.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-client/src/main/java/com/central/search/client/modular/consumer/fallback/AggregationServiceFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-client/src/main/java/com/central/search/client/modular/service/impl/QueryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-client/src/main/java/com/central/search/client/modular/consumer/SearchService.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-client/src/main/java/com/central/search/client/modular/consumer/fallback/SearchServiceFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/SlowQueryLogController.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/SysLogController.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-api/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-business/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-client/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/DefaultAsycTaskConfig.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/config/WebAutoConfig.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/core/properties/XPack.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/core/properties/ElasticSearchProperties.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/core/util/SearchBuilder.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/test/java/com/central/search/modular/service/Article.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/test/java/com/central/search/modular/service/ElasticsearchCase.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/IndexServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/config/ElasticSearchAutoConfig.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/Dockerfile" />
+        <option value="$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-admin-server/Dockerfile" />
+        <option value="$PROJECT_DIR$/jason-business/user-server/Dockerfile" />
+        <option value="$PROJECT_DIR$/jason-business/auth-server/Dockerfile" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/Dockerfile" />
+        <option value="$PROJECT_DIR$/doc/remark/kafka常用命令" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/pom.xml" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/AggregationController.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -340,33 +429,7 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="kernel-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="kernel-sentinel" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sentinel-cluster-server-default" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sentinel-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sentinel-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="zuul-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="zuul-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="auth-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -376,11 +439,11 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-Xms128m -Xmx512m -Duser.language=zh -Dfile.encoding=UTF-8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="417" />
-    <option name="y" value="31" />
-    <option name="width" value="1301" />
-    <option name="height" value="934" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="71" />
+    <option name="y" value="3" />
+    <option name="width" value="1152" />
+    <option name="height" value="794" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -429,7 +492,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -440,34 +503,55 @@
             <path>
               <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
-              <item name="kernel-logger" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="remark" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
-              <item name="kernel-logger" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-log" type="462c0819:PsiDirectoryNode" />
+              <item name="biz-support-log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-log" type="462c0819:PsiDirectoryNode" />
+              <item name="biz-support-log" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
-              <item name="kernel-logger" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-log" type="462c0819:PsiDirectoryNode" />
+              <item name="biz-support-log" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
-              <item name="kernel-logger" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-log" type="462c0819:PsiDirectoryNode" />
+              <item name="biz-support-log" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -475,8 +559,9 @@
             <path>
               <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
-              <item name="kernel-logger" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-log" type="462c0819:PsiDirectoryNode" />
+              <item name="biz-support-log" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -485,8 +570,9 @@
             <path>
               <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
-              <item name="kernel-logger" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-log" type="462c0819:PsiDirectoryNode" />
+              <item name="biz-support-log" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -496,23 +582,138 @@
             <path>
               <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
-              <item name="kernel-logger" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-log" type="462c0819:PsiDirectoryNode" />
+              <item name="biz-support-log" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="central" type="462c0819:PsiDirectoryNode" />
-              <item name="logger" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
-              <item name="kernel-logger" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-log" type="462c0819:PsiDirectoryNode" />
+              <item name="biz-support-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="central" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-log" type="462c0819:PsiDirectoryNode" />
+              <item name="biz-support-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="central" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+              <item name="modular" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-log" type="462c0819:PsiDirectoryNode" />
+              <item name="biz-support-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="central" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+              <item name="modular" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-log" type="462c0819:PsiDirectoryNode" />
+              <item name="biz-support-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="central" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+              <item name="modular" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-business" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-business" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-business" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-business" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-business" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-business" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="kernel-logger" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
@@ -525,18 +726,118 @@
               <item name="jason-microservice-support" type="462c0819:PsiDirectoryNode" />
               <item name="zuul-gateway" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-microservice-support" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-microservice-support" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-microservice-support" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-microservice-support" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-microservice-support" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="central" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-microservice-support" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="central" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-microservice-support" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="central" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="modular" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-microservice-support" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="central" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="modular" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-microservice-support" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-microservice-support" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="last_opened_file_path" value="D:/IdeaProjects/microservices-platform" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/doc/x-pack-core-6.8.1.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.46580407" />
@@ -561,18 +862,18 @@
       <recent name="com.central.message" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\github\open-smartcloud\jason-microservice-support\zuul-gateway" />
-      <recent name="D:\github\open-smartcloud\jason-microservice-support\spring-cloud-alibaba-sentinel\src\main\resources\META-INF" />
-      <recent name="D:\github\open-smartcloud\jason-microservice-support\spring-cloud-alibaba-sentinel\src\main\resources" />
-      <recent name="D:\github\open-smartcloud\jason-microservice-support\spring-cloud-alibaba-sentinel\src\main\java" />
-      <recent name="D:\github\open-smartcloud\doc\remark" />
+      <recent name="D:\github\open-smartcloud\doc" />
+      <recent name="D:\github\open-smartcloud\jason-biz-support\modular-search\search-server\src\test\java" />
+      <recent name="D:\github\open-smartcloud\jason-biz-support\modular-search\search-client\src\main\java\com\central\search\client\modular" />
+      <recent name="D:\github\open-smartcloud\jason-biz-support\modular-search\search-client\src\main\java\com\central\search\client\modular\consumer" />
+      <recent name="D:\github\open-smartcloud\jason-biz-support\modular-log\biz-support-log\src\main\java\com\central\biz\log\modular\controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.smartcloud.sentinel.client" />
-      <recent name="com.central.monitor.admin.config" />
-      <recent name="com.central.oauth.config" />
-      <recent name="com.central.user.config" />
-      <recent name="com.central.monitor.admin.moduler.controller" />
+      <recent name="com.central.search.client.core.annotation" />
+      <recent name="com.central.search.api.entity" />
+      <recent name="com.central.search.modular.service.impl" />
+      <recent name="com.central.search.modular.service" />
+      <recent name="com.central.search.core.properties" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\open-smartcloud\jason-microservice-eureka" />
@@ -704,6 +1005,12 @@
     <configuration name="ScZipkinServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.central.monitor.ScZipkinServerApplication" />
       <module name="sm-zipkin-server" />
+      <envs />
+    </configuration>
+    <configuration name="SearhServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.central.SearchServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="search-server" />
       <envs />
     </configuration>
     <configuration name="SmAdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -949,34 +1256,35 @@
       <module name="jason-message-service" />
       <envs />
     </configuration>
-    <list size="27">
+    <list size="28">
       <item index="0" class="java.lang.String" itemvalue="Application.demo-sentinel-client" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.ZuulGatewayApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.UserServerApplication" />
       <item index="3" class="java.lang.String" itemvalue="Spring Boot.AuthServerApplication" />
       <item index="4" class="java.lang.String" itemvalue="Spring Boot.LogServerApplication" />
       <item index="5" class="java.lang.String" itemvalue="Spring Boot.SmAdminServerApplication" />
-      <item index="6" class="java.lang.String" itemvalue="Spring Boot.BackWebApplication" />
-      <item index="7" class="java.lang.String" itemvalue="Spring Boot.XxlJobAdminApplication" />
-      <item index="8" class="java.lang.String" itemvalue="Spring Boot.XxlJobExecutorApplication" />
-      <item index="9" class="java.lang.String" itemvalue="Spring Boot.msg-JasonDemoAccountApplication" />
-      <item index="10" class="java.lang.String" itemvalue="Spring Boot.msg-JasonMessageCheckerApplication" />
-      <item index="11" class="java.lang.String" itemvalue="Spring Boot.msg-JasonDemoOrderApplication" />
-      <item index="12" class="java.lang.String" itemvalue="Spring Boot.msg-JasonMessageServiceApplication" />
-      <item index="13" class="java.lang.String" itemvalue="Spring Boot.demo-nacos-config-client" />
-      <item index="14" class="java.lang.String" itemvalue="Spring Boot.demo-WebApplication" />
-      <item index="15" class="java.lang.String" itemvalue="Spring Boot.demo-nacos-discovery-server-client" />
-      <item index="16" class="java.lang.String" itemvalue="Spring Boot.demo-nacos-discovery-server" />
-      <item index="17" class="java.lang.String" itemvalue="Spring Boot.e-EurekaServerApplication" />
-      <item index="18" class="java.lang.String" itemvalue="Spring Boot.e-EurekaClientApplication" />
-      <item index="19" class="java.lang.String" itemvalue="Spring Boot.e-ApiGatewayApplication" />
-      <item index="20" class="java.lang.String" itemvalue="Spring Boot.ScZipkinServerApplication" />
-      <item index="21" class="java.lang.String" itemvalue="Spring Boot.DashboardApplication" />
-      <item index="22" class="java.lang.String" itemvalue="Application.AuthorityDemo" />
-      <item index="23" class="java.lang.String" itemvalue="JUnit.All in kernel-ribbon" />
-      <item index="24" class="java.lang.String" itemvalue="JUnit.All in user-server" />
-      <item index="25" class="java.lang.String" itemvalue="JUnit.CommonLogServiceTest.addCommonLog" />
-      <item index="26" class="java.lang.String" itemvalue="Application.FlowQpsDemo" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.SearhServerApplication" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.BackWebApplication" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.XxlJobAdminApplication" />
+      <item index="9" class="java.lang.String" itemvalue="Spring Boot.XxlJobExecutorApplication" />
+      <item index="10" class="java.lang.String" itemvalue="Spring Boot.msg-JasonDemoAccountApplication" />
+      <item index="11" class="java.lang.String" itemvalue="Spring Boot.msg-JasonMessageCheckerApplication" />
+      <item index="12" class="java.lang.String" itemvalue="Spring Boot.msg-JasonDemoOrderApplication" />
+      <item index="13" class="java.lang.String" itemvalue="Spring Boot.msg-JasonMessageServiceApplication" />
+      <item index="14" class="java.lang.String" itemvalue="Spring Boot.demo-nacos-config-client" />
+      <item index="15" class="java.lang.String" itemvalue="Spring Boot.demo-WebApplication" />
+      <item index="16" class="java.lang.String" itemvalue="Spring Boot.demo-nacos-discovery-server-client" />
+      <item index="17" class="java.lang.String" itemvalue="Spring Boot.demo-nacos-discovery-server" />
+      <item index="18" class="java.lang.String" itemvalue="Spring Boot.e-EurekaServerApplication" />
+      <item index="19" class="java.lang.String" itemvalue="Spring Boot.e-EurekaClientApplication" />
+      <item index="20" class="java.lang.String" itemvalue="Spring Boot.e-ApiGatewayApplication" />
+      <item index="21" class="java.lang.String" itemvalue="Spring Boot.ScZipkinServerApplication" />
+      <item index="22" class="java.lang.String" itemvalue="Spring Boot.DashboardApplication" />
+      <item index="23" class="java.lang.String" itemvalue="Application.AuthorityDemo" />
+      <item index="24" class="java.lang.String" itemvalue="Application.FlowQpsDemo" />
+      <item index="25" class="java.lang.String" itemvalue="JUnit.All in kernel-ribbon" />
+      <item index="26" class="java.lang.String" itemvalue="JUnit.All in user-server" />
+      <item index="27" class="java.lang.String" itemvalue="JUnit.CommonLogServiceTest.addCommonLog" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -1036,27 +1344,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30119178" sideWeight="0.46041667" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39328277" sideWeight="0.46041667" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30411255" sideWeight="0.1609808" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16311301" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24593717" sideWeight="0.78571427" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2249467" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14842904" sideWeight="0.78571427" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15298508" sideWeight="0.7442177" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19616205" sideWeight="0.7442177" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31121752" sideWeight="0.2557823" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3575298" sideWeight="0.8390192" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49837488" sideWeight="0.8390192" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1064,6 +1371,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2040531" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1748,7 +2056,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/LogController.java</url>
-          <line>41</line>
+          <line>43</line>
           <properties />
           <option name="timeStamp" value="920" />
         </line-breakpoint>
@@ -1914,17 +2222,239 @@
           <properties />
           <option name="timeStamp" value="990" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/rule/nacos/flow/FlowRuleNacosPublisher.java</url>
           <line>35</line>
           <properties />
           <option name="timeStamp" value="994" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/1.0.0/nacos-client-1.0.0.jar!/com/alibaba/nacos/client/config/NacosConfigService.class</url>
-          <line>81</line>
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/client/support/AbstractClient.class</url>
+          <line>378</line>
           <properties />
-          <option name="timeStamp" value="995" />
+          <option name="timeStamp" value="1012" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>177</line>
+          <properties />
+          <option name="timeStamp" value="1015" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="1021" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>430</line>
+          <properties />
+          <option name="timeStamp" value="1022" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>216</line>
+          <properties />
+          <option name="timeStamp" value="1023" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>537</line>
+          <properties />
+          <option name="timeStamp" value="1026" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>303</line>
+          <properties />
+          <option name="timeStamp" value="1028" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>500</line>
+          <properties />
+          <option name="timeStamp" value="1029" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>443</line>
+          <properties />
+          <option name="timeStamp" value="1034" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/doc/x-pack-core-6.8.1.jar!/org/elasticsearch/xpack/core/XPackPlugin.class</url>
+          <line>177</line>
+          <properties />
+          <option name="timeStamp" value="1063" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/IndexServiceImpl.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="1075" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/config/ElasticSearchAutoConfig.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="1077" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/x-pack-core/6.8.1/x-pack-core-6.8.1.jar!/org/elasticsearch/xpack/core/XPackClientPlugin.class</url>
+          <line>222</line>
+          <properties />
+          <option name="timeStamp" value="1082" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>177</line>
+          <properties />
+          <option name="timeStamp" value="1084" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>448</line>
+          <properties />
+          <option name="timeStamp" value="1085" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>306</line>
+          <properties />
+          <option name="timeStamp" value="1087" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>415</line>
+          <properties />
+          <option name="timeStamp" value="1088" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>168</line>
+          <properties />
+          <option name="timeStamp" value="1089" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>173</line>
+          <properties />
+          <option name="timeStamp" value="1091" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>421</line>
+          <properties />
+          <option name="timeStamp" value="1092" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>430</line>
+          <properties />
+          <option name="timeStamp" value="1093" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>429</line>
+          <properties />
+          <option name="timeStamp" value="1094" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>428</line>
+          <properties />
+          <option name="timeStamp" value="1095" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>419</line>
+          <properties />
+          <option name="timeStamp" value="1096" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>323</line>
+          <properties />
+          <option name="timeStamp" value="1098" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>378</line>
+          <properties />
+          <option name="timeStamp" value="1099" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>372</line>
+          <properties />
+          <option name="timeStamp" value="1100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>364</line>
+          <properties />
+          <option name="timeStamp" value="1101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>363</line>
+          <properties />
+          <option name="timeStamp" value="1102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>515</line>
+          <properties />
+          <option name="timeStamp" value="1103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>330</line>
+          <properties />
+          <option name="timeStamp" value="1109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>334</line>
+          <properties />
+          <option name="timeStamp" value="1110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>335</line>
+          <properties />
+          <option name="timeStamp" value="1111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>342</line>
+          <properties />
+          <option name="timeStamp" value="1113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>349</line>
+          <properties />
+          <option name="timeStamp" value="1114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>169</line>
+          <properties />
+          <option name="timeStamp" value="1115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>340</line>
+          <properties />
+          <option name="timeStamp" value="1120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/common/util/concurrent/AbstractRunnable.class</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="1122" />
         </line-breakpoint>
         <line-breakpoint type="java-field">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/boot/spring-security-oauth2-autoconfigure/2.1.2.RELEASE/spring-security-oauth2-autoconfigure-2.1.2.RELEASE.jar!/org/springframework/boot/autoconfigure/security/oauth2/resource/ResourceServerTokenServicesConfiguration.class</url>
@@ -1946,11 +2476,17 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="1012" />
+      <option name="time" value="1123" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
-        <watch expression="(AbstractRule)this.objectMapper.readValue(ruleStr, this.ruleClass)" language="JAVA" />
+        <watch expression="Settings.builder().put(SecuritySettings.addTransportSettings(settings)).put(SecuritySettings.addUserSettings(settings)).build()" language="JAVA" />
+        <watch expression="additionalSettings(this.settings, ((Boolean)XPackSettings.SECURITY_ENABLED.get(this.settings)).booleanValue(), XPackPlugin.transportClientMode(this.settings))" language="JAVA" />
+        <watch expression="((Boolean)XPackSettings.SECURITY_ENABLED.get(this.settings)).booleanValue()" language="JAVA" />
+        <watch expression="XPackPlugin.transportClientMode(this.settings)" language="JAVA" />
+        <watch expression="PreBuiltXPackTransportClient(settings()).addTransportAddresses(addresses())" language="JAVA" />
+        <watch expression="TransportClientNodesService.this.closed" language="JAVA" />
+        <watch expression="new ParameterizedMessage(&quot;failed to connect to node [{}], ignoring...&quot;, nodeToPing)" language="JAVA" />
       </configuration>
       <configuration name="Application">
         <watch expression="AppNameUtil.resolveAppName()" language="JAVA" />
@@ -1958,324 +2494,267 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/spring-cloud-alibaba-sentinel/pom.xml">
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/IIndexService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        <state relative-caret-position="274">
+          <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/core/properties/IndexProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-transport/sentinel-transport-simple-http/src/main/java/com/alibaba/csp/sentinel/transport/heartbeat/SimpleHttpHeartbeatSender.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="73" column="28" lean-forward="true" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="224">
+          <caret line="103" column="48" lean-forward="true" selection-start-line="103" selection-start-column="48" selection-end-line="103" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-core/src/main/java/com/alibaba/csp/sentinel/config/SentinelConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="103" column="54" lean-forward="true" selection-start-line="103" selection-start-column="54" selection-end-line="103" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-transport/sentinel-transport-simple-http/src/main/java/com/alibaba/csp/sentinel/transport/command/SimpleHttpCommandCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/spring-cloud-alibaba-sentinel/src/main/java/org/springframework/cloud/alibaba/sentinel/custom/SentinelAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/spring-cloud-alibaba-sentinel/src/main/java/org/springframework/cloud/alibaba/sentinel/SentinelWebAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/spring-cloud-alibaba-sentinel/src/main/java/org/springframework/cloud/alibaba/sentinel/SentinelProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-demo/sentinel-demo-zuul-gateway/src/main/java/com/alibaba/csp/sentinel/demo/zuul/gateway/ZuulConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-business/user-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="121" column="58" lean-forward="false" selection-start-line="121" selection-start-column="53" selection-end-line="121" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-extension/sentinel-datasource-nacos/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/config/AsycTaskExecutorConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-sentinel/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/remark/kafka常用命令">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/core/filter/pre/UserInfoHeaderFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="63" column="78" lean-forward="false" selection-start-line="63" selection-start-column="78" selection-end-line="63" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-sentinel-datasource/0.9.0.RELEASE/spring-cloud-alibaba-sentinel-datasource-0.9.0.RELEASE.jar!/org/springframework/cloud/alibaba/sentinel/datasource/RuleType.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/x-pack-core/6.8.1/x-pack-core-6.8.1.jar!/org/elasticsearch/xpack/core/security/SecuritySettings.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-api/1.0.0/nacos-api-1.0.0.jar!/com/alibaba/nacos/api/config/ConfigService.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/common/inject/InjectorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="128">
+          <caret line="469" column="44" lean-forward="false" selection-start-line="469" selection-start-column="36" selection-end-line="469" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/resources/application.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/common/settings/Settings.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="40" column="52" lean-forward="true" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
-          <folding />
+        <state relative-caret-position="-1856">
+          <caret line="396" column="39" lean-forward="false" selection-start-line="396" selection-start-column="39" selection-end-line="396" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-api/1.0.0/nacos-api-1.0.0.jar!/com/alibaba/nacos/api/config/ConfigFactory.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE.jar!/org/springframework/boot/autoconfigure/data/elasticsearch/ElasticsearchProperties.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" column="104" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="104" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/rule/nacos/flow/FlowRuleNacosPublisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/spring-cloud-alibaba-sentinel/src/main/java/org/springframework/cloud/alibaba/sentinel/custom/SentinelDataSourceHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="134" column="61" lean-forward="true" selection-start-line="134" selection-start-column="61" selection-end-line="134" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-core/src/main/java/com/alibaba/csp/sentinel/slots/block/Rule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar!/org/springframework/beans/factory/support/FactoryBeanRegistrySupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-extension/sentinel-datasource-extension/src/main/java/com/alibaba/csp/sentinel/datasource/AbstractDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="272">
+          <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jason-config/src/main/resources/application-dev.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/IndexServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/util/Optional.java">
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/provider/SearchProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="159" column="5" lean-forward="true" selection-start-line="159" selection-start-column="5" selection-end-line="159" selection-end-column="5" />
+        <state relative-caret-position="34">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="61" column="37" lean-forward="false" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/x-pack-core/6.8.1/x-pack-core-6.8.1.jar!/org/elasticsearch/xpack/core/XPackPlugin.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="251" column="67" lean-forward="true" selection-start-line="251" selection-start-column="67" selection-end-line="251" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassEnhancer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5259">
+          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/controller/FlowControllerV1.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/Client.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="130" column="98" lean-forward="false" selection-start-line="130" selection-start-column="98" selection-end-line="130" selection-end-column="98" />
+        <state relative-caret-position="286">
+          <caret line="65" column="13" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="65" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-424">
+          <caret line="247" column="0" lean-forward="false" selection-start-line="247" selection-start-column="0" selection-end-line="247" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/transport/6.8.1/transport-6.8.1.jar!/org/elasticsearch/transport/client/PreBuiltTransportClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="78" column="70" lean-forward="false" selection-start-line="78" selection-start-column="70" selection-end-line="78" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/plugins/PluginsService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="189" column="0" lean-forward="false" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="356" column="0" lean-forward="false" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="139" column="9" lean-forward="false" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/common/util/concurrent/ThreadContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="295" column="0" lean-forward="false" selection-start-line="295" selection-start-column="0" selection-end-line="295" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/common/util/concurrent/AbstractRunnable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/resources/bootstrap.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar!/org/apache/logging/log4j/Logger.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="39" />
+        <state relative-caret-position="342">
+          <caret line="52" column="9" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-admin-server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/x-pack-core/6.8.1/x-pack-core-6.8.1.jar!/org/elasticsearch/xpack/core/XPackClientPlugin.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="222" column="0" lean-forward="false" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-core/src/main/java/com/alibaba/csp/sentinel/slots/block/AbstractRule.java">
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/config/ElasticSearchAutoConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/rule/FlowRuleEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="40" column="9" lean-forward="false" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.9/jackson-databind-2.9.9.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-sources.jar!/com/fasterxml/jackson/annotation/JsonIgnore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="51" column="18" lean-forward="false" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-core/src/main/java/com/alibaba/csp/sentinel/slots/block/flow/FlowRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="31" column="59" lean-forward="false" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+        <state relative-caret-position="770">
+          <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
           <folding>
-            <element signature="e#1926#1927#0" expanded="false" />
-            <element signature="e#1951#1952#0" expanded="false" />
-            <element signature="e#2069#2070#0" expanded="false" />
-            <element signature="e#2095#2096#0" expanded="false" />
-            <element signature="e#2217#2218#0" expanded="false" />
-            <element signature="e#2242#2243#0" expanded="false" />
-            <element signature="e#2363#2364#0" expanded="false" />
-            <element signature="e#2390#2391#0" expanded="false" />
-            <element signature="e#2521#2522#0" expanded="false" />
-            <element signature="e#2553#2554#0" expanded="false" />
-            <element signature="e#2704#2705#0" expanded="false" />
-            <element signature="e#2738#2739#0" expanded="false" />
-            <element signature="e#5367#5368#0" expanded="false" />
-            <element signature="e#5395#5396#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <marker date="1566545621515" expanded="false" signature="4769:4780" ph=" { " />
+            <marker date="1566545621515" expanded="false" signature="4835:4841" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/1.0.0/nacos-client-1.0.0.jar!/com/alibaba/nacos/client/config/NacosConfigService.class">
+    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/resources/logback-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        <state relative-caret-position="132">
+          <caret line="6" column="106" lean-forward="false" selection-start-line="6" selection-start-column="106" selection-end-line="6" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-admin-server/src/main/java/com/central/monitor/admin/config/SecuritySecureConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-sentinel-datasource/0.9.0.RELEASE/spring-cloud-alibaba-sentinel-datasource-0.9.0.RELEASE.jar!/org/springframework/cloud/alibaba/sentinel/datasource/converter/SentinelConverter.class">
+    <entry file="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/threadpool/ThreadPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="209" column="0" lean-forward="false" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5786">
+          <caret line="326" column="45" lean-forward="false" selection-start-line="326" selection-start-column="45" selection-end-line="326" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-sentinel-datasource/0.9.0.RELEASE/spring-cloud-alibaba-sentinel-datasource-0.9.0.RELEASE.jar!/org/springframework/cloud/alibaba/sentinel/datasource/factorybean/NacosDataSourceFactoryBean.class">
+    <entry file="file://$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-admin-server/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        <state relative-caret-position="352">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-extension/sentinel-datasource-nacos/src/main/java/com/alibaba/csp/sentinel/datasource/nacos/NacosDataSource.java">
+    <entry file="file://$PROJECT_DIR$/jason-business/user-server/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-538">
-          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+        <state relative-caret-position="440">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-dashboard/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2283,101 +2762,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/CI&amp;CD/部署脚本/linux/docker_deploy.sh">
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="242">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/CI&amp;CD/发布脚本/java_publish.bat">
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-592">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="440">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-dashboard/src/test/java/com/alibaba/csp/sentinel/dashboard/repository/metric/InMemoryMetricsRepositoryTest.java">
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/SlowQueryLogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="103" column="42" lean-forward="true" selection-start-line="103" selection-start-column="42" selection-end-line="103" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="352">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/AggregationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/SysLogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/SlowQueryLogController.java.bak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/LogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1034">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-business/auth-server/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/repository/metric/MetricsRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="15" column="61" lean-forward="false" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/controller/MetricController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="45" column="24" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/CI&amp;CD/部署脚本/linux/docker_deploy_dotnet.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="88" column="68" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-dashboard/src/main/java/com/alibaba/csp/sentinel/dashboard/metric/MetricFetcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-142">
-          <caret line="56" column="13" lean-forward="false" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/modular/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="220">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/approve.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="102" column="5" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/remark/kafka常用命令">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="80" column="28" lean-forward="false" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/remark/readerme">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="65" column="51" lean-forward="false" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
+        <state relative-caret-position="581">
+          <caret line="68" column="0" lean-forward="true" selection-start-line="67" selection-start-column="38" selection-end-line="68" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jason-config/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="78" lean-forward="true" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="560">
+            <caret line="124" column="8" lean-forward="true" selection-start-line="124" selection-start-column="8" selection-end-line="124" selection-end-column="8" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -2446,12 +2950,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>sentinel-client</last-edited>
+          <last-edited>search-server</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.46580407" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

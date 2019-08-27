@@ -2,8 +2,8 @@
 FROM 172.16.4.130/library/javatom:v8.0
 
 #维护者
-MAINTAINER app="smardcloud.com river-leader" by="jiangjie"
-#LABEL app="smardcloud.com river-leader" version="1.0.0" by="jiangjie"
+MAINTAINER app="smardcloud.com" by="jiangjie"
+
 
 #声明变量 在docker build创建镜像时 使用--build-arg 传入参数source
 #ARG source

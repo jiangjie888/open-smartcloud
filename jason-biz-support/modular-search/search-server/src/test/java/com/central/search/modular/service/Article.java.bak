@@ -1,0 +1,35 @@
+package com.central.search.modular.service;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.elasticsearch.annotations.Document;
+
+@Data
+@ToString
+@AllArgsConstructor
+@NoArgsConstructor
+@Document(indexName = "blog", type = "article")
+public class Article {
+    @Id
+    @Field(type = FieldType.Text, store = false)
+    private String id;
+    /**
+     * 文章名称
+     */
+    @Field(type = FieldType.Text, store = true, analyzer = "ik_smart", searchAnalyzer = "ik_max_word")
+    private String name;
+    /**
+     * 内容
+     */
+    @Field(type = FieldType.Text, store = true, analyzer = "ik_smart", searchAnalyzer = "ik_max_word")
+    private String content;
+    /**
+     * 创建时间 采用自定义的时间格式
+     */
+    @Field(type = FieldType.Date, store = true, format = DateFormat.custom, pattern = "yyyy-MM-dd HH:mm:ss:SSS||yyyy-MM-dd||epoch_millis||date_optional_time")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ss:SSS", timezone = "GMT+8")
+    private Date createTime;
+}

@@ -35,7 +35,7 @@ import java.util.List;
  * WebMvcCofigurer-->返回逻辑视图,可以选择实现此方法,重写addInterceptor方法
  */
 @Configuration
-public class WebAutoConfig extends WebMvcConfigurationSupport {
+public class DefaultWebAutoConfig extends WebMvcConfigurationSupport {
     //@Resource
     //private BaseInterceptor baseInterceptor;
 

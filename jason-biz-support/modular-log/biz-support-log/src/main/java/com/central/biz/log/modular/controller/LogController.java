@@ -14,6 +14,7 @@ import com.central.core.model.page.PageResult;
 import com.central.core.model.page.PageResultPlus;
 import com.central.core.model.reqres.request.RequestData;
 import com.central.core.model.reqres.response.ResponseData;
+import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -23,6 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 日志管理
  */
+@Api(tags = "本地数据库日志查询服务")
 @RequestMapping("/logs")
 @RestController
 @Slf4j

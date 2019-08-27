@@ -32,7 +32,7 @@ public class DefaultAsycTaskConfig {
     /**
      *  线程池前缀
      */
-    @Value("${asyc-task.threadNamePrefix:ZltExecutor-}")
+    @Value("${asyc-task.threadNamePrefix:JasonExecutor-}")
     private String threadNamePrefix;
 
     @Bean

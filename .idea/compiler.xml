@@ -40,6 +40,9 @@
         <module name="nacos-discovery-server" />
         <module name="nacos-discovery-server-client" />
         <module name="sc-zipkin-server" />
+        <module name="search-api" />
+        <module name="search-client" />
+        <module name="search-server" />
         <module name="sentinel-annotation-aspectj" />
         <module name="sentinel-apache-dubbo-adapter" />
         <module name="sentinel-api-gateway-adapter-common" />
@@ -130,11 +133,16 @@
       <module name="kernel-swagger2" target="1.8" />
       <module name="modular-log" target="1.8" />
       <module name="modular-monitor" target="1.8" />
+      <module name="modular-search" target="1.8" />
       <module name="nacos-config-client" target="1.8" />
       <module name="nacos-discovery-server" target="1.8" />
       <module name="nacos-discovery-server-client" target="1.8" />
       <module name="open-smartcloud" target="1.8" />
       <module name="sc-zipkin-server" target="1.8" />
+      <module name="search-api" target="1.8" />
+      <module name="search-client" target="1.8" />
+      <module name="search-server" target="1.8" />
+      <module name="searh-server" target="1.8" />
       <module name="sentinel-adapter" target="1.7" />
       <module name="sentinel-annotation-aspectj" target="1.7" />
       <module name="sentinel-apache-dubbo-adapter" target="1.8" />

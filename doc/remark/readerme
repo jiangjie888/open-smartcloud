@@ -56,7 +56,7 @@ sudo nohup bash /opt/docker/webapps/sentinel-dashboard/startup.sh &
 
 #log-server     日志服务            端口7021
 
-
+#log-server     搜索服务            端口7031
 
 ######################################CI/CD######################################
 Windows SSH：BvSshServer-Inst7.39

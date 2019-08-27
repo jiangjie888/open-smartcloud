@@ -40,10 +40,14 @@
       <module fileurl="file://$PROJECT_DIR$/jason-kernel/kernel-swagger2/kernel-swagger2.iml" filepath="$PROJECT_DIR$/jason-kernel/kernel-swagger2/kernel-swagger2.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-biz-support/modular-log/modular-log.iml" filepath="$PROJECT_DIR$/jason-biz-support/modular-log/modular-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-microservice-support/modular-monitor/modular-monitor.iml" filepath="$PROJECT_DIR$/jason-microservice-support/modular-monitor/modular-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jason-biz-support/modular-search/modular-search.iml" filepath="$PROJECT_DIR$/jason-biz-support/modular-search/modular-search.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-demo/nacos-config-client/nacos-config-client.iml" filepath="$PROJECT_DIR$/jason-demo/nacos-config-client/nacos-config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-demo/nacos-discovery-server/nacos-discovery-server.iml" filepath="$PROJECT_DIR$/jason-demo/nacos-discovery-server/nacos-discovery-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-demo/nacos-discovery-server-client/nacos-discovery-server-client.iml" filepath="$PROJECT_DIR$/jason-demo/nacos-discovery-server-client/nacos-discovery-server-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/open-smartcloud.iml" filepath="$PROJECT_DIR$/open-smartcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-api/search-api.iml" filepath="$PROJECT_DIR$/jason-biz-support/modular-search/search-api/search-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-client/search-client.iml" filepath="$PROJECT_DIR$/jason-biz-support/modular-search/search-client/search-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/search-server.iml" filepath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/search-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-adapter/sentinel-adapter.iml" filepath="$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-adapter/sentinel-adapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-extension/sentinel-annotation-aspectj/sentinel-annotation-aspectj.iml" filepath="$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-extension/sentinel-annotation-aspectj/sentinel-annotation-aspectj.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-adapter/sentinel-apache-dubbo-adapter/sentinel-apache-dubbo-adapter.iml" filepath="$PROJECT_DIR$/jason-microservice-support/sentinel-parent/sentinel-adapter/sentinel-apache-dubbo-adapter/sentinel-apache-dubbo-adapter.iml" />

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.smartcloud</groupId>
+		<artifactId>modular-search</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+
+	<name>search-client</name>
+	<artifactId>search-client</artifactId>
+	<description>搜索引擎客户端消费者</description>
+	<packaging>jar</packaging>
+
+
+	<dependencies>
+		<!-- 公共实体类模块 -->
+		<dependency>
+			<groupId>com.smartcloud</groupId>
+			<artifactId>kernel-ribbon</artifactId>
+			<version>${core.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.smartcloud</groupId>
+			<artifactId>search-api</artifactId>
+			<version>${core.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.smartcloud</groupId>
+			<artifactId>kernel-core</artifactId>
+			<version>${core.version}</version>
+			<optional>true</optional>
+		</dependency>
+        <!-- swagger -->
+		<dependency>
+			<groupId>com.smartcloud</groupId>
+			<artifactId>kernel-swagger2</artifactId>
+			<version>${core.version}</version>
+			<optional>true</optional>
+		</dependency>
+
+	</dependencies>
+
+
+</project>

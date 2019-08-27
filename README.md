@@ -50,10 +50,6 @@
   * 网关聚合所有服务的Swagger接口文档
   * 统一跨域处理
   * 统一异常处理
-  
-> 重构于开源项目OCP&cp：https://gitee.com/owenwangwen/open-capacity-platform
-               Microservices-platform：https://gitee.com/zlt2000/microservices-platform
-               Roses https://www.stylefeng.cn/
 
 &nbsp;
 
@@ -120,35 +116,10 @@ open-smartcloud -- 父项目，公共依赖
 
 <table>
     <tr>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/首页.png"/></td>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/用户搜索.png"/></td>
-    </tr>
-	<tr>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/server_metrics.png"/></td>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/application_metrics.png"/></td>
-    </tr>
-	<tr>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/持续集成2.png"/></td>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/sonar结果.png"/></td>
+        <td colspan="2">登录中心和工作台</td>
     </tr>
     <tr>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/skywalking首页.png"/></td>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/skywalking应用拓扑图.png"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/elk.png"/></td>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/任务中心.png"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/日志中心02.png"/></td>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/慢查询sql.png"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/应用监控01.png"/></td>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/应用监控02.png"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/nacos-discovery.png"/></td>
-        <td><img src="https://github.com/jiangjie888/open-smartcloud/tree/master/doc/images/应用吞吐量监控.png"/></td>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/doc/syspic/login.png"/></td>
+        <td><img src="https://github.com/jiangjie888/open-smartcloud/doc/syspic/homepage.png"/></td>
     </tr>
 </table>

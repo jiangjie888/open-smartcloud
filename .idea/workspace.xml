@@ -150,7 +150,7 @@
       <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
+            <state relative-caret-position="0">
               <caret line="69" column="51" lean-forward="false" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
               <folding />
             </state>
@@ -170,7 +170,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="2574">
               <caret line="117" column="28" lean-forward="false" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
               <folding />
             </state>
@@ -181,8 +181,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="330">
-                <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <first_editor relative-caret-position="286">
+                <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -193,13 +193,12 @@
       <file leaf-file-name="IndexServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/IndexServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
+            <state relative-caret-position="308">
               <caret line="55" column="31" lean-forward="false" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#create#0;class#IndexServiceImpl#0" expanded="false" />
                 <element signature="method#delete#0;class#IndexServiceImpl#0" expanded="false" />
-                <element signature="e#9916#9925#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -208,7 +207,7 @@
       <file leaf-file-name="AggregationServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/AggregationServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
+            <state relative-caret-position="3916">
               <caret line="209" column="8" lean-forward="false" selection-start-line="209" selection-start-column="8" selection-end-line="212" selection-end-column="9" />
               <folding />
             </state>
@@ -218,11 +217,10 @@
       <file leaf-file-name="SearchServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/SearchServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
+            <state relative-caret-position="418">
               <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#990#1002#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -231,7 +229,7 @@
       <file leaf-file-name="Aggregations.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/search/aggregations/Aggregations.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
+            <state relative-caret-position="198">
               <caret line="30" column="56" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="56" />
               <folding />
             </state>
@@ -471,8 +469,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -488,6 +485,93 @@
             <path>
               <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-log" type="462c0819:PsiDirectoryNode" />
+              <item name="biz-support-log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-log" type="462c0819:PsiDirectoryNode" />
+              <item name="biz-support-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-log" type="462c0819:PsiDirectoryNode" />
+              <item name="biz-support-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-log" type="462c0819:PsiDirectoryNode" />
+              <item name="biz-support-log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-log" type="462c0819:PsiDirectoryNode" />
+              <item name="biz-support-log-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-search" type="462c0819:PsiDirectoryNode" />
+              <item name="search-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-search" type="462c0819:PsiDirectoryNode" />
+              <item name="search-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-search" type="462c0819:PsiDirectoryNode" />
+              <item name="search-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
+              <item name="modular-search" type="462c0819:PsiDirectoryNode" />
+              <item name="search-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
               <item name="jason-business" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -499,7 +583,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1017,30 +1102,30 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18743229" sideWeight="0.46041667" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30411255" sideWeight="0.1609808" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22441365" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.03575298" sideWeight="0.78571427" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1663113" sideWeight="0.7442177" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16791044" sideWeight="0.7442177" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31121752" sideWeight="0.2557823" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06717227" sideWeight="0.8390192" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2040531" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18743229" sideWeight="0.46041667" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2163,43 +2248,10 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/action/support/replication/ReplicationRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="934">
-          <caret line="64" column="18" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="18" />
-          <folding>
-            <element signature="e#2139#2140#0" expanded="true" />
-            <element signature="e#2172#2173#0" expanded="true" />
-            <element signature="e#2308#2309#0" expanded="true" />
-            <element signature="e#2355#2356#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/action/admin/cluster/health/ClusterHealthRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="72" column="54" lean-forward="true" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/action/admin/indices/stats/IndicesStatsResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="73" column="35" lean-forward="false" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/cluster/health/ClusterStateHealth.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="176" column="0" lean-forward="true" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
-          <folding>
-            <element signature="e#7006#7007#0" expanded="true" />
-            <element signature="e#7070#7071#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2207,7 +2259,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-396">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2215,7 +2266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2223,7 +2273,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="23" column="72" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2231,7 +2280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="10" column="61" lean-forward="false" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2239,7 +2287,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2247,7 +2294,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6182">
           <caret line="335" column="71" lean-forward="false" selection-start-line="335" selection-start-column="71" selection-end-line="335" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2255,10 +2301,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="212" column="41" lean-forward="false" selection-start-line="212" selection-start-column="23" selection-end-line="212" selection-end-column="41" />
-          <folding>
-            <element signature="e#9705#9706#0" expanded="true" />
-            <element signature="e#9764#9765#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2266,7 +2308,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-264">
           <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2274,10 +2315,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="201" column="25" lean-forward="true" selection-start-line="201" selection-start-column="25" selection-end-line="201" selection-end-column="25" />
-          <folding>
-            <element signature="e#8791#8792#0" expanded="true" />
-            <element signature="e#8825#8826#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2285,9 +2322,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="76" column="1" lean-forward="false" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="33" />
-          <folding>
-            <element signature="e#2392#2393#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2295,10 +2329,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
-          <folding>
-            <element signature="e#3529#3530#0" expanded="true" />
-            <element signature="e#3567#3568#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2306,7 +2336,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2314,7 +2343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2322,7 +2350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2330,7 +2357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2338,7 +2364,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2346,10 +2371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="39" />
-          <folding>
-            <element signature="e#1023#1024#0" expanded="true" />
-            <element signature="e#1092#1093#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2357,7 +2378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="516" column="31" lean-forward="false" selection-start-line="516" selection-start-column="17" selection-end-line="516" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2365,7 +2385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2373,7 +2392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2381,7 +2399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="72" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2389,7 +2406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2397,7 +2413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="543" column="6" lean-forward="false" selection-start-line="543" selection-start-column="6" selection-end-line="543" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2405,7 +2420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2413,16 +2427,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="159" column="45" lean-forward="false" selection-start-line="159" selection-start-column="18" selection-end-line="159" selection-end-column="45" />
-          <folding>
-            <element signature="e#7689#7690#0" expanded="true" />
-            <element signature="e#7749#7750#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/search/aggregations/Aggregations.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
+        <state relative-caret-position="198">
           <caret line="30" column="56" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="56" />
           <folding />
         </state>
@@ -2432,7 +2442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="275" column="43" lean-forward="false" selection-start-line="275" selection-start-column="43" selection-end-line="275" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2440,7 +2449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
           <caret line="468" column="39" lean-forward="false" selection-start-line="468" selection-start-column="26" selection-end-line="468" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2448,7 +2456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
           <caret line="19" column="87" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="87" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2456,7 +2463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2464,7 +2470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2472,7 +2477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2480,7 +2484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2488,24 +2491,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="61" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/SearchServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
+        <state relative-caret-position="418">
           <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#990#1002#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/AggregationServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
+        <state relative-caret-position="3916">
           <caret line="209" column="8" lean-forward="false" selection-start-line="209" selection-start-column="8" selection-end-line="212" selection-end-column="9" />
           <folding />
         </state>
@@ -2515,7 +2516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="15" column="74" lean-forward="false" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2523,7 +2523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="50" column="32" lean-forward="false" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2531,7 +2530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="14" column="73" lean-forward="true" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2539,7 +2537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2547,7 +2544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="168" column="25" lean-forward="false" selection-start-line="168" selection-start-column="25" selection-end-line="168" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2555,16 +2551,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="94" column="30" lean-forward="false" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="30" />
-          <folding>
-            <element signature="e#2900#2901#0" expanded="true" />
-            <element signature="e#2963#2964#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
+        <state relative-caret-position="0">
           <caret line="69" column="51" lean-forward="false" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
           <folding />
         </state>
@@ -2572,13 +2564,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/IndexServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
+        <state relative-caret-position="308">
           <caret line="55" column="31" lean-forward="false" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#create#0;class#IndexServiceImpl#0" expanded="false" />
             <element signature="method#delete#0;class#IndexServiceImpl#0" expanded="false" />
-            <element signature="e#9916#9925#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2593,8 +2584,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="2574">
           <caret line="117" column="28" lean-forward="false" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -2602,8 +2617,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="330">
-            <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <first_editor relative-caret-position="286">
+            <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

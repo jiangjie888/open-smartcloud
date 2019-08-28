@@ -54,23 +54,23 @@ open-smartcloud -- 父项目，公共依赖
 │  │  ├─syspic              -- 系统截图
 │  ├─jason-biz-support           -- 业务公共模块
 │  │  ├─modular-log             -- 日志模块
-│  │  │  ├─biz-support-log     -- 日志业务系统（kafka+mysql）
+│  │  │  ├─biz-support-log     -- 日志业务系统（kafka+mysql）【端口：7021】
 │  │  │  ├─biz-support-log-api -- 日志API和实体定义
 │  │  ├─modular-search          -- 全文搜索引擎
 │  │  │  ├─search-api          -- 公用ElasticSearch搜索API
-│  │  │  ├─search-client       -- 搜索消息费（需要使用的第三方系统直接引入这个模块）
-│  │  │  ├─search-server       -- 搜索提供者
+│  │  │  ├─search-client       -- 搜索客户端（feign消息者)（需要使用的第三方系统直接引入这个模块）
+│  │  │  ├─search-server       -- ElasticSearch搜索服务(feign生产提供者）【端口：7031】
 │  ├─jason-business -- 业务系统模块一级工程
-│  │  ├─auth-center -- 登录认证中心[7000] (spring security+OAuth2, 支持oauth2的四种认证模式，已重写authorization_code登录页和授权页)
-│  │  ├─user-center -- 用户中心[7011]
-│  │  ├─back-web    -- 后台管理网站[8888]
+│  │  ├─auth-center -- 登录认证中心【端口：7000】 (spring security+OAuth2, 支持oauth2的四种认证模式，已重写authorization_code登录页和授权页)
+│  │  ├─user-center -- 用户中心【端口：7011】
+│  │  ├─back-web    -- 后台管理网站【端口：8888】
 │  ├─jason-config -- 配置中心（通用配置，可以拷贝到nacos配置中心使用）
 │  │─jason-demo   -- 测试使用
 │  ├─jason-job -- 分布式任务调度
-│  │  ├─job-admin -- 任务管理器
-│  │  ├─job-core -- 任务调度核心代码
-│  │  ├─job-demo -- 任务执行者executor样例
-│  ├─jason-kernel --  内核封装
+│  │  ├─job-admin   -- 任务管理器
+│  │  ├─job-core    -- 任务调度核心代码
+│  │  ├─job-demo    -- 任务执行者executor样例
+│  ├─jason-kernel    --  内核封装
 │  │  ├─kernel-actuator -- 封装spring security client端不需要认证的actuator
 │  │  ├─kernel-auth     -- 封装spring security client端的通用操作逻辑
 │  │  ├─kernel-core     -- 封装系统支持所需要的通用内核
@@ -84,20 +84,20 @@ open-smartcloud -- 父项目，公共依赖
 │  │  ├─jason-demo-account    -- 帐目系统
 │  │  ├─jason-demo-api        -- 模块相关API
 │  │  ├─jason-demo-order      -- 订单系统
-│  │  ├─jason-message-api     -- 封装数据库通用操作逻辑，包括支持多个数据源操作和对mybatisplus mapper配置yml读取注入
-│  │  ├─jason-message-check   -- 消息消费
-│  │  ├─jason-message-service -- 消息服务
-│  ├─jason-microservice-eureka -- 微服务相关支持，这里是采用Eureka实现
+│  │  ├─jason-message-api     -- 消息操作API接口
+│  │  ├─jason-message-check   -- 消息监听(feign消费者)
+│  │  ├─jason-message-service -- 消息操作服务(feign生产提供者)
+│  ├─jason-microservice-eureka -- 微服务相关支持，这里是采用Eureka实现（已用zuul取代）
 │  │  ├─api-gateway   -- 网关
 │  │  ├─eureka-client -- eureka客户端API
 │  │  ├─eureka-server -- eureka注册中心
-│  ├─jason-microservice-support -- 微服务相关支持，这里是采用nacos+zull实现
-│  │  ├─jason-register                       -- nacos注册中心(把jar上传linux中部署)
+│  ├─jason-microservice-support        -- 微服务相关支持，这里是采用nacos+zull实现
+│  │  ├─jason-register                -- nacos注册中心(把jar上传linux中部署)
 │  │  ├─modular-monitor               -- 监控
-│  │  │  ├─sm-admin-server           -- spring cloud admin监控中心[9011]
-│  │  ├─sentinel-parent               -- Sentinel源码：基于开源源码重写后的Sentinel-Dashboard，可以与nacos自动同步拉取和推送配置
+│  │  │  ├─sm-admin-server           -- spring cloud admin监控中心【端口：9011】
+│  │  ├─sentinel-parent               -- Sentinel源码：基于开源源码重写后的Sentinel-Dashboard，可以与nacos自动同步拉取和推送配置数据
 │  │  ├─spring-cloud-alibaba-sentinel -- Sentinel源码：1.6.2版本，基于开源源码修复feign继承接口Api的Bug
-│  │  ├─zuul-gateway -- zuul网关[9000]
+│  │  ├─zuul-gateway -- zuul网关【端口：9000】
 
 ```
 

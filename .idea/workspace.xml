@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2597e530-7e4e-46e0-b159-1337d086ad5b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_unboundid_unboundid_ldapsdk_4_0_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_transport_6_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_x_pack_transport_6_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_ssl_config_6_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_percolator_client_6_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_reindex_client_6_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_transport_netty4_client_6_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_x_pack_core_6_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_elasticsearch_2_1_6_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_elasticsearch_3_1_9_RELEASE.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/pom.xml" afterPath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/SearchServerApplication.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/SearchServerApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/config/ElasticSearchAutoConfig.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/config/ElasticSearchAutoConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/core/properties/ElasticSearchProperties.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/core/properties/ElasticSearchProperties.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/core/util/SearchBuilder.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/core/util/SearchBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/IAggregationService.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/IAggregationService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/IIndexService.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/IIndexService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/ISearchService.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/ISearchService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/AggregationServiceImpl.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/AggregationServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/IndexServiceImpl.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/IndexServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/SearchServiceImpl.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/SearchServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-config/src/main/resources/application-dev.properties" afterPath="$PROJECT_DIR$/jason-config/src/main/resources/application-dev.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-config/target/classes/application-dev.properties" afterPath="$PROJECT_DIR$/jason-config/target/classes/application-dev.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -204,8 +181,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="524">
-                <caret line="158" column="28" lean-forward="false" selection-start-line="158" selection-start-column="24" selection-end-line="158" selection-end-column="28" />
+              <first_editor relative-caret-position="330">
+                <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -442,7 +419,7 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-Xms128m -Xmx512m -Duser.language=zh -Dfile.encoding=UTF-8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="71" />
     <option name="y" value="3" />
     <option name="width" value="1152" />
@@ -1036,7 +1013,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -2625,8 +2602,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="524">
-            <caret line="158" column="28" lean-forward="false" selection-start-line="158" selection-start-column="24" selection-end-line="158" selection-end-column="28" />
+          <first_editor relative-caret-position="330">
+            <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             <folding />
           </first_editor>
           <second_editor />

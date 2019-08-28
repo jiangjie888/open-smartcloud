@@ -12,7 +12,8 @@
   - 业务系统模块jason-business：目前有网站后台，统一用户服务和统一登录认证中心
   - 业务公共组件模块jason-biz-support：目前有日志中心(Kafka+Mysql+Elasticsearch)和全文搜索中心(Elasticsearch)
   - 分布式事务模块jason-message:基于消息预处理方式模拟一个订单，付款的解决方案
-所有业务系统采用统一的包目录结构，根目录下分为config,core,modular三个主包，所有的AOP和相关的配置都是基于这个结构来现；
+  
+  所有业务系统采用统一的包目录结构，根目录下分为config,core,modular三个主包，所有的AOP和相关的配置都是基于这个结构来现；
 
 具体功能详细如下：
 * **统一登录认证功能**
@@ -27,7 +28,7 @@
   - 进行log4j埋点的方式记录系统日志到文件，再通过ElasticSearch+logstash+kibana实时抽取和分析；
 
 * **全文搜索功能**
-  - 采用最新的RestHighLevelClient Http方式直接操作RestHighLevelClient,本项目中所使用ELK和java客户端相关版本全为6.8.1的破解版；
+  - 采用最新的RestHighLevelClient Http方式直接操作Elasticsearch,本项目中所使用elk和java客户端相关版本全为6.8.1的破解版；
   
 * **业务基础功能支撑**
   - 高性能方法级幂等性支持；RBAC权限管理，实现细粒度控制(方法、url级别)；数据库访问层自动实现crud操作，支持多库切换；网关聚合所有服务的Swagger接口文档；

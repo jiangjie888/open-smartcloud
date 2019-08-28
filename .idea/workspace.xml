@@ -2,8 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2597e530-7e4e-46e0-b159-1337d086ad5b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_unboundid_unboundid_ldapsdk_4_0_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_transport_6_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_x_pack_transport_6_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_ssl_config_6_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_percolator_client_6_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_reindex_client_6_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_transport_netty4_client_6_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_x_pack_core_6_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_elasticsearch_2_1_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_elasticsearch_3_1_9_RELEASE.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/pom.xml" afterPath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/SearchServerApplication.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/SearchServerApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/config/ElasticSearchAutoConfig.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/config/ElasticSearchAutoConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/core/properties/ElasticSearchProperties.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/core/properties/ElasticSearchProperties.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/core/util/SearchBuilder.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/core/util/SearchBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/IAggregationService.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/IAggregationService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/IIndexService.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/IIndexService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/ISearchService.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/ISearchService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/AggregationServiceImpl.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/AggregationServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/IndexServiceImpl.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/IndexServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/SearchServiceImpl.java" afterPath="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/SearchServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-config/src/main/resources/application-dev.properties" afterPath="$PROJECT_DIR$/jason-config/src/main/resources/application-dev.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason-config/target/classes/application-dev.properties" afterPath="$PROJECT_DIR$/jason-config/target/classes/application-dev.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -147,71 +170,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="readerme" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/remark/readerme">
+      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="68" column="0" lean-forward="false" selection-start-line="67" selection-start-column="38" selection-end-line="68" selection-end-column="0" />
+            <state relative-caret-position="430">
+              <caret line="69" column="51" lean-forward="false" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kafka常用命令" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/remark/kafka常用命令">
+      <file leaf-file-name="IIndexService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/IIndexService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+            <state relative-caret-position="770">
+              <caret line="40" column="47" lean-forward="false" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/pom.xml">
+        <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="80" column="28" lean-forward="false" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/LogController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/TestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1034">
-              <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jason-business/auth-server/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/modular/controller/TestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="117" column="28" lean-forward="false" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -221,8 +204,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-880">
-                <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <first_editor relative-caret-position="524">
+                <caret line="158" column="28" lean-forward="false" selection-start-line="158" selection-start-column="24" selection-end-line="158" selection-end-column="28" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -230,21 +213,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-admin-server/src/main/resources/bootstrap.yml">
+      <file leaf-file-name="IndexServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/IndexServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="155">
+              <caret line="55" column="31" lean-forward="false" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#create#0;class#IndexServiceImpl#0" expanded="false" />
+                <element signature="method#delete#0;class#IndexServiceImpl#0" expanded="false" />
+                <element signature="e#9916#9925#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AggregationServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/AggregationServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="209" column="8" lean-forward="false" selection-start-line="209" selection-start-column="8" selection-end-line="212" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="approve.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/approve.html">
+      <file leaf-file-name="SearchServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/SearchServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="102" column="5" lean-forward="false" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+            <state relative-caret-position="346">
+              <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#990#1002#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Aggregations.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/search/aggregations/Aggregations.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="30" column="56" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -264,15 +275,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>api-gateway</find>
-      <find>threadPoolKeyPrefix</find>
-      <find>DefaultAsycTaskConfig</find>
-      <find>ensureNodesAreAvailable</find>
-      <find>addTransportAddresses</find>
-      <find>nodes</find>
-      <find>this.nodes =</find>
-      <find>RetryListener</find>
-      <find>NodeSampler</find>
       <find>node</find>
       <find>doSample</find>
       <find>establishNodeConnections</find>
@@ -289,11 +291,20 @@
       <find>CustomThreadPoolTaskExecutor</find>
       <find>TaskExecutor</find>
       <find>toString</find>
-      <find>this.nodes =</find>
-      <find>doRun</find>
       <find>'this' is not available</find>
       <find>TransportClientNodesService.this.threadPool</find>
       <find>target</find>
+      <find>doRun</find>
+      <find>:</find>
+      <find>Invalid cluster node</find>
+      <find>setCurrDate</find>
+      <find>IndicesStatsRequestBuilder</find>
+      <find>IOException</find>
+      <find>4j</find>
+      <find>terms</find>
+      <find>.iterator()</find>
+      <find>iterator</find>
+      <find>throws IOException</find>
     </findStrings>
     <replaceStrings>
       <replace>;</replace>
@@ -319,21 +330,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/controller/SearchController.java" />
-        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/provider/SearchController.java" />
-        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/provider/AggregationProvider.java" />
-        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-api/src/main/java/com/central/search/api/SearchApi.java" />
-        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/ISearchService.java" />
-        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/IAggregationService.java" />
-        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/dto/IndexDto.java" />
-        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/provider/SearchProvider.java" />
-        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/AggregationServiceImpl.java" />
-        <option value="$PROJECT_DIR$/doc/remark/readerme" />
-        <option value="$PROJECT_DIR$/jason-config/src/main/resources/application-dev.properties" />
-        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/core/properties/IndexProperties.java" />
-        <option value="$PROJECT_DIR$/jason-business/back-web/Dockerfile" />
         <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/Dockerfile" />
         <option value="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/LogController.java" />
         <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-client/src/main/java/com/central/search/client/core/annotation/EnableSearchClient.java" />
@@ -351,15 +347,8 @@
         <option value="$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/autoconfigure/DefaultAsycTaskConfig.java" />
         <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/controller/TestController.java" />
         <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/config/WebAutoConfig.java" />
-        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/core/properties/XPack.java" />
-        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/core/properties/ElasticSearchProperties.java" />
-        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/core/util/SearchBuilder.java" />
         <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/test/java/com/central/search/modular/service/Article.java" />
         <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/test/java/com/central/search/modular/service/ElasticsearchCase.java" />
-        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/pom.xml" />
-        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/IndexServiceImpl.java" />
-        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/config/ElasticSearchAutoConfig.java" />
-        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/resources/logback-spring.xml" />
         <option value="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/Dockerfile" />
         <option value="$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-admin-server/Dockerfile" />
@@ -369,6 +358,28 @@
         <option value="$PROJECT_DIR$/doc/remark/kafka常用命令" />
         <option value="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/pom.xml" />
         <option value="$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/AggregationController.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/resources/application.yml" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.1.9.RELEASE/spring-data-elasticsearch-3.1.9.RELEASE.jar!/org/springframework/data/elasticsearch/core/ElasticsearchTemplate.class" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/core/ESClientSpringFactory.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/core/properties/XPack.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/core/properties/ElasticSearchProperties.java" />
+        <option value="$PROJECT_DIR$/jason-config/src/main/resources/application-dev.properties" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.1.9.RELEASE/spring-data-elasticsearch-3.1.9.RELEASE.jar!/org/springframework/data/elasticsearch/client/TransportClientFactoryBean.class" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.1.9.RELEASE/spring-data-elasticsearch-3.1.9.RELEASE.jar!/org/springframework/data/elasticsearch/client/NodeClientFactoryBean.class" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.1.9.RELEASE/spring-data-elasticsearch-3.1.9.RELEASE.jar!/org/springframework/data/elasticsearch/repository/ElasticsearchCrudRepository.class" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.1.9.RELEASE/spring-data-elasticsearch-3.1.9.RELEASE.jar!/org/springframework/data/elasticsearch/repository/ElasticsearchRepository.class" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/SearchServerApplication.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/config/ElasticSearchAutoConfig.java" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.1.9.RELEASE/spring-data-elasticsearch-3.1.9.RELEASE.jar!/org/springframework/data/elasticsearch/ElasticsearchException.class" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.1.9.RELEASE/spring-data-elasticsearch-3.1.9.RELEASE.jar!/org/springframework/data/elasticsearch/repository/support/SimpleElasticsearchRepository.class" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/core/util/SearchBuilder.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/AggregationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/SearchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/IAggregationService.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/ISearchService.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/IndexServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/IIndexService.java" />
+        <option value="$PROJECT_DIR$/jason-biz-support/modular-search/search-server/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -405,7 +416,23 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="auth-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="search-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="search-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="search-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="search-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.elasticsearch.client:elasticsearch-rest-high-level-client:6.8.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
@@ -415,7 +442,7 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-Xms128m -Xmx512m -Duser.language=zh -Dfile.encoding=UTF-8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="71" />
     <option name="y" value="3" />
     <option name="width" value="1152" />
@@ -479,30 +506,17 @@
             <path>
               <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-              <item name="remark" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
               <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
-              <item name="modular-log" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-business" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="open-smartcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="open-smartcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="jason-biz-support" type="462c0819:PsiDirectoryNode" />
-              <item name="modular-search" type="462c0819:PsiDirectoryNode" />
+              <item name="jason-microservice-support" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -532,19 +546,19 @@
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\open-smartcloud\jason-microservice-eureka" />
+      <recent name="D:\IdeaProjects\open-smartcloud\jason-microservice-support" />
+      <recent name="D:\IdeaProjects\open-smartcloud\doc" />
+      <recent name="D:\IdeaProjects\open-smartcloud\jason-business\infra-server\src\main\java\com\central\infra\modular\dao\mapping" />
+      <recent name="D:\IdeaProjects\open-smartcloud\jason-kernel\kernel-sentinel\src\main\resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.centratl" />
       <recent name="com.central.redis" />
       <recent name="com.central" />
       <recent name="com.central.message.service" />
       <recent name="com.central.message" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\github\open-smartcloud\doc" />
-      <recent name="D:\github\open-smartcloud\jason-biz-support\modular-search\search-server\src\test\java" />
-      <recent name="D:\github\open-smartcloud\jason-biz-support\modular-search\search-client\src\main\java\com\central\search\client\modular" />
-      <recent name="D:\github\open-smartcloud\jason-biz-support\modular-search\search-client\src\main\java\com\central\search\client\modular\consumer" />
-      <recent name="D:\github\open-smartcloud\jason-biz-support\modular-log\biz-support-log\src\main\java\com\central\biz\log\modular\controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.central.search.client.core.annotation" />
@@ -553,12 +567,12 @@
       <recent name="com.central.search.modular.service" />
       <recent name="com.central.search.core.properties" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\open-smartcloud\jason-microservice-eureka" />
-      <recent name="D:\IdeaProjects\open-smartcloud\jason-microservice-support" />
-      <recent name="D:\IdeaProjects\open-smartcloud\doc" />
-      <recent name="D:\IdeaProjects\open-smartcloud\jason-business\infra-server\src\main\java\com\central\infra\modular\dao\mapping" />
-      <recent name="D:\IdeaProjects\open-smartcloud\jason-kernel\kernel-sentinel\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\open-smartcloud\jason-biz-support\modular-search\search-server\src\main\java\com\central\search\config" />
+      <recent name="D:\github\open-smartcloud\doc" />
+      <recent name="D:\github\open-smartcloud\jason-biz-support\modular-search\search-server\src\test\java" />
+      <recent name="D:\github\open-smartcloud\jason-biz-support\modular-search\search-client\src\main\java\com\central\search\client\modular" />
+      <recent name="D:\github\open-smartcloud\jason-biz-support\modular-search\search-client\src\main\java\com\central\search\client\modular\consumer" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -573,7 +587,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AuthServerApplication">
+  <component name="RunManager" selected="Spring Boot.SearhServerApplication">
     <configuration name="All in kernel-ribbon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kernel-ribbon" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1022,26 +1036,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39328277" sideWeight="0.46041667" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18743229" sideWeight="0.46041667" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30411255" sideWeight="0.1609808" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2249467" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22441365" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.03575298" sideWeight="0.78571427" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.03575298" sideWeight="0.78571427" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.108208954" sideWeight="0.7442177" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1663113" sideWeight="0.7442177" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31121752" sideWeight="0.2557823" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42795232" sideWeight="0.8390192" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06717227" sideWeight="0.8390192" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1049,7 +1064,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2040531" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1906,233 +1920,227 @@
           <properties />
           <option name="timeStamp" value="994" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/client/support/AbstractClient.class</url>
           <line>378</line>
           <properties />
           <option name="timeStamp" value="1012" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>177</line>
           <properties />
           <option name="timeStamp" value="1015" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>103</line>
           <properties />
           <option name="timeStamp" value="1021" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>430</line>
           <properties />
           <option name="timeStamp" value="1022" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>216</line>
           <properties />
           <option name="timeStamp" value="1023" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>537</line>
           <properties />
           <option name="timeStamp" value="1026" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>303</line>
           <properties />
           <option name="timeStamp" value="1028" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>500</line>
           <properties />
           <option name="timeStamp" value="1029" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>443</line>
           <properties />
           <option name="timeStamp" value="1034" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$PROJECT_DIR$/doc/x-pack-core-6.8.1.jar!/org/elasticsearch/xpack/core/XPackPlugin.class</url>
           <line>177</line>
           <properties />
           <option name="timeStamp" value="1063" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/IndexServiceImpl.java</url>
-          <line>66</line>
-          <properties />
-          <option name="timeStamp" value="1075" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/config/ElasticSearchAutoConfig.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="1077" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/x-pack-core/6.8.1/x-pack-core-6.8.1.jar!/org/elasticsearch/xpack/core/XPackClientPlugin.class</url>
-          <line>222</line>
-          <properties />
-          <option name="timeStamp" value="1082" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>177</line>
           <properties />
           <option name="timeStamp" value="1084" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>448</line>
           <properties />
           <option name="timeStamp" value="1085" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>306</line>
           <properties />
           <option name="timeStamp" value="1087" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>415</line>
           <properties />
           <option name="timeStamp" value="1088" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>168</line>
           <properties />
           <option name="timeStamp" value="1089" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>173</line>
           <properties />
           <option name="timeStamp" value="1091" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>421</line>
           <properties />
           <option name="timeStamp" value="1092" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>430</line>
           <properties />
           <option name="timeStamp" value="1093" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>429</line>
           <properties />
           <option name="timeStamp" value="1094" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>428</line>
           <properties />
           <option name="timeStamp" value="1095" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>419</line>
           <properties />
           <option name="timeStamp" value="1096" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>323</line>
           <properties />
           <option name="timeStamp" value="1098" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>378</line>
           <properties />
           <option name="timeStamp" value="1099" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>372</line>
           <properties />
           <option name="timeStamp" value="1100" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>364</line>
           <properties />
           <option name="timeStamp" value="1101" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>363</line>
           <properties />
           <option name="timeStamp" value="1102" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
-          <line>515</line>
-          <properties />
-          <option name="timeStamp" value="1103" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>330</line>
           <properties />
           <option name="timeStamp" value="1109" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>334</line>
           <properties />
           <option name="timeStamp" value="1110" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>335</line>
           <properties />
           <option name="timeStamp" value="1111" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
-          <line>342</line>
-          <properties />
-          <option name="timeStamp" value="1113" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>349</line>
           <properties />
           <option name="timeStamp" value="1114" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
           <line>169</line>
           <properties />
           <option name="timeStamp" value="1115" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
-          <line>340</line>
-          <properties />
-          <option name="timeStamp" value="1120" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/common/util/concurrent/AbstractRunnable.class</url>
           <line>17</line>
           <properties />
           <option name="timeStamp" value="1122" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/common/util/concurrent/AbstractRunnable.class</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="1123" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/common/util/concurrent/AbstractRunnable.class</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="1126" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/common/util/concurrent/AbstractRunnable.class</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="1127" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class</url>
+          <line>502</line>
+          <properties />
+          <option name="timeStamp" value="1132" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar!/org/apache/http/HttpHost.class</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="1133" />
         </line-breakpoint>
         <line-breakpoint type="java-field">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/boot/spring-security-oauth2-autoconfigure/2.1.2.RELEASE/spring-security-oauth2-autoconfigure-2.1.2.RELEASE.jar!/org/springframework/boot/autoconfigure/security/oauth2/resource/ResourceServerTokenServicesConfiguration.class</url>
@@ -2146,6 +2154,14 @@
           <properties class="com.central.infra.modular.dao.SysRoleMenuMapper" method="findMenusByRoleCodes" />
           <option name="timeStamp" value="608" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/common/util/concurrent/AbstractRunnable.class</url>
+          <line>29</line>
+          <properties class="org.elasticsearch.common.util.concurrent.AbstractRunnable" method="onFailure">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1124" />
+        </line-breakpoint>
         <breakpoint type="java-exception">
           <properties class="com.central.core.exception.ServiceException" package="com.central.core.exception" />
           <option name="timeStamp" value="767" />
@@ -2154,17 +2170,15 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="1123" />
+      <option name="time" value="1138" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
-        <watch expression="Settings.builder().put(SecuritySettings.addTransportSettings(settings)).put(SecuritySettings.addUserSettings(settings)).build()" language="JAVA" />
-        <watch expression="additionalSettings(this.settings, ((Boolean)XPackSettings.SECURITY_ENABLED.get(this.settings)).booleanValue(), XPackPlugin.transportClientMode(this.settings))" language="JAVA" />
-        <watch expression="((Boolean)XPackSettings.SECURITY_ENABLED.get(this.settings)).booleanValue()" language="JAVA" />
-        <watch expression="XPackPlugin.transportClientMode(this.settings)" language="JAVA" />
-        <watch expression="PreBuiltXPackTransportClient(settings()).addTransportAddresses(addresses())" language="JAVA" />
-        <watch expression="TransportClientNodesService.this.closed" language="JAVA" />
-        <watch expression="new ParameterizedMessage(&quot;failed to connect to node [{}], ignoring...&quot;, nodeToPing)" language="JAVA" />
+        <watch expression="TransportClientNodesService.this.transportService.getConnection(nodeToPing)" language="JAVA" />
+        <watch expression="TransportClientNodesService.this.threadPool.schedule(this, TransportClientNodesService.this.nodesSamplerInterval, &quot;generic&quot;);" language="JAVA" />
+        <watch expression="TransportClientNodesService.this.nodes.contains(nodeToPing)" language="JAVA" />
+        <watch expression="TransportClientNodesService.this.nodes.contains(nodeToPing)" language="JAVA" />
+        <watch expression="TransportClientNodesService.this.transportService.getConnection(nodeToPing)" language="JAVA" />
       </configuration>
       <configuration name="Application">
         <watch expression="AppNameUtil.resolveAppName()" language="JAVA" />
@@ -2172,383 +2186,438 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/IIndexService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/action/support/replication/ReplicationRequest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/core/properties/IndexProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="103" column="48" lean-forward="true" selection-start-line="103" selection-start-column="48" selection-end-line="103" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/x-pack-core/6.8.1/x-pack-core-6.8.1.jar!/org/elasticsearch/xpack/core/security/SecuritySettings.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/common/inject/InjectorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="469" column="44" lean-forward="false" selection-start-line="469" selection-start-column="36" selection-end-line="469" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/common/settings/Settings.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1856">
-          <caret line="396" column="39" lean-forward="false" selection-start-line="396" selection-start-column="39" selection-end-line="396" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE.jar!/org/springframework/boot/autoconfigure/data/elasticsearch/ElasticsearchProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-config/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/IndexServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/provider/SearchProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="61" column="37" lean-forward="false" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/x-pack-core/6.8.1/x-pack-core-6.8.1.jar!/org/elasticsearch/xpack/core/XPackPlugin.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="251" column="67" lean-forward="true" selection-start-line="251" selection-start-column="67" selection-end-line="251" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassEnhancer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5259">
-          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/Client.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="65" column="13" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="65" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-424">
-          <caret line="247" column="0" lean-forward="false" selection-start-line="247" selection-start-column="0" selection-end-line="247" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/transport/6.8.1/transport-6.8.1.jar!/org/elasticsearch/transport/client/PreBuiltTransportClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="78" column="70" lean-forward="false" selection-start-line="78" selection-start-column="70" selection-end-line="78" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/plugins/PluginsService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="189" column="0" lean-forward="false" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="356" column="0" lean-forward="false" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/util/concurrent/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="139" column="9" lean-forward="false" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/common/util/concurrent/ThreadContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="295" column="0" lean-forward="false" selection-start-line="295" selection-start-column="0" selection-end-line="295" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/common/util/concurrent/AbstractRunnable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar!/org/apache/logging/log4j/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="52" column="9" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/x-pack-core/6.8.1/x-pack-core-6.8.1.jar!/org/elasticsearch/xpack/core/XPackClientPlugin.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="222" column="0" lean-forward="false" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/config/ElasticSearchAutoConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+        <state relative-caret-position="934">
+          <caret line="64" column="18" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1566883528244" expanded="false" signature="4769:4780" ph=" { " />
-            <marker date="1566883528244" expanded="false" signature="4835:4841" ph=" }" />
+            <element signature="e#2139#2140#0" expanded="true" />
+            <element signature="e#2172#2173#0" expanded="true" />
+            <element signature="e#2308#2309#0" expanded="true" />
+            <element signature="e#2355#2356#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-logger/src/main/resources/logback-spring.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/action/admin/cluster/health/ClusterHealthRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="72" column="54" lean-forward="true" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/action/admin/indices/stats/IndicesStatsResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="73" column="35" lean-forward="false" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/cluster/health/ClusterStateHealth.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="176" column="0" lean-forward="true" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+          <folding>
+            <element signature="e#7006#7007#0" expanded="true" />
+            <element signature="e#7070#7071#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/action/admin/indices/stats/IndexStats.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/ElasticsearchClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" column="106" lean-forward="false" selection-start-line="6" selection-start-column="106" selection-end-line="6" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-admin-server/src/main/java/com/central/monitor/admin/config/SecuritySecureConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/Dockerfile">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/action/support/broadcast/BroadcastOperationRequestBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/threadpool/ThreadPool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="209" column="0" lean-forward="false" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5786">
-          <caret line="326" column="45" lean-forward="false" selection-start-line="326" selection-start-column="45" selection-end-line="326" selection-end-column="45" />
+          <caret line="23" column="72" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-admin-server/Dockerfile">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/action/admin/indices/stats/IndicesStatsRequestBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="132">
+          <caret line="10" column="61" lean-forward="false" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jason-business/user-server/Dockerfile">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/action/support/master/info/ClusterInfoRequest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="321">
+          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/resources/application.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-high-level-client/6.8.1/elasticsearch-rest-high-level-client-6.8.1.jar!/org/elasticsearch/client/IndicesClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6182">
+          <caret line="335" column="71" lean-forward="false" selection-start-line="335" selection-start-column="71" selection-end-line="335" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/action/admin/cluster/health/ClusterHealthResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="212" column="41" lean-forward="false" selection-start-line="212" selection-start-column="23" selection-end-line="212" selection-end-column="41" />
+          <folding>
+            <element signature="e#9705#9706#0" expanded="true" />
+            <element signature="e#9764#9765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/cluster/health/ClusterHealthStatus.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/cluster/health/ClusterIndexHealth.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="201" column="25" lean-forward="true" selection-start-line="201" selection-start-column="25" selection-end-line="201" selection-end-column="25" />
+          <folding>
+            <element signature="e#8791#8792#0" expanded="true" />
+            <element signature="e#8825#8826#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/common/collect/ImmutableOpenMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="76" column="1" lean-forward="false" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="33" />
+          <folding>
+            <element signature="e#2392#2393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/action/admin/indices/get/GetIndexResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+          <folding>
+            <element signature="e#3529#3530#0" expanded="true" />
+            <element signature="e#3567#3568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.1.9.RELEASE/spring-data-elasticsearch-3.1.9.RELEASE.jar!/org/springframework/data/elasticsearch/repository/ElasticsearchRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.1.9.RELEASE/spring-data-elasticsearch-3.1.9.RELEASE.jar!/org/springframework/data/elasticsearch/ElasticsearchException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.1.9.RELEASE/spring-data-elasticsearch-3.1.9.RELEASE.jar!/org/springframework/data/elasticsearch/repository/ElasticsearchCrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.1.9.RELEASE/spring-data-elasticsearch-3.1.9.RELEASE.jar!/org/springframework/data/elasticsearch/core/ElasticsearchTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.1.9.RELEASE/spring-data-elasticsearch-3.1.9.RELEASE.jar!/org/springframework/data/elasticsearch/repository/support/SimpleElasticsearchRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/action/ActionRequestBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-high-level-client/6.8.1/elasticsearch-rest-high-level-client-6.8.1.jar!/org/elasticsearch/client/RestHighLevelClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="516" column="31" lean-forward="false" selection-start-line="516" selection-start-column="17" selection-end-line="516" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/action/search/SearchRequestBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-client/src/main/java/com/central/search/client/modular/service/impl/QueryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/core/util/SearchBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="72" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/search/aggregations/PipelineAggregationBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="543" column="6" lean-forward="false" selection-start-line="543" selection-start-column="6" selection-end-line="543" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/search/aggregations/bucket/terms/Terms.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/search/aggregations/AggregationBuilders.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="159" column="45" lean-forward="false" selection-start-line="159" selection-start-column="18" selection-end-line="159" selection-end-column="45" />
+          <folding>
+            <element signature="e#7689#7690#0" expanded="true" />
+            <element signature="e#7749#7750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/search/aggregations/Aggregations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="30" column="56" lean-forward="false" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/search/aggregations/AggregatorFactories.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="275" column="43" lean-forward="false" selection-start-line="275" selection-start-column="43" selection-end-line="275" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/search/builder/SearchSourceBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="468" column="39" lean-forward="false" selection-start-line="468" selection-start-column="26" selection-end-line="468" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="19" column="87" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/modular/service/impl/PermissionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/modular/consumer/MenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/modular/controller/LoginController.java.bak">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/SlowQueryLogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/AggregationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/SysLogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/SlowQueryLogController.java.bak">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/LogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/src/main/java/com/central/biz/log/modular/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1034">
-          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jason-business/auth-server/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/src/main/java/com/central/zuul/modular/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="154">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jason-business/auth-server/src/main/resources/static/approve.html">
+    <entry file="file://$PROJECT_DIR$/jason-kernel/kernel-core/src/main/java/com/central/core/exception/ServiceException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="102" column="5" lean-forward="false" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+        <state relative-caret-position="242">
+          <caret line="11" column="61" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/remark/kafka常用命令">
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/SearchServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+        <state relative-caret-position="346">
+          <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#990#1002#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/AggregationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="209" column="8" lean-forward="false" selection-start-line="209" selection-start-column="8" selection-end-line="212" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-log/biz-support-log/pom.xml">
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/ISearchService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="80" column="28" lean-forward="false" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
+        <state relative-caret-position="242">
+          <caret line="15" column="74" lean-forward="false" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/remark/readerme">
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/provider/SearchProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="67" selection-start-column="38" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="287">
+          <caret line="50" column="32" lean-forward="false" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-admin-server/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/IAggregationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="286">
+          <caret line="14" column="73" lean-forward="true" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/search/SearchHit.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/action/search/SearchRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="168" column="25" lean-forward="false" selection-start-line="168" selection-start-column="25" selection-end-line="168" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.1/elasticsearch-6.8.1.jar!/org/elasticsearch/search/SearchHits.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="94" column="30" lean-forward="false" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="30" />
+          <folding>
+            <element signature="e#2900#2901#0" expanded="true" />
+            <element signature="e#2963#2964#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="69" column="51" lean-forward="false" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/impl/IndexServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="55" column="31" lean-forward="false" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#create#0;class#IndexServiceImpl#0" expanded="false" />
+            <element signature="method#delete#0;class#IndexServiceImpl#0" expanded="false" />
+            <element signature="e#9916#9925#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/src/main/java/com/central/search/modular/service/IIndexService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="40" column="47" lean-forward="false" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jason-biz-support/modular-search/search-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="117" column="28" lean-forward="false" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -2556,8 +2625,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-880">
-            <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <first_editor relative-caret-position="524">
+            <caret line="158" column="28" lean-forward="false" selection-start-line="158" selection-start-column="24" selection-end-line="158" selection-end-column="28" />
             <folding />
           </first_editor>
           <second_editor />

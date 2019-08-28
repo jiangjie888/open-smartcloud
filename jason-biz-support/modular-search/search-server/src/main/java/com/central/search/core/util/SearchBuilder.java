@@ -9,12 +9,16 @@ import com.central.core.model.page.PageResult;
 import lombok.Getter;
 import lombok.Setter;
 import org.apache.commons.beanutils.PropertyUtils;
+import org.elasticsearch.action.search.SearchRequest;
 import org.elasticsearch.action.search.SearchRequestBuilder;
 import org.elasticsearch.action.search.SearchResponse;
+import org.elasticsearch.client.RequestOptions;
+import org.elasticsearch.client.RestHighLevelClient;
 import org.elasticsearch.common.text.Text;
 import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.SearchHits;
+import org.elasticsearch.search.builder.SearchSourceBuilder;
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder;
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightField;
 import org.elasticsearch.search.sort.SortOrder;
@@ -22,6 +26,7 @@ import org.springframework.data.elasticsearch.ElasticsearchException;
 import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 
 
+import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -43,20 +48,30 @@ public class SearchBuilder {
      */
     private static final String HIGHLIGHTER_POST_TAGS = "</mark>";
 
-    private SearchRequestBuilder searchBuilder;
+    private RestHighLevelClient client;
 
-    private SearchBuilder(SearchRequestBuilder searchBuilder) {
+    private SearchRequest searchRequest;
+
+    private SearchSourceBuilder searchBuilder;
+
+    private SearchBuilder(SearchSourceBuilder searchBuilder) {
         this.searchBuilder = searchBuilder;
     }
 
+    private SearchBuilder(RestHighLevelClient client, SearchRequest searchRequest, SearchSourceBuilder searchBuilder) {
+        this.client = client;
+        this.searchRequest = searchRequest;
+        this.searchBuilder = searchBuilder;
+    }
     /**
      * 生成SearchBuilder实例
-     * @param elasticsearchTemplate
-     * @param indexName
      */
-    public static SearchBuilder builder(ElasticsearchTemplate elasticsearchTemplate, String indexName) {
-        SearchRequestBuilder searchBuilder = elasticsearchTemplate.getClient().prepareSearch(indexName);
-        return new SearchBuilder(searchBuilder);
+    public static SearchBuilder builder(RestHighLevelClient client, String indexName) {
+        SearchRequest searchRequestP = new SearchRequest();
+        searchRequestP.indices(indexName);
+        SearchSourceBuilder searchBuilder = new SearchSourceBuilder();
+        searchRequestP.source(searchBuilder);
+        return new SearchBuilder(client,searchRequestP,searchBuilder);
     }
 
     /**
@@ -70,7 +85,7 @@ public class SearchBuilder {
         } else {
             queryBuilder = QueryBuilders.matchAllQuery();
         }
-        searchBuilder.setQuery(queryBuilder);
+        searchBuilder.query(queryBuilder);
         return this;
     }
 
@@ -81,8 +96,8 @@ public class SearchBuilder {
      */
     public SearchBuilder setPage(Integer page, Integer limit) {
         if (page != null && limit != null) {
-            searchBuilder.setFrom((page - 1) * limit)
-                    .setSize(limit);
+            searchBuilder.from((page - 1) * limit)
+                    .size(limit);
         }
         return this;
     }
@@ -94,7 +109,7 @@ public class SearchBuilder {
      */
     public SearchBuilder addSort(String field, SortOrder order) {
         if (StrUtil.isNotEmpty(field) && order != null) {
-            searchBuilder.addSort(field, order);
+            searchBuilder.sort(field, order);
         }
         return this;
     }
@@ -133,7 +148,7 @@ public class SearchBuilder {
      */
     public SearchBuilder setRouting(String... routing) {
         if (ArrayUtil.isNotEmpty(routing)) {
-            searchBuilder.setRouting(routing);
+            searchRequest.routing(routing);
         }
         return this;
     }
@@ -141,21 +156,21 @@ public class SearchBuilder {
     /**
      * 返回结果 SearchResponse
      */
-    public SearchResponse get() {
-        return searchBuilder.execute().actionGet();
+    public SearchResponse get() throws IOException {
+        return client.search(searchRequest, RequestOptions.DEFAULT);
     }
 
     /**
      * 返回列表结果 List<JSONObject>
      */
-    public List<JSONObject> getList() {
+    public List<JSONObject> getList() throws IOException {
         return getList(this.get().getHits());
     }
 
     /**
      * 返回分页结果 PageResult<JSONObject>
      */
-    public PageResult<JSONObject> getPage() {
+    public PageResult<JSONObject> getPage() throws IOException {
         return this.getPage(null, null);
     }
 
@@ -164,7 +179,7 @@ public class SearchBuilder {
      * @param page 当前页数
      * @param limit 每页显示
      */
-    public PageResult<JSONObject> getPage(Integer page, Integer limit) {
+    public PageResult<JSONObject> getPage(Integer page, Integer limit) throws IOException {
         this.setPage(page, limit);
         SearchResponse response = this.get();
         SearchHits searchHits = response.getHits();

@@ -4,6 +4,8 @@ import com.alibaba.fastjson.JSONObject;
 import com.central.core.model.page.PageResult;
 import com.central.search.api.entity.SearchDto;
 
+import java.io.IOException;
+
 public interface ISearchService {
     /**
      * StringQuery通用搜索

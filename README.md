@@ -5,18 +5,29 @@
 
 
 ## 1. 项目介绍
-项目采用统一的包目录结构，主目录下分为config,core,modular三个主包，所有的AOP和相关的配置都是基于这个结构来现
+项目总体功能划分为
+  - 核心组件包jason-kerner：包括常用的数据库封装，redis封装，oauth2客户端封装，swagger2封装，统一异常，输入，输入和web配置等
+  - 微服务支撑模块jason-microservice-support：微服务的网关，流控，注册，监控等
+  - 配置模块jason-config：提取公共配置单独一个模块，也可以把这些文件维护到nacos配置中心
+  - 业务系统模块jason-business：目前有网站后台，统一用户服务和统一登录认证中心
+  - 业务公共组件模块jason-biz-support：目前有日志中心(Kafka+Mysql+Elasticsearch)和全文搜索中心(Elasticsearch)
+  - 分布式事务模块jason-message:基于消息预处理方式模拟一个订单，付款的解决方案
+所有业务系统采用统一的包目录结构，根目录下分为config,core,modular三个主包，所有的AOP和相关的配置都是基于这个结构来现；
 
+具体功能详细如下：
 * **统一登录认证功能**
   - 支持oauth2的四种模式登录；支持用户名、密码加图形验证码登录； 支持手机号加密码登录；支持openId登录；支持第三方系统(授权模式)单点登录
 
 * **分布式支撑功能**
-  - 基于nacos的统一注册，统一配置的管理；基于sentinel进行流控管理，本项目化中使用的组件都是基于源码做了一些Bug的修正处理的；
+  - 基于nacos的统一注册，统一配置的管理；基于sentinel进行流控管理，本项目中使用的组件都是基于源码做了一些Bug的修正处理的，版本为1.6.2；
 
 * **日志功能**
   - 日志功能主要分为两部分：
   - 自定义RequstNo和SpanId进行服务调用间链路的全程跟踪；实时记录链路日志到Kafka中，消费都存入mysql；提供日志记录工具随时可以调用定制的日志；
   - 进行log4j埋点的方式记录系统日志到文件，再通过ElasticSearch+logstash+kibana实时抽取和分析；
+
+* **全文搜索功能**
+  - 采用最新的RestHighLevelClient Http方式直接操作RestHighLevelClient,本项目中所使用ELK和java客户端相关版本全为6.8.1的破解版；
   
 * **业务基础功能支撑**
   - 高性能方法级幂等性支持；RBAC权限管理，实现细粒度控制(方法、url级别)；数据库访问层自动实现crud操作，支持多库切换；网关聚合所有服务的Swagger接口文档；
@@ -40,7 +51,7 @@ open-smartcloud -- 父项目，公共依赖
 │  │  ├─remark              -- 综合相关说明
 │  │  ├─sql                 -- 初始化SQL脚本
 │  │  ├─syspic              -- 系统截图
-│  ├─jason-biz-support          -- 业务公共模块
+│  ├─jason-biz-support           -- 业务公共模块
 │  │  ├─modular-log             -- 日志模块
 │  │  │  ├─biz-support-log     -- 日志业务系统（kafka+mysql）
 │  │  │  ├─biz-support-log-api -- 日志API和实体定义

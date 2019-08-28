@@ -3,21 +3,29 @@ package com.central.search.modular.service.impl;
 import com.central.core.model.constants.CommonConstant;
 import com.central.search.api.entity.AggItemVo;
 import com.central.search.modular.service.IAggregationService;
+import lombok.extern.slf4j.Slf4j;
+import org.elasticsearch.action.search.SearchRequest;
 import org.elasticsearch.action.search.SearchResponse;
+import org.elasticsearch.client.RequestOptions;
+import org.elasticsearch.client.RestHighLevelClient;
 import org.elasticsearch.search.aggregations.AggregationBuilders;
 import org.elasticsearch.search.aggregations.Aggregations;
 import org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramInterval;
 import org.elasticsearch.search.aggregations.bucket.histogram.ExtendedBounds;
 import org.elasticsearch.search.aggregations.bucket.histogram.InternalDateHistogram;
+import org.elasticsearch.search.aggregations.bucket.range.DateRangeAggregationBuilder;
 import org.elasticsearch.search.aggregations.bucket.range.InternalDateRange;
 import org.elasticsearch.search.aggregations.bucket.terms.Terms;
+import org.elasticsearch.search.aggregations.bucket.terms.TermsAggregationBuilder;
 import org.elasticsearch.search.aggregations.metrics.cardinality.Cardinality;
+import org.elasticsearch.search.builder.SearchSourceBuilder;
 import org.joda.time.DateTime;
 import org.joda.time.DateTimeZone;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 import org.springframework.stereotype.Service;
 
+import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -28,10 +36,12 @@ import java.util.Map;
 /**
  * 聚合分析服务
  */
+@Slf4j
 @Service
 public class AggregationServiceImpl implements IAggregationService {
+
     @Autowired
-    private ElasticsearchTemplate elasticsearchTemplate;
+    private RestHighLevelClient highLevelClient;
 
     /**
      * 访问统计聚合查询，需要es里面提供以下结构的数据
@@ -104,9 +114,12 @@ public class AggregationServiceImpl implements IAggregationService {
     public Map<String, Object> requestStatAgg(String indexName, String routing) {
         DateTime currDt = DateTime.now();
         LocalDate localDate = LocalDate.now();
-        SearchResponse response = elasticsearchTemplate.getClient().prepareSearch(indexName)
-                .setRouting(routing)
-                .addAggregation(
+        SearchRequest searchRequestP = new SearchRequest();
+        searchRequestP.indices(indexName);
+        searchRequestP.routing(routing);
+        SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
+        searchSourceBuilder.aggregations()
+                .addAggregator(
                         //聚合查询当天的数据
                         AggregationBuilders
                                 .dateRange("currDate")
@@ -120,7 +133,7 @@ public class AggregationServiceImpl implements IAggregationService {
                                                 .field("ip.keyword")
                                 )
                 )
-                .addAggregation(
+                .addAggregator(
                         //聚合查询7天内的数据
                         AggregationBuilders
                                 .dateRange("currWeek")
@@ -147,26 +160,26 @@ public class AggregationServiceImpl implements IAggregationService {
                                                 )
                                 )
                 )
-                .addAggregation(
+                .addAggregator(
                         //聚合查询30天内的数据
                         AggregationBuilders
                                 .dateRange("currMonth")
                                 .field("timestamp")
                                 .addRange(currDt.minusDays(30), currDt)
                 )
-                .addAggregation(
+                .addAggregator(
                         //聚合查询浏览器的数据
                         AggregationBuilders
                                 .terms("browser")
                                 .field("browser.keyword")
                 )
-                .addAggregation(
+                .addAggregator(
                         //聚合查询操作系统的数据
                         AggregationBuilders
                                 .terms("operatingSystem")
                                 .field("operatingSystem.keyword")
                 )
-                .addAggregation(
+                .addAggregator(
                         //聚合查询1小时内的数据
                         AggregationBuilders
                                 .dateRange("currHour")
@@ -179,18 +192,24 @@ public class AggregationServiceImpl implements IAggregationService {
                                                 .cardinality("uv")
                                                 .field("ip.keyword")
                                 )
-                )
-                .setSize(0)
-                .get();
-        Aggregations aggregations = response.getAggregations();
+                );
+        searchRequestP.source(searchSourceBuilder);
+
         Map<String, Object> result = new HashMap<>(9);
-        if (aggregations != null) {
-            setCurrDate(result, aggregations);
-            setCurrWeek(result, aggregations);
-            setCurrMonth(result, aggregations);
-            setTermsData(result, aggregations, "browser");
-            setTermsData(result, aggregations, "operatingSystem");
-            setCurrHour(result, aggregations);
+        try{
+            Aggregations aggregations = highLevelClient.search(searchRequestP, RequestOptions.DEFAULT).getAggregations();
+
+            if (aggregations != null) {
+                setCurrDate(result, aggregations);
+                setCurrWeek(result, aggregations);
+                setCurrMonth(result, aggregations);
+                setTermsData(result, aggregations, "browser");
+                setTermsData(result, aggregations, "operatingSystem");
+                setCurrHour(result, aggregations);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+            log.error("requestStatAgg异常："+e.getMessage());
         }
         return result;
     }

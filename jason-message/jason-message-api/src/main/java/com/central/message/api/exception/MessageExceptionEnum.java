@@ -1,7 +1,7 @@
 package com.central.message.api.exception;
 
 
-import com.central.core.model.exception.AbstractBaseExceptionEnum;
+import com.central.core.exception.AbstractBaseExceptionEnum;
 
 /**
  * 消息服务异常集合

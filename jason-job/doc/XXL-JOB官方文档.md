@@ -298,7 +298,7 @@ XXL-JOB是一个轻量级分布式任务调度平台，其核心设计目标是�
     spring.datasource.url=jdbc:mysql://127.0.0.1:3306/xxl-job?Unicode=true&characterEncoding=UTF-8
     spring.datasource.username=root
     spring.datasource.password=root_pwd
-    spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+    spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
     
     ### 报警邮箱
     spring.mail.host=smtp.qq.com

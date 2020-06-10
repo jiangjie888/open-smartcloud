@@ -1,0 +1,43 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    dynamic:
+      enable: true
+    druid:
+      # JDBC 配置(驱动类自动从url的mysql识别,数据源类型自动识别)
+      core:
+        url: jdbc:mysql://${jason.datasource.ip}:3306/txlcn-demo?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT
+        username:  ${jason.datasource.username}
+        password: ${jason.datasource.password}
+        driver-class-name:  com.mysql.cj.jdbc.Driver
+      log:
+        url: jdbc:mysql://${jason.datasource.ip}:3306/open_log_center?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT
+        username: ${jason.datasource.username}
+        password: ${jason.datasource.password}
+        driver-class-name:  com.mysql.cj.jdbc.Driver
+
+mybatis-plus:
+  mapper-locations: classpath*:com/central/txlcn/demo/common/db/mapper/mapping/*.xml
+  #实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: com.central.txlcn.demo.common.db.domain;com.central.core.model.user;com.central.core.model.log;com.central.core.model.common
+  #typeEnumsPackage: com.baomidou.springboot.entity.enums
+  global-config:
+    db-config:
+      id-type: auto
+
+## tx-manager 配置
+tx-lcn:
+  manager:
+    host: 172.16.1.3
+  ribbon:
+    loadbalancer:
+      dtx:
+        enabled: true
+  logger:
+    enabled: true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    jdbc-url: jdbc:mysql://${jason.datasource.ip}:3306/tx_logger?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT
+    username: ${jason.datasource.username}
+    password: ${jason.datasource.password}
+  client:
+    manager-address: 127.0.0.1:8070

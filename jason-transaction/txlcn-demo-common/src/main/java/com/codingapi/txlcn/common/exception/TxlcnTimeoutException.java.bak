@@ -1,0 +1,21 @@
+package com.codingapi.txlcn.common.exception;
+
+import java.io.Serializable;
+
+/**
+ * 分布式事务超时异常
+ */
+public class TxlcnTimeoutException extends RuntimeException implements Serializable {
+    private static final long serialVersionUID = 1L;
+
+    public TxlcnTimeoutException(String message) {
+        super(message);
+    }
+
+    public TxlcnTimeoutException(Throwable ex) {
+        super(ex);
+    }
+
+    public TxlcnTimeoutException() {
+    }
+}

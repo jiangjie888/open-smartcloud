@@ -13,7 +13,7 @@ public class DataSourceConfigurationSelector implements ImportSelector {
 		// TODO Auto-generated method stub
 //		importingClassMetadata.getAllAnnotationAttributes(EnableEcho.class.getName());
 		return new String[] { 
-				"com.central.db.aop.DataSourceAspect"
+				"com.central.db.aop.JDataSourceAspect"
 		};
 	}
 

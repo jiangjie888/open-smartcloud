@@ -5,6 +5,7 @@ import cn.hutool.core.util.BooleanUtil;
 import cn.hutool.core.util.StrUtil;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.central.core.exception.ServiceException;
 import com.central.core.model.page.PageResult;
 import lombok.Getter;
 import lombok.Setter;
@@ -22,8 +23,8 @@ import org.elasticsearch.search.builder.SearchSourceBuilder;
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder;
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightField;
 import org.elasticsearch.search.sort.SortOrder;
-import org.springframework.data.elasticsearch.ElasticsearchException;
-import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
+//import org.springframework.data.elasticsearch.ElasticsearchException;
+//import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 
 
 import java.io.IOException;
@@ -221,8 +222,8 @@ public class SearchBuilder {
                     PropertyUtils.setProperty(result, field.getName(), concat(field.fragments()));
                 }
             } catch (InvocationTargetException | IllegalAccessException | NoSuchMethodException e) {
-                throw new ElasticsearchException("failed to set highlighted value for field: " + field.getName()
-                        + " with value: " + Arrays.toString(field.getFragments()), e);
+                throw new ServiceException(500,"failed to set highlighted value for field: " + field.getName()
+                        + " with value: " + Arrays.toString(field.getFragments()));
             }
         }
     }

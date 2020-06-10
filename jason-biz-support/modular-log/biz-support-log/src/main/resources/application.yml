@@ -8,12 +8,12 @@ spring:
         url: jdbc:mysql://${jason.datasource.ip}:3306/open_log_center?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT
         username:  ${jason.datasource.username}
         password: ${jason.datasource.password}
-        driver-class-name:  com.mysql.jdbc.Driver
+        driver-class-name:  com.mysql.cj.jdbc.Driver
       log:
         url: jdbc:mysql://${jason.datasource.ip}:3306/open_log_center?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT
         username: ${jason.datasource.username}
         password: ${jason.datasource.password}
-        driver-class-name:  com.mysql.jdbc.Driver
+        driver-class-name:  com.mysql.cj.jdbc.Driver
 
 mybatis-plus:
   mapper-locations: classpath*:com/central/biz/log/modular/dao/mapping/*.xml

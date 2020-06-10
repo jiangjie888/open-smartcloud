@@ -5,6 +5,7 @@ import cn.hutool.core.util.RandomUtil;
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.central.biz.log.api.entity.CommonLog;
 import com.central.biz.log.modular.service.CommonLogService;
+import com.central.core.autoconfigure.properties.AppNameProperties;
 import com.central.core.model.reqres.request.RequestData;
 import com.central.core.utils.RequestDataHolder;
 import com.central.core.utils.ToolUtil;
@@ -28,6 +29,9 @@ import java.util.List;
 @RestController
 public class TestController {
 	private static final Logger logger = LoggerFactory.getLogger(TestController.class);
+
+	@Autowired
+	private AppNameProperties appNameProperties;
 
 	@Autowired
 	private LogProducerService logProducerService;

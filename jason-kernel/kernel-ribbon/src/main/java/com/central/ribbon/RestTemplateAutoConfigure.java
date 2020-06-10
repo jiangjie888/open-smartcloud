@@ -26,7 +26,7 @@ public class RestTemplateAutoConfigure {
     @Autowired
     private RestTemplateProperties restTemplateProperties;
 
-    @LoadBalanced
+    //@LoadBalanced
     @Bean
     public RestTemplate restTemplate() {
         RestTemplate restTemplate = new RestTemplate();

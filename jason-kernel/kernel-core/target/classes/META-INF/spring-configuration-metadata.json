@@ -1,7 +1,7 @@
 {
   "groups": [
     {
-      "name": "spring.application.name",
+      "name": "spring.application",
       "type": "com.central.core.autoconfigure.properties.AppNameProperties",
       "sourceType": "com.central.core.autoconfigure.PropertiesAutoConfig",
       "sourceMethod": "appNameProperties()"
@@ -9,7 +9,7 @@
   ],
   "properties": [
     {
-      "name": "spring.application.name.name",
+      "name": "spring.application.name",
       "type": "java.lang.String",
       "sourceType": "com.central.core.autoconfigure.properties.AppNameProperties"
     }

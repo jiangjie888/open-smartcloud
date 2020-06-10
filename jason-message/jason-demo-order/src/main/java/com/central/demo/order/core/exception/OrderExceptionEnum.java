@@ -1,6 +1,7 @@
 package com.central.demo.order.core.exception;
 
-import com.central.core.model.exception.AbstractBaseExceptionEnum;
+
+import com.central.core.exception.AbstractBaseExceptionEnum;
 
 /**
  * 订单异常

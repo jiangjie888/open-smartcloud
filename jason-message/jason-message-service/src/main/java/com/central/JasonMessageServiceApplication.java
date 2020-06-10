@@ -1,6 +1,5 @@
 package com.central;
 
-import com.central.core.annotation.EnableLogging;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -14,7 +13,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableDiscoveryClient
 @EnableFeignClients
-@EnableLogging
+//@EnableLogging
 @MapperScan(basePackages = {"com.central.message.dao*","com.central.core.log.dao*"})
 @SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
 public class JasonMessageServiceApplication {

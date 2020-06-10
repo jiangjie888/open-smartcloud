@@ -26,13 +26,16 @@
 
         <!--<spring-boot-dependencies.version>2.0.9.RELEASE</spring-boot-dependencies.version>-->
         <spring-boot-dependencies.version>2.1.6.RELEASE</spring-boot-dependencies.version>
+        <!--<spring-boot-dependencies.version>2.2.7.RELEASE</spring-boot-dependencies.version>-->
+
         <!--<spring-cloud-starter-openfeign.version>2.1.2.RELEASE</spring-cloud-starter-openfeign.version>-->
         <spring-cloud-dependencies.version>Greenwich.SR2</spring-cloud-dependencies.version>
-        <spring-boot-maven-plugin.version>2.1.1.RELEASE</spring-boot-maven-plugin.version>
+
         <!--<spring-cloud-alibaba-dependencies.version>0.2.2.RELEASE</spring-cloud-alibaba-dependencies.version>-->
         <spring-cloud-alibaba-dependencies.version>0.9.0.RELEASE</spring-cloud-alibaba-dependencies.version>
-
+        <!--<spring-cloud-alibaba-dependencies.version>2.1.0.RELEASE</spring-cloud-alibaba-dependencies.version>-->
         <alibaba-sentinel.version>1.6.2</alibaba-sentinel.version>
+        <spring-boot-maven-plugin.version>2.1.1.RELEASE</spring-boot-maven-plugin.version>
         <security-oauth2.version>2.3.3.RELEASE</security-oauth2.version>
         <hibernate-validator.verion>6.0.13.Final</hibernate-validator.verion>
         <!--<hibernate-validator.verion>5.0.2.Final</hibernate-validator.verion>
@@ -41,7 +44,8 @@
             <thymeleaf.version>3.0.2.RELEASE</thymeleaf.version>
             <thymeleaf-layout-dialect.version>2.0.5</thymeleaf-layout-dialect.version>
         -->
-        <mysql.driver.version>6.0.6</mysql.driver.version>
+        <!--<mysql.driver.version>6.0.6</mysql.driver.version>-->
+        <mysql.driver.version>8.0.16</mysql.driver.version>
         <redis.version>1.8.9.RELEASE</redis.version>
         <jedis.version>2.9.0</jedis.version>
         <druid.version>1.1.10</druid.version>
@@ -87,6 +91,7 @@
         <module>jason-biz-support</module>
         <module>jason-microservice-support</module>
         <module>jason-microservice-eureka</module>
+        <module>jason-transaction</module>
     </modules>
 
     <dependencies>

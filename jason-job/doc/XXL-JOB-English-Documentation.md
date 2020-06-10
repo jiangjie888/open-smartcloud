@@ -250,7 +250,7 @@ Configure file’s path of schedule center is as follows:
 The concrete contet describe as follows:
 
     ### JDBC connection info of schedule center：keep Consistent with chapter 2.1
-    xxl.job.db.driverClass=com.mysql.jdbc.Driver
+    xxl.job.db.driverClass=com.mysql.cj.jdbc.Driver
     xxl.job.db.url=jdbc:mysql://localhost:3306/xxl-job?useUnicode=true&characterEncoding=UTF-8
     xxl.job.db.user=root
     xxl.job.db.password=root_pwd

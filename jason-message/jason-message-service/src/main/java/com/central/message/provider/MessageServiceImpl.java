@@ -1,9 +1,9 @@
 package com.central.message.provider;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.central.core.exception.RequestEmptyException;
+import com.central.core.exception.ServiceException;
 import com.central.core.model.enums.YesOrNotEnum;
-import com.central.core.model.exception.RequestEmptyException;
-import com.central.core.model.exception.ServiceException;
 import com.central.core.model.page.PageQuery;
 import com.central.core.model.page.PageResult;
 import com.central.core.model.page.PageResultPlus;
@@ -226,6 +226,7 @@ public class MessageServiceImpl implements MessageServiceApi {
 
         //存放查询到的所有死亡消息
         Map<String, ReliableMessage> resultMap = new HashMap<>();
+
 
         //循环查询所有结构（分页）
         Map<String, Object> params = new HashMap<>();

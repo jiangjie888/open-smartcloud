@@ -25,12 +25,12 @@ spring:
         url: jdbc:mysql://172.16.4.112:3306/open_oauth_center?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT
         username: root
         password: zyjs123ZYJS
-        driver-class-name:  com.mysql.jdbc.Driver
+        driver-class-name:  com.mysql.cj.jdbc.Driver
       log:
         url: jdbc:mysql://172.16.4.112:3306/open_log_center?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT
         username: root
         password: zyjs123ZYJS
-        driver-class-name:  com.mysql.jdbc.Driver
+        driver-class-name:  com.mysql.cj.jdbc.Driver
       #连接池配置(通常来说，只需要修改initialSize、minIdle、maxActive
       initial-size: 1
       max-active: 20

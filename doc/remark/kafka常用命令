@@ -1,7 +1,9 @@
 ######################################kafka 常用命令######################################
 1:启动 zookeeper-server   2181
 bin/zkServer.sh start conf/zoo.cfg
-bin\windows\zookeeper-server-start.bat config\zookeeper.properties
+bin\zkServer.cmd
+查看状态： /opt/zookeeper/bin/zkServer.sh status
+
 2:启动 kafka-server  9092
 nohup bin/kafka-server-start.sh config/server.properties &
 bin\windows\kafka-server-start.bat config\server.properties

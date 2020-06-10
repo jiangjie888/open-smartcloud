@@ -25,7 +25,7 @@ public class TestController {
 	@GetMapping("/hello")
 	@ApiOperation(value = "hello test")
 	public String hello() {
-		return "hello infra server";
+		return "hello elastic server";
 	}
 
 	/*@GetMapping("/testMybatisPlus")
@@ -40,9 +40,10 @@ public class TestController {
 		return "/login.html";
 	}
 
+
 	@PostMapping("/requestdata")
 	@ApiOperation(value = "测试RequestData解析")
-	public Long login(RequestData requestData) {
+	public Long requestdata(RequestData requestData) {
 		Long dictTypeId = requestData.getLong("dictTypeId");
 		RequestData d  = RequestDataHolder.get();
 		return dictTypeId;

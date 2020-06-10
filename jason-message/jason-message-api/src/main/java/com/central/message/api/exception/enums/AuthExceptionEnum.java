@@ -1,7 +1,7 @@
 package com.central.message.api.exception.enums;
 
 
-import com.central.core.model.exception.AbstractBaseExceptionEnum;
+import com.central.core.exception.AbstractBaseExceptionEnum;
 
 /**
  * 鉴权相关的错误异常

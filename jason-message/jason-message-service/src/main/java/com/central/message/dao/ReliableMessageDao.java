@@ -1,12 +1,14 @@
 package com.central.message.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.central.message.api.model.ReliableMessage;
 import com.central.message.core.SuperMapper;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Options;
 import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 
 import java.util.List;
 import java.util.Map;
@@ -31,5 +33,8 @@ public interface ReliableMessageDao extends SuperMapper<ReliableMessage> {
 
     //int delete(Map<String, Object> params);
 
-    List<ReliableMessage> findList(Map<String, Object> params);
+    //List<ReliableMessage> findList(Map<String, Object> params);
+
+
+    List<ReliableMessage> findList(Page<ReliableMessage> page, @Param("u") Map<String, Object> params);
 }

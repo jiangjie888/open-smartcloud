@@ -2,6 +2,7 @@ package com.central.message.service;
 
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.central.core.model.page.PageResult;
 import com.central.message.api.model.ReliableMessage;
 
 import java.util.List;
@@ -22,5 +23,5 @@ public interface IReliableMessageService extends IService<ReliableMessage> {
 
     ReliableMessage findById(Long id);
 
-    List<ReliableMessage> findList(Map<String, Object> params);
+    PageResult<ReliableMessage> findList(Map<String, Object> params);
 }

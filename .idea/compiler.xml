@@ -89,6 +89,11 @@
         <module name="sm-admin-server" />
         <module name="sm-zipkin-server" />
         <module name="spring-cloud-alibaba-sentinel" />
+        <module name="txlcn-demo-common" />
+        <module name="txlcn-demo-spring-service-a" />
+        <module name="txlcn-demo-spring-service-b" />
+        <module name="txlcn-demo-spring-service-c" />
+        <module name="txlcn-manager" />
         <module name="user-server" />
         <module name="web-demo" />
         <module name="zuul-gateway" />
@@ -119,6 +124,7 @@
       <module name="jason-microservice-eureka" target="1.8" />
       <module name="jason-microservice-support" target="1.8" />
       <module name="jason-monitor" target="1.8" />
+      <module name="jason-transaction" target="1.8" />
       <module name="job-admin" target="1.5" />
       <module name="job-core" target="1.5" />
       <module name="job-demo" target="1.5" />
@@ -197,6 +203,11 @@
       <module name="sm-zipkin-server" target="1.8" />
       <module name="spring-cloud-alibaba-sentinel" target="1.8" />
       <module name="test" target="1.8" />
+      <module name="txlcn-demo-common" target="1.8" />
+      <module name="txlcn-demo-spring-service-a" target="1.8" />
+      <module name="txlcn-demo-spring-service-b" target="1.8" />
+      <module name="txlcn-demo-spring-service-c" target="1.8" />
+      <module name="txlcn-manager" target="1.8" />
       <module name="user-server" target="1.8" />
       <module name="web-demo" target="1.8" />
       <module name="zuul-gateway" target="1.8" />

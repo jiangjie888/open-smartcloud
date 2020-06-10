@@ -1,8 +1,8 @@
 package com.central.message.api.exception;
 
 
-import com.central.core.model.exception.AbstractBaseExceptionEnum;
-import com.central.core.model.exception.ApiServiceException;
+import com.central.core.exception.AbstractBaseExceptionEnum;
+import com.central.core.exception.ApiServiceException;
 
 /**
  * 系统管理服务抛出的异常

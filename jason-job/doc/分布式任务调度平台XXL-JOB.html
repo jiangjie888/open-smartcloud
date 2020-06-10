@@ -254,7 +254,7 @@ xxl-job-executor：执行器Sample示例（选择合适的版本执行器，可�
     ：xxl-job-executor-sample-jfinal：JFinal版本，通过JFinal管理执行器；
     ：xxl-job-executor-sample-nutz：Nutz版本，通过Nutz管理执行器；</code></pre><h3 id="_23-配置部署调度中心"><a href="http://www.xuxueli.com/xxl-job/#/?id=_23-%e9%85%8d%e7%bd%ae%e9%83%a8%e7%bd%b2%e8%b0%83%e5%ba%a6%e4%b8%ad%e5%bf%83" data-id="_23-配置部署调度中心" class="anchor"><span>2.3 配置部署“调度中心”</span></a></h3><pre v-pre="" data-lang=""><code class="lang-">调度中心项目：xxl-job-admin
 作用：统一管理任务调度平台上调度任务，负责触发调度执行，并且提供任务管理平台。</code></pre><h4 id="步骤一：调度中心配置："><a href="http://www.xuxueli.com/xxl-job/#/?id=%e6%ad%a5%e9%aa%a4%e4%b8%80%ef%bc%9a%e8%b0%83%e5%ba%a6%e4%b8%ad%e5%bf%83%e9%85%8d%e7%bd%ae%ef%bc%9a" data-id="步骤一：调度中心配置：" class="anchor"><span>步骤一：调度中心配置：</span></a></h4><p>调度中心配置文件地址：</p><pre v-pre="" data-lang=""><code class="lang-">/xxl-job/xxl-job-admin/src/main/resources/xxl-job-admin.properties</code></pre><p>调度中心配置内容说明：</p><pre v-pre="" data-lang=""><code class="lang-">### 调度中心JDBC链接：链接地址请保持和 2.1章节 所创建的调度数据库的地址一致
-xxl.job.db.driverClass=com.mysql.jdbc.Driver
+xxl.job.db.driverClass=com.mysql.cj.jdbc.Driver
 xxl.job.db.url=jdbc:mysql://localhost:3306/xxl-job?useUnicode=true&amp;characterEncoding=UTF-8
 xxl.job.db.user=root
 xxl.job.db.password=root_pwd

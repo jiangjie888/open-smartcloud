@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 public class PropertiesAutoConfig {
 
     @Bean
-    @ConfigurationProperties(prefix = "spring.application.name")
+    @ConfigurationProperties(prefix = "spring.application")
     public AppNameProperties appNameProperties() {
         return new AppNameProperties();
     }

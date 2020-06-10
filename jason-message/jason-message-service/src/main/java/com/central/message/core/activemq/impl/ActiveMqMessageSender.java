@@ -1,6 +1,6 @@
 package com.central.message.core.activemq.impl;
 
-import com.central.core.model.exception.RequestEmptyException;
+import com.central.core.exception.RequestEmptyException;
 import com.central.core.utils.ToolUtil;
 import com.central.message.api.model.ReliableMessage;
 import com.central.message.core.activemq.MessageSender;

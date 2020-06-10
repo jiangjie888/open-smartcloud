@@ -26,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/jason-message/jason-message-service/jason-message-service.iml" filepath="$PROJECT_DIR$/jason-message/jason-message-service/jason-message-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-microservice-eureka/jason-microservice-eureka.iml" filepath="$PROJECT_DIR$/jason-microservice-eureka/jason-microservice-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-microservice-support/jason-microservice-support.iml" filepath="$PROJECT_DIR$/jason-microservice-support/jason-microservice-support.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jason-transaction/jason-transaction.iml" filepath="$PROJECT_DIR$/jason-transaction/jason-transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-job/job-admin/job-admin.iml" filepath="$PROJECT_DIR$/jason-job/job-admin/job-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-job/job-core/job-core.iml" filepath="$PROJECT_DIR$/jason-job/job-core/job-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-job/job-demo/job-demo.iml" filepath="$PROJECT_DIR$/jason-job/job-demo/job-demo.iml" />
@@ -101,6 +102,11 @@
       <module fileurl="file://$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-admin-server/sm-admin-server.iml" filepath="$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-admin-server/sm-admin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-zipkin-server/sm-zipkin-server.iml" filepath="$PROJECT_DIR$/jason-microservice-support/modular-monitor/sm-zipkin-server/sm-zipkin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-microservice-support/spring-cloud-alibaba-sentinel/spring-cloud-alibaba-sentinel.iml" filepath="$PROJECT_DIR$/jason-microservice-support/spring-cloud-alibaba-sentinel/spring-cloud-alibaba-sentinel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jason-transaction/txlcn-demo-common/txlcn-demo-common.iml" filepath="$PROJECT_DIR$/jason-transaction/txlcn-demo-common/txlcn-demo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jason-transaction/txlcn-demo-spring-service-a/txlcn-demo-spring-service-a.iml" filepath="$PROJECT_DIR$/jason-transaction/txlcn-demo-spring-service-a/txlcn-demo-spring-service-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jason-transaction/txlcn-demo-spring-service-b/txlcn-demo-spring-service-b.iml" filepath="$PROJECT_DIR$/jason-transaction/txlcn-demo-spring-service-b/txlcn-demo-spring-service-b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jason-transaction/txlcn-demo-spring-service-c/txlcn-demo-spring-service-c.iml" filepath="$PROJECT_DIR$/jason-transaction/txlcn-demo-spring-service-c/txlcn-demo-spring-service-c.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jason-transaction/txlcn-manager/txlcn-manager.iml" filepath="$PROJECT_DIR$/jason-transaction/txlcn-manager/txlcn-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-business/user-server/user-server.iml" filepath="$PROJECT_DIR$/jason-business/user-server/user-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-demo/web-demo/web-demo.iml" filepath="$PROJECT_DIR$/jason-demo/web-demo/web-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jason-microservice-support/zuul-gateway/zuul-gateway.iml" filepath="$PROJECT_DIR$/jason-microservice-support/zuul-gateway/zuul-gateway.iml" />

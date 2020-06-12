@@ -86,6 +86,7 @@
         <module name="sentinel-transport-simple-http" />
         <module name="sentinel-web-servlet" />
         <module name="sentinel-zuul-adapter" />
+        <module name="sharding-demo" />
         <module name="sm-admin-server" />
         <module name="sm-zipkin-server" />
         <module name="spring-cloud-alibaba-sentinel" />
@@ -199,6 +200,7 @@
       <module name="sentinel-transport-simple-http" target="1.7" />
       <module name="sentinel-web-servlet" target="1.7" />
       <module name="sentinel-zuul-adapter" target="1.7" />
+      <module name="sharding-demo" target="1.8" />
       <module name="sm-admin-server" target="1.8" />
       <module name="sm-zipkin-server" target="1.8" />
       <module name="spring-cloud-alibaba-sentinel" target="1.8" />

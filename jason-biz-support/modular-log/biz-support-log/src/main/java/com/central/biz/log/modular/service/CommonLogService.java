@@ -6,7 +6,7 @@ import com.central.biz.log.modular.factory.CommonLogFactory;
 import com.central.biz.log.modular.model.CommonLogCondition;
 import com.central.biz.log.modular.model.CommonLogParams;
 import com.central.core.model.page.PageResultPlus;
-import com.central.db.annotation.DataSource;
+import com.central.db.annotation.JDataSource;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -15,7 +15,7 @@ import java.util.List;
  * 服务实现类
  */
 @Service
-@DataSource(name = "log")
+@JDataSource(name = "log")
 public class CommonLogService extends ServiceImpl<CommonLogMapper, CommonLog> {
 
     /**

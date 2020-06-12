@@ -1,0 +1,50 @@
+create database shardingdb_order0;
+use shardingdb_order0;
+
+DROP TABLE IF EXISTS `t_order_0`;
+CREATE TABLE `t_order_0`  (
+  `order_id` bigint(20) NOT NULL,
+	`user_id` bigint(20) NOT NULL,
+  `goods_name` varchar(200) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `count` int(11) NOT NULL,
+  `sum` decimal(10, 0) NOT NULL,
+  `status` int(11) NOT NULL,
+  PRIMARY KEY (`order_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci COMMENT = '订单表' ROW_FORMAT = Dynamic;
+
+DROP TABLE IF EXISTS `t_order_1`;
+CREATE TABLE `t_order_1`  (
+  `order_id` bigint(20) NOT NULL,
+	`user_id` bigint(20) NOT NULL,
+  `goods_name` varchar(200) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `count` int(11) NOT NULL,
+  `sum` decimal(10, 0) NOT NULL,
+  `status` int(11) NOT NULL,
+  PRIMARY KEY (`order_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci COMMENT = '订单表' ROW_FORMAT = Dynamic;
+
+
+create database shardingdb_order1;
+use shardingdb_order1;
+
+DROP TABLE IF EXISTS `t_order_0`;
+CREATE TABLE `t_order_0`  (
+  `order_id` bigint(20) NOT NULL,
+	`user_id` bigint(20) NOT NULL,
+  `goods_name` varchar(200) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `count` int(11) NOT NULL,
+  `sum` decimal(10, 0) NOT NULL,
+  `status` int(11) NOT NULL,
+  PRIMARY KEY (`order_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci COMMENT = '订单表' ROW_FORMAT = Dynamic;
+
+DROP TABLE IF EXISTS `t_order_1`;
+CREATE TABLE `t_order_1`  (
+  `order_id` bigint(20) NOT NULL,
+	`user_id` bigint(20) NOT NULL,
+  `goods_name` varchar(200) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `count` int(11) NOT NULL,
+  `sum` decimal(10, 0) NOT NULL,
+  `status` int(11) NOT NULL,
+  PRIMARY KEY (`order_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci COMMENT = '订单表' ROW_FORMAT = Dynamic;

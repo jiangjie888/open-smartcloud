@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.central.sharding.modular.dao.TOrderMapper">
+<!--	<sql id="where">
+		<where>
+			<if test="o.id != null and u.id != ''">
+				and t.id = #{id}
+			</if>
+			<if test="o.userName != null and u.userName != ''">
+				and t.userName like concat('%', #{userName}, '%')
+			</if>
+			<if test="o.email != null and u.email != ''">
+				and t.email = #{email}
+			</if>
+			<if test="o.isDeleted != null">
+				and t.isDeleted = #{isDeleted}
+			</if>
+			<if test="o.enabled != null">
+				and t.enabled = #{enabled}
+			</if>
+			<if test="o.userStatus != null">
+				and t.userStatus = #{userStatus}
+			</if>
+
+
+			<if test="o.searchKey != null and u.searchKey != '' and u.searchKey=='user_id'">
+				and t.id = #{searchKey}
+			</if>
+
+			<if test="u.searchKey != null and u.searchKey != '' and u.searchKey=='userName'">
+				and t.userName  like concat('%', #{searchValue}, '%')
+			</if>
+
+			<if test="u.searchKey != null and u.searchKey != '' and u.searchKey=='email'">
+				and t.email  like concat('%', #{searchValue}, '%')
+			</if>
+
+			<if test="u.searchKey != null and u.searchKey=='isDeleted'">
+				and t.isDeleted = #{searchValue}
+			</if>
+
+			<if test="u.searchKey != null and u.searchKey=='enabled'">
+				and t.enabled = #{searchValue}
+			</if>
+
+			<if test="u.searchKey != null and u.searchKey=='userStatus'">
+				and t.userStatus = #{searchValue}
+			</if>
+
+			<if test="u.searchKey != null and u.searchKey != '' and u.searchKey=='mobile'">
+				and t.mobile  like concat('%', #{u.searchValue}, '%')
+			</if>
+
+		</where>
+	</sql>
+
+	<select id="findList" resultType="com.central.sharding.modular.model.TOrder">
+		select * from sys_user t
+		<include refid="where" />
+		order by t.id desc
+	</select>-->
+</mapper>

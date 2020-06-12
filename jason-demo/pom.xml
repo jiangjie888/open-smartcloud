@@ -16,6 +16,7 @@
 		<module>nacos-discovery-server</module>
 		<module>web-demo</module>
         <module>sentinel-client</module>
+        <module>sharding-demo</module>
     </modules>
 
 </project>

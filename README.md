@@ -12,6 +12,7 @@
   - 业务系统模块jason-business：目前有网站后台，统一用户服务和统一登录认证中心
   - 业务公共组件模块jason-biz-support：目前有日志中心(Kafka+Mysql+Elasticsearch)和全文搜索中心(Elasticsearch)
   - 分布式事务模块jason-message:基于消息预处理方式模拟一个订单，付款的解决方案
+  - 分布式事务模块jason-transaction:基于Tx-Manager Lcn 代理数据库连接的方式
   
   所有业务系统采用统一的包目录结构，根目录下分为config,core,modular三个主包，所有的AOP和相关的配置都是基于这个结构来现；
 
@@ -29,6 +30,12 @@
 
 * **全文搜索功能**
   - 采用最新的RestHighLevelClient Http方式直接操作Elasticsearch,本项目中所使用elk和java客户端相关版本全为6.8.1的破解版；
+
+* **分布式事务功能**
+  - 目前有两实例，一个是可靠消息预处理的方式，另一个采用Tx-Manager Lcn 数据库连接代理的方式；
+
+* **分库分表功能**
+  - 采用轻量级中间件sharding-jdbc；
   
 * **业务基础功能支撑**
   - 高性能方法级幂等性支持；RBAC权限管理，实现细粒度控制(方法、url级别)；数据库访问层自动实现crud操作，支持多库切换；网关聚合所有服务的Swagger接口文档；
@@ -60,12 +67,13 @@ open-smartcloud -- 父项目，公共依赖
 │  │  │  ├─search-api          -- 公用ElasticSearch搜索API
 │  │  │  ├─search-client       -- 搜索客户端（feign消息者)（需要使用的第三方系统直接引入这个模块）
 │  │  │  ├─search-server       -- ElasticSearch搜索服务(feign生产提供者）【端口：7031】
-│  ├─jason-business -- 业务系统模块一级工程
-│  │  ├─auth-center -- 登录认证中心【端口：7000】 (spring security+OAuth2, 支持oauth2的四种认证模式，已重写authorization_code登录页和授权页)
-│  │  ├─user-center -- 用户中心【端口：7011】
-│  │  ├─back-web    -- 后台管理网站【端口：8888】
-│  ├─jason-config -- 配置中心（通用配置，可以拷贝到nacos配置中心使用）
-│  │─jason-demo   -- 测试使用
+│  ├─jason-business              -- 业务系统模块一级工程
+│  │  ├─auth-center             -- 登录认证中心【端口：7000】 (spring security+OAuth2, 支持oauth2的四种认证模式，已重写authorization_code登录页和授权页)
+│  │  ├─user-center             -- 用户中心【端口：7011】
+│  │  ├─back-web                -- 后台管理网站【端口：8888】
+│  ├─jason-config                -- 配置中心（通用配置，可以拷贝到nacos配置中心使用）
+│  │─jason-demo                  -- 测试使用
+│  │  ├─sharding-demo           -- sharding-jdbc分库分表demo(spring boot + mybatis-plus + sharding-jdbc)
 │  ├─jason-job -- 分布式任务调度
 │  │  ├─job-admin   -- 任务管理器
 │  │  ├─job-core    -- 任务调度核心代码
@@ -74,7 +82,7 @@ open-smartcloud -- 父项目，公共依赖
 │  │  ├─kernel-actuator -- 封装spring security client端不需要认证的actuator
 │  │  ├─kernel-auth     -- 封装spring security client端的通用操作逻辑
 │  │  ├─kernel-core     -- 封装系统支持所需要的通用内核
-│  │  ├─kernel-db       -- 封装数据库通用操作逻辑，包括支持多个数据源操作和对mybatisplus mapper配置yml读取注入
+│  │  ├─kernel-db       -- 封装数据库通用操作逻辑，包括支持多个数据源操作,分库分表功能和对mybatisplus mapper配置yml读取注入
 │  │  ├─kernel-logger   -- 封装log通用操作逻辑,在需要的系统中直接引入这个包就可以自动拦截各种日志传播给kafka
 │  │  ├─kernel-redis    -- 封装Redis的通用操作逻辑
 │  │  ├─kernel-ribbon   -- 封装Ribbon和Feign的通用操作逻辑,对微服务间所有请求header进行传递
@@ -95,10 +103,16 @@ open-smartcloud -- 父项目，公共依赖
 │  │  ├─jason-register                -- nacos注册中心(把jar上传linux中部署)
 │  │  ├─modular-monitor               -- 监控
 │  │  │  ├─sm-admin-server           -- spring cloud admin监控中心【端口：9011】
+│  │  │  ├─sm-zipkin-server          -- zipkin 链路跟踪监控
 │  │  ├─sentinel-parent               -- Sentinel源码：基于开源源码重写后的Sentinel-Dashboard，可以与nacos自动同步拉取和推送配置数据
 │  │  ├─spring-cloud-alibaba-sentinel -- Sentinel源码：1.6.2版本，基于开源源码修复feign继承接口Api的Bug
 │  │  ├─zuul-gateway -- zuul网关【端口：9000】
-
+│  ├─jason-transaction                 -- 基于Tx-Manager Lcn 的分布式事务
+│  │  ├─txlcn-demo-common             -- Lcng事物客户端公共库
+│  │  ├─txlcn-demo-spring-service-a   -- Lcng事物demoa 发起者
+│  │  ├─txlcn-demo-spring-service-b   -- Lcng事物demob 
+│  │  ├─txlcn-demo-spring-service-c   -- Lcng事物democ
+│  │  ├─txlcn-manager                 -- Tx-Manager 分布式事务协调管理器
 ```
 
 &nbsp;

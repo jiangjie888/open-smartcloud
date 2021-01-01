@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="kernel-logger:war">
-    <output-path>$PROJECT_DIR$/jason-kernel/kernel-logger/target</output-path>
-    <root id="archive" name="kernel-logger-0.0.1-SNAPSHOT.war">
-      <element id="artifact" artifact-name="kernel-logger:war exploded" />
-    </root>
-  </artifact>
-</component>
